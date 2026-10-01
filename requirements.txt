@@ -1,0 +1,5 @@
+torch>=2.0
+numpy
+matplotlib   # plot.py
+scipy        # tests only (LP cross-check)
+pytest       # tests only
