@@ -1,11 +1,13 @@
 #!/usr/bin/env bash
 # Reproduces the main comparisons of Section 5 (Tables 2-3, Figs. 3-5, 9-12).
-# Usage: bash run_experiments.sh [cifar10|cifar100] [gpu_id]
+# Usage: bash run_experiments.sh [cifar10|cifar100|unsw-nb15] [gpu_id]
 set -e
 DS=${1:-cifar10}
 export CUDA_VISIBLE_DEVICES=${2:-0}
-if [ "$DS" = cifar10 ]; then BASE="dcd:0.1 choco:0.5 saps:0.2"; NIID="10 20 40 60 80"
-else BASE="dcd:0.5 choco:1.0 saps:0.2"; NIID="0 10 20 30 40"; fi
+# NIID entries are "--non-iid p" levels (paper schemes) or Dirichlet alphas (unsw-nb15)
+if [ "$DS" = cifar10 ]; then BASE="dcd:0.1 choco:0.5 saps:0.2"; NIID="10 20 40 60 80"; FLAG="--non-iid"
+elif [ "$DS" = cifar100 ]; then BASE="dcd:0.5 choco:1.0 saps:0.2"; NIID="0 10 20 30 40"; FLAG="--non-iid"
+else BASE="dcd:0.1 choco:0.5 saps:0.2"; NIID="1.0 0.5 0.1"; FLAG="--partition dirichlet --alpha"; fi
 
 # overall performance (IID)
 python main.py --dataset $DS --algo coco
@@ -14,8 +16,8 @@ for b in $BASE; do python main.py --dataset $DS --algo ${b%:*} --ratio ${b#*:}; 
 
 # non-IID levels
 for p in $NIID; do
-  python main.py --dataset $DS --algo coco --non-iid $p
-  for b in $BASE; do python main.py --dataset $DS --algo ${b%:*} --ratio ${b#*:} --non-iid $p; done
+  python main.py --dataset $DS --algo coco $FLAG $p
+  for b in $BASE; do python main.py --dataset $DS --algo ${b%:*} --ratio ${b#*:} $FLAG $p; done
 done
 
 # ablations: fixed compression ratio / fixed topology

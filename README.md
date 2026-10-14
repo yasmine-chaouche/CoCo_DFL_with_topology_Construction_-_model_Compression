@@ -17,8 +17,9 @@ Like the paper's simulation platform (Section 5.1), the edge system runs in a si
 | `coco/simulator.py` | Algorithm 1 (workers) + Algorithm 2 (coordinator): local SGD (Eq. 5), compression, element-wise aggregation (Eqs. 6-7), round time (Eq. 18), traffic |
 | `coco/network.py` | bandwidth / computation model: Eq. 1 link bandwidth, Eqs. 15-18, connectivity (19b) |
 | `coco/compression.py` | RandomK (seeded mask) and TopK sparsification |
-| `coco/data.py` | CIFAR-10/100 loader (no torchvision), IID / non-IID partitions of Section 5.3 |
-| `coco/models.py` | VGG9 (3.49M params) and ResNet9 (6.6M params) |
+| `coco/data.py` | CIFAR-10/100 loader (no torchvision), IID / non-IID partitions of Section 5.3, Dirichlet partition |
+| `coco/unsw.py` | UNSW-NB15 intrusion-detection dataset (extension, not in the paper) |
+| `coco/models.py` | VGG9 (3.49M params), ResNet9 (6.6M params), MLP for tabular data |
 | `main.py` | command-line entry point |
 | `plot.py` | accuracy vs epochs / time / traffic, time-to-target table |
 | `run_experiments.sh` | the experiment grid of Section 5 |
@@ -31,12 +32,39 @@ pip install -r requirements.txt
 python main.py --algo coco --dataset cifar10              # VGG9, 20 workers, 200 epochs
 python main.py --algo coco --dataset cifar100 --non-iid 20  # ResNet9, each worker lacks 20 classes
 python main.py --algo choco --ratio 0.5 --dataset cifar10   # baseline
-python plot.py results/cifar10_*.json --target 0.87 -o cifar10.png
+python plot.py results/cifar10_*.json --target 0.87 -o figures/cifar10/cifar10.png
 python tests/test_planner.py
 ```
 
 Datasets are read from `--data-dir` (default `../data`, either `<dir>/cifar-10-batches-py`
 or `<dir>/cifar10/cifar-10-batches-py`) and downloaded if missing.
+
+## UNSW-NB15 (extension)
+
+```bash
+python main.py --dataset unsw-nb15 --algo coco                                    # IID, 10 classes
+python main.py --dataset unsw-nb15 --algo coco --partition dirichlet --alpha 0.5  # non-IID
+python main.py --dataset unsw-nb15 --unsw-task binary --algo choco --ratio 0.5    # normal vs attack
+bash run_experiments.sh unsw-nb15 0
+```
+
+* **Data**: the official train/test partition (175,341 / 82,332 flows), read from
+  `<data-dir>/unsw-nb15/` as the official CSVs (`UNSW_NB15_training-set.csv`,
+  `UNSW_NB15_testing-set.csv`) or as the parquet release of Kaggle `dhoogla/unswnb15`.
+  The parquet files are downloaded from a Hugging Face mirror if neither is present.
+  The parquet release drops a few columns (e.g. `sttl`, `dttl`); only columns present in both files are used.
+* **Features**: `proto`, `service` and `state` are one-hot encoded; numeric columns use
+  `sign(x)·log1p(|x|)` and are standardised with training statistics. This gives 186 inputs.
+* **Task**: `--unsw-task multiclass` (default) uses the 10 `attack_cat` classes; `binary` uses `label`.
+* **Model**: MLP 186-256-128-C with BatchNorm (83.6k parameters, B = 2.7 Mb).
+* **Partitions**: `iid` (default) or `--partition dirichlet --alpha a`. A smaller `a` gives more skewed
+  label distributions and unequal local dataset sizes. `dominant` and `missing` also work, but
+  several classes are tiny (Worms: 130 training samples).
+* **Metrics**: accuracy and **macro-F1** (`f1_macro`) are logged for every dataset. Macro-F1 is the
+  more meaningful metric here because the classes are very imbalanced.
+* **Computation time** of τ local steps is assumed to be 0.5–1.5 s (`--comp-range`). The paper
+  has no measurement for this model.
+* **Defaults**: 30 epochs, lr 0.05 with 0.98 decay per epoch, τ = 50, batch 32.
 
 `--algo`:
 
@@ -53,7 +81,8 @@ Other options: `--network {heter_dynamic,heter_static,homo_static}` (Section 5.5
 
 Each run writes `results/<name>.json` with the config and per-round history
 (simulated time, traffic, topology size, ratios, true and estimated consensus distance,
-`D_max`, test accuracy averaged over the workers' local models every `--eval-every` rounds).
+`D_max`, test accuracy and macro-F1 averaged over the workers' local models every
+epoch, as in the paper, or every `--eval-every` rounds). It also stores each worker's label histogram.
 
 ## Implementation notes
 

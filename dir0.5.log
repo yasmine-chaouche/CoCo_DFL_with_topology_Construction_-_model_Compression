@@ -1,0 +1,1422 @@
+nohup: ignoring input
+dataset=unsw-nb15 model=mlp d=83594 (B=2.68 Mb) workers=20 algo=fcr partition=dirichlet rounds=200 (5.48 rounds/epoch)
+local data: sizes 2048-22078, classes/worker 8-10 of 10
+[r   1 ep   0.2] t=        2s traffic=        1MB loss=0.676 edges= 67 r=0.020 [0.02,0.02] CD true=16.803 est=24.838 Dmax=21.086
+[r   2 ep   0.4] t=        4s traffic=        3MB loss=0.693 edges=190 r=0.020 [0.02,0.02] CD true=20.305 est=22.769 Dmax=20.506
+[r   3 ep   0.5] t=        6s traffic=        6MB loss=0.619 edges=190 r=0.020 [0.02,0.02] CD true=20.087 est=32.912 Dmax=19.803
+[r   4 ep   0.7] t=        9s traffic=        9MB loss=0.614 edges=190 r=0.020 [0.02,0.02] CD true=18.533 est=29.666 Dmax=18.911
+[r   5 ep   0.9] t=       12s traffic=       11MB loss=0.658 edges=190 r=0.020 [0.02,0.02] CD true=17.916 est=26.108 Dmax=18.000
+[r   6 ep   1.1] t=       15s traffic=       14MB loss=0.574 edges=190 r=0.020 [0.02,0.02] CD true=17.362 est=23.101 Dmax=17.079 acc=0.5724 f1=0.2438
+[r   7 ep   1.3] t=       17s traffic=       16MB loss=0.499 edges=190 r=0.020 [0.02,0.02] CD true=17.049 est=23.477 Dmax=16.147
+[r   8 ep   1.5] t=       20s traffic=       19MB loss=0.565 edges=190 r=0.020 [0.02,0.02] CD true=16.898 est=24.059 Dmax=15.268
+[r   9 ep   1.6] t=       23s traffic=       21MB loss=0.566 edges=190 r=0.020 [0.02,0.02] CD true=16.537 est=22.609 Dmax=14.492
+[r  10 ep   1.8] t=       26s traffic=       24MB loss=0.591 edges=190 r=0.020 [0.02,0.02] CD true=16.432 est=21.729 Dmax=13.786
+[r  11 ep   2.0] t=       29s traffic=       26MB loss=0.542 edges=190 r=0.020 [0.02,0.02] CD true=16.060 est=21.819 Dmax=13.088 acc=0.5926 f1=0.2566
+[r  12 ep   2.2] t=       32s traffic=       29MB loss=0.516 edges=190 r=0.020 [0.02,0.02] CD true=15.932 est=22.067 Dmax=12.448
+[r  13 ep   2.4] t=       35s traffic=       31MB loss=0.527 edges=190 r=0.020 [0.02,0.02] CD true=16.063 est=27.278 Dmax=11.901
+[r  14 ep   2.6] t=       38s traffic=       34MB loss=0.535 edges=190 r=0.020 [0.02,0.02] CD true=16.063 est=21.504 Dmax=11.345
+[r  15 ep   2.7] t=       41s traffic=       36MB loss=0.545 edges=190 r=0.020 [0.02,0.02] CD true=15.881 est=21.373 Dmax=10.873
+[r  16 ep   2.9] t=       44s traffic=       39MB loss=0.483 edges=190 r=0.020 [0.02,0.02] CD true=15.570 est=21.684 Dmax=10.398
+[r  17 ep   3.1] t=       47s traffic=       42MB loss=0.540 edges=190 r=0.020 [0.02,0.02] CD true=15.412 est=21.572 Dmax=9.983 acc=0.6052 f1=0.2708
+[r  18 ep   3.3] t=       50s traffic=       44MB loss=0.521 edges=190 r=0.020 [0.02,0.02] CD true=15.316 est=21.826 Dmax=9.554
+[r  19 ep   3.5] t=       53s traffic=       47MB loss=0.573 edges=190 r=0.020 [0.02,0.02] CD true=15.347 est=21.716 Dmax=9.181
+[r  20 ep   3.7] t=       56s traffic=       49MB loss=0.514 edges=190 r=0.020 [0.02,0.02] CD true=15.000 est=21.017 Dmax=8.816
+[r  21 ep   3.8] t=       59s traffic=       52MB loss=0.511 edges=190 r=0.020 [0.02,0.02] CD true=15.108 est=20.755 Dmax=8.496
+[r  22 ep   4.0] t=       62s traffic=       54MB loss=0.528 edges=190 r=0.020 [0.02,0.02] CD true=15.110 est=20.236 Dmax=8.202 acc=0.6045 f1=0.2775
+[r  23 ep   4.2] t=       65s traffic=       57MB loss=0.538 edges=190 r=0.020 [0.02,0.02] CD true=15.088 est=20.446 Dmax=7.919
+[r  24 ep   4.4] t=       67s traffic=       59MB loss=0.535 edges=190 r=0.020 [0.02,0.02] CD true=14.975 est=20.359 Dmax=7.653
+[r  25 ep   4.6] t=       71s traffic=       62MB loss=0.491 edges=190 r=0.020 [0.02,0.02] CD true=14.871 est=19.152 Dmax=7.417
+[r  26 ep   4.7] t=       74s traffic=       64MB loss=0.470 edges=190 r=0.020 [0.02,0.02] CD true=14.790 est=20.922 Dmax=7.194
+[r  27 ep   4.9] t=       77s traffic=       67MB loss=0.480 edges=190 r=0.020 [0.02,0.02] CD true=14.770 est=19.811 Dmax=6.992
+[r  28 ep   5.1] t=       80s traffic=       70MB loss=0.432 edges=190 r=0.020 [0.02,0.02] CD true=14.628 est=21.578 Dmax=6.805 acc=0.6149 f1=0.2854
+[r  29 ep   5.3] t=       83s traffic=       72MB loss=0.549 edges=190 r=0.020 [0.02,0.02] CD true=14.632 est=19.938 Dmax=6.629
+[r  30 ep   5.5] t=       86s traffic=       75MB loss=0.461 edges=190 r=0.020 [0.02,0.02] CD true=14.713 est=19.495 Dmax=6.479
+[r  31 ep   5.7] t=       90s traffic=       77MB loss=0.554 edges=190 r=0.020 [0.02,0.02] CD true=14.494 est=19.001 Dmax=6.322
+[r  32 ep   5.8] t=       93s traffic=       80MB loss=0.516 edges=190 r=0.020 [0.02,0.02] CD true=14.569 est=20.391 Dmax=6.171
+[r  33 ep   6.0] t=       96s traffic=       82MB loss=0.499 edges=190 r=0.020 [0.02,0.02] CD true=14.403 est=20.289 Dmax=6.026 acc=0.6186 f1=0.2850
+[r  34 ep   6.2] t=       99s traffic=       85MB loss=0.440 edges=190 r=0.020 [0.02,0.02] CD true=14.261 est=19.620 Dmax=5.896
+[r  35 ep   6.4] t=      102s traffic=       87MB loss=0.447 edges=190 r=0.020 [0.02,0.02] CD true=14.300 est=19.410 Dmax=5.803
+[r  36 ep   6.6] t=      105s traffic=       90MB loss=0.512 edges=190 r=0.020 [0.02,0.02] CD true=14.263 est=19.437 Dmax=5.690
+[r  37 ep   6.8] t=      109s traffic=       92MB loss=0.488 edges=190 r=0.020 [0.02,0.02] CD true=14.026 est=20.297 Dmax=5.580
+[r  38 ep   6.9] t=      111s traffic=       95MB loss=0.447 edges=190 r=0.020 [0.02,0.02] CD true=14.075 est=19.150 Dmax=5.476
+[r  39 ep   7.1] t=      114s traffic=       97MB loss=0.440 edges=190 r=0.020 [0.02,0.02] CD true=14.018 est=20.017 Dmax=5.378 acc=0.6187 f1=0.2905
+[r  40 ep   7.3] t=      118s traffic=      100MB loss=0.487 edges=190 r=0.020 [0.02,0.02] CD true=13.933 est=19.032 Dmax=5.280
+[r  41 ep   7.5] t=      120s traffic=      103MB loss=0.528 edges=190 r=0.020 [0.02,0.02] CD true=14.101 est=19.723 Dmax=5.235
+[r  42 ep   7.7] t=      123s traffic=      105MB loss=0.427 edges=190 r=0.020 [0.02,0.02] CD true=13.873 est=19.390 Dmax=5.173
+[r  43 ep   7.8] t=      127s traffic=      108MB loss=0.497 edges=190 r=0.020 [0.02,0.02] CD true=13.897 est=19.236 Dmax=5.095
+[r  44 ep   8.0] t=      130s traffic=      110MB loss=0.488 edges=190 r=0.020 [0.02,0.02] CD true=13.958 est=19.399 Dmax=5.035 acc=0.6320 f1=0.2965
+[r  45 ep   8.2] t=      132s traffic=      113MB loss=0.505 edges=190 r=0.020 [0.02,0.02] CD true=13.582 est=19.080 Dmax=4.954
+[r  46 ep   8.4] t=      136s traffic=      115MB loss=0.489 edges=190 r=0.020 [0.02,0.02] CD true=13.585 est=18.968 Dmax=4.894
+[r  47 ep   8.6] t=      139s traffic=      118MB loss=0.475 edges=190 r=0.020 [0.02,0.02] CD true=13.451 est=18.913 Dmax=4.819
+[r  48 ep   8.8] t=      142s traffic=      120MB loss=0.429 edges=190 r=0.020 [0.02,0.02] CD true=13.543 est=19.220 Dmax=4.770
+[r  49 ep   8.9] t=      145s traffic=      123MB loss=0.473 edges=190 r=0.020 [0.02,0.02] CD true=13.420 est=18.779 Dmax=4.714
+[r  50 ep   9.1] t=      149s traffic=      125MB loss=0.513 edges=190 r=0.020 [0.02,0.02] CD true=13.395 est=18.429 Dmax=4.667 acc=0.6356 f1=0.2941
+[r  51 ep   9.3] t=      152s traffic=      128MB loss=0.473 edges=190 r=0.020 [0.02,0.02] CD true=13.268 est=17.783 Dmax=4.600
+[r  52 ep   9.5] t=      155s traffic=      131MB loss=0.517 edges=190 r=0.020 [0.02,0.02] CD true=13.274 est=18.020 Dmax=4.545
+[r  53 ep   9.7] t=      158s traffic=      133MB loss=0.497 edges=190 r=0.020 [0.02,0.02] CD true=13.176 est=18.710 Dmax=4.502
+[r  54 ep   9.9] t=      161s traffic=      136MB loss=0.497 edges=190 r=0.020 [0.02,0.02] CD true=13.072 est=18.457 Dmax=4.452
+[r  55 ep  10.0] t=      165s traffic=      138MB loss=0.509 edges=190 r=0.020 [0.02,0.02] CD true=13.229 est=17.933 Dmax=4.417 acc=0.6307 f1=0.2922
+[r  56 ep  10.2] t=      168s traffic=      141MB loss=0.517 edges=190 r=0.020 [0.02,0.02] CD true=13.045 est=18.937 Dmax=4.373
+[r  57 ep  10.4] t=      171s traffic=      143MB loss=0.514 edges=190 r=0.020 [0.02,0.02] CD true=13.062 est=18.655 Dmax=4.334
+[r  58 ep  10.6] t=      174s traffic=      146MB loss=0.505 edges=190 r=0.020 [0.02,0.02] CD true=13.033 est=18.146 Dmax=4.287
+[r  59 ep  10.8] t=      177s traffic=      148MB loss=0.439 edges=190 r=0.020 [0.02,0.02] CD true=13.078 est=18.017 Dmax=4.255
+[r  60 ep  11.0] t=      181s traffic=      151MB loss=0.484 edges=190 r=0.020 [0.02,0.02] CD true=12.929 est=18.978 Dmax=4.227
+[r  61 ep  11.1] t=      184s traffic=      153MB loss=0.474 edges=190 r=0.020 [0.02,0.02] CD true=12.813 est=18.279 Dmax=4.174 acc=0.6326 f1=0.2971
+[r  62 ep  11.3] t=      187s traffic=      156MB loss=0.472 edges=190 r=0.020 [0.02,0.02] CD true=12.830 est=17.992 Dmax=4.129
+[r  63 ep  11.5] t=      190s traffic=      158MB loss=0.489 edges=190 r=0.020 [0.02,0.02] CD true=12.723 est=17.528 Dmax=4.084
+[r  64 ep  11.7] t=      194s traffic=      161MB loss=0.447 edges=190 r=0.020 [0.02,0.02] CD true=12.595 est=16.992 Dmax=4.050
+[r  65 ep  11.9] t=      197s traffic=      164MB loss=0.467 edges=190 r=0.020 [0.02,0.02] CD true=12.530 est=17.037 Dmax=3.995
+[r  66 ep  12.0] t=      200s traffic=      166MB loss=0.456 edges=190 r=0.020 [0.02,0.02] CD true=12.487 est=18.296 Dmax=3.961 acc=0.6386 f1=0.2955
+[r  67 ep  12.2] t=      203s traffic=      169MB loss=0.418 edges=190 r=0.020 [0.02,0.02] CD true=12.503 est=17.502 Dmax=3.940
+[r  68 ep  12.4] t=      206s traffic=      171MB loss=0.479 edges=190 r=0.020 [0.02,0.02] CD true=12.433 est=16.619 Dmax=3.888
+[r  69 ep  12.6] t=      209s traffic=      174MB loss=0.464 edges=190 r=0.020 [0.02,0.02] CD true=12.282 est=17.788 Dmax=3.849
+[r  70 ep  12.8] t=      213s traffic=      176MB loss=0.428 edges=190 r=0.020 [0.02,0.02] CD true=12.220 est=17.437 Dmax=3.810
+[r  71 ep  13.0] t=      216s traffic=      179MB loss=0.470 edges=190 r=0.020 [0.02,0.02] CD true=12.163 est=17.274 Dmax=3.772
+[r  72 ep  13.1] t=      219s traffic=      181MB loss=0.496 edges=190 r=0.020 [0.02,0.02] CD true=12.182 est=16.952 Dmax=3.736 acc=0.6349 f1=0.3003
+[r  73 ep  13.3] t=      223s traffic=      184MB loss=0.451 edges=190 r=0.020 [0.02,0.02] CD true=12.088 est=17.060 Dmax=3.716
+[r  74 ep  13.5] t=      226s traffic=      186MB loss=0.475 edges=190 r=0.020 [0.02,0.02] CD true=12.020 est=16.194 Dmax=3.689
+[r  75 ep  13.7] t=      229s traffic=      189MB loss=0.458 edges=190 r=0.020 [0.02,0.02] CD true=12.032 est=17.356 Dmax=3.653
+[r  76 ep  13.9] t=      232s traffic=      191MB loss=0.474 edges=190 r=0.020 [0.02,0.02] CD true=12.035 est=17.037 Dmax=3.636
+[r  77 ep  14.1] t=      235s traffic=      194MB loss=0.426 edges=190 r=0.020 [0.02,0.02] CD true=12.000 est=16.572 Dmax=3.614 acc=0.6385 f1=0.2958
+[r  78 ep  14.2] t=      238s traffic=      197MB loss=0.394 edges=190 r=0.020 [0.02,0.02] CD true=11.865 est=16.934 Dmax=3.608
+[r  79 ep  14.4] t=      241s traffic=      199MB loss=0.506 edges=190 r=0.020 [0.02,0.02] CD true=11.784 est=16.624 Dmax=3.567
+[r  80 ep  14.6] t=      245s traffic=      202MB loss=0.526 edges=190 r=0.020 [0.02,0.02] CD true=11.669 est=15.939 Dmax=3.518
+[r  81 ep  14.8] t=      248s traffic=      204MB loss=0.505 edges=190 r=0.020 [0.02,0.02] CD true=11.710 est=15.982 Dmax=3.496
+[r  82 ep  15.0] t=      251s traffic=      207MB loss=0.430 edges=190 r=0.020 [0.02,0.02] CD true=11.662 est=16.120 Dmax=3.478
+[r  83 ep  15.1] t=      255s traffic=      209MB loss=0.444 edges=190 r=0.020 [0.02,0.02] CD true=11.646 est=16.541 Dmax=3.454 acc=0.6362 f1=0.2968
+[r  84 ep  15.3] t=      257s traffic=      212MB loss=0.457 edges=190 r=0.020 [0.02,0.02] CD true=11.676 est=16.464 Dmax=3.433
+[r  85 ep  15.5] t=      261s traffic=      214MB loss=0.421 edges=190 r=0.020 [0.02,0.02] CD true=11.584 est=16.499 Dmax=3.414
+[r  86 ep  15.7] t=      264s traffic=      217MB loss=0.416 edges=190 r=0.020 [0.02,0.02] CD true=11.505 est=15.982 Dmax=3.392
+[r  87 ep  15.9] t=      267s traffic=      219MB loss=0.419 edges=190 r=0.020 [0.02,0.02] CD true=11.454 est=17.310 Dmax=3.379
+[r  88 ep  16.1] t=      271s traffic=      222MB loss=0.554 edges=190 r=0.020 [0.02,0.02] CD true=11.521 est=15.789 Dmax=3.374 acc=0.6386 f1=0.3020
+[r  89 ep  16.2] t=      274s traffic=      225MB loss=0.476 edges=190 r=0.020 [0.02,0.02] CD true=11.472 est=15.930 Dmax=3.360
+[r  90 ep  16.4] t=      277s traffic=      227MB loss=0.405 edges=190 r=0.020 [0.02,0.02] CD true=11.433 est=15.896 Dmax=3.329
+[r  91 ep  16.6] t=      280s traffic=      230MB loss=0.456 edges=190 r=0.020 [0.02,0.02] CD true=11.375 est=15.455 Dmax=3.300
+[r  92 ep  16.8] t=      284s traffic=      232MB loss=0.475 edges=190 r=0.020 [0.02,0.02] CD true=11.273 est=15.938 Dmax=3.285
+[r  93 ep  17.0] t=      287s traffic=      235MB loss=0.460 edges=190 r=0.020 [0.02,0.02] CD true=11.328 est=15.586 Dmax=3.265
+[r  94 ep  17.2] t=      290s traffic=      237MB loss=0.451 edges=190 r=0.020 [0.02,0.02] CD true=11.247 est=16.127 Dmax=3.249 acc=0.6487 f1=0.3049
+[r  95 ep  17.3] t=      293s traffic=      240MB loss=0.541 edges=190 r=0.020 [0.02,0.02] CD true=11.314 est=15.659 Dmax=3.240
+[r  96 ep  17.5] t=      296s traffic=      242MB loss=0.518 edges=190 r=0.020 [0.02,0.02] CD true=11.374 est=15.975 Dmax=3.247
+[r  97 ep  17.7] t=      300s traffic=      245MB loss=0.415 edges=190 r=0.020 [0.02,0.02] CD true=11.337 est=15.257 Dmax=3.247
+[r  98 ep  17.9] t=      303s traffic=      247MB loss=0.510 edges=190 r=0.020 [0.02,0.02] CD true=11.200 est=15.541 Dmax=3.229
+[r  99 ep  18.1] t=      306s traffic=      250MB loss=0.435 edges=190 r=0.020 [0.02,0.02] CD true=11.107 est=15.703 Dmax=3.203 acc=0.6499 f1=0.3054
+[r 100 ep  18.3] t=      309s traffic=      252MB loss=0.432 edges=190 r=0.020 [0.02,0.02] CD true=11.123 est=15.877 Dmax=3.191
+[r 101 ep  18.4] t=      312s traffic=      255MB loss=0.403 edges=190 r=0.020 [0.02,0.02] CD true=11.057 est=15.486 Dmax=3.180
+[r 102 ep  18.6] t=      315s traffic=      258MB loss=0.376 edges=190 r=0.020 [0.02,0.02] CD true=10.978 est=15.012 Dmax=3.158
+[r 103 ep  18.8] t=      318s traffic=      260MB loss=0.396 edges=190 r=0.020 [0.02,0.02] CD true=10.994 est=15.766 Dmax=3.151
+[r 104 ep  19.0] t=      322s traffic=      263MB loss=0.473 edges=190 r=0.020 [0.02,0.02] CD true=10.894 est=15.331 Dmax=3.127
+[r 105 ep  19.2] t=      325s traffic=      265MB loss=0.485 edges=190 r=0.020 [0.02,0.02] CD true=10.866 est=15.193 Dmax=3.115 acc=0.6493 f1=0.3082
+[r 106 ep  19.3] t=      329s traffic=      268MB loss=0.447 edges=190 r=0.020 [0.02,0.02] CD true=10.815 est=15.213 Dmax=3.105
+[r 107 ep  19.5] t=      332s traffic=      270MB loss=0.486 edges=190 r=0.020 [0.02,0.02] CD true=10.742 est=15.071 Dmax=3.090
+[r 108 ep  19.7] t=      335s traffic=      273MB loss=0.411 edges=190 r=0.020 [0.02,0.02] CD true=10.765 est=14.462 Dmax=3.070
+[r 109 ep  19.9] t=      339s traffic=      275MB loss=0.520 edges=190 r=0.020 [0.02,0.02] CD true=10.660 est=14.677 Dmax=3.064
+[r 110 ep  20.1] t=      342s traffic=      278MB loss=0.485 edges=190 r=0.020 [0.02,0.02] CD true=10.608 est=15.019 Dmax=3.051 acc=0.6496 f1=0.3077
+[r 111 ep  20.3] t=      345s traffic=      280MB loss=0.430 edges=190 r=0.020 [0.02,0.02] CD true=10.559 est=14.254 Dmax=3.022
+[r 112 ep  20.4] t=      348s traffic=      283MB loss=0.457 edges=190 r=0.020 [0.02,0.02] CD true=10.537 est=14.501 Dmax=2.997
+[r 113 ep  20.6] t=      351s traffic=      286MB loss=0.473 edges=190 r=0.020 [0.02,0.02] CD true=10.494 est=14.353 Dmax=2.981
+[r 114 ep  20.8] t=      355s traffic=      288MB loss=0.430 edges=190 r=0.020 [0.02,0.02] CD true=10.374 est=14.773 Dmax=2.971
+[r 115 ep  21.0] t=      357s traffic=      291MB loss=0.473 edges=190 r=0.020 [0.02,0.02] CD true=10.370 est=14.977 Dmax=2.961
+[r 116 ep  21.2] t=      361s traffic=      293MB loss=0.499 edges=190 r=0.020 [0.02,0.02] CD true=10.301 est=14.957 Dmax=2.935 acc=0.6544 f1=0.3134
+[r 117 ep  21.4] t=      364s traffic=      296MB loss=0.419 edges=190 r=0.020 [0.02,0.02] CD true=10.241 est=14.580 Dmax=2.917
+[r 118 ep  21.5] t=      367s traffic=      298MB loss=0.434 edges=190 r=0.020 [0.02,0.02] CD true=10.223 est=14.052 Dmax=2.906
+[r 119 ep  21.7] t=      369s traffic=      301MB loss=0.470 edges=190 r=0.020 [0.02,0.02] CD true=10.196 est=14.503 Dmax=2.882
+[r 120 ep  21.9] t=      373s traffic=      303MB loss=0.499 edges=190 r=0.020 [0.02,0.02] CD true=10.224 est=14.312 Dmax=2.875
+[r 121 ep  22.1] t=      375s traffic=      306MB loss=0.465 edges=190 r=0.020 [0.02,0.02] CD true=10.189 est=14.687 Dmax=2.861 acc=0.6433 f1=0.3059
+[r 122 ep  22.3] t=      378s traffic=      308MB loss=0.438 edges=190 r=0.020 [0.02,0.02] CD true=10.126 est=14.363 Dmax=2.849
+[r 123 ep  22.4] t=      381s traffic=      311MB loss=0.471 edges=190 r=0.020 [0.02,0.02] CD true=10.097 est=13.851 Dmax=2.834
+[r 124 ep  22.6] t=      384s traffic=      313MB loss=0.417 edges=190 r=0.020 [0.02,0.02] CD true=10.038 est=14.013 Dmax=2.825
+[r 125 ep  22.8] t=      387s traffic=      316MB loss=0.429 edges=190 r=0.020 [0.02,0.02] CD true=10.006 est=14.107 Dmax=2.809
+[r 126 ep  23.0] t=      390s traffic=      319MB loss=0.465 edges=190 r=0.020 [0.02,0.02] CD true=9.995 est=13.843 Dmax=2.793
+[r 127 ep  23.2] t=      393s traffic=      321MB loss=0.495 edges=190 r=0.020 [0.02,0.02] CD true=9.966 est=14.107 Dmax=2.790 acc=0.6515 f1=0.3156
+[r 128 ep  23.4] t=      397s traffic=      324MB loss=0.445 edges=190 r=0.020 [0.02,0.02] CD true=9.909 est=13.966 Dmax=2.789
+[r 129 ep  23.5] t=      400s traffic=      326MB loss=0.441 edges=190 r=0.020 [0.02,0.02] CD true=9.856 est=13.894 Dmax=2.781
+[r 130 ep  23.7] t=      404s traffic=      329MB loss=0.495 edges=190 r=0.020 [0.02,0.02] CD true=9.758 est=13.747 Dmax=2.768
+[r 131 ep  23.9] t=      407s traffic=      331MB loss=0.445 edges=190 r=0.020 [0.02,0.02] CD true=9.754 est=14.036 Dmax=2.762
+[r 132 ep  24.1] t=      409s traffic=      334MB loss=0.423 edges=190 r=0.020 [0.02,0.02] CD true=9.737 est=13.293 Dmax=2.762 acc=0.6449 f1=0.3159
+[r 133 ep  24.3] t=      412s traffic=      336MB loss=0.451 edges=190 r=0.020 [0.02,0.02] CD true=9.677 est=13.503 Dmax=2.746
+[r 134 ep  24.5] t=      415s traffic=      339MB loss=0.457 edges=190 r=0.020 [0.02,0.02] CD true=9.642 est=13.505 Dmax=2.737
+[r 135 ep  24.6] t=      418s traffic=      341MB loss=0.406 edges=190 r=0.020 [0.02,0.02] CD true=9.683 est=13.529 Dmax=2.729
+[r 136 ep  24.8] t=      421s traffic=      344MB loss=0.410 edges=190 r=0.020 [0.02,0.02] CD true=9.663 est=13.439 Dmax=2.735
+[r 137 ep  25.0] t=      424s traffic=      347MB loss=0.460 edges=190 r=0.020 [0.02,0.02] CD true=9.605 est=13.390 Dmax=2.730 acc=0.6505 f1=0.3140
+[r 138 ep  25.2] t=      427s traffic=      349MB loss=0.395 edges=190 r=0.020 [0.02,0.02] CD true=9.512 est=13.675 Dmax=2.722
+[r 139 ep  25.4] t=      430s traffic=      352MB loss=0.433 edges=190 r=0.020 [0.02,0.02] CD true=9.583 est=13.116 Dmax=2.735
+[r 140 ep  25.6] t=      433s traffic=      354MB loss=0.445 edges=190 r=0.020 [0.02,0.02] CD true=9.553 est=13.577 Dmax=2.722
+[r 141 ep  25.7] t=      436s traffic=      357MB loss=0.425 edges=190 r=0.020 [0.02,0.02] CD true=9.567 est=13.567 Dmax=2.714
+[r 142 ep  25.9] t=      438s traffic=      359MB loss=0.379 edges=190 r=0.020 [0.02,0.02] CD true=9.559 est=14.418 Dmax=2.712
+[r 143 ep  26.1] t=      441s traffic=      362MB loss=0.443 edges=190 r=0.020 [0.02,0.02] CD true=9.511 est=14.502 Dmax=2.708 acc=0.6502 f1=0.3113
+[r 144 ep  26.3] t=      444s traffic=      364MB loss=0.477 edges=190 r=0.020 [0.02,0.02] CD true=9.477 est=14.001 Dmax=2.700
+[r 145 ep  26.5] t=      446s traffic=      367MB loss=0.431 edges=190 r=0.020 [0.02,0.02] CD true=9.460 est=12.881 Dmax=2.685
+[r 146 ep  26.6] t=      449s traffic=      369MB loss=0.438 edges=190 r=0.020 [0.02,0.02] CD true=9.412 est=13.028 Dmax=2.673
+[r 147 ep  26.8] t=      452s traffic=      372MB loss=0.405 edges=190 r=0.020 [0.02,0.02] CD true=9.347 est=13.124 Dmax=2.658
+[r 148 ep  27.0] t=      455s traffic=      374MB loss=0.430 edges=190 r=0.020 [0.02,0.02] CD true=9.348 est=13.672 Dmax=2.634 acc=0.6473 f1=0.3146
+[r 149 ep  27.2] t=      458s traffic=      377MB loss=0.409 edges=190 r=0.020 [0.02,0.02] CD true=9.293 est=13.013 Dmax=2.621
+[r 150 ep  27.4] t=      460s traffic=      380MB loss=0.417 edges=190 r=0.020 [0.02,0.02] CD true=9.253 est=13.513 Dmax=2.609
+[r 151 ep  27.6] t=      463s traffic=      382MB loss=0.410 edges=190 r=0.020 [0.02,0.02] CD true=9.247 est=12.874 Dmax=2.599
+[r 152 ep  27.7] t=      466s traffic=      385MB loss=0.390 edges=190 r=0.020 [0.02,0.02] CD true=9.152 est=12.602 Dmax=2.583
+[r 153 ep  27.9] t=      469s traffic=      387MB loss=0.434 edges=190 r=0.020 [0.02,0.02] CD true=9.176 est=12.462 Dmax=2.588
+[r 154 ep  28.1] t=      471s traffic=      390MB loss=0.467 edges=190 r=0.020 [0.02,0.02] CD true=9.029 est=12.712 Dmax=2.590 acc=0.6555 f1=0.3216
+[r 155 ep  28.3] t=      474s traffic=      392MB loss=0.422 edges=190 r=0.020 [0.02,0.02] CD true=8.989 est=12.698 Dmax=2.568
+[r 156 ep  28.5] t=      477s traffic=      395MB loss=0.433 edges=190 r=0.020 [0.02,0.02] CD true=9.060 est=12.980 Dmax=2.562
+[r 157 ep  28.7] t=      481s traffic=      397MB loss=0.452 edges=190 r=0.020 [0.02,0.02] CD true=8.947 est=12.606 Dmax=2.547
+[r 158 ep  28.8] t=      483s traffic=      400MB loss=0.456 edges=190 r=0.020 [0.02,0.02] CD true=8.976 est=12.407 Dmax=2.537
+[r 159 ep  29.0] t=      487s traffic=      402MB loss=0.489 edges=190 r=0.020 [0.02,0.02] CD true=8.895 est=13.035 Dmax=2.524 acc=0.6585 f1=0.3186
+[r 160 ep  29.2] t=      489s traffic=      405MB loss=0.461 edges=190 r=0.020 [0.02,0.02] CD true=8.902 est=12.419 Dmax=2.512
+[r 161 ep  29.4] t=      492s traffic=      407MB loss=0.424 edges=190 r=0.020 [0.02,0.02] CD true=8.882 est=12.159 Dmax=2.491
+[r 162 ep  29.6] t=      496s traffic=      410MB loss=0.398 edges=190 r=0.020 [0.02,0.02] CD true=8.849 est=12.490 Dmax=2.471
+[r 163 ep  29.7] t=      499s traffic=      413MB loss=0.449 edges=190 r=0.020 [0.02,0.02] CD true=8.843 est=12.011 Dmax=2.462
+[r 164 ep  29.9] t=      502s traffic=      415MB loss=0.446 edges=190 r=0.020 [0.02,0.02] CD true=8.817 est=12.111 Dmax=2.464
+[r 165 ep  30.1] t=      506s traffic=      418MB loss=0.455 edges=190 r=0.020 [0.02,0.02] CD true=8.755 est=12.055 Dmax=2.459 acc=0.6526 f1=0.3155
+[r 166 ep  30.3] t=      509s traffic=      420MB loss=0.448 edges=190 r=0.020 [0.02,0.02] CD true=8.713 est=12.339 Dmax=2.456
+[r 167 ep  30.5] t=      513s traffic=      423MB loss=0.461 edges=190 r=0.020 [0.02,0.02] CD true=8.701 est=12.666 Dmax=2.452
+[r 168 ep  30.7] t=      516s traffic=      425MB loss=0.455 edges=190 r=0.020 [0.02,0.02] CD true=8.664 est=11.838 Dmax=2.440
+[r 169 ep  30.8] t=      519s traffic=      428MB loss=0.429 edges=190 r=0.020 [0.02,0.02] CD true=8.681 est=12.275 Dmax=2.430
+[r 170 ep  31.0] t=      522s traffic=      430MB loss=0.463 edges=190 r=0.020 [0.02,0.02] CD true=8.633 est=12.109 Dmax=2.436 acc=0.6546 f1=0.3207
+[r 171 ep  31.2] t=      525s traffic=      433MB loss=0.350 edges=190 r=0.020 [0.02,0.02] CD true=8.601 est=11.858 Dmax=2.435
+[r 172 ep  31.4] t=      528s traffic=      435MB loss=0.404 edges=190 r=0.020 [0.02,0.02] CD true=8.599 est=12.372 Dmax=2.426
+[r 173 ep  31.6] t=      532s traffic=      438MB loss=0.424 edges=190 r=0.020 [0.02,0.02] CD true=8.577 est=11.846 Dmax=2.403
+[r 174 ep  31.8] t=      534s traffic=      441MB loss=0.451 edges=190 r=0.020 [0.02,0.02] CD true=8.552 est=12.181 Dmax=2.390
+[r 175 ep  31.9] t=      537s traffic=      443MB loss=0.471 edges=190 r=0.020 [0.02,0.02] CD true=8.472 est=11.838 Dmax=2.390
+[r 176 ep  32.1] t=      540s traffic=      446MB loss=0.466 edges=190 r=0.020 [0.02,0.02] CD true=8.580 est=12.253 Dmax=2.396 acc=0.6599 f1=0.3187
+[r 177 ep  32.3] t=      542s traffic=      448MB loss=0.453 edges=190 r=0.020 [0.02,0.02] CD true=8.472 est=11.685 Dmax=2.405
+[r 178 ep  32.5] t=      545s traffic=      451MB loss=0.444 edges=190 r=0.020 [0.02,0.02] CD true=8.392 est=12.182 Dmax=2.397
+[r 179 ep  32.7] t=      548s traffic=      453MB loss=0.396 edges=190 r=0.020 [0.02,0.02] CD true=8.380 est=12.168 Dmax=2.389
+[r 180 ep  32.9] t=      550s traffic=      456MB loss=0.488 edges=190 r=0.020 [0.02,0.02] CD true=8.413 est=11.798 Dmax=2.400
+[r 181 ep  33.0] t=      553s traffic=      458MB loss=0.413 edges=190 r=0.020 [0.02,0.02] CD true=8.335 est=11.595 Dmax=2.392 acc=0.6585 f1=0.3235
+[r 182 ep  33.2] t=      556s traffic=      461MB loss=0.405 edges=190 r=0.020 [0.02,0.02] CD true=8.379 est=11.595 Dmax=2.386
+[r 183 ep  33.4] t=      559s traffic=      463MB loss=0.344 edges=190 r=0.020 [0.02,0.02] CD true=8.324 est=11.864 Dmax=2.385
+[r 184 ep  33.6] t=      562s traffic=      466MB loss=0.442 edges=190 r=0.020 [0.02,0.02] CD true=8.273 est=11.354 Dmax=2.378
+[r 185 ep  33.8] t=      565s traffic=      468MB loss=0.412 edges=190 r=0.020 [0.02,0.02] CD true=8.245 est=11.543 Dmax=2.367
+[r 186 ep  33.9] t=      568s traffic=      471MB loss=0.395 edges=190 r=0.020 [0.02,0.02] CD true=8.210 est=11.478 Dmax=2.356
+[r 187 ep  34.1] t=      571s traffic=      474MB loss=0.403 edges=190 r=0.020 [0.02,0.02] CD true=8.207 est=12.032 Dmax=2.347 acc=0.6536 f1=0.3218
+[r 188 ep  34.3] t=      574s traffic=      476MB loss=0.423 edges=190 r=0.020 [0.02,0.02] CD true=8.183 est=11.970 Dmax=2.337
+[r 189 ep  34.5] t=      577s traffic=      479MB loss=0.371 edges=190 r=0.020 [0.02,0.02] CD true=8.253 est=11.653 Dmax=2.323
+[r 190 ep  34.7] t=      580s traffic=      481MB loss=0.462 edges=190 r=0.020 [0.02,0.02] CD true=8.243 est=11.571 Dmax=2.329
+[r 191 ep  34.9] t=      583s traffic=      484MB loss=0.365 edges=190 r=0.020 [0.02,0.02] CD true=8.074 est=11.507 Dmax=2.315
+[r 192 ep  35.0] t=      586s traffic=      486MB loss=0.401 edges=190 r=0.020 [0.02,0.02] CD true=8.119 est=11.405 Dmax=2.313 acc=0.6576 f1=0.3242
+[r 193 ep  35.2] t=      589s traffic=      489MB loss=0.411 edges=190 r=0.020 [0.02,0.02] CD true=8.082 est=11.494 Dmax=2.322
+[r 194 ep  35.4] t=      592s traffic=      491MB loss=0.392 edges=190 r=0.020 [0.02,0.02] CD true=8.081 est=11.131 Dmax=2.302
+[r 195 ep  35.6] t=      595s traffic=      494MB loss=0.404 edges=190 r=0.020 [0.02,0.02] CD true=8.051 est=10.867 Dmax=2.282
+[r 196 ep  35.8] t=      598s traffic=      496MB loss=0.434 edges=190 r=0.020 [0.02,0.02] CD true=7.986 est=11.108 Dmax=2.273
+[r 197 ep  36.0] t=      601s traffic=      499MB loss=0.420 edges=190 r=0.020 [0.02,0.02] CD true=8.016 est=11.297 Dmax=2.280
+[r 198 ep  36.1] t=      605s traffic=      502MB loss=0.457 edges=190 r=0.020 [0.02,0.02] CD true=7.986 est=11.322 Dmax=2.275 acc=0.6550 f1=0.3223
+[r 199 ep  36.3] t=      608s traffic=      504MB loss=0.417 edges=190 r=0.020 [0.02,0.02] CD true=7.977 est=11.690 Dmax=2.280
+[r 200 ep  36.5] t=      611s traffic=      507MB loss=0.457 edges=190 r=0.020 [0.02,0.02] CD true=7.920 est=11.034 Dmax=2.299 acc=0.6566 f1=0.3213
+saved results/ratio_sweep_dir0.5/unsw-nb15-multiclass_mlp_fcr0.02_dir0.5_heter_dynamic_s0.json
+dataset=unsw-nb15 model=mlp d=83594 (B=2.68 Mb) workers=20 algo=fcr partition=dirichlet rounds=200 (5.48 rounds/epoch)
+local data: sizes 2048-22078, classes/worker 8-10 of 10
+[r   1 ep   0.2] t=        2s traffic=        2MB loss=0.676 edges= 63 r=0.050 [0.05,0.05] CD true=16.557 est=45.728 Dmax=21.086
+[r   2 ep   0.4] t=        6s traffic=        8MB loss=0.697 edges=190 r=0.050 [0.05,0.05] CD true=19.764 est=25.920 Dmax=20.534
+[r   3 ep   0.5] t=       10s traffic=       15MB loss=0.615 edges=190 r=0.050 [0.05,0.05] CD true=18.571 est=27.663 Dmax=19.776
+[r   4 ep   0.7] t=       15s traffic=       21MB loss=0.626 edges=190 r=0.050 [0.05,0.05] CD true=16.392 est=25.478 Dmax=18.850
+[r   5 ep   0.9] t=       21s traffic=       28MB loss=0.649 edges=190 r=0.050 [0.05,0.05] CD true=15.572 est=22.066 Dmax=17.946
+[r   6 ep   1.1] t=       26s traffic=       34MB loss=0.564 edges=190 r=0.050 [0.05,0.05] CD true=14.751 est=21.176 Dmax=17.025 acc=0.5644 f1=0.2338
+[r   7 ep   1.3] t=       30s traffic=       40MB loss=0.516 edges=190 r=0.050 [0.05,0.05] CD true=14.479 est=21.383 Dmax=16.175
+[r   8 ep   1.5] t=       36s traffic=       47MB loss=0.572 edges=190 r=0.050 [0.05,0.05] CD true=14.333 est=20.988 Dmax=15.343
+[r   9 ep   1.6] t=       42s traffic=       53MB loss=0.563 edges=190 r=0.050 [0.05,0.05] CD true=13.465 est=18.754 Dmax=14.537
+[r  10 ep   1.8] t=       48s traffic=       59MB loss=0.585 edges=190 r=0.050 [0.05,0.05] CD true=13.736 est=18.936 Dmax=13.828
+[r  11 ep   2.0] t=       55s traffic=       66MB loss=0.563 edges=190 r=0.050 [0.05,0.05] CD true=13.073 est=19.318 Dmax=13.138 acc=0.5944 f1=0.2567
+[r  12 ep   2.2] t=       60s traffic=       72MB loss=0.514 edges=190 r=0.050 [0.05,0.05] CD true=12.810 est=18.439 Dmax=12.493
+[r  13 ep   2.4] t=       66s traffic=       78MB loss=0.535 edges=190 r=0.050 [0.05,0.05] CD true=12.711 est=18.535 Dmax=11.917
+[r  14 ep   2.6] t=       72s traffic=       85MB loss=0.538 edges=190 r=0.050 [0.05,0.05] CD true=12.538 est=17.987 Dmax=11.346
+[r  15 ep   2.7] t=       77s traffic=       91MB loss=0.560 edges=190 r=0.050 [0.05,0.05] CD true=12.283 est=17.586 Dmax=10.827
+[r  16 ep   2.9] t=       84s traffic=       97MB loss=0.493 edges=190 r=0.050 [0.05,0.05] CD true=12.182 est=17.804 Dmax=10.334
+[r  17 ep   3.1] t=       89s traffic=      104MB loss=0.545 edges=190 r=0.050 [0.05,0.05] CD true=12.090 est=17.662 Dmax=9.884 acc=0.6050 f1=0.2680
+[r  18 ep   3.3] t=       95s traffic=      110MB loss=0.531 edges=190 r=0.050 [0.05,0.05] CD true=12.292 est=17.452 Dmax=9.482
+[r  19 ep   3.5] t=      101s traffic=      116MB loss=0.583 edges=190 r=0.050 [0.05,0.05] CD true=12.370 est=17.464 Dmax=9.145
+[r  20 ep   3.7] t=      107s traffic=      123MB loss=0.533 edges=190 r=0.050 [0.05,0.05] CD true=11.905 est=17.158 Dmax=8.806
+[r  21 ep   3.8] t=      113s traffic=      129MB loss=0.538 edges=190 r=0.050 [0.05,0.05] CD true=11.833 est=17.227 Dmax=8.522
+[r  22 ep   4.0] t=      119s traffic=      136MB loss=0.551 edges=190 r=0.050 [0.05,0.05] CD true=11.804 est=17.263 Dmax=8.217 acc=0.6064 f1=0.2772
+[r  23 ep   4.2] t=      124s traffic=      142MB loss=0.547 edges=190 r=0.050 [0.05,0.05] CD true=11.756 est=16.931 Dmax=7.955
+[r  24 ep   4.4] t=      129s traffic=      148MB loss=0.550 edges=190 r=0.050 [0.05,0.05] CD true=11.541 est=16.507 Dmax=7.682
+[r  25 ep   4.6] t=      135s traffic=      155MB loss=0.516 edges=190 r=0.050 [0.05,0.05] CD true=11.378 est=16.369 Dmax=7.443
+[r  26 ep   4.7] t=      141s traffic=      161MB loss=0.474 edges=190 r=0.050 [0.05,0.05] CD true=11.069 est=16.143 Dmax=7.211
+[r  27 ep   4.9] t=      147s traffic=      167MB loss=0.485 edges=190 r=0.050 [0.05,0.05] CD true=11.146 est=15.727 Dmax=7.007
+[r  28 ep   5.1] t=      153s traffic=      174MB loss=0.443 edges=190 r=0.050 [0.05,0.05] CD true=11.095 est=16.502 Dmax=6.818 acc=0.6198 f1=0.2839
+[r  29 ep   5.3] t=      159s traffic=      180MB loss=0.564 edges=190 r=0.050 [0.05,0.05] CD true=10.882 est=16.308 Dmax=6.651
+[r  30 ep   5.5] t=      166s traffic=      186MB loss=0.469 edges=190 r=0.050 [0.05,0.05] CD true=10.882 est=15.625 Dmax=6.481
+[r  31 ep   5.7] t=      172s traffic=      193MB loss=0.556 edges=190 r=0.050 [0.05,0.05] CD true=10.695 est=15.480 Dmax=6.311
+[r  32 ep   5.8] t=      178s traffic=      199MB loss=0.524 edges=190 r=0.050 [0.05,0.05] CD true=10.689 est=15.525 Dmax=6.156
+[r  33 ep   6.0] t=      184s traffic=      205MB loss=0.522 edges=190 r=0.050 [0.05,0.05] CD true=10.444 est=14.651 Dmax=6.023 acc=0.6186 f1=0.2813
+[r  34 ep   6.2] t=      190s traffic=      212MB loss=0.452 edges=190 r=0.050 [0.05,0.05] CD true=10.287 est=14.836 Dmax=5.863
+[r  35 ep   6.4] t=      196s traffic=      218MB loss=0.475 edges=190 r=0.050 [0.05,0.05] CD true=10.196 est=14.898 Dmax=5.727
+[r  36 ep   6.6] t=      203s traffic=      224MB loss=0.526 edges=190 r=0.050 [0.05,0.05] CD true=10.263 est=15.160 Dmax=5.613
+[r  37 ep   6.8] t=      209s traffic=      231MB loss=0.495 edges=190 r=0.050 [0.05,0.05] CD true=10.120 est=14.961 Dmax=5.501
+[r  38 ep   6.9] t=      215s traffic=      237MB loss=0.464 edges=190 r=0.050 [0.05,0.05] CD true=10.106 est=14.551 Dmax=5.398
+[r  39 ep   7.1] t=      221s traffic=      244MB loss=0.450 edges=190 r=0.050 [0.05,0.05] CD true=10.128 est=14.123 Dmax=5.302 acc=0.6280 f1=0.2943
+[r  40 ep   7.3] t=      227s traffic=      250MB loss=0.503 edges=190 r=0.050 [0.05,0.05] CD true=9.972 est=14.494 Dmax=5.217
+[r  41 ep   7.5] t=      233s traffic=      256MB loss=0.549 edges=190 r=0.050 [0.05,0.05] CD true=9.960 est=14.329 Dmax=5.142
+[r  42 ep   7.7] t=      239s traffic=      263MB loss=0.456 edges=190 r=0.050 [0.05,0.05] CD true=9.852 est=13.907 Dmax=5.082
+[r  43 ep   7.8] t=      245s traffic=      269MB loss=0.515 edges=190 r=0.050 [0.05,0.05] CD true=9.783 est=14.467 Dmax=5.011
+[r  44 ep   8.0] t=      251s traffic=      275MB loss=0.494 edges=190 r=0.050 [0.05,0.05] CD true=9.753 est=14.061 Dmax=4.946 acc=0.6345 f1=0.3003
+[r  45 ep   8.2] t=      257s traffic=      282MB loss=0.514 edges=190 r=0.050 [0.05,0.05] CD true=9.500 est=13.543 Dmax=4.862
+[r  46 ep   8.4] t=      263s traffic=      288MB loss=0.500 edges=190 r=0.050 [0.05,0.05] CD true=9.391 est=13.672 Dmax=4.772
+[r  47 ep   8.6] t=      270s traffic=      294MB loss=0.489 edges=190 r=0.050 [0.05,0.05] CD true=9.281 est=13.364 Dmax=4.696
+[r  48 ep   8.8] t=      276s traffic=      301MB loss=0.441 edges=190 r=0.050 [0.05,0.05] CD true=9.267 est=13.460 Dmax=4.636
+[r  49 ep   8.9] t=      282s traffic=      307MB loss=0.495 edges=190 r=0.050 [0.05,0.05] CD true=9.277 est=13.359 Dmax=4.599
+[r  50 ep   9.1] t=      288s traffic=      313MB loss=0.512 edges=190 r=0.050 [0.05,0.05] CD true=9.231 est=13.348 Dmax=4.551 acc=0.6369 f1=0.2959
+[r  51 ep   9.3] t=      294s traffic=      320MB loss=0.483 edges=190 r=0.050 [0.05,0.05] CD true=9.152 est=13.235 Dmax=4.504
+[r  52 ep   9.5] t=      301s traffic=      326MB loss=0.531 edges=190 r=0.050 [0.05,0.05] CD true=9.081 est=13.101 Dmax=4.447
+[r  53 ep   9.7] t=      307s traffic=      332MB loss=0.493 edges=190 r=0.050 [0.05,0.05] CD true=8.995 est=13.273 Dmax=4.406
+[r  54 ep   9.9] t=      313s traffic=      339MB loss=0.489 edges=190 r=0.050 [0.05,0.05] CD true=8.962 est=13.283 Dmax=4.354
+[r  55 ep  10.0] t=      320s traffic=      345MB loss=0.519 edges=190 r=0.050 [0.05,0.05] CD true=8.981 est=13.206 Dmax=4.309 acc=0.6330 f1=0.2958
+[r  56 ep  10.2] t=      326s traffic=      352MB loss=0.528 edges=190 r=0.050 [0.05,0.05] CD true=8.798 est=12.762 Dmax=4.263
+[r  57 ep  10.4] t=      332s traffic=      358MB loss=0.522 edges=190 r=0.050 [0.05,0.05] CD true=8.738 est=12.663 Dmax=4.208
+[r  58 ep  10.6] t=      337s traffic=      364MB loss=0.511 edges=190 r=0.050 [0.05,0.05] CD true=8.848 est=12.793 Dmax=4.178
+[r  59 ep  10.8] t=      343s traffic=      371MB loss=0.440 edges=190 r=0.050 [0.05,0.05] CD true=8.769 est=12.740 Dmax=4.142
+[r  60 ep  11.0] t=      349s traffic=      377MB loss=0.493 edges=190 r=0.050 [0.05,0.05] CD true=8.611 est=12.665 Dmax=4.116
+[r  61 ep  11.1] t=      356s traffic=      383MB loss=0.486 edges=190 r=0.050 [0.05,0.05] CD true=8.644 est=12.287 Dmax=4.080 acc=0.6404 f1=0.3030
+[r  62 ep  11.3] t=      362s traffic=      390MB loss=0.473 edges=190 r=0.050 [0.05,0.05] CD true=8.568 est=12.312 Dmax=4.037
+[r  63 ep  11.5] t=      368s traffic=      396MB loss=0.502 edges=190 r=0.050 [0.05,0.05] CD true=8.467 est=12.078 Dmax=3.995
+[r  64 ep  11.7] t=      375s traffic=      402MB loss=0.459 edges=190 r=0.050 [0.05,0.05] CD true=8.382 est=12.184 Dmax=3.962
+[r  65 ep  11.9] t=      381s traffic=      409MB loss=0.480 edges=190 r=0.050 [0.05,0.05] CD true=8.273 est=11.850 Dmax=3.925
+[r  66 ep  12.0] t=      387s traffic=      415MB loss=0.448 edges=190 r=0.050 [0.05,0.05] CD true=8.230 est=12.239 Dmax=3.884 acc=0.6454 f1=0.3032
+[r  67 ep  12.2] t=      393s traffic=      421MB loss=0.415 edges=190 r=0.050 [0.05,0.05] CD true=8.246 est=12.060 Dmax=3.843
+[r  68 ep  12.4] t=      399s traffic=      428MB loss=0.487 edges=190 r=0.050 [0.05,0.05] CD true=8.153 est=11.512 Dmax=3.795
+[r  69 ep  12.6] t=      405s traffic=      434MB loss=0.472 edges=190 r=0.050 [0.05,0.05] CD true=7.998 est=11.915 Dmax=3.757
+[r  70 ep  12.8] t=      412s traffic=      440MB loss=0.433 edges=190 r=0.050 [0.05,0.05] CD true=7.991 est=11.604 Dmax=3.731
+[r  71 ep  13.0] t=      418s traffic=      447MB loss=0.465 edges=190 r=0.050 [0.05,0.05] CD true=7.899 est=11.355 Dmax=3.702
+[r  72 ep  13.1] t=      424s traffic=      453MB loss=0.496 edges=190 r=0.050 [0.05,0.05] CD true=7.899 est=11.518 Dmax=3.675 acc=0.6478 f1=0.3086
+[r  73 ep  13.3] t=      431s traffic=      460MB loss=0.460 edges=190 r=0.050 [0.05,0.05] CD true=7.835 est=11.199 Dmax=3.655
+[r  74 ep  13.5] t=      437s traffic=      466MB loss=0.478 edges=190 r=0.050 [0.05,0.05] CD true=7.818 est=11.333 Dmax=3.634
+[r  75 ep  13.7] t=      442s traffic=      472MB loss=0.480 edges=190 r=0.050 [0.05,0.05] CD true=7.791 est=11.399 Dmax=3.600
+[r  76 ep  13.9] t=      449s traffic=      479MB loss=0.481 edges=190 r=0.050 [0.05,0.05] CD true=7.794 est=11.355 Dmax=3.571
+[r  77 ep  14.1] t=      454s traffic=      485MB loss=0.441 edges=190 r=0.050 [0.05,0.05] CD true=7.660 est=11.032 Dmax=3.543 acc=0.6534 f1=0.3049
+[r  78 ep  14.2] t=      460s traffic=      491MB loss=0.417 edges=190 r=0.050 [0.05,0.05] CD true=7.618 est=11.054 Dmax=3.520
+[r  79 ep  14.4] t=      467s traffic=      498MB loss=0.506 edges=190 r=0.050 [0.05,0.05] CD true=7.652 est=11.683 Dmax=3.493
+[r  80 ep  14.6] t=      472s traffic=      504MB loss=0.535 edges=190 r=0.050 [0.05,0.05] CD true=7.538 est=10.738 Dmax=3.457
+[r  81 ep  14.8] t=      479s traffic=      510MB loss=0.507 edges=190 r=0.050 [0.05,0.05] CD true=7.493 est=10.854 Dmax=3.432
+[r  82 ep  15.0] t=      485s traffic=      517MB loss=0.428 edges=190 r=0.050 [0.05,0.05] CD true=7.513 est=10.889 Dmax=3.420
+[r  83 ep  15.1] t=      491s traffic=      523MB loss=0.443 edges=190 r=0.050 [0.05,0.05] CD true=7.446 est=10.850 Dmax=3.403 acc=0.6514 f1=0.3086
+[r  84 ep  15.3] t=      497s traffic=      529MB loss=0.449 edges=190 r=0.050 [0.05,0.05] CD true=7.433 est=10.869 Dmax=3.375
+[r  85 ep  15.5] t=      504s traffic=      536MB loss=0.410 edges=190 r=0.050 [0.05,0.05] CD true=7.367 est=10.674 Dmax=3.359
+[r  86 ep  15.7] t=      510s traffic=      542MB loss=0.412 edges=190 r=0.050 [0.05,0.05] CD true=7.284 est=10.678 Dmax=3.339
+[r  87 ep  15.9] t=      516s traffic=      548MB loss=0.435 edges=190 r=0.050 [0.05,0.05] CD true=7.373 est=10.739 Dmax=3.325
+[r  88 ep  16.1] t=      522s traffic=      555MB loss=0.566 edges=190 r=0.050 [0.05,0.05] CD true=7.374 est=10.754 Dmax=3.334 acc=0.6503 f1=0.3145
+[r  89 ep  16.2] t=      528s traffic=      561MB loss=0.475 edges=190 r=0.050 [0.05,0.05] CD true=7.282 est=10.760 Dmax=3.325
+[r  90 ep  16.4] t=      535s traffic=      568MB loss=0.420 edges=190 r=0.050 [0.05,0.05] CD true=7.274 est=10.595 Dmax=3.305
+[r  91 ep  16.6] t=      541s traffic=      574MB loss=0.477 edges=190 r=0.050 [0.05,0.05] CD true=7.283 est=10.380 Dmax=3.287
+[r  92 ep  16.8] t=      547s traffic=      580MB loss=0.479 edges=190 r=0.050 [0.05,0.05] CD true=7.146 est=10.283 Dmax=3.253
+[r  93 ep  17.0] t=      554s traffic=      587MB loss=0.461 edges=190 r=0.050 [0.05,0.05] CD true=7.186 est=10.369 Dmax=3.238
+[r  94 ep  17.2] t=      559s traffic=      593MB loss=0.470 edges=190 r=0.050 [0.05,0.05] CD true=7.107 est=10.370 Dmax=3.229 acc=0.6540 f1=0.3119
+[r  95 ep  17.3] t=      565s traffic=      599MB loss=0.542 edges=190 r=0.050 [0.05,0.05] CD true=7.099 est=10.239 Dmax=3.209
+[r  96 ep  17.5] t=      571s traffic=      606MB loss=0.509 edges=190 r=0.050 [0.05,0.05] CD true=7.220 est=10.285 Dmax=3.206
+[r  97 ep  17.7] t=      578s traffic=      612MB loss=0.429 edges=190 r=0.050 [0.05,0.05] CD true=7.108 est=10.243 Dmax=3.203
+[r  98 ep  17.9] t=      584s traffic=      618MB loss=0.508 edges=190 r=0.050 [0.05,0.05] CD true=7.116 est=10.706 Dmax=3.187
+[r  99 ep  18.1] t=      590s traffic=      625MB loss=0.434 edges=190 r=0.050 [0.05,0.05] CD true=6.919 est=10.108 Dmax=3.165 acc=0.6622 f1=0.3191
+[r 100 ep  18.3] t=      595s traffic=      631MB loss=0.424 edges=190 r=0.050 [0.05,0.05] CD true=6.995 est=10.235 Dmax=3.153
+[r 101 ep  18.4] t=      601s traffic=      637MB loss=0.406 edges=190 r=0.050 [0.05,0.05] CD true=6.937 est=9.831 Dmax=3.142
+[r 102 ep  18.6] t=      608s traffic=      644MB loss=0.385 edges=190 r=0.050 [0.05,0.05] CD true=6.912 est=9.874 Dmax=3.125
+[r 103 ep  18.8] t=      614s traffic=      650MB loss=0.408 edges=190 r=0.050 [0.05,0.05] CD true=7.000 est=9.762 Dmax=3.119
+[r 104 ep  19.0] t=      620s traffic=      656MB loss=0.470 edges=190 r=0.050 [0.05,0.05] CD true=6.938 est=9.933 Dmax=3.112
+[r 105 ep  19.2] t=      627s traffic=      663MB loss=0.494 edges=190 r=0.050 [0.05,0.05] CD true=6.845 est=9.894 Dmax=3.095 acc=0.6606 f1=0.3169
+[r 106 ep  19.3] t=      633s traffic=      669MB loss=0.444 edges=190 r=0.050 [0.05,0.05] CD true=6.839 est=10.293 Dmax=3.092
+[r 107 ep  19.5] t=      639s traffic=      676MB loss=0.475 edges=190 r=0.050 [0.05,0.05] CD true=6.819 est=10.246 Dmax=3.082
+[r 108 ep  19.7] t=      646s traffic=      682MB loss=0.415 edges=190 r=0.050 [0.05,0.05] CD true=6.873 est=9.692 Dmax=3.064
+[r 109 ep  19.9] t=      652s traffic=      688MB loss=0.510 edges=190 r=0.050 [0.05,0.05] CD true=6.778 est=9.676 Dmax=3.060
+[r 110 ep  20.1] t=      657s traffic=      695MB loss=0.491 edges=190 r=0.050 [0.05,0.05] CD true=6.750 est=9.322 Dmax=3.058 acc=0.6644 f1=0.3195
+[r 111 ep  20.3] t=      664s traffic=      701MB loss=0.426 edges=190 r=0.050 [0.05,0.05] CD true=6.674 est=9.272 Dmax=3.033
+[r 112 ep  20.4] t=      670s traffic=      707MB loss=0.456 edges=190 r=0.050 [0.05,0.05] CD true=6.693 est=9.720 Dmax=3.017
+[r 113 ep  20.6] t=      676s traffic=      714MB loss=0.471 edges=190 r=0.050 [0.05,0.05] CD true=6.603 est=9.493 Dmax=3.000
+[r 114 ep  20.8] t=      682s traffic=      720MB loss=0.432 edges=190 r=0.050 [0.05,0.05] CD true=6.517 est=9.412 Dmax=2.994
+[r 115 ep  21.0] t=      688s traffic=      726MB loss=0.483 edges=190 r=0.050 [0.05,0.05] CD true=6.485 est=9.361 Dmax=2.973
+[r 116 ep  21.2] t=      694s traffic=      733MB loss=0.492 edges=190 r=0.050 [0.05,0.05] CD true=6.503 est=9.377 Dmax=2.949 acc=0.6702 f1=0.3292
+[r 117 ep  21.4] t=      699s traffic=      739MB loss=0.413 edges=190 r=0.050 [0.05,0.05] CD true=6.523 est=9.364 Dmax=2.941
+[r 118 ep  21.5] t=      705s traffic=      745MB loss=0.440 edges=190 r=0.050 [0.05,0.05] CD true=6.428 est=9.062 Dmax=2.936
+[r 119 ep  21.7] t=      710s traffic=      752MB loss=0.466 edges=190 r=0.050 [0.05,0.05] CD true=6.388 est=9.154 Dmax=2.915
+[r 120 ep  21.9] t=      717s traffic=      758MB loss=0.500 edges=190 r=0.050 [0.05,0.05] CD true=6.434 est=9.364 Dmax=2.911
+[r 121 ep  22.1] t=      722s traffic=      764MB loss=0.469 edges=190 r=0.050 [0.05,0.05] CD true=6.460 est=9.288 Dmax=2.896 acc=0.6678 f1=0.3252
+[r 122 ep  22.3] t=      727s traffic=      771MB loss=0.429 edges=190 r=0.050 [0.05,0.05] CD true=6.332 est=9.078 Dmax=2.882
+[r 123 ep  22.4] t=      734s traffic=      777MB loss=0.469 edges=190 r=0.050 [0.05,0.05] CD true=6.366 est=9.255 Dmax=2.875
+[r 124 ep  22.6] t=      739s traffic=      784MB loss=0.425 edges=190 r=0.050 [0.05,0.05] CD true=6.396 est=9.228 Dmax=2.879
+[r 125 ep  22.8] t=      744s traffic=      790MB loss=0.422 edges=190 r=0.050 [0.05,0.05] CD true=6.363 est=9.271 Dmax=2.869
+[r 126 ep  23.0] t=      749s traffic=      796MB loss=0.448 edges=190 r=0.050 [0.05,0.05] CD true=6.364 est=9.302 Dmax=2.850
+[r 127 ep  23.2] t=      756s traffic=      803MB loss=0.488 edges=190 r=0.050 [0.05,0.05] CD true=6.400 est=9.027 Dmax=2.855 acc=0.6710 f1=0.3282
+[r 128 ep  23.4] t=      762s traffic=      809MB loss=0.431 edges=190 r=0.050 [0.05,0.05] CD true=6.386 est=9.147 Dmax=2.866
+[r 129 ep  23.5] t=      769s traffic=      815MB loss=0.450 edges=190 r=0.050 [0.05,0.05] CD true=6.338 est=9.377 Dmax=2.862
+[r 130 ep  23.7] t=      776s traffic=      822MB loss=0.504 edges=190 r=0.050 [0.05,0.05] CD true=6.264 est=9.228 Dmax=2.851
+[r 131 ep  23.9] t=      781s traffic=      828MB loss=0.431 edges=190 r=0.050 [0.05,0.05] CD true=6.305 est=9.003 Dmax=2.857
+[r 132 ep  24.1] t=      786s traffic=      834MB loss=0.428 edges=190 r=0.050 [0.05,0.05] CD true=6.292 est=9.075 Dmax=2.884 acc=0.6598 f1=0.3265
+[r 133 ep  24.3] t=      792s traffic=      841MB loss=0.454 edges=190 r=0.050 [0.05,0.05] CD true=6.303 est=8.854 Dmax=2.878
+[r 134 ep  24.5] t=      798s traffic=      847MB loss=0.461 edges=190 r=0.050 [0.05,0.05] CD true=6.177 est=8.917 Dmax=2.860
+[r 135 ep  24.6] t=      804s traffic=      853MB loss=0.406 edges=190 r=0.050 [0.05,0.05] CD true=6.227 est=8.906 Dmax=2.845
+[r 136 ep  24.8] t=      810s traffic=      860MB loss=0.411 edges=190 r=0.050 [0.05,0.05] CD true=6.251 est=8.903 Dmax=2.843
+[r 137 ep  25.0] t=      816s traffic=      866MB loss=0.485 edges=190 r=0.050 [0.05,0.05] CD true=6.238 est=8.865 Dmax=2.845 acc=0.6688 f1=0.3262
+[r 138 ep  25.2] t=      822s traffic=      872MB loss=0.405 edges=190 r=0.050 [0.05,0.05] CD true=6.112 est=8.749 Dmax=2.837
+[r 139 ep  25.4] t=      827s traffic=      879MB loss=0.450 edges=190 r=0.050 [0.05,0.05] CD true=6.109 est=8.650 Dmax=2.831
+[r 140 ep  25.6] t=      832s traffic=      885MB loss=0.440 edges=190 r=0.050 [0.05,0.05] CD true=6.130 est=8.818 Dmax=2.820
+[r 141 ep  25.7] t=      838s traffic=      892MB loss=0.425 edges=190 r=0.050 [0.05,0.05] CD true=6.131 est=8.950 Dmax=2.824
+[r 142 ep  25.9] t=      843s traffic=      898MB loss=0.377 edges=190 r=0.050 [0.05,0.05] CD true=6.184 est=9.236 Dmax=2.813
+[r 143 ep  26.1] t=      848s traffic=      904MB loss=0.450 edges=190 r=0.050 [0.05,0.05] CD true=6.109 est=8.842 Dmax=2.807 acc=0.6640 f1=0.3240
+[r 144 ep  26.3] t=      852s traffic=      911MB loss=0.475 edges=190 r=0.050 [0.05,0.05] CD true=6.268 est=8.824 Dmax=2.810
+[r 145 ep  26.5] t=      858s traffic=      917MB loss=0.436 edges=190 r=0.050 [0.05,0.05] CD true=6.262 est=8.906 Dmax=2.786
+[r 146 ep  26.6] t=      863s traffic=      923MB loss=0.440 edges=190 r=0.050 [0.05,0.05] CD true=6.295 est=9.018 Dmax=2.779
+[r 147 ep  26.8] t=      869s traffic=      930MB loss=0.411 edges=190 r=0.050 [0.05,0.05] CD true=6.180 est=8.935 Dmax=2.774
+[r 148 ep  27.0] t=      874s traffic=      936MB loss=0.435 edges=190 r=0.050 [0.05,0.05] CD true=6.162 est=9.828 Dmax=2.748 acc=0.6635 f1=0.3265
+[r 149 ep  27.2] t=      879s traffic=      942MB loss=0.396 edges=190 r=0.050 [0.05,0.05] CD true=6.119 est=8.700 Dmax=2.732
+[r 150 ep  27.4] t=      884s traffic=      949MB loss=0.407 edges=190 r=0.050 [0.05,0.05] CD true=5.994 est=8.805 Dmax=2.715
+[r 151 ep  27.6] t=      890s traffic=      955MB loss=0.411 edges=190 r=0.050 [0.05,0.05] CD true=6.205 est=8.674 Dmax=2.730
+[r 152 ep  27.7] t=      895s traffic=      961MB loss=0.409 edges=190 r=0.050 [0.05,0.05] CD true=6.079 est=8.724 Dmax=2.715
+[r 153 ep  27.9] t=      901s traffic=      968MB loss=0.439 edges=190 r=0.050 [0.05,0.05] CD true=6.118 est=8.315 Dmax=2.719
+[r 154 ep  28.1] t=      907s traffic=      974MB loss=0.475 edges=190 r=0.050 [0.05,0.05] CD true=5.923 est=8.508 Dmax=2.715 acc=0.6744 f1=0.3355
+[r 155 ep  28.3] t=      911s traffic=      980MB loss=0.436 edges=190 r=0.050 [0.05,0.05] CD true=5.867 est=8.375 Dmax=2.700
+[r 156 ep  28.5] t=      917s traffic=      987MB loss=0.427 edges=190 r=0.050 [0.05,0.05] CD true=6.043 est=8.856 Dmax=2.699
+[r 157 ep  28.7] t=      924s traffic=      993MB loss=0.467 edges=190 r=0.050 [0.05,0.05] CD true=5.944 est=8.730 Dmax=2.683
+[r 158 ep  28.8] t=      929s traffic=     1000MB loss=0.450 edges=190 r=0.050 [0.05,0.05] CD true=5.904 est=8.604 Dmax=2.677
+[r 159 ep  29.0] t=      936s traffic=     1006MB loss=0.499 edges=190 r=0.050 [0.05,0.05] CD true=5.884 est=8.564 Dmax=2.670 acc=0.6739 f1=0.3306
+[r 160 ep  29.2] t=      941s traffic=     1012MB loss=0.455 edges=190 r=0.050 [0.05,0.05] CD true=5.958 est=8.305 Dmax=2.668
+[r 161 ep  29.4] t=      947s traffic=     1019MB loss=0.427 edges=190 r=0.050 [0.05,0.05] CD true=6.065 est=8.564 Dmax=2.641
+[r 162 ep  29.6] t=      954s traffic=     1025MB loss=0.407 edges=190 r=0.050 [0.05,0.05] CD true=5.996 est=8.492 Dmax=2.609
+[r 163 ep  29.7] t=      960s traffic=     1031MB loss=0.454 edges=190 r=0.050 [0.05,0.05] CD true=5.967 est=8.333 Dmax=2.593
+[r 164 ep  29.9] t=      967s traffic=     1038MB loss=0.431 edges=190 r=0.050 [0.05,0.05] CD true=6.013 est=8.510 Dmax=2.598
+[r 165 ep  30.1] t=      973s traffic=     1044MB loss=0.480 edges=190 r=0.050 [0.05,0.05] CD true=5.885 est=8.476 Dmax=2.597 acc=0.6734 f1=0.3303
+[r 166 ep  30.3] t=      980s traffic=     1050MB loss=0.451 edges=190 r=0.050 [0.05,0.05] CD true=5.796 est=8.215 Dmax=2.590
+[r 167 ep  30.5] t=      986s traffic=     1057MB loss=0.465 edges=190 r=0.050 [0.05,0.05] CD true=5.821 est=8.562 Dmax=2.584
+[r 168 ep  30.7] t=      992s traffic=     1063MB loss=0.447 edges=190 r=0.050 [0.05,0.05] CD true=5.830 est=8.400 Dmax=2.568
+[r 169 ep  30.8] t=      998s traffic=     1069MB loss=0.430 edges=190 r=0.050 [0.05,0.05] CD true=5.822 est=8.635 Dmax=2.570
+[r 170 ep  31.0] t=     1004s traffic=     1076MB loss=0.461 edges=190 r=0.050 [0.05,0.05] CD true=5.936 est=8.907 Dmax=2.593 acc=0.6711 f1=0.3319
+[r 171 ep  31.2] t=     1010s traffic=     1082MB loss=0.351 edges=190 r=0.050 [0.05,0.05] CD true=5.778 est=8.217 Dmax=2.599
+[r 172 ep  31.4] t=     1017s traffic=     1088MB loss=0.401 edges=190 r=0.050 [0.05,0.05] CD true=5.791 est=8.180 Dmax=2.586
+[r 173 ep  31.6] t=     1023s traffic=     1095MB loss=0.444 edges=190 r=0.050 [0.05,0.05] CD true=5.822 est=8.071 Dmax=2.559
+[r 174 ep  31.8] t=     1029s traffic=     1101MB loss=0.451 edges=190 r=0.050 [0.05,0.05] CD true=5.738 est=8.306 Dmax=2.541
+[r 175 ep  31.9] t=     1034s traffic=     1108MB loss=0.483 edges=190 r=0.050 [0.05,0.05] CD true=5.665 est=8.258 Dmax=2.541
+[r 176 ep  32.1] t=     1040s traffic=     1114MB loss=0.473 edges=190 r=0.050 [0.05,0.05] CD true=5.951 est=8.128 Dmax=2.558 acc=0.6791 f1=0.3276
+[r 177 ep  32.3] t=     1044s traffic=     1120MB loss=0.448 edges=190 r=0.050 [0.05,0.05] CD true=5.766 est=8.120 Dmax=2.575
+[r 178 ep  32.5] t=     1048s traffic=     1127MB loss=0.460 edges=190 r=0.050 [0.05,0.05] CD true=5.623 est=8.065 Dmax=2.561
+[r 179 ep  32.7] t=     1053s traffic=     1133MB loss=0.401 edges=190 r=0.050 [0.05,0.05] CD true=5.585 est=8.576 Dmax=2.557
+[r 180 ep  32.9] t=     1057s traffic=     1139MB loss=0.484 edges=190 r=0.050 [0.05,0.05] CD true=5.709 est=8.300 Dmax=2.560
+[r 181 ep  33.0] t=     1062s traffic=     1146MB loss=0.429 edges=190 r=0.050 [0.05,0.05] CD true=5.615 est=8.314 Dmax=2.552 acc=0.6742 f1=0.3341
+[r 182 ep  33.2] t=     1068s traffic=     1152MB loss=0.390 edges=190 r=0.050 [0.05,0.05] CD true=5.666 est=8.084 Dmax=2.545
+[r 183 ep  33.4] t=     1074s traffic=     1158MB loss=0.345 edges=190 r=0.050 [0.05,0.05] CD true=5.624 est=8.160 Dmax=2.542
+[r 184 ep  33.6] t=     1080s traffic=     1165MB loss=0.437 edges=190 r=0.050 [0.05,0.05] CD true=5.565 est=7.890 Dmax=2.530
+[r 185 ep  33.8] t=     1086s traffic=     1171MB loss=0.411 edges=190 r=0.050 [0.05,0.05] CD true=5.615 est=7.844 Dmax=2.525
+[r 186 ep  33.9] t=     1092s traffic=     1177MB loss=0.396 edges=190 r=0.050 [0.05,0.05] CD true=5.513 est=8.226 Dmax=2.515
+[r 187 ep  34.1] t=     1097s traffic=     1184MB loss=0.397 edges=190 r=0.050 [0.05,0.05] CD true=5.537 est=8.203 Dmax=2.507 acc=0.6726 f1=0.3345
+[r 188 ep  34.3] t=     1102s traffic=     1190MB loss=0.418 edges=190 r=0.050 [0.05,0.05] CD true=5.580 est=8.406 Dmax=2.495
+[r 189 ep  34.5] t=     1108s traffic=     1196MB loss=0.388 edges=190 r=0.050 [0.05,0.05] CD true=5.777 est=8.554 Dmax=2.484
+[r 190 ep  34.7] t=     1114s traffic=     1203MB loss=0.462 edges=190 r=0.050 [0.05,0.05] CD true=5.818 est=7.941 Dmax=2.498
+[r 191 ep  34.9] t=     1120s traffic=     1209MB loss=0.365 edges=190 r=0.050 [0.05,0.05] CD true=5.519 est=7.770 Dmax=2.489
+[r 192 ep  35.0] t=     1126s traffic=     1216MB loss=0.399 edges=190 r=0.050 [0.05,0.05] CD true=5.585 est=8.024 Dmax=2.479 acc=0.6766 f1=0.3395
+[r 193 ep  35.2] t=     1132s traffic=     1222MB loss=0.415 edges=190 r=0.050 [0.05,0.05] CD true=5.553 est=8.025 Dmax=2.487
+[r 194 ep  35.4] t=     1138s traffic=     1228MB loss=0.410 edges=190 r=0.050 [0.05,0.05] CD true=5.583 est=8.063 Dmax=2.463
+[r 195 ep  35.6] t=     1144s traffic=     1235MB loss=0.410 edges=190 r=0.050 [0.05,0.05] CD true=5.491 est=7.715 Dmax=2.439
+[r 196 ep  35.8] t=     1150s traffic=     1241MB loss=0.441 edges=190 r=0.050 [0.05,0.05] CD true=5.494 est=7.774 Dmax=2.433
+[r 197 ep  36.0] t=     1156s traffic=     1247MB loss=0.418 edges=190 r=0.050 [0.05,0.05] CD true=5.577 est=7.927 Dmax=2.442
+[r 198 ep  36.1] t=     1163s traffic=     1254MB loss=0.464 edges=190 r=0.050 [0.05,0.05] CD true=5.522 est=8.154 Dmax=2.437 acc=0.6769 f1=0.3353
+[r 199 ep  36.3] t=     1169s traffic=     1260MB loss=0.416 edges=190 r=0.050 [0.05,0.05] CD true=5.500 est=8.029 Dmax=2.437
+[r 200 ep  36.5] t=     1175s traffic=     1266MB loss=0.433 edges=190 r=0.050 [0.05,0.05] CD true=5.451 est=7.758 Dmax=2.455 acc=0.6766 f1=0.3368
+saved results/ratio_sweep_dir0.5/unsw-nb15-multiclass_mlp_fcr0.05_dir0.5_heter_dynamic_s0.json
+dataset=unsw-nb15 model=mlp d=83594 (B=2.68 Mb) workers=20 algo=fcr partition=dirichlet rounds=200 (5.48 rounds/epoch)
+local data: sizes 2048-22078, classes/worker 8-10 of 10
+[r   1 ep   0.2] t=        2s traffic=        4MB loss=0.676 edges= 62 r=0.100 [0.10,0.10] CD true=16.185 est=42.328 Dmax=21.086
+[r   2 ep   0.4] t=        9s traffic=       17MB loss=0.679 edges=190 r=0.100 [0.10,0.10] CD true=17.743 est=26.512 Dmax=20.473
+[r   3 ep   0.5] t=       16s traffic=       30MB loss=0.602 edges=190 r=0.100 [0.10,0.10] CD true=15.743 est=25.612 Dmax=19.699
+[r   4 ep   0.7] t=       26s traffic=       42MB loss=0.639 edges=190 r=0.100 [0.10,0.10] CD true=13.522 est=20.185 Dmax=18.753
+[r   5 ep   0.9] t=       30s traffic=       51MB loss=0.646 edges=131 r=0.100 [0.10,0.10] CD true=13.425 est=25.665 Dmax=17.862
+[r   6 ep   1.1] t=       39s traffic=       64MB loss=0.574 edges=190 r=0.100 [0.10,0.10] CD true=12.367 est=19.223 Dmax=16.910 acc=0.5697 f1=0.2364
+[r   7 ep   1.3] t=       46s traffic=       76MB loss=0.504 edges=190 r=0.100 [0.10,0.10] CD true=11.572 est=18.095 Dmax=16.005
+[r   8 ep   1.5] t=       58s traffic=       89MB loss=0.581 edges=190 r=0.100 [0.10,0.10] CD true=11.068 est=17.275 Dmax=15.126
+[r   9 ep   1.6] t=       69s traffic=      102MB loss=0.577 edges=190 r=0.100 [0.10,0.10] CD true=10.922 est=16.459 Dmax=14.382
+[r  10 ep   1.8] t=       80s traffic=      115MB loss=0.611 edges=190 r=0.100 [0.10,0.10] CD true=11.031 est=16.164 Dmax=13.700
+[r  11 ep   2.0] t=       91s traffic=      127MB loss=0.557 edges=190 r=0.100 [0.10,0.10] CD true=10.221 est=15.987 Dmax=13.000 acc=0.5993 f1=0.2575
+[r  12 ep   2.2] t=      101s traffic=      140MB loss=0.537 edges=190 r=0.100 [0.10,0.10] CD true=10.072 est=15.828 Dmax=12.392
+[r  13 ep   2.4] t=      112s traffic=      153MB loss=0.548 edges=190 r=0.100 [0.10,0.10] CD true=9.787 est=15.305 Dmax=11.828
+[r  14 ep   2.6] t=      123s traffic=      165MB loss=0.549 edges=190 r=0.100 [0.10,0.10] CD true=9.948 est=15.358 Dmax=11.292
+[r  15 ep   2.7] t=      133s traffic=      178MB loss=0.574 edges=190 r=0.100 [0.10,0.10] CD true=9.526 est=14.230 Dmax=10.782
+[r  16 ep   2.9] t=      143s traffic=      191MB loss=0.512 edges=190 r=0.100 [0.10,0.10] CD true=9.206 est=14.024 Dmax=10.296
+[r  17 ep   3.1] t=      154s traffic=      204MB loss=0.548 edges=190 r=0.100 [0.10,0.10] CD true=9.240 est=14.134 Dmax=9.865 acc=0.6193 f1=0.2704
+[r  18 ep   3.3] t=      165s traffic=      216MB loss=0.546 edges=190 r=0.100 [0.10,0.10] CD true=9.344 est=14.030 Dmax=9.468
+[r  19 ep   3.5] t=      176s traffic=      229MB loss=0.572 edges=190 r=0.100 [0.10,0.10] CD true=9.475 est=13.902 Dmax=9.129
+[r  20 ep   3.7] t=      186s traffic=      242MB loss=0.545 edges=190 r=0.100 [0.10,0.10] CD true=8.925 est=13.514 Dmax=8.766
+[r  21 ep   3.8] t=      197s traffic=      254MB loss=0.535 edges=190 r=0.100 [0.10,0.10] CD true=8.785 est=13.756 Dmax=8.457
+[r  22 ep   4.0] t=      208s traffic=      267MB loss=0.559 edges=190 r=0.100 [0.10,0.10] CD true=8.651 est=13.405 Dmax=8.148 acc=0.6163 f1=0.2852
+[r  23 ep   4.2] t=      216s traffic=      280MB loss=0.567 edges=190 r=0.100 [0.10,0.10] CD true=8.554 est=13.830 Dmax=7.866
+[r  24 ep   4.4] t=      225s traffic=      292MB loss=0.569 edges=190 r=0.100 [0.10,0.10] CD true=8.490 est=12.705 Dmax=7.614
+[r  25 ep   4.6] t=      237s traffic=      305MB loss=0.545 edges=190 r=0.100 [0.10,0.10] CD true=8.264 est=12.779 Dmax=7.368
+[r  26 ep   4.7] t=      247s traffic=      318MB loss=0.494 edges=190 r=0.100 [0.10,0.10] CD true=8.086 est=12.659 Dmax=7.132
+[r  27 ep   4.9] t=      259s traffic=      331MB loss=0.497 edges=190 r=0.100 [0.10,0.10] CD true=8.293 est=12.311 Dmax=6.970
+[r  28 ep   5.1] t=      270s traffic=      343MB loss=0.437 edges=190 r=0.100 [0.10,0.10] CD true=8.187 est=12.782 Dmax=6.783 acc=0.6290 f1=0.2936
+[r  29 ep   5.3] t=      281s traffic=      356MB loss=0.565 edges=190 r=0.100 [0.10,0.10] CD true=7.902 est=12.044 Dmax=6.584
+[r  30 ep   5.5] t=      293s traffic=      369MB loss=0.490 edges=190 r=0.100 [0.10,0.10] CD true=7.934 est=12.117 Dmax=6.416
+[r  31 ep   5.7] t=      304s traffic=      381MB loss=0.578 edges=190 r=0.100 [0.10,0.10] CD true=7.659 est=11.769 Dmax=6.222
+[r  32 ep   5.8] t=      315s traffic=      394MB loss=0.527 edges=190 r=0.100 [0.10,0.10] CD true=7.676 est=11.714 Dmax=6.063
+[r  33 ep   6.0] t=      326s traffic=      407MB loss=0.524 edges=190 r=0.100 [0.10,0.10] CD true=7.367 est=11.076 Dmax=5.902 acc=0.6265 f1=0.2884
+[r  34 ep   6.2] t=      337s traffic=      420MB loss=0.453 edges=190 r=0.100 [0.10,0.10] CD true=7.312 est=11.170 Dmax=5.732
+[r  35 ep   6.4] t=      349s traffic=      432MB loss=0.484 edges=190 r=0.100 [0.10,0.10] CD true=7.380 est=11.299 Dmax=5.606
+[r  36 ep   6.6] t=      360s traffic=      445MB loss=0.525 edges=190 r=0.100 [0.10,0.10] CD true=7.320 est=11.303 Dmax=5.501
+[r  37 ep   6.8] t=      371s traffic=      458MB loss=0.500 edges=190 r=0.100 [0.10,0.10] CD true=7.111 est=11.225 Dmax=5.366
+[r  38 ep   6.9] t=      382s traffic=      470MB loss=0.459 edges=190 r=0.100 [0.10,0.10] CD true=7.099 est=10.798 Dmax=5.259
+[r  39 ep   7.1] t=      393s traffic=      483MB loss=0.461 edges=190 r=0.100 [0.10,0.10] CD true=7.159 est=10.598 Dmax=5.166 acc=0.6473 f1=0.3055
+[r  40 ep   7.3] t=      404s traffic=      496MB loss=0.495 edges=190 r=0.100 [0.10,0.10] CD true=7.021 est=10.790 Dmax=5.085
+[r  41 ep   7.5] t=      415s traffic=      508MB loss=0.560 edges=190 r=0.100 [0.10,0.10] CD true=7.089 est=10.662 Dmax=4.998
+[r  42 ep   7.7] t=      426s traffic=      521MB loss=0.455 edges=190 r=0.100 [0.10,0.10] CD true=6.991 est=10.456 Dmax=4.926
+[r  43 ep   7.8] t=      438s traffic=      534MB loss=0.523 edges=190 r=0.100 [0.10,0.10] CD true=7.056 est=10.826 Dmax=4.854
+[r  44 ep   8.0] t=      449s traffic=      547MB loss=0.500 edges=190 r=0.100 [0.10,0.10] CD true=7.191 est=10.808 Dmax=4.799 acc=0.6456 f1=0.3094
+[r  45 ep   8.2] t=      460s traffic=      559MB loss=0.515 edges=190 r=0.100 [0.10,0.10] CD true=6.949 est=10.803 Dmax=4.738
+[r  46 ep   8.4] t=      471s traffic=      572MB loss=0.493 edges=190 r=0.100 [0.10,0.10] CD true=6.762 est=10.033 Dmax=4.666
+[r  47 ep   8.6] t=      483s traffic=      585MB loss=0.491 edges=190 r=0.100 [0.10,0.10] CD true=6.658 est=10.082 Dmax=4.592
+[r  48 ep   8.8] t=      494s traffic=      597MB loss=0.447 edges=190 r=0.100 [0.10,0.10] CD true=6.639 est=10.144 Dmax=4.538
+[r  49 ep   8.9] t=      505s traffic=      610MB loss=0.491 edges=190 r=0.100 [0.10,0.10] CD true=6.684 est=10.077 Dmax=4.515
+[r  50 ep   9.1] t=      516s traffic=      623MB loss=0.514 edges=190 r=0.100 [0.10,0.10] CD true=6.622 est=10.000 Dmax=4.468 acc=0.6566 f1=0.3036
+[r  51 ep   9.3] t=      528s traffic=      636MB loss=0.494 edges=190 r=0.100 [0.10,0.10] CD true=6.644 est=9.862 Dmax=4.412
+[r  52 ep   9.5] t=      539s traffic=      648MB loss=0.535 edges=190 r=0.100 [0.10,0.10] CD true=6.613 est=9.998 Dmax=4.377
+[r  53 ep   9.7] t=      550s traffic=      661MB loss=0.508 edges=190 r=0.100 [0.10,0.10] CD true=6.473 est=10.009 Dmax=4.321
+[r  54 ep   9.9] t=      561s traffic=      674MB loss=0.514 edges=190 r=0.100 [0.10,0.10] CD true=6.414 est=9.769 Dmax=4.266
+[r  55 ep  10.0] t=      573s traffic=      686MB loss=0.501 edges=190 r=0.100 [0.10,0.10] CD true=6.475 est=10.199 Dmax=4.236 acc=0.6547 f1=0.3162
+[r  56 ep  10.2] t=      585s traffic=      699MB loss=0.534 edges=190 r=0.100 [0.10,0.10] CD true=6.260 est=9.429 Dmax=4.188
+[r  57 ep  10.4] t=      595s traffic=      712MB loss=0.515 edges=190 r=0.100 [0.10,0.10] CD true=6.232 est=9.621 Dmax=4.132
+[r  58 ep  10.6] t=      605s traffic=      724MB loss=0.522 edges=190 r=0.100 [0.10,0.10] CD true=6.277 est=9.530 Dmax=4.094
+[r  59 ep  10.8] t=      616s traffic=      737MB loss=0.449 edges=190 r=0.100 [0.10,0.10] CD true=6.343 est=9.699 Dmax=4.067
+[r  60 ep  11.0] t=      627s traffic=      750MB loss=0.492 edges=190 r=0.100 [0.10,0.10] CD true=6.341 est=9.750 Dmax=4.055
+[r  61 ep  11.1] t=      639s traffic=      763MB loss=0.478 edges=190 r=0.100 [0.10,0.10] CD true=6.245 est=9.464 Dmax=4.014 acc=0.6579 f1=0.3169
+[r  62 ep  11.3] t=      650s traffic=      775MB loss=0.493 edges=190 r=0.100 [0.10,0.10] CD true=6.194 est=9.576 Dmax=3.975
+[r  63 ep  11.5] t=      661s traffic=      788MB loss=0.499 edges=190 r=0.100 [0.10,0.10] CD true=6.139 est=9.460 Dmax=3.934
+[r  64 ep  11.7] t=      673s traffic=      801MB loss=0.467 edges=190 r=0.100 [0.10,0.10] CD true=6.021 est=9.374 Dmax=3.897
+[r  65 ep  11.9] t=      684s traffic=      813MB loss=0.493 edges=190 r=0.100 [0.10,0.10] CD true=5.930 est=8.902 Dmax=3.855
+[r  66 ep  12.0] t=      695s traffic=      826MB loss=0.449 edges=190 r=0.100 [0.10,0.10] CD true=5.889 est=9.380 Dmax=3.818 acc=0.6652 f1=0.3187
+[r  67 ep  12.2] t=      707s traffic=      839MB loss=0.422 edges=190 r=0.100 [0.10,0.10] CD true=6.050 est=9.397 Dmax=3.800
+[r  68 ep  12.4] t=      718s traffic=      852MB loss=0.488 edges=190 r=0.100 [0.10,0.10] CD true=6.043 est=9.074 Dmax=3.759
+[r  69 ep  12.6] t=      729s traffic=      864MB loss=0.471 edges=190 r=0.100 [0.10,0.10] CD true=5.853 est=8.955 Dmax=3.726
+[r  70 ep  12.8] t=      741s traffic=      877MB loss=0.424 edges=190 r=0.100 [0.10,0.10] CD true=5.929 est=9.219 Dmax=3.699
+[r  71 ep  13.0] t=      752s traffic=      890MB loss=0.465 edges=190 r=0.100 [0.10,0.10] CD true=5.803 est=8.987 Dmax=3.675
+[r  72 ep  13.1] t=      762s traffic=      902MB loss=0.486 edges=190 r=0.100 [0.10,0.10] CD true=5.914 est=9.226 Dmax=3.657 acc=0.6609 f1=0.3243
+[r  73 ep  13.3] t=      774s traffic=      915MB loss=0.450 edges=190 r=0.100 [0.10,0.10] CD true=5.870 est=9.065 Dmax=3.662
+[r  74 ep  13.5] t=      784s traffic=      928MB loss=0.484 edges=190 r=0.100 [0.10,0.10] CD true=5.965 est=9.092 Dmax=3.650
+[r  75 ep  13.7] t=      795s traffic=      940MB loss=0.475 edges=190 r=0.100 [0.10,0.10] CD true=5.860 est=9.018 Dmax=3.626
+[r  76 ep  13.9] t=      806s traffic=      953MB loss=0.483 edges=190 r=0.100 [0.10,0.10] CD true=5.905 est=8.738 Dmax=3.598
+[r  77 ep  14.1] t=      817s traffic=      966MB loss=0.436 edges=190 r=0.100 [0.10,0.10] CD true=5.917 est=8.909 Dmax=3.599 acc=0.6722 f1=0.3233
+[r  78 ep  14.2] t=      828s traffic=      979MB loss=0.414 edges=190 r=0.100 [0.10,0.10] CD true=5.741 est=8.701 Dmax=3.577
+[r  79 ep  14.4] t=      839s traffic=      991MB loss=0.513 edges=190 r=0.100 [0.10,0.10] CD true=5.714 est=8.895 Dmax=3.541
+[r  80 ep  14.6] t=      850s traffic=     1004MB loss=0.519 edges=190 r=0.100 [0.10,0.10] CD true=5.733 est=8.595 Dmax=3.513
+[r  81 ep  14.8] t=      861s traffic=     1017MB loss=0.510 edges=190 r=0.100 [0.10,0.10] CD true=5.708 est=8.528 Dmax=3.486
+[r  82 ep  15.0] t=      872s traffic=     1029MB loss=0.445 edges=190 r=0.100 [0.10,0.10] CD true=5.715 est=8.697 Dmax=3.472
+[r  83 ep  15.1] t=      884s traffic=     1042MB loss=0.447 edges=190 r=0.100 [0.10,0.10] CD true=5.701 est=8.697 Dmax=3.450 acc=0.6664 f1=0.3255
+[r  84 ep  15.3] t=      894s traffic=     1055MB loss=0.451 edges=190 r=0.100 [0.10,0.10] CD true=5.794 est=9.524 Dmax=3.444
+[r  85 ep  15.5] t=      906s traffic=     1068MB loss=0.408 edges=190 r=0.100 [0.10,0.10] CD true=5.723 est=8.981 Dmax=3.420
+[r  86 ep  15.7] t=      917s traffic=     1080MB loss=0.408 edges=190 r=0.100 [0.10,0.10] CD true=5.684 est=8.575 Dmax=3.401
+[r  87 ep  15.9] t=      929s traffic=     1093MB loss=0.425 edges=190 r=0.100 [0.10,0.10] CD true=5.876 est=8.706 Dmax=3.402
+[r  88 ep  16.1] t=      940s traffic=     1106MB loss=0.566 edges=190 r=0.100 [0.10,0.10] CD true=5.750 est=8.860 Dmax=3.392 acc=0.6666 f1=0.3290
+[r  89 ep  16.2] t=      951s traffic=     1118MB loss=0.489 edges=190 r=0.100 [0.10,0.10] CD true=5.657 est=8.778 Dmax=3.375
+[r  90 ep  16.4] t=      962s traffic=     1131MB loss=0.416 edges=190 r=0.100 [0.10,0.10] CD true=5.635 est=8.602 Dmax=3.342
+[r  91 ep  16.6] t=      974s traffic=     1144MB loss=0.481 edges=190 r=0.100 [0.10,0.10] CD true=5.662 est=8.649 Dmax=3.335
+[r  92 ep  16.8] t=      985s traffic=     1156MB loss=0.478 edges=190 r=0.100 [0.10,0.10] CD true=5.619 est=8.683 Dmax=3.320
+[r  93 ep  17.0] t=      997s traffic=     1169MB loss=0.469 edges=190 r=0.100 [0.10,0.10] CD true=5.689 est=8.553 Dmax=3.316
+[r  94 ep  17.2] t=     1007s traffic=     1182MB loss=0.461 edges=190 r=0.100 [0.10,0.10] CD true=5.520 est=8.434 Dmax=3.297 acc=0.6751 f1=0.3318
+[r  95 ep  17.3] t=     1017s traffic=     1195MB loss=0.560 edges=190 r=0.100 [0.10,0.10] CD true=5.545 est=8.715 Dmax=3.267
+[r  96 ep  17.5] t=     1028s traffic=     1207MB loss=0.497 edges=190 r=0.100 [0.10,0.10] CD true=5.575 est=8.543 Dmax=3.254
+[r  97 ep  17.7] t=     1040s traffic=     1220MB loss=0.427 edges=190 r=0.100 [0.10,0.10] CD true=5.571 est=8.515 Dmax=3.262
+[r  98 ep  17.9] t=     1051s traffic=     1233MB loss=0.516 edges=190 r=0.100 [0.10,0.10] CD true=5.530 est=8.541 Dmax=3.234
+[r  99 ep  18.1] t=     1063s traffic=     1245MB loss=0.427 edges=190 r=0.100 [0.10,0.10] CD true=5.399 est=8.460 Dmax=3.211 acc=0.6768 f1=0.3315
+[r 100 ep  18.3] t=     1072s traffic=     1258MB loss=0.420 edges=190 r=0.100 [0.10,0.10] CD true=5.543 est=8.569 Dmax=3.214
+[r 101 ep  18.4] t=     1083s traffic=     1271MB loss=0.410 edges=190 r=0.100 [0.10,0.10] CD true=5.537 est=8.467 Dmax=3.207
+[r 102 ep  18.6] t=     1095s traffic=     1284MB loss=0.392 edges=190 r=0.100 [0.10,0.10] CD true=5.572 est=8.552 Dmax=3.207
+[r 103 ep  18.8] t=     1106s traffic=     1296MB loss=0.415 edges=190 r=0.100 [0.10,0.10] CD true=5.540 est=8.298 Dmax=3.190
+[r 104 ep  19.0] t=     1117s traffic=     1309MB loss=0.480 edges=190 r=0.100 [0.10,0.10] CD true=5.491 est=8.186 Dmax=3.168
+[r 105 ep  19.2] t=     1129s traffic=     1322MB loss=0.490 edges=190 r=0.100 [0.10,0.10] CD true=5.391 est=8.421 Dmax=3.152 acc=0.6758 f1=0.3353
+[r 106 ep  19.3] t=     1140s traffic=     1334MB loss=0.426 edges=190 r=0.100 [0.10,0.10] CD true=5.395 est=8.565 Dmax=3.145
+[r 107 ep  19.5] t=     1151s traffic=     1347MB loss=0.475 edges=190 r=0.100 [0.10,0.10] CD true=5.436 est=8.390 Dmax=3.141
+[r 108 ep  19.7] t=     1163s traffic=     1360MB loss=0.399 edges=190 r=0.100 [0.10,0.10] CD true=5.465 est=8.074 Dmax=3.127
+[r 109 ep  19.9] t=     1174s traffic=     1372MB loss=0.505 edges=190 r=0.100 [0.10,0.10] CD true=5.495 est=8.154 Dmax=3.139
+[r 110 ep  20.1] t=     1184s traffic=     1385MB loss=0.489 edges=190 r=0.100 [0.10,0.10] CD true=5.379 est=8.224 Dmax=3.140 acc=0.6760 f1=0.3290
+[r 111 ep  20.3] t=     1196s traffic=     1398MB loss=0.429 edges=190 r=0.100 [0.10,0.10] CD true=5.354 est=8.000 Dmax=3.108
+[r 112 ep  20.4] t=     1207s traffic=     1411MB loss=0.450 edges=190 r=0.100 [0.10,0.10] CD true=5.352 est=8.401 Dmax=3.085
+[r 113 ep  20.6] t=     1218s traffic=     1423MB loss=0.475 edges=190 r=0.100 [0.10,0.10] CD true=5.321 est=7.886 Dmax=3.070
+[r 114 ep  20.8] t=     1230s traffic=     1436MB loss=0.425 edges=190 r=0.100 [0.10,0.10] CD true=5.198 est=7.937 Dmax=3.066
+[r 115 ep  21.0] t=     1239s traffic=     1449MB loss=0.473 edges=190 r=0.100 [0.10,0.10] CD true=5.157 est=8.004 Dmax=3.050
+[r 116 ep  21.2] t=     1250s traffic=     1461MB loss=0.498 edges=190 r=0.100 [0.10,0.10] CD true=5.177 est=8.053 Dmax=3.023 acc=0.6817 f1=0.3402
+[r 117 ep  21.4] t=     1259s traffic=     1474MB loss=0.408 edges=190 r=0.100 [0.10,0.10] CD true=5.260 est=7.852 Dmax=3.010
+[r 118 ep  21.5] t=     1270s traffic=     1487MB loss=0.432 edges=190 r=0.100 [0.10,0.10] CD true=5.150 est=7.848 Dmax=2.997
+[r 119 ep  21.7] t=     1279s traffic=     1500MB loss=0.464 edges=190 r=0.100 [0.10,0.10] CD true=5.128 est=7.991 Dmax=2.979
+[r 120 ep  21.9] t=     1291s traffic=     1512MB loss=0.509 edges=190 r=0.100 [0.10,0.10] CD true=5.179 est=7.963 Dmax=2.963
+[r 121 ep  22.1] t=     1301s traffic=     1525MB loss=0.463 edges=190 r=0.100 [0.10,0.10] CD true=5.198 est=7.858 Dmax=2.947 acc=0.6755 f1=0.3350
+[r 122 ep  22.3] t=     1311s traffic=     1538MB loss=0.438 edges=190 r=0.100 [0.10,0.10] CD true=5.050 est=7.821 Dmax=2.938
+[r 123 ep  22.4] t=     1322s traffic=     1550MB loss=0.461 edges=190 r=0.100 [0.10,0.10] CD true=5.174 est=7.958 Dmax=2.931
+[r 124 ep  22.6] t=     1331s traffic=     1563MB loss=0.427 edges=190 r=0.100 [0.10,0.10] CD true=5.182 est=7.727 Dmax=2.929
+[r 125 ep  22.8] t=     1342s traffic=     1576MB loss=0.415 edges=190 r=0.100 [0.10,0.10] CD true=5.105 est=7.688 Dmax=2.908
+[r 126 ep  23.0] t=     1351s traffic=     1588MB loss=0.439 edges=190 r=0.100 [0.10,0.10] CD true=5.101 est=7.963 Dmax=2.896
+[r 127 ep  23.2] t=     1363s traffic=     1601MB loss=0.494 edges=190 r=0.100 [0.10,0.10] CD true=5.144 est=7.739 Dmax=2.904 acc=0.6770 f1=0.3370
+[r 128 ep  23.4] t=     1375s traffic=     1614MB loss=0.443 edges=190 r=0.100 [0.10,0.10] CD true=5.171 est=7.659 Dmax=2.907
+[r 129 ep  23.5] t=     1386s traffic=     1627MB loss=0.452 edges=190 r=0.100 [0.10,0.10] CD true=5.141 est=7.917 Dmax=2.894
+[r 130 ep  23.7] t=     1398s traffic=     1639MB loss=0.512 edges=190 r=0.100 [0.10,0.10] CD true=5.064 est=7.953 Dmax=2.895
+[r 131 ep  23.9] t=     1407s traffic=     1652MB loss=0.451 edges=190 r=0.100 [0.10,0.10] CD true=5.117 est=7.901 Dmax=2.900
+[r 132 ep  24.1] t=     1417s traffic=     1665MB loss=0.424 edges=190 r=0.100 [0.10,0.10] CD true=5.128 est=7.522 Dmax=2.909 acc=0.6754 f1=0.3405
+[r 133 ep  24.3] t=     1427s traffic=     1677MB loss=0.462 edges=190 r=0.100 [0.10,0.10] CD true=5.122 est=7.737 Dmax=2.907
+[r 134 ep  24.5] t=     1438s traffic=     1690MB loss=0.459 edges=190 r=0.100 [0.10,0.10] CD true=5.009 est=7.667 Dmax=2.896
+[r 135 ep  24.6] t=     1449s traffic=     1703MB loss=0.415 edges=190 r=0.100 [0.10,0.10] CD true=5.087 est=7.636 Dmax=2.876
+[r 136 ep  24.8] t=     1460s traffic=     1716MB loss=0.401 edges=190 r=0.100 [0.10,0.10] CD true=5.093 est=7.685 Dmax=2.878
+[r 137 ep  25.0] t=     1471s traffic=     1728MB loss=0.490 edges=190 r=0.100 [0.10,0.10] CD true=5.149 est=7.731 Dmax=2.891 acc=0.6773 f1=0.3347
+[r 138 ep  25.2] t=     1481s traffic=     1741MB loss=0.406 edges=190 r=0.100 [0.10,0.10] CD true=5.017 est=7.489 Dmax=2.885
+[r 139 ep  25.4] t=     1491s traffic=     1754MB loss=0.441 edges=190 r=0.100 [0.10,0.10] CD true=5.145 est=7.834 Dmax=2.896
+[r 140 ep  25.6] t=     1500s traffic=     1766MB loss=0.435 edges=190 r=0.100 [0.10,0.10] CD true=5.123 est=7.973 Dmax=2.888
+[r 141 ep  25.7] t=     1511s traffic=     1779MB loss=0.416 edges=190 r=0.100 [0.10,0.10] CD true=5.116 est=7.918 Dmax=2.893
+[r 142 ep  25.9] t=     1520s traffic=     1792MB loss=0.384 edges=190 r=0.100 [0.10,0.10] CD true=5.177 est=7.830 Dmax=2.898
+[r 143 ep  26.1] t=     1529s traffic=     1804MB loss=0.443 edges=190 r=0.100 [0.10,0.10] CD true=5.080 est=7.953 Dmax=2.885 acc=0.6764 f1=0.3337
+[r 144 ep  26.3] t=     1537s traffic=     1817MB loss=0.478 edges=190 r=0.100 [0.10,0.10] CD true=5.028 est=7.698 Dmax=2.867
+[r 145 ep  26.5] t=     1547s traffic=     1830MB loss=0.442 edges=190 r=0.100 [0.10,0.10] CD true=5.006 est=7.710 Dmax=2.843
+[r 146 ep  26.6] t=     1557s traffic=     1843MB loss=0.447 edges=190 r=0.100 [0.10,0.10] CD true=5.048 est=7.814 Dmax=2.839
+[r 147 ep  26.8] t=     1568s traffic=     1855MB loss=0.409 edges=190 r=0.100 [0.10,0.10] CD true=5.047 est=7.779 Dmax=2.837
+[r 148 ep  27.0] t=     1578s traffic=     1868MB loss=0.432 edges=190 r=0.100 [0.10,0.10] CD true=4.983 est=7.641 Dmax=2.812 acc=0.6764 f1=0.3389
+[r 149 ep  27.2] t=     1586s traffic=     1881MB loss=0.391 edges=190 r=0.100 [0.10,0.10] CD true=4.995 est=7.634 Dmax=2.792
+[r 150 ep  27.4] t=     1595s traffic=     1893MB loss=0.418 edges=190 r=0.100 [0.10,0.10] CD true=4.941 est=7.590 Dmax=2.783
+[r 151 ep  27.6] t=     1606s traffic=     1906MB loss=0.411 edges=190 r=0.100 [0.10,0.10] CD true=5.136 est=7.817 Dmax=2.805
+[r 152 ep  27.7] t=     1616s traffic=     1919MB loss=0.406 edges=190 r=0.100 [0.10,0.10] CD true=5.068 est=7.463 Dmax=2.791
+[r 153 ep  27.9] t=     1627s traffic=     1932MB loss=0.438 edges=190 r=0.100 [0.10,0.10] CD true=5.070 est=7.588 Dmax=2.796
+[r 154 ep  28.1] t=     1637s traffic=     1944MB loss=0.467 edges=190 r=0.100 [0.10,0.10] CD true=4.870 est=7.722 Dmax=2.786 acc=0.6827 f1=0.3428
+[r 155 ep  28.3] t=     1645s traffic=     1957MB loss=0.435 edges=190 r=0.100 [0.10,0.10] CD true=4.850 est=7.326 Dmax=2.774
+[r 156 ep  28.5] t=     1655s traffic=     1970MB loss=0.439 edges=190 r=0.100 [0.10,0.10] CD true=5.083 est=7.981 Dmax=2.777
+[r 157 ep  28.7] t=     1667s traffic=     1982MB loss=0.455 edges=190 r=0.100 [0.10,0.10] CD true=4.957 est=7.539 Dmax=2.761
+[r 158 ep  28.8] t=     1677s traffic=     1995MB loss=0.447 edges=190 r=0.100 [0.10,0.10] CD true=4.903 est=7.350 Dmax=2.758
+[r 159 ep  29.0] t=     1689s traffic=     2008MB loss=0.513 edges=190 r=0.100 [0.10,0.10] CD true=4.918 est=7.322 Dmax=2.744 acc=0.6809 f1=0.3394
+[r 160 ep  29.2] t=     1700s traffic=     2021MB loss=0.466 edges=190 r=0.100 [0.10,0.10] CD true=4.932 est=7.410 Dmax=2.730
+[r 161 ep  29.4] t=     1711s traffic=     2033MB loss=0.430 edges=190 r=0.100 [0.10,0.10] CD true=4.922 est=7.506 Dmax=2.695
+[r 162 ep  29.6] t=     1722s traffic=     2046MB loss=0.398 edges=190 r=0.100 [0.10,0.10] CD true=4.895 est=7.358 Dmax=2.664
+[r 163 ep  29.7] t=     1734s traffic=     2059MB loss=0.462 edges=190 r=0.100 [0.10,0.10] CD true=4.913 est=7.297 Dmax=2.643
+[r 164 ep  29.9] t=     1745s traffic=     2071MB loss=0.438 edges=190 r=0.100 [0.10,0.10] CD true=4.920 est=7.470 Dmax=2.646
+[r 165 ep  30.1] t=     1757s traffic=     2084MB loss=0.461 edges=190 r=0.100 [0.10,0.10] CD true=4.818 est=7.401 Dmax=2.654 acc=0.6802 f1=0.3424
+[r 166 ep  30.3] t=     1768s traffic=     2097MB loss=0.459 edges=190 r=0.100 [0.10,0.10] CD true=4.840 est=7.141 Dmax=2.649
+[r 167 ep  30.5] t=     1780s traffic=     2109MB loss=0.473 edges=190 r=0.100 [0.10,0.10] CD true=4.872 est=7.323 Dmax=2.642
+[r 168 ep  30.7] t=     1791s traffic=     2122MB loss=0.461 edges=190 r=0.100 [0.10,0.10] CD true=4.815 est=7.283 Dmax=2.625
+[r 169 ep  30.8] t=     1801s traffic=     2135MB loss=0.425 edges=190 r=0.100 [0.10,0.10] CD true=4.783 est=7.436 Dmax=2.611
+[r 170 ep  31.0] t=     1813s traffic=     2148MB loss=0.467 edges=190 r=0.100 [0.10,0.10] CD true=4.819 est=7.664 Dmax=2.628 acc=0.6773 f1=0.3402
+[r 171 ep  31.2] t=     1824s traffic=     2160MB loss=0.357 edges=190 r=0.100 [0.10,0.10] CD true=4.762 est=7.146 Dmax=2.638
+[r 172 ep  31.4] t=     1835s traffic=     2173MB loss=0.398 edges=190 r=0.100 [0.10,0.10] CD true=4.796 est=7.211 Dmax=2.627
+[r 173 ep  31.6] t=     1846s traffic=     2186MB loss=0.443 edges=190 r=0.100 [0.10,0.10] CD true=4.812 est=7.049 Dmax=2.602
+[r 174 ep  31.8] t=     1857s traffic=     2198MB loss=0.452 edges=190 r=0.100 [0.10,0.10] CD true=4.727 est=7.144 Dmax=2.583
+[r 175 ep  31.9] t=     1867s traffic=     2211MB loss=0.485 edges=190 r=0.100 [0.10,0.10] CD true=4.767 est=7.290 Dmax=2.597
+[r 176 ep  32.1] t=     1878s traffic=     2224MB loss=0.478 edges=190 r=0.100 [0.10,0.10] CD true=5.019 est=7.260 Dmax=2.616 acc=0.6846 f1=0.3381
+[r 177 ep  32.3] t=     1884s traffic=     2237MB loss=0.452 edges=190 r=0.100 [0.10,0.10] CD true=4.833 est=7.060 Dmax=2.629
+[r 178 ep  32.5] t=     1892s traffic=     2249MB loss=0.455 edges=190 r=0.100 [0.10,0.10] CD true=4.720 est=7.195 Dmax=2.616
+[r 179 ep  32.7] t=     1900s traffic=     2262MB loss=0.400 edges=190 r=0.100 [0.10,0.10] CD true=4.680 est=7.329 Dmax=2.609
+[r 180 ep  32.9] t=     1907s traffic=     2275MB loss=0.488 edges=190 r=0.100 [0.10,0.10] CD true=4.799 est=7.260 Dmax=2.608
+[r 181 ep  33.0] t=     1916s traffic=     2287MB loss=0.432 edges=190 r=0.100 [0.10,0.10] CD true=4.691 est=7.211 Dmax=2.595 acc=0.6808 f1=0.3438
+[r 182 ep  33.2] t=     1927s traffic=     2300MB loss=0.393 edges=190 r=0.100 [0.10,0.10] CD true=4.735 est=7.286 Dmax=2.586
+[r 183 ep  33.4] t=     1938s traffic=     2313MB loss=0.352 edges=190 r=0.100 [0.10,0.10] CD true=4.721 est=7.275 Dmax=2.583
+[r 184 ep  33.6] t=     1948s traffic=     2325MB loss=0.458 edges=190 r=0.100 [0.10,0.10] CD true=4.654 est=7.027 Dmax=2.570
+[r 185 ep  33.8] t=     1960s traffic=     2338MB loss=0.405 edges=190 r=0.100 [0.10,0.10] CD true=4.747 est=7.074 Dmax=2.565
+[r 186 ep  33.9] t=     1970s traffic=     2351MB loss=0.391 edges=190 r=0.100 [0.10,0.10] CD true=4.678 est=7.312 Dmax=2.567
+[r 187 ep  34.1] t=     1979s traffic=     2364MB loss=0.388 edges=190 r=0.100 [0.10,0.10] CD true=4.675 est=7.263 Dmax=2.560 acc=0.6794 f1=0.3401
+[r 188 ep  34.3] t=     1989s traffic=     2376MB loss=0.430 edges=190 r=0.100 [0.10,0.10] CD true=4.674 est=7.385 Dmax=2.545
+[r 189 ep  34.5] t=     1999s traffic=     2389MB loss=0.383 edges=190 r=0.100 [0.10,0.10] CD true=4.886 est=7.635 Dmax=2.537
+[r 190 ep  34.7] t=     2009s traffic=     2402MB loss=0.463 edges=190 r=0.100 [0.10,0.10] CD true=4.939 est=7.395 Dmax=2.553
+[r 191 ep  34.9] t=     2021s traffic=     2414MB loss=0.369 edges=190 r=0.100 [0.10,0.10] CD true=4.625 est=6.991 Dmax=2.540
+[r 192 ep  35.0] t=     2032s traffic=     2427MB loss=0.408 edges=190 r=0.100 [0.10,0.10] CD true=4.671 est=7.146 Dmax=2.534 acc=0.6834 f1=0.3461
+[r 193 ep  35.2] t=     2044s traffic=     2440MB loss=0.428 edges=190 r=0.100 [0.10,0.10] CD true=4.694 est=7.201 Dmax=2.539
+[r 194 ep  35.4] t=     2053s traffic=     2453MB loss=0.412 edges=190 r=0.100 [0.10,0.10] CD true=4.736 est=7.007 Dmax=2.519
+[r 195 ep  35.6] t=     2064s traffic=     2465MB loss=0.413 edges=190 r=0.100 [0.10,0.10] CD true=4.602 est=7.037 Dmax=2.486
+[r 196 ep  35.8] t=     2075s traffic=     2478MB loss=0.432 edges=190 r=0.100 [0.10,0.10] CD true=4.634 est=6.985 Dmax=2.476
+[r 197 ep  36.0] t=     2087s traffic=     2491MB loss=0.418 edges=190 r=0.100 [0.10,0.10] CD true=4.751 est=7.210 Dmax=2.484
+[r 198 ep  36.1] t=     2098s traffic=     2503MB loss=0.466 edges=190 r=0.100 [0.10,0.10] CD true=4.670 est=7.418 Dmax=2.483 acc=0.6841 f1=0.3451
+[r 199 ep  36.3] t=     2110s traffic=     2516MB loss=0.431 edges=190 r=0.100 [0.10,0.10] CD true=4.776 est=7.054 Dmax=2.502
+[r 200 ep  36.5] t=     2121s traffic=     2529MB loss=0.440 edges=190 r=0.100 [0.10,0.10] CD true=4.722 est=7.012 Dmax=2.517 acc=0.6851 f1=0.3455
+saved results/ratio_sweep_dir0.5/unsw-nb15-multiclass_mlp_fcr0.1_dir0.5_heter_dynamic_s0.json
+dataset=unsw-nb15 model=mlp d=83594 (B=2.68 Mb) workers=20 algo=fcr partition=dirichlet rounds=200 (5.48 rounds/epoch)
+local data: sizes 2048-22078, classes/worker 8-10 of 10
+[r   1 ep   0.2] t=        2s traffic=        7MB loss=0.676 edges= 52 r=0.200 [0.20,0.20] CD true=15.741 est=34.445 Dmax=21.086
+[r   2 ep   0.4] t=       15s traffic=       32MB loss=0.690 edges=190 r=0.200 [0.20,0.20] CD true=15.351 est=25.374 Dmax=20.429
+[r   3 ep   0.5] t=       26s traffic=       57MB loss=0.611 edges=187 r=0.200 [0.20,0.20] CD true=11.588 est=21.246 Dmax=19.630
+[r   4 ep   0.7] t=       29s traffic=       67MB loss=0.641 edges= 69 r=0.200 [0.20,0.20] CD true=10.970 est=27.059 Dmax=18.694
+[r   5 ep   0.9] t=       50s traffic=       92MB loss=0.648 edges=190 r=0.200 [0.20,0.20] CD true=10.674 est=17.918 Dmax=17.801
+[r   6 ep   1.1] t=       52s traffic=       97MB loss=0.584 edges= 38 r=0.200 [0.20,0.20] CD true=10.763 est=29.701 Dmax=16.921 acc=0.5661 f1=0.2355
+[r   7 ep   1.3] t=       65s traffic=      123MB loss=0.523 edges=190 r=0.200 [0.20,0.20] CD true=10.092 est=17.656 Dmax=16.140
+[r   8 ep   1.5] t=       68s traffic=      133MB loss=0.582 edges= 82 r=0.200 [0.20,0.20] CD true=9.556 est=21.572 Dmax=15.273
+[r   9 ep   1.6] t=       89s traffic=      159MB loss=0.580 edges=190 r=0.200 [0.20,0.20] CD true=8.654 est=15.163 Dmax=14.482
+[r  10 ep   1.8] t=       92s traffic=      165MB loss=0.605 edges= 45 r=0.200 [0.20,0.20] CD true=9.308 est=20.915 Dmax=13.732
+[r  11 ep   2.0] t=      113s traffic=      190MB loss=0.555 edges=190 r=0.200 [0.20,0.20] CD true=8.491 est=14.241 Dmax=13.045 acc=0.6074 f1=0.2632
+[r  12 ep   2.2] t=      117s traffic=      201MB loss=0.563 edges= 82 r=0.200 [0.20,0.20] CD true=8.687 est=17.438 Dmax=12.382
+[r  13 ep   2.4] t=      138s traffic=      227MB loss=0.541 edges=190 r=0.200 [0.20,0.20] CD true=7.912 est=13.563 Dmax=11.790
+[r  14 ep   2.6] t=      144s traffic=      244MB loss=0.551 edges=128 r=0.200 [0.20,0.20] CD true=7.954 est=14.862 Dmax=11.232
+[r  15 ep   2.7] t=      161s traffic=      269MB loss=0.573 edges=190 r=0.200 [0.20,0.20] CD true=7.131 est=12.413 Dmax=10.696
+[r  16 ep   2.9] t=      167s traffic=      287MB loss=0.511 edges=135 r=0.200 [0.20,0.20] CD true=7.407 est=14.143 Dmax=10.212
+[r  17 ep   3.1] t=      188s traffic=      313MB loss=0.587 edges=190 r=0.200 [0.20,0.20] CD true=7.157 est=12.211 Dmax=9.769 acc=0.6270 f1=0.2830
+[r  18 ep   3.3] t=      210s traffic=      338MB loss=0.528 edges=190 r=0.200 [0.20,0.20] CD true=6.732 est=11.487 Dmax=9.367
+[r  19 ep   3.5] t=      224s traffic=      362MB loss=0.597 edges=176 r=0.200 [0.20,0.20] CD true=6.923 est=11.380 Dmax=9.006
+[r  20 ep   3.7] t=      243s traffic=      387MB loss=0.563 edges=190 r=0.200 [0.20,0.20] CD true=6.400 est=11.013 Dmax=8.656
+[r  21 ep   3.8] t=      264s traffic=      412MB loss=0.535 edges=190 r=0.200 [0.20,0.20] CD true=6.237 est=10.984 Dmax=8.335
+[r  22 ep   4.0] t=      284s traffic=      438MB loss=0.566 edges=190 r=0.200 [0.20,0.20] CD true=6.160 est=10.587 Dmax=8.037 acc=0.6331 f1=0.2955
+[r  23 ep   4.2] t=      300s traffic=      463MB loss=0.569 edges=190 r=0.200 [0.20,0.20] CD true=6.063 est=10.389 Dmax=7.753
+[r  24 ep   4.4] t=      317s traffic=      489MB loss=0.556 edges=190 r=0.200 [0.20,0.20] CD true=5.965 est=10.050 Dmax=7.493
+[r  25 ep   4.6] t=      339s traffic=      514MB loss=0.537 edges=190 r=0.200 [0.20,0.20] CD true=5.798 est=9.981 Dmax=7.249
+[r  26 ep   4.7] t=      359s traffic=      540MB loss=0.488 edges=190 r=0.200 [0.20,0.20] CD true=5.671 est=9.691 Dmax=7.022
+[r  27 ep   4.9] t=      381s traffic=      565MB loss=0.494 edges=190 r=0.200 [0.20,0.20] CD true=5.829 est=10.178 Dmax=6.830
+[r  28 ep   5.1] t=      403s traffic=      590MB loss=0.447 edges=190 r=0.200 [0.20,0.20] CD true=5.747 est=9.636 Dmax=6.629 acc=0.6460 f1=0.3049
+[r  29 ep   5.3] t=      424s traffic=      616MB loss=0.568 edges=190 r=0.200 [0.20,0.20] CD true=5.712 est=9.784 Dmax=6.466
+[r  30 ep   5.5] t=      445s traffic=      641MB loss=0.481 edges=190 r=0.200 [0.20,0.20] CD true=5.684 est=9.644 Dmax=6.278
+[r  31 ep   5.7] t=      467s traffic=      667MB loss=0.578 edges=190 r=0.200 [0.20,0.20] CD true=5.537 est=9.374 Dmax=6.099
+[r  32 ep   5.8] t=      488s traffic=      692MB loss=0.543 edges=190 r=0.200 [0.20,0.20] CD true=5.559 est=9.475 Dmax=5.962
+[r  33 ep   6.0] t=      509s traffic=      717MB loss=0.514 edges=190 r=0.200 [0.20,0.20] CD true=5.333 est=9.086 Dmax=5.814 acc=0.6515 f1=0.3061
+[r  34 ep   6.2] t=      530s traffic=      743MB loss=0.469 edges=190 r=0.200 [0.20,0.20] CD true=5.222 est=8.959 Dmax=5.662
+[r  35 ep   6.4] t=      552s traffic=      768MB loss=0.484 edges=190 r=0.200 [0.20,0.20] CD true=5.382 est=9.234 Dmax=5.542
+[r  36 ep   6.6] t=      574s traffic=      794MB loss=0.517 edges=190 r=0.200 [0.20,0.20] CD true=5.364 est=9.417 Dmax=5.435
+[r  37 ep   6.8] t=      595s traffic=      819MB loss=0.507 edges=190 r=0.200 [0.20,0.20] CD true=5.200 est=8.986 Dmax=5.325
+[r  38 ep   6.9] t=      616s traffic=      845MB loss=0.445 edges=190 r=0.200 [0.20,0.20] CD true=5.290 est=8.958 Dmax=5.226
+[r  39 ep   7.1] t=      638s traffic=      870MB loss=0.452 edges=190 r=0.200 [0.20,0.20] CD true=5.189 est=8.678 Dmax=5.114 acc=0.6605 f1=0.3193
+[r  40 ep   7.3] t=      659s traffic=      895MB loss=0.491 edges=190 r=0.200 [0.20,0.20] CD true=5.131 est=8.956 Dmax=5.028
+[r  41 ep   7.5] t=      680s traffic=      921MB loss=0.562 edges=190 r=0.200 [0.20,0.20] CD true=5.201 est=8.863 Dmax=4.946
+[r  42 ep   7.7] t=      701s traffic=      946MB loss=0.434 edges=190 r=0.200 [0.20,0.20] CD true=5.016 est=8.731 Dmax=4.865
+[r  43 ep   7.8] t=      723s traffic=      972MB loss=0.521 edges=190 r=0.200 [0.20,0.20] CD true=5.203 est=8.924 Dmax=4.811
+[r  44 ep   8.0] t=      744s traffic=      997MB loss=0.488 edges=190 r=0.200 [0.20,0.20] CD true=5.470 est=9.147 Dmax=4.783 acc=0.6632 f1=0.3216
+[r  45 ep   8.2] t=      765s traffic=     1022MB loss=0.517 edges=190 r=0.200 [0.20,0.20] CD true=5.236 est=9.324 Dmax=4.740
+[r  46 ep   8.4] t=      786s traffic=     1048MB loss=0.499 edges=190 r=0.200 [0.20,0.20] CD true=5.040 est=8.764 Dmax=4.669
+[r  47 ep   8.6] t=      808s traffic=     1073MB loss=0.480 edges=190 r=0.200 [0.20,0.20] CD true=5.013 est=8.668 Dmax=4.589
+[r  48 ep   8.8] t=      829s traffic=     1099MB loss=0.452 edges=190 r=0.200 [0.20,0.20] CD true=4.875 est=8.482 Dmax=4.535
+[r  49 ep   8.9] t=      851s traffic=     1124MB loss=0.492 edges=190 r=0.200 [0.20,0.20] CD true=4.929 est=8.178 Dmax=4.490
+[r  50 ep   9.1] t=      872s traffic=     1149MB loss=0.518 edges=190 r=0.200 [0.20,0.20] CD true=4.944 est=8.388 Dmax=4.442 acc=0.6713 f1=0.3220
+[r  51 ep   9.3] t=      894s traffic=     1175MB loss=0.481 edges=190 r=0.200 [0.20,0.20] CD true=4.971 est=8.403 Dmax=4.386
+[r  52 ep   9.5] t=      915s traffic=     1200MB loss=0.524 edges=190 r=0.200 [0.20,0.20] CD true=5.061 est=8.691 Dmax=4.353
+[r  53 ep   9.7] t=      936s traffic=     1226MB loss=0.511 edges=190 r=0.200 [0.20,0.20] CD true=4.922 est=8.705 Dmax=4.310
+[r  54 ep   9.9] t=      958s traffic=     1251MB loss=0.523 edges=190 r=0.200 [0.20,0.20] CD true=4.864 est=8.550 Dmax=4.266
+[r  55 ep  10.0] t=      979s traffic=     1277MB loss=0.504 edges=190 r=0.200 [0.20,0.20] CD true=5.054 est=8.636 Dmax=4.248 acc=0.6636 f1=0.3296
+[r  56 ep  10.2] t=     1001s traffic=     1302MB loss=0.533 edges=190 r=0.200 [0.20,0.20] CD true=4.849 est=8.151 Dmax=4.205
+[r  57 ep  10.4] t=     1022s traffic=     1327MB loss=0.520 edges=190 r=0.200 [0.20,0.20] CD true=4.956 est=8.778 Dmax=4.182
+[r  58 ep  10.6] t=     1041s traffic=     1353MB loss=0.524 edges=190 r=0.200 [0.20,0.20] CD true=4.962 est=8.214 Dmax=4.146
+[r  59 ep  10.8] t=     1062s traffic=     1378MB loss=0.440 edges=190 r=0.200 [0.20,0.20] CD true=5.029 est=8.828 Dmax=4.136
+[r  60 ep  11.0] t=     1084s traffic=     1404MB loss=0.484 edges=190 r=0.200 [0.20,0.20] CD true=5.012 est=8.545 Dmax=4.113
+[r  61 ep  11.1] t=     1105s traffic=     1429MB loss=0.481 edges=190 r=0.200 [0.20,0.20] CD true=4.927 est=8.354 Dmax=4.088 acc=0.6659 f1=0.3307
+[r  62 ep  11.3] t=     1127s traffic=     1454MB loss=0.485 edges=190 r=0.200 [0.20,0.20] CD true=4.842 est=8.443 Dmax=4.049
+[r  63 ep  11.5] t=     1148s traffic=     1480MB loss=0.497 edges=190 r=0.200 [0.20,0.20] CD true=4.802 est=8.363 Dmax=4.013
+[r  64 ep  11.7] t=     1170s traffic=     1505MB loss=0.476 edges=190 r=0.200 [0.20,0.20] CD true=4.699 est=7.950 Dmax=3.976
+[r  65 ep  11.9] t=     1191s traffic=     1531MB loss=0.494 edges=190 r=0.200 [0.20,0.20] CD true=4.742 est=7.851 Dmax=3.944
+[r  66 ep  12.0] t=     1213s traffic=     1556MB loss=0.452 edges=190 r=0.200 [0.20,0.20] CD true=4.635 est=8.184 Dmax=3.906 acc=0.6774 f1=0.3313
+[r  67 ep  12.2] t=     1234s traffic=     1581MB loss=0.416 edges=190 r=0.200 [0.20,0.20] CD true=4.781 est=8.430 Dmax=3.887
+[r  68 ep  12.4] t=     1255s traffic=     1607MB loss=0.490 edges=190 r=0.200 [0.20,0.20] CD true=4.743 est=8.235 Dmax=3.852
+[r  69 ep  12.6] t=     1276s traffic=     1632MB loss=0.461 edges=190 r=0.200 [0.20,0.20] CD true=4.617 est=7.831 Dmax=3.815
+[r  70 ep  12.8] t=     1298s traffic=     1658MB loss=0.430 edges=190 r=0.200 [0.20,0.20] CD true=4.715 est=8.034 Dmax=3.790
+[r  71 ep  13.0] t=     1320s traffic=     1683MB loss=0.456 edges=190 r=0.200 [0.20,0.20] CD true=4.601 est=7.970 Dmax=3.753
+[r  72 ep  13.1] t=     1340s traffic=     1709MB loss=0.478 edges=190 r=0.200 [0.20,0.20] CD true=4.671 est=8.011 Dmax=3.729 acc=0.6749 f1=0.3366
+[r  73 ep  13.3] t=     1361s traffic=     1734MB loss=0.451 edges=190 r=0.200 [0.20,0.20] CD true=4.624 est=7.969 Dmax=3.721
+[r  74 ep  13.5] t=     1381s traffic=     1759MB loss=0.482 edges=190 r=0.200 [0.20,0.20] CD true=4.641 est=7.875 Dmax=3.704
+[r  75 ep  13.7] t=     1402s traffic=     1785MB loss=0.471 edges=190 r=0.200 [0.20,0.20] CD true=4.666 est=7.916 Dmax=3.681
+[r  76 ep  13.9] t=     1423s traffic=     1810MB loss=0.479 edges=190 r=0.200 [0.20,0.20] CD true=4.714 est=8.004 Dmax=3.652
+[r  77 ep  14.1] t=     1444s traffic=     1836MB loss=0.434 edges=190 r=0.200 [0.20,0.20] CD true=4.710 est=7.769 Dmax=3.629 acc=0.6801 f1=0.3362
+[r  78 ep  14.2] t=     1465s traffic=     1861MB loss=0.418 edges=190 r=0.200 [0.20,0.20] CD true=4.569 est=7.652 Dmax=3.604
+[r  79 ep  14.4] t=     1487s traffic=     1886MB loss=0.504 edges=190 r=0.200 [0.20,0.20] CD true=4.672 est=8.001 Dmax=3.601
+[r  80 ep  14.6] t=     1506s traffic=     1912MB loss=0.525 edges=190 r=0.200 [0.20,0.20] CD true=4.571 est=7.790 Dmax=3.578
+[r  81 ep  14.8] t=     1527s traffic=     1937MB loss=0.517 edges=190 r=0.200 [0.20,0.20] CD true=4.531 est=7.633 Dmax=3.560
+[r  82 ep  15.0] t=     1549s traffic=     1963MB loss=0.437 edges=190 r=0.200 [0.20,0.20] CD true=4.553 est=7.752 Dmax=3.543
+[r  83 ep  15.1] t=     1570s traffic=     1988MB loss=0.438 edges=190 r=0.200 [0.20,0.20] CD true=4.540 est=7.695 Dmax=3.514 acc=0.6823 f1=0.3421
+[r  84 ep  15.3] t=     1591s traffic=     2013MB loss=0.460 edges=190 r=0.200 [0.20,0.20] CD true=4.535 est=7.808 Dmax=3.493
+[r  85 ep  15.5] t=     1613s traffic=     2039MB loss=0.403 edges=190 r=0.200 [0.20,0.20] CD true=4.493 est=7.788 Dmax=3.476
+[r  86 ep  15.7] t=     1634s traffic=     2064MB loss=0.412 edges=190 r=0.200 [0.20,0.20] CD true=4.518 est=7.736 Dmax=3.455
+[r  87 ep  15.9] t=     1656s traffic=     2090MB loss=0.433 edges=190 r=0.200 [0.20,0.20] CD true=4.879 est=8.222 Dmax=3.488
+[r  88 ep  16.1] t=     1677s traffic=     2115MB loss=0.568 edges=190 r=0.200 [0.20,0.20] CD true=4.768 est=8.430 Dmax=3.501 acc=0.6754 f1=0.3407
+[r  89 ep  16.2] t=     1699s traffic=     2141MB loss=0.484 edges=190 r=0.200 [0.20,0.20] CD true=4.608 est=8.014 Dmax=3.490
+[r  90 ep  16.4] t=     1720s traffic=     2166MB loss=0.423 edges=190 r=0.200 [0.20,0.20] CD true=4.493 est=7.862 Dmax=3.467
+[r  91 ep  16.6] t=     1742s traffic=     2191MB loss=0.482 edges=190 r=0.200 [0.20,0.20] CD true=4.432 est=7.675 Dmax=3.441
+[r  92 ep  16.8] t=     1763s traffic=     2217MB loss=0.497 edges=190 r=0.200 [0.20,0.20] CD true=4.428 est=7.672 Dmax=3.428
+[r  93 ep  17.0] t=     1785s traffic=     2242MB loss=0.459 edges=190 r=0.200 [0.20,0.20] CD true=4.520 est=7.576 Dmax=3.414
+[r  94 ep  17.2] t=     1804s traffic=     2268MB loss=0.460 edges=190 r=0.200 [0.20,0.20] CD true=4.365 est=7.489 Dmax=3.388 acc=0.6854 f1=0.3441
+[r  95 ep  17.3] t=     1824s traffic=     2293MB loss=0.555 edges=190 r=0.200 [0.20,0.20] CD true=4.436 est=7.684 Dmax=3.359
+[r  96 ep  17.5] t=     1845s traffic=     2318MB loss=0.511 edges=190 r=0.200 [0.20,0.20] CD true=4.527 est=7.716 Dmax=3.349
+[r  97 ep  17.7] t=     1867s traffic=     2344MB loss=0.422 edges=190 r=0.200 [0.20,0.20] CD true=4.443 est=7.732 Dmax=3.344
+[r  98 ep  17.9] t=     1888s traffic=     2369MB loss=0.514 edges=190 r=0.200 [0.20,0.20] CD true=4.518 est=7.712 Dmax=3.330
+[r  99 ep  18.1] t=     1910s traffic=     2395MB loss=0.423 edges=190 r=0.200 [0.20,0.20] CD true=4.354 est=7.716 Dmax=3.304 acc=0.6883 f1=0.3416
+[r 100 ep  18.3] t=     1928s traffic=     2420MB loss=0.422 edges=190 r=0.200 [0.20,0.20] CD true=4.449 est=7.779 Dmax=3.302
+[r 101 ep  18.4] t=     1949s traffic=     2445MB loss=0.398 edges=190 r=0.200 [0.20,0.20] CD true=4.423 est=7.645 Dmax=3.284
+[r 102 ep  18.6] t=     1971s traffic=     2471MB loss=0.403 edges=190 r=0.200 [0.20,0.20] CD true=4.415 est=7.643 Dmax=3.271
+[r 103 ep  18.8] t=     1992s traffic=     2496MB loss=0.412 edges=190 r=0.200 [0.20,0.20] CD true=4.525 est=7.767 Dmax=3.273
+[r 104 ep  19.0] t=     2014s traffic=     2522MB loss=0.491 edges=190 r=0.200 [0.20,0.20] CD true=4.427 est=7.393 Dmax=3.261
+[r 105 ep  19.2] t=     2036s traffic=     2547MB loss=0.496 edges=190 r=0.200 [0.20,0.20] CD true=4.331 est=7.623 Dmax=3.248 acc=0.6793 f1=0.3420
+[r 106 ep  19.3] t=     2057s traffic=     2573MB loss=0.432 edges=190 r=0.200 [0.20,0.20] CD true=4.347 est=7.660 Dmax=3.244
+[r 107 ep  19.5] t=     2078s traffic=     2598MB loss=0.486 edges=190 r=0.200 [0.20,0.20] CD true=4.429 est=7.729 Dmax=3.248
+[r 108 ep  19.7] t=     2100s traffic=     2623MB loss=0.402 edges=190 r=0.200 [0.20,0.20] CD true=4.462 est=7.510 Dmax=3.231
+[r 109 ep  19.9] t=     2121s traffic=     2649MB loss=0.514 edges=190 r=0.200 [0.20,0.20] CD true=4.449 est=7.457 Dmax=3.226
+[r 110 ep  20.1] t=     2141s traffic=     2674MB loss=0.489 edges=190 r=0.200 [0.20,0.20] CD true=4.314 est=7.459 Dmax=3.226 acc=0.6821 f1=0.3431
+[r 111 ep  20.3] t=     2162s traffic=     2700MB loss=0.436 edges=190 r=0.200 [0.20,0.20] CD true=4.321 est=7.205 Dmax=3.199
+[r 112 ep  20.4] t=     2184s traffic=     2725MB loss=0.470 edges=190 r=0.200 [0.20,0.20] CD true=4.336 est=7.616 Dmax=3.192
+[r 113 ep  20.6] t=     2205s traffic=     2750MB loss=0.477 edges=190 r=0.200 [0.20,0.20] CD true=4.322 est=7.291 Dmax=3.179
+[r 114 ep  20.8] t=     2227s traffic=     2776MB loss=0.425 edges=190 r=0.200 [0.20,0.20] CD true=4.175 est=7.222 Dmax=3.164
+[r 115 ep  21.0] t=     2244s traffic=     2801MB loss=0.480 edges=190 r=0.200 [0.20,0.20] CD true=4.164 est=7.226 Dmax=3.146
+[r 116 ep  21.2] t=     2265s traffic=     2827MB loss=0.498 edges=190 r=0.200 [0.20,0.20] CD true=4.163 est=7.330 Dmax=3.128 acc=0.6941 f1=0.3554
+[r 117 ep  21.4] t=     2282s traffic=     2852MB loss=0.427 edges=190 r=0.200 [0.20,0.20] CD true=4.249 est=7.234 Dmax=3.116
+[r 118 ep  21.5] t=     2303s traffic=     2878MB loss=0.429 edges=190 r=0.200 [0.20,0.20] CD true=4.183 est=7.045 Dmax=3.095
+[r 119 ep  21.7] t=     2322s traffic=     2903MB loss=0.465 edges=190 r=0.200 [0.20,0.20] CD true=4.147 est=7.173 Dmax=3.079
+[r 120 ep  21.9] t=     2344s traffic=     2928MB loss=0.506 edges=190 r=0.200 [0.20,0.20] CD true=4.244 est=7.094 Dmax=3.062
+[r 121 ep  22.1] t=     2363s traffic=     2954MB loss=0.454 edges=190 r=0.200 [0.20,0.20] CD true=4.233 est=7.182 Dmax=3.050 acc=0.6851 f1=0.3438
+[r 122 ep  22.3] t=     2382s traffic=     2979MB loss=0.446 edges=190 r=0.200 [0.20,0.20] CD true=4.134 est=6.941 Dmax=3.030
+[r 123 ep  22.4] t=     2403s traffic=     3005MB loss=0.478 edges=190 r=0.200 [0.20,0.20] CD true=4.210 est=7.472 Dmax=3.025
+[r 124 ep  22.6] t=     2420s traffic=     3030MB loss=0.435 edges=190 r=0.200 [0.20,0.20] CD true=4.206 est=7.199 Dmax=3.025
+[r 125 ep  22.8] t=     2441s traffic=     3055MB loss=0.423 edges=190 r=0.200 [0.20,0.20] CD true=4.213 est=7.107 Dmax=3.005
+[r 126 ep  23.0] t=     2459s traffic=     3081MB loss=0.453 edges=190 r=0.200 [0.20,0.20] CD true=4.238 est=7.217 Dmax=2.993
+[r 127 ep  23.2] t=     2481s traffic=     3106MB loss=0.486 edges=190 r=0.200 [0.20,0.20] CD true=4.200 est=7.001 Dmax=2.996 acc=0.6855 f1=0.3509
+[r 128 ep  23.4] t=     2503s traffic=     3132MB loss=0.446 edges=190 r=0.200 [0.20,0.20] CD true=4.275 est=7.237 Dmax=2.999
+[r 129 ep  23.5] t=     2524s traffic=     3157MB loss=0.450 edges=190 r=0.200 [0.20,0.20] CD true=4.227 est=7.284 Dmax=2.982
+[r 130 ep  23.7] t=     2546s traffic=     3182MB loss=0.497 edges=190 r=0.200 [0.20,0.20] CD true=4.135 est=7.130 Dmax=2.975
+[r 131 ep  23.9] t=     2564s traffic=     3208MB loss=0.451 edges=190 r=0.200 [0.20,0.20] CD true=4.198 est=7.195 Dmax=2.975
+[r 132 ep  24.1] t=     2584s traffic=     3233MB loss=0.430 edges=190 r=0.200 [0.20,0.20] CD true=4.139 est=7.051 Dmax=2.974 acc=0.6855 f1=0.3510
+[r 133 ep  24.3] t=     2603s traffic=     3259MB loss=0.451 edges=190 r=0.200 [0.20,0.20] CD true=4.118 est=7.182 Dmax=2.968
+[r 134 ep  24.5] t=     2622s traffic=     3284MB loss=0.469 edges=190 r=0.200 [0.20,0.20] CD true=4.047 est=6.988 Dmax=2.959
+[r 135 ep  24.6] t=     2644s traffic=     3310MB loss=0.416 edges=190 r=0.200 [0.20,0.20] CD true=4.260 est=7.310 Dmax=2.967
+[r 136 ep  24.8] t=     2665s traffic=     3335MB loss=0.408 edges=190 r=0.200 [0.20,0.20] CD true=4.275 est=7.402 Dmax=2.971
+[r 137 ep  25.0] t=     2686s traffic=     3360MB loss=0.488 edges=190 r=0.200 [0.20,0.20] CD true=4.239 est=7.072 Dmax=2.974 acc=0.6817 f1=0.3420
+[r 138 ep  25.2] t=     2705s traffic=     3386MB loss=0.410 edges=190 r=0.200 [0.20,0.20] CD true=4.061 est=6.847 Dmax=2.965
+[r 139 ep  25.4] t=     2723s traffic=     3411MB loss=0.453 edges=190 r=0.200 [0.20,0.20] CD true=4.210 est=7.035 Dmax=2.967
+[r 140 ep  25.6] t=     2741s traffic=     3437MB loss=0.434 edges=190 r=0.200 [0.20,0.20] CD true=4.155 est=7.243 Dmax=2.960
+[r 141 ep  25.7] t=     2762s traffic=     3462MB loss=0.429 edges=190 r=0.200 [0.20,0.20] CD true=4.112 est=7.032 Dmax=2.956
+[r 142 ep  25.9] t=     2780s traffic=     3487MB loss=0.395 edges=190 r=0.200 [0.20,0.20] CD true=4.158 est=7.358 Dmax=2.951
+[r 143 ep  26.1] t=     2796s traffic=     3513MB loss=0.448 edges=190 r=0.200 [0.20,0.20] CD true=4.040 est=6.871 Dmax=2.933 acc=0.6881 f1=0.3461
+[r 144 ep  26.3] t=     2810s traffic=     3538MB loss=0.482 edges=190 r=0.200 [0.20,0.20] CD true=4.080 est=6.974 Dmax=2.927
+[r 145 ep  26.5] t=     2831s traffic=     3564MB loss=0.457 edges=190 r=0.200 [0.20,0.20] CD true=4.131 est=7.077 Dmax=2.913
+[r 146 ep  26.6] t=     2850s traffic=     3589MB loss=0.432 edges=190 r=0.200 [0.20,0.20] CD true=4.100 est=6.990 Dmax=2.909
+[r 147 ep  26.8] t=     2871s traffic=     3614MB loss=0.418 edges=190 r=0.200 [0.20,0.20] CD true=4.007 est=6.857 Dmax=2.896
+[r 148 ep  27.0] t=     2889s traffic=     3640MB loss=0.439 edges=190 r=0.200 [0.20,0.20] CD true=3.980 est=6.860 Dmax=2.873 acc=0.6831 f1=0.3507
+[r 149 ep  27.2] t=     2905s traffic=     3665MB loss=0.408 edges=190 r=0.200 [0.20,0.20] CD true=4.050 est=6.872 Dmax=2.857
+[r 150 ep  27.4] t=     2921s traffic=     3691MB loss=0.422 edges=190 r=0.200 [0.20,0.20] CD true=3.946 est=6.990 Dmax=2.850
+[r 151 ep  27.6] t=     2942s traffic=     3716MB loss=0.417 edges=190 r=0.200 [0.20,0.20] CD true=4.047 est=6.915 Dmax=2.853
+[r 152 ep  27.7] t=     2962s traffic=     3742MB loss=0.410 edges=190 r=0.200 [0.20,0.20] CD true=4.043 est=6.860 Dmax=2.834
+[r 153 ep  27.9] t=     2983s traffic=     3767MB loss=0.441 edges=190 r=0.200 [0.20,0.20] CD true=4.048 est=6.815 Dmax=2.830
+[r 154 ep  28.1] t=     3002s traffic=     3792MB loss=0.469 edges=190 r=0.200 [0.20,0.20] CD true=3.910 est=6.743 Dmax=2.822 acc=0.6878 f1=0.3554
+[r 155 ep  28.3] t=     3017s traffic=     3818MB loss=0.426 edges=190 r=0.200 [0.20,0.20] CD true=3.867 est=6.430 Dmax=2.801
+[r 156 ep  28.5] t=     3035s traffic=     3843MB loss=0.444 edges=190 r=0.200 [0.20,0.20] CD true=4.150 est=6.991 Dmax=2.813
+[r 157 ep  28.7] t=     3057s traffic=     3869MB loss=0.455 edges=190 r=0.200 [0.20,0.20] CD true=4.033 est=7.039 Dmax=2.811
+[r 158 ep  28.8] t=     3078s traffic=     3894MB loss=0.467 edges=190 r=0.200 [0.20,0.20] CD true=4.016 est=6.871 Dmax=2.812
+[r 159 ep  29.0] t=     3100s traffic=     3919MB loss=0.504 edges=190 r=0.200 [0.20,0.20] CD true=4.036 est=6.798 Dmax=2.801 acc=0.6891 f1=0.3514
+[r 160 ep  29.2] t=     3120s traffic=     3945MB loss=0.485 edges=190 r=0.200 [0.20,0.20] CD true=3.979 est=6.819 Dmax=2.783
+[r 161 ep  29.4] t=     3142s traffic=     3970MB loss=0.430 edges=190 r=0.200 [0.20,0.20] CD true=4.001 est=6.856 Dmax=2.760
+[r 162 ep  29.6] t=     3163s traffic=     3996MB loss=0.419 edges=190 r=0.200 [0.20,0.20] CD true=3.988 est=6.797 Dmax=2.731
+[r 163 ep  29.7] t=     3185s traffic=     4021MB loss=0.463 edges=190 r=0.200 [0.20,0.20] CD true=4.009 est=6.734 Dmax=2.720
+[r 164 ep  29.9] t=     3207s traffic=     4046MB loss=0.439 edges=190 r=0.200 [0.20,0.20] CD true=4.029 est=6.853 Dmax=2.716
+[r 165 ep  30.1] t=     3228s traffic=     4072MB loss=0.482 edges=190 r=0.200 [0.20,0.20] CD true=3.892 est=6.645 Dmax=2.712 acc=0.6922 f1=0.3554
+[r 166 ep  30.3] t=     3250s traffic=     4097MB loss=0.462 edges=190 r=0.200 [0.20,0.20] CD true=3.930 est=6.665 Dmax=2.705
+[r 167 ep  30.5] t=     3272s traffic=     4123MB loss=0.474 edges=190 r=0.200 [0.20,0.20] CD true=3.993 est=6.836 Dmax=2.700
+[r 168 ep  30.7] t=     3292s traffic=     4148MB loss=0.459 edges=190 r=0.200 [0.20,0.20] CD true=3.957 est=6.734 Dmax=2.684
+[r 169 ep  30.8] t=     3313s traffic=     4174MB loss=0.434 edges=190 r=0.200 [0.20,0.20] CD true=3.881 est=6.833 Dmax=2.670
+[r 170 ep  31.0] t=     3334s traffic=     4199MB loss=0.474 edges=190 r=0.200 [0.20,0.20] CD true=3.943 est=6.757 Dmax=2.682 acc=0.6912 f1=0.3546
+[r 171 ep  31.2] t=     3356s traffic=     4224MB loss=0.355 edges=190 r=0.200 [0.20,0.20] CD true=3.833 est=6.557 Dmax=2.682
+[r 172 ep  31.4] t=     3377s traffic=     4250MB loss=0.401 edges=190 r=0.200 [0.20,0.20] CD true=3.977 est=6.659 Dmax=2.673
+[r 173 ep  31.6] t=     3398s traffic=     4275MB loss=0.455 edges=190 r=0.200 [0.20,0.20] CD true=3.969 est=6.806 Dmax=2.652
+[r 174 ep  31.8] t=     3419s traffic=     4301MB loss=0.460 edges=190 r=0.200 [0.20,0.20] CD true=3.873 est=6.617 Dmax=2.641
+[r 175 ep  31.9] t=     3438s traffic=     4326MB loss=0.475 edges=190 r=0.200 [0.20,0.20] CD true=3.896 est=6.719 Dmax=2.650
+[r 176 ep  32.1] t=     3458s traffic=     4351MB loss=0.479 edges=190 r=0.200 [0.20,0.20] CD true=4.068 est=6.858 Dmax=2.666 acc=0.6915 f1=0.3458
+[r 177 ep  32.3] t=     3470s traffic=     4377MB loss=0.466 edges=190 r=0.200 [0.20,0.20] CD true=3.979 est=6.616 Dmax=2.677
+[r 178 ep  32.5] t=     3483s traffic=     4402MB loss=0.466 edges=190 r=0.200 [0.20,0.20] CD true=3.853 est=6.447 Dmax=2.668
+[r 179 ep  32.7] t=     3500s traffic=     4428MB loss=0.406 edges=190 r=0.200 [0.20,0.20] CD true=3.809 est=6.478 Dmax=2.660
+[r 180 ep  32.9] t=     3512s traffic=     4453MB loss=0.491 edges=190 r=0.200 [0.20,0.20] CD true=3.929 est=6.692 Dmax=2.661
+[r 181 ep  33.0] t=     3528s traffic=     4478MB loss=0.435 edges=190 r=0.200 [0.20,0.20] CD true=3.771 est=6.551 Dmax=2.640 acc=0.6868 f1=0.3569
+[r 182 ep  33.2] t=     3549s traffic=     4504MB loss=0.409 edges=190 r=0.200 [0.20,0.20] CD true=3.846 est=6.435 Dmax=2.626
+[r 183 ep  33.4] t=     3571s traffic=     4529MB loss=0.356 edges=190 r=0.200 [0.20,0.20] CD true=3.850 est=6.656 Dmax=2.624
+[r 184 ep  33.6] t=     3590s traffic=     4555MB loss=0.453 edges=190 r=0.200 [0.20,0.20] CD true=3.801 est=6.446 Dmax=2.616
+[r 185 ep  33.8] t=     3612s traffic=     4580MB loss=0.416 edges=190 r=0.200 [0.20,0.20] CD true=3.866 est=6.520 Dmax=2.610
+[r 186 ep  33.9] t=     3631s traffic=     4606MB loss=0.392 edges=190 r=0.200 [0.20,0.20] CD true=3.774 est=6.615 Dmax=2.605
+[r 187 ep  34.1] t=     3647s traffic=     4631MB loss=0.392 edges=190 r=0.200 [0.20,0.20] CD true=3.822 est=6.690 Dmax=2.598 acc=0.6895 f1=0.3538
+[r 188 ep  34.3] t=     3668s traffic=     4656MB loss=0.427 edges=190 r=0.200 [0.20,0.20] CD true=3.821 est=6.584 Dmax=2.584
+[r 189 ep  34.5] t=     3687s traffic=     4682MB loss=0.387 edges=190 r=0.200 [0.20,0.20] CD true=4.031 est=6.977 Dmax=2.589
+[r 190 ep  34.7] t=     3706s traffic=     4707MB loss=0.468 edges=190 r=0.200 [0.20,0.20] CD true=4.035 est=6.839 Dmax=2.603
+[r 191 ep  34.9] t=     3727s traffic=     4733MB loss=0.377 edges=190 r=0.200 [0.20,0.20] CD true=3.778 est=6.466 Dmax=2.591
+[r 192 ep  35.0] t=     3749s traffic=     4758MB loss=0.417 edges=190 r=0.200 [0.20,0.20] CD true=3.801 est=6.564 Dmax=2.587 acc=0.6920 f1=0.3607
+[r 193 ep  35.2] t=     3771s traffic=     4783MB loss=0.408 edges=190 r=0.200 [0.20,0.20] CD true=3.882 est=6.509 Dmax=2.596
+[r 194 ep  35.4] t=     3790s traffic=     4809MB loss=0.420 edges=190 r=0.200 [0.20,0.20] CD true=3.864 est=6.541 Dmax=2.574
+[r 195 ep  35.6] t=     3811s traffic=     4834MB loss=0.415 edges=190 r=0.200 [0.20,0.20] CD true=3.745 est=6.298 Dmax=2.543
+[r 196 ep  35.8] t=     3832s traffic=     4860MB loss=0.439 edges=190 r=0.200 [0.20,0.20] CD true=3.771 est=6.427 Dmax=2.534
+[r 197 ep  36.0] t=     3854s traffic=     4885MB loss=0.427 edges=190 r=0.200 [0.20,0.20] CD true=3.864 est=6.555 Dmax=2.538
+[r 198 ep  36.1] t=     3875s traffic=     4911MB loss=0.463 edges=190 r=0.200 [0.20,0.20] CD true=3.792 est=6.683 Dmax=2.536 acc=0.6909 f1=0.3555
+[r 199 ep  36.3] t=     3897s traffic=     4936MB loss=0.430 edges=190 r=0.200 [0.20,0.20] CD true=3.855 est=6.917 Dmax=2.553
+[r 200 ep  36.5] t=     3918s traffic=     4961MB loss=0.442 edges=190 r=0.200 [0.20,0.20] CD true=3.829 est=6.486 Dmax=2.562 acc=0.6929 f1=0.3580
+saved results/ratio_sweep_dir0.5/unsw-nb15-multiclass_mlp_fcr0.2_dir0.5_heter_dynamic_s0.json
+dataset=unsw-nb15 model=mlp d=83594 (B=2.68 Mb) workers=20 algo=fcr partition=dirichlet rounds=200 (5.48 rounds/epoch)
+local data: sizes 2048-22078, classes/worker 8-10 of 10
+[r   1 ep   0.2] t=        3s traffic=       14MB loss=0.676 edges= 42 r=0.500 [0.50,0.50] CD true=14.311 est=36.237 Dmax=21.086
+[r   2 ep   0.4] t=       25s traffic=       69MB loss=0.685 edges=163 r=0.500 [0.50,0.50] CD true=9.897 est=26.995 Dmax=20.377
+[r   3 ep   0.5] t=       33s traffic=      105MB loss=0.645 edges=110 r=0.500 [0.50,0.50] CD true=8.797 est=23.733 Dmax=19.706
+[r   4 ep   0.7] t=       39s traffic=      133MB loss=0.658 edges= 84 r=0.500 [0.50,0.50] CD true=8.612 est=23.356 Dmax=18.704
+[r   5 ep   0.9] t=       49s traffic=      169MB loss=0.666 edges=105 r=0.500 [0.50,0.50] CD true=7.888 est=24.355 Dmax=17.749
+[r   6 ep   1.1] t=       64s traffic=      213MB loss=0.602 edges=133 r=0.500 [0.50,0.50] CD true=6.539 est=20.007 Dmax=16.819 acc=0.6036 f1=0.2713
+[r   7 ep   1.3] t=       72s traffic=      243MB loss=0.514 edges= 91 r=0.500 [0.50,0.50] CD true=7.165 est=19.782 Dmax=15.933
+[r   8 ep   1.5] t=       85s traffic=      280MB loss=0.593 edges=109 r=0.500 [0.50,0.50] CD true=7.037 est=19.599 Dmax=15.079
+[r   9 ep   1.6] t=      103s traffic=      321MB loss=0.600 edges=123 r=0.500 [0.50,0.50] CD true=6.637 est=19.287 Dmax=14.322
+[r  10 ep   1.8] t=      115s traffic=      362MB loss=0.630 edges=124 r=0.500 [0.50,0.50] CD true=5.913 est=17.051 Dmax=13.579
+[r  11 ep   2.0] t=      126s traffic=      398MB loss=0.569 edges=107 r=0.500 [0.50,0.50] CD true=6.239 est=16.632 Dmax=12.900 acc=0.6393 f1=0.2874
+[r  12 ep   2.2] t=      140s traffic=      438MB loss=0.546 edges=120 r=0.500 [0.50,0.50] CD true=5.993 est=16.586 Dmax=12.254
+[r  13 ep   2.4] t=      155s traffic=      485MB loss=0.541 edges=139 r=0.500 [0.50,0.50] CD true=5.570 est=15.585 Dmax=11.683
+[r  14 ep   2.6] t=      167s traffic=      527MB loss=0.547 edges=127 r=0.500 [0.50,0.50] CD true=5.478 est=14.512 Dmax=11.104
+[r  15 ep   2.7] t=      179s traffic=      570MB loss=0.564 edges=128 r=0.500 [0.50,0.50] CD true=5.538 est=14.808 Dmax=10.593
+[r  16 ep   2.9] t=      193s traffic=      620MB loss=0.498 edges=148 r=0.500 [0.50,0.50] CD true=5.212 est=13.635 Dmax=10.120
+[r  17 ep   3.1] t=      208s traffic=      667MB loss=0.589 edges=141 r=0.500 [0.50,0.50] CD true=5.299 est=13.736 Dmax=9.671 acc=0.6523 f1=0.3122
+[r  18 ep   3.3] t=      229s traffic=      716MB loss=0.518 edges=146 r=0.500 [0.50,0.50] CD true=5.004 est=13.621 Dmax=9.258
+[r  19 ep   3.5] t=      250s traffic=      767MB loss=0.585 edges=153 r=0.500 [0.50,0.50] CD true=4.684 est=12.527 Dmax=8.883
+[r  20 ep   3.7] t=      272s traffic=      816MB loss=0.541 edges=147 r=0.500 [0.50,0.50] CD true=4.796 est=13.064 Dmax=8.552
+[r  21 ep   3.8] t=      300s traffic=      870MB loss=0.543 edges=162 r=0.500 [0.50,0.50] CD true=4.346 est=11.859 Dmax=8.234
+[r  22 ep   4.0] t=      325s traffic=      922MB loss=0.551 edges=154 r=0.500 [0.50,0.50] CD true=4.321 est=11.670 Dmax=7.944 acc=0.6648 f1=0.3283
+[r  23 ep   4.2] t=      347s traffic=      970MB loss=0.583 edges=145 r=0.500 [0.50,0.50] CD true=4.315 est=11.217 Dmax=7.649
+[r  24 ep   4.4] t=      367s traffic=     1015MB loss=0.556 edges=136 r=0.500 [0.50,0.50] CD true=4.319 est=11.042 Dmax=7.359
+[r  25 ep   4.6] t=      395s traffic=     1066MB loss=0.554 edges=150 r=0.500 [0.50,0.50] CD true=3.973 est=10.757 Dmax=7.100
+[r  26 ep   4.7] t=      425s traffic=     1116MB loss=0.505 edges=152 r=0.500 [0.50,0.50] CD true=3.870 est=11.193 Dmax=6.917
+[r  27 ep   4.9] t=      464s traffic=     1170MB loss=0.482 edges=161 r=0.500 [0.50,0.50] CD true=3.953 est=10.758 Dmax=6.749
+[r  28 ep   5.1] t=      508s traffic=     1222MB loss=0.438 edges=155 r=0.500 [0.50,0.50] CD true=3.941 est=10.678 Dmax=6.583 acc=0.6645 f1=0.3365
+[r  29 ep   5.3] t=      545s traffic=     1274MB loss=0.562 edges=154 r=0.500 [0.50,0.50] CD true=3.900 est=9.354 Dmax=6.427
+[r  30 ep   5.5] t=      569s traffic=     1319MB loss=0.478 edges=135 r=0.500 [0.50,0.50] CD true=4.254 est=9.922 Dmax=6.276
+[r  31 ep   5.7] t=      602s traffic=     1368MB loss=0.565 edges=147 r=0.500 [0.50,0.50] CD true=3.746 est=10.792 Dmax=6.104
+[r  32 ep   5.8] t=      651s traffic=     1425MB loss=0.539 edges=170 r=0.500 [0.50,0.50] CD true=3.448 est=9.460 Dmax=5.966
+[r  33 ep   6.0] t=      686s traffic=     1478MB loss=0.503 edges=158 r=0.500 [0.50,0.50] CD true=3.607 est=9.189 Dmax=5.830 acc=0.6753 f1=0.3397
+[r  34 ep   6.2] t=      719s traffic=     1532MB loss=0.454 edges=162 r=0.500 [0.50,0.50] CD true=3.453 est=9.672 Dmax=5.695
+[r  35 ep   6.4] t=      759s traffic=     1589MB loss=0.476 edges=172 r=0.500 [0.50,0.50] CD true=3.492 est=9.187 Dmax=5.598
+[r  36 ep   6.6] t=      801s traffic=     1644MB loss=0.521 edges=163 r=0.500 [0.50,0.50] CD true=3.480 est=9.349 Dmax=5.498
+[r  37 ep   6.8] t=      829s traffic=     1702MB loss=0.513 edges=173 r=0.500 [0.50,0.50] CD true=3.336 est=8.995 Dmax=5.422
+[r  38 ep   6.9] t=      857s traffic=     1755MB loss=0.451 edges=161 r=0.500 [0.50,0.50] CD true=3.549 est=9.369 Dmax=5.363
+[r  39 ep   7.1] t=      899s traffic=     1812MB loss=0.456 edges=169 r=0.500 [0.50,0.50] CD true=3.402 est=9.175 Dmax=5.282 acc=0.6771 f1=0.3474
+[r  40 ep   7.3] t=      930s traffic=     1866MB loss=0.482 edges=162 r=0.500 [0.50,0.50] CD true=3.361 est=8.982 Dmax=5.200
+[r  41 ep   7.5] t=      979s traffic=     1924MB loss=0.558 edges=172 r=0.500 [0.50,0.50] CD true=3.301 est=9.187 Dmax=5.141
+[r  42 ep   7.7] t=     1023s traffic=     1980MB loss=0.439 edges=168 r=0.500 [0.50,0.50] CD true=3.197 est=8.788 Dmax=5.071
+[r  43 ep   7.8] t=     1055s traffic=     2034MB loss=0.516 edges=163 r=0.500 [0.50,0.50] CD true=3.396 est=9.035 Dmax=5.022
+[r  44 ep   8.0] t=     1089s traffic=     2094MB loss=0.486 edges=177 r=0.500 [0.50,0.50] CD true=3.234 est=8.519 Dmax=4.978 acc=0.6820 f1=0.3548
+[r  45 ep   8.2] t=     1126s traffic=     2149MB loss=0.510 edges=166 r=0.500 [0.50,0.50] CD true=3.343 est=9.315 Dmax=4.935
+[r  46 ep   8.4] t=     1170s traffic=     2209MB loss=0.505 edges=179 r=0.500 [0.50,0.50] CD true=3.105 est=8.277 Dmax=4.890
+[r  47 ep   8.6] t=     1212s traffic=     2264MB loss=0.495 edges=164 r=0.500 [0.50,0.50] CD true=3.393 est=8.096 Dmax=4.822
+[r  48 ep   8.8] t=     1254s traffic=     2318MB loss=0.457 edges=161 r=0.500 [0.50,0.50] CD true=3.397 est=9.586 Dmax=4.776
+[r  49 ep   8.9] t=     1306s traffic=     2381MB loss=0.495 edges=190 r=0.500 [0.50,0.50] CD true=2.990 est=7.843 Dmax=4.746
+[r  50 ep   9.1] t=     1339s traffic=     2431MB loss=0.524 edges=150 r=0.500 [0.50,0.50] CD true=3.530 est=9.272 Dmax=4.715 acc=0.6805 f1=0.3399
+[r  51 ep   9.3] t=     1385s traffic=     2494MB loss=0.475 edges=187 r=0.500 [0.50,0.50] CD true=3.054 est=8.023 Dmax=4.659
+[r  52 ep   9.5] t=     1427s traffic=     2548MB loss=0.531 edges=161 r=0.500 [0.50,0.50] CD true=3.455 est=8.914 Dmax=4.649
+[r  53 ep   9.7] t=     1472s traffic=     2609MB loss=0.507 edges=185 r=0.500 [0.50,0.50] CD true=2.936 est=7.803 Dmax=4.593
+[r  54 ep   9.9] t=     1508s traffic=     2663MB loss=0.523 edges=159 r=0.500 [0.50,0.50] CD true=3.404 est=8.834 Dmax=4.576
+[r  55 ep  10.0] t=     1559s traffic=     2725MB loss=0.521 edges=187 r=0.500 [0.50,0.50] CD true=3.057 est=8.163 Dmax=4.556 acc=0.6901 f1=0.3602
+[r  56 ep  10.2] t=     1601s traffic=     2782MB loss=0.550 edges=169 r=0.500 [0.50,0.50] CD true=3.200 est=8.483 Dmax=4.517
+[r  57 ep  10.4] t=     1641s traffic=     2841MB loss=0.524 edges=177 r=0.500 [0.50,0.50] CD true=3.084 est=8.063 Dmax=4.486
+[r  58 ep  10.6] t=     1683s traffic=     2898MB loss=0.537 edges=170 r=0.500 [0.50,0.50] CD true=3.104 est=8.478 Dmax=4.453
+[r  59 ep  10.8] t=     1730s traffic=     2958MB loss=0.448 edges=181 r=0.500 [0.50,0.50] CD true=3.225 est=8.298 Dmax=4.473
+[r  60 ep  11.0] t=     1779s traffic=     3017MB loss=0.506 edges=176 r=0.500 [0.50,0.50] CD true=3.103 est=7.876 Dmax=4.442
+[r  61 ep  11.1] t=     1828s traffic=     3073MB loss=0.481 edges=167 r=0.500 [0.50,0.50] CD true=3.239 est=8.392 Dmax=4.409 acc=0.6820 f1=0.3539
+[r  62 ep  11.3] t=     1879s traffic=     3133MB loss=0.492 edges=180 r=0.500 [0.50,0.50] CD true=3.104 est=8.003 Dmax=4.401
+[r  63 ep  11.5] t=     1926s traffic=     3190MB loss=0.499 edges=171 r=0.500 [0.50,0.50] CD true=3.127 est=8.784 Dmax=4.385
+[r  64 ep  11.7] t=     1978s traffic=     3254MB loss=0.471 edges=190 r=0.500 [0.50,0.50] CD true=2.813 est=7.467 Dmax=4.355
+[r  65 ep  11.9] t=     2014s traffic=     3308MB loss=0.501 edges=161 r=0.500 [0.50,0.50] CD true=3.221 est=8.374 Dmax=4.337
+[r  66 ep  12.0] t=     2066s traffic=     3370MB loss=0.463 edges=186 r=0.500 [0.50,0.50] CD true=2.817 est=7.555 Dmax=4.300 acc=0.6950 f1=0.3675
+[r  67 ep  12.2] t=     2106s traffic=     3427MB loss=0.420 edges=170 r=0.500 [0.50,0.50] CD true=3.207 est=7.967 Dmax=4.286
+[r  68 ep  12.4] t=     2149s traffic=     3486MB loss=0.485 edges=178 r=0.500 [0.50,0.50] CD true=3.106 est=8.039 Dmax=4.274
+[r  69 ep  12.6] t=     2191s traffic=     3547MB loss=0.458 edges=181 r=0.500 [0.50,0.50] CD true=2.890 est=7.421 Dmax=4.227
+[r  70 ep  12.8] t=     2243s traffic=     3604MB loss=0.428 edges=172 r=0.500 [0.50,0.50] CD true=3.264 est=7.884 Dmax=4.216
+[r  71 ep  13.0] t=     2290s traffic=     3664MB loss=0.469 edges=178 r=0.500 [0.50,0.50] CD true=2.875 est=7.650 Dmax=4.182
+[r  72 ep  13.1] t=     2332s traffic=     3723MB loss=0.483 edges=178 r=0.500 [0.50,0.50] CD true=3.051 est=7.896 Dmax=4.180 acc=0.6905 f1=0.3638
+[r  73 ep  13.3] t=     2381s traffic=     3783MB loss=0.454 edges=179 r=0.500 [0.50,0.50] CD true=2.936 est=7.790 Dmax=4.180
+[r  74 ep  13.5] t=     2423s traffic=     3843MB loss=0.479 edges=180 r=0.500 [0.50,0.50] CD true=2.947 est=7.786 Dmax=4.173
+[r  75 ep  13.7] t=     2470s traffic=     3904MB loss=0.472 edges=180 r=0.500 [0.50,0.50] CD true=2.914 est=7.551 Dmax=4.146
+[r  76 ep  13.9] t=     2510s traffic=     3963MB loss=0.484 edges=178 r=0.500 [0.50,0.50] CD true=2.965 est=7.594 Dmax=4.110
+[r  77 ep  14.1] t=     2547s traffic=     4023MB loss=0.426 edges=179 r=0.500 [0.50,0.50] CD true=2.933 est=7.474 Dmax=4.081 acc=0.6933 f1=0.3651
+[r  78 ep  14.2] t=     2589s traffic=     4082MB loss=0.416 edges=178 r=0.500 [0.50,0.50] CD true=2.868 est=7.455 Dmax=4.048
+[r  79 ep  14.4] t=     2637s traffic=     4141MB loss=0.509 edges=176 r=0.500 [0.50,0.50] CD true=3.019 est=7.731 Dmax=4.050
+[r  80 ep  14.6] t=     2678s traffic=     4202MB loss=0.526 edges=182 r=0.500 [0.50,0.50] CD true=2.852 est=7.547 Dmax=4.029
+[r  81 ep  14.8] t=     2721s traffic=     4262MB loss=0.497 edges=179 r=0.500 [0.50,0.50] CD true=2.835 est=7.293 Dmax=4.013
+[r  82 ep  15.0] t=     2770s traffic=     4319MB loss=0.440 edges=172 r=0.500 [0.50,0.50] CD true=2.962 est=8.006 Dmax=4.000
+[r  83 ep  15.1] t=     2822s traffic=     4383MB loss=0.438 edges=190 r=0.500 [0.50,0.50] CD true=2.702 est=7.225 Dmax=3.977 acc=0.7001 f1=0.3785
+[r  84 ep  15.3] t=     2869s traffic=     4441MB loss=0.461 edges=172 r=0.500 [0.50,0.50] CD true=2.942 est=7.963 Dmax=3.966
+[r  85 ep  15.5] t=     2922s traffic=     4504MB loss=0.410 edges=190 r=0.500 [0.50,0.50] CD true=2.667 est=7.213 Dmax=3.947
+[r  86 ep  15.7] t=     2967s traffic=     4562MB loss=0.413 edges=172 r=0.500 [0.50,0.50] CD true=2.879 est=7.749 Dmax=3.930
+[r  87 ep  15.9] t=     3014s traffic=     4624MB loss=0.428 edges=187 r=0.500 [0.50,0.50] CD true=2.779 est=7.371 Dmax=3.916
+[r  88 ep  16.1] t=     3052s traffic=     4684MB loss=0.562 edges=179 r=0.500 [0.50,0.50] CD true=2.842 est=7.570 Dmax=3.920 acc=0.6940 f1=0.3747
+[r  89 ep  16.2] t=     3101s traffic=     4746MB loss=0.491 edges=185 r=0.500 [0.50,0.50] CD true=2.783 est=7.425 Dmax=3.911
+[r  90 ep  16.4] t=     3144s traffic=     4807MB loss=0.420 edges=182 r=0.500 [0.50,0.50] CD true=2.706 est=7.347 Dmax=3.890
+[r  91 ep  16.6] t=     3195s traffic=     4868MB loss=0.493 edges=182 r=0.500 [0.50,0.50] CD true=2.806 est=7.322 Dmax=3.880
+[r  92 ep  16.8] t=     3230s traffic=     4928MB loss=0.494 edges=180 r=0.500 [0.50,0.50] CD true=2.910 est=7.411 Dmax=3.884
+[r  93 ep  17.0] t=     3274s traffic=     4989MB loss=0.478 edges=183 r=0.500 [0.50,0.50] CD true=2.725 est=7.347 Dmax=3.868
+[r  94 ep  17.2] t=     3306s traffic=     5049MB loss=0.470 edges=181 r=0.500 [0.50,0.50] CD true=2.728 est=7.053 Dmax=3.843 acc=0.6970 f1=0.3754
+[r  95 ep  17.3] t=     3338s traffic=     5109MB loss=0.565 edges=177 r=0.500 [0.50,0.50] CD true=2.806 est=7.157 Dmax=3.815
+[r  96 ep  17.5] t=     3369s traffic=     5168MB loss=0.503 edges=177 r=0.500 [0.50,0.50] CD true=2.738 est=7.296 Dmax=3.797
+[r  97 ep  17.7] t=     3415s traffic=     5229MB loss=0.443 edges=184 r=0.500 [0.50,0.50] CD true=2.771 est=7.582 Dmax=3.812
+[r  98 ep  17.9] t=     3467s traffic=     5293MB loss=0.517 edges=190 r=0.500 [0.50,0.50] CD true=2.675 est=7.189 Dmax=3.807
+[r  99 ep  18.1] t=     3517s traffic=     5353MB loss=0.429 edges=179 r=0.500 [0.50,0.50] CD true=2.776 est=7.145 Dmax=3.796 acc=0.7015 f1=0.3707
+[r 100 ep  18.3] t=     3554s traffic=     5413MB loss=0.418 edges=181 r=0.500 [0.50,0.50] CD true=2.764 est=7.224 Dmax=3.786
+[r 101 ep  18.4] t=     3595s traffic=     5474MB loss=0.406 edges=182 r=0.500 [0.50,0.50] CD true=2.680 est=7.213 Dmax=3.769
+[r 102 ep  18.6] t=     3644s traffic=     5536MB loss=0.405 edges=184 r=0.500 [0.50,0.50] CD true=2.686 est=7.183 Dmax=3.756
+[r 103 ep  18.8] t=     3692s traffic=     5597MB loss=0.421 edges=184 r=0.500 [0.50,0.50] CD true=2.693 est=7.222 Dmax=3.749
+[r 104 ep  19.0] t=     3744s traffic=     5658MB loss=0.487 edges=183 r=0.500 [0.50,0.50] CD true=2.714 est=6.956 Dmax=3.737
+[r 105 ep  19.2] t=     3792s traffic=     5717MB loss=0.505 edges=176 r=0.500 [0.50,0.50] CD true=2.703 est=7.237 Dmax=3.728 acc=0.6930 f1=0.3678
+[r 106 ep  19.3] t=     3843s traffic=     5779MB loss=0.427 edges=185 r=0.500 [0.50,0.50] CD true=2.665 est=7.074 Dmax=3.725
+[r 107 ep  19.5] t=     3895s traffic=     5839MB loss=0.471 edges=180 r=0.500 [0.50,0.50] CD true=2.699 est=7.088 Dmax=3.718
+[r 108 ep  19.7] t=     3946s traffic=     5900MB loss=0.408 edges=181 r=0.500 [0.50,0.50] CD true=2.675 est=7.042 Dmax=3.698
+[r 109 ep  19.9] t=     3994s traffic=     5960MB loss=0.512 edges=181 r=0.500 [0.50,0.50] CD true=2.873 est=7.166 Dmax=3.709
+[r 110 ep  20.1] t=     4030s traffic=     6021MB loss=0.496 edges=183 r=0.500 [0.50,0.50] CD true=2.679 est=7.096 Dmax=3.701 acc=0.6943 f1=0.3713
+[r 111 ep  20.3] t=     4077s traffic=     6082MB loss=0.442 edges=182 r=0.500 [0.50,0.50] CD true=2.869 est=7.449 Dmax=3.745
+[r 112 ep  20.4] t=     4129s traffic=     6146MB loss=0.475 edges=190 r=0.500 [0.50,0.50] CD true=2.573 est=6.935 Dmax=3.727
+[r 113 ep  20.6] t=     4163s traffic=     6205MB loss=0.488 edges=176 r=0.500 [0.50,0.50] CD true=2.726 est=6.991 Dmax=3.713
+[r 114 ep  20.8] t=     4199s traffic=     6265MB loss=0.440 edges=180 r=0.500 [0.50,0.50] CD true=2.597 est=6.935 Dmax=3.692
+[r 115 ep  21.0] t=     4234s traffic=     6324MB loss=0.486 edges=178 r=0.500 [0.50,0.50] CD true=2.664 est=7.011 Dmax=3.673
+[r 116 ep  21.2] t=     4275s traffic=     6386MB loss=0.498 edges=183 r=0.500 [0.50,0.50] CD true=2.590 est=6.828 Dmax=3.645 acc=0.6999 f1=0.3773
+[r 117 ep  21.4] t=     4308s traffic=     6445MB loss=0.410 edges=178 r=0.500 [0.50,0.50] CD true=2.664 est=6.765 Dmax=3.619
+[r 118 ep  21.5] t=     4345s traffic=     6505MB loss=0.443 edges=178 r=0.500 [0.50,0.50] CD true=2.588 est=6.726 Dmax=3.588
+[r 119 ep  21.7] t=     4379s traffic=     6564MB loss=0.454 edges=179 r=0.500 [0.50,0.50] CD true=2.551 est=6.819 Dmax=3.563
+[r 120 ep  21.9] t=     4426s traffic=     6626MB loss=0.515 edges=184 r=0.500 [0.50,0.50] CD true=2.599 est=6.880 Dmax=3.550
+[r 121 ep  22.1] t=     4467s traffic=     6688MB loss=0.454 edges=186 r=0.500 [0.50,0.50] CD true=2.530 est=6.838 Dmax=3.537 acc=0.7001 f1=0.3780
+[r 122 ep  22.3] t=     4500s traffic=     6750MB loss=0.439 edges=185 r=0.500 [0.50,0.50] CD true=2.449 est=6.525 Dmax=3.517
+[r 123 ep  22.4] t=     4538s traffic=     6810MB loss=0.478 edges=178 r=0.500 [0.50,0.50] CD true=2.605 est=6.863 Dmax=3.507
+[r 124 ep  22.6] t=     4575s traffic=     6872MB loss=0.431 edges=188 r=0.500 [0.50,0.50] CD true=2.522 est=6.777 Dmax=3.498
+[r 125 ep  22.8] t=     4613s traffic=     6934MB loss=0.424 edges=185 r=0.500 [0.50,0.50] CD true=2.588 est=6.671 Dmax=3.487
+[r 126 ep  23.0] t=     4645s traffic=     6995MB loss=0.441 edges=183 r=0.500 [0.50,0.50] CD true=2.586 est=6.653 Dmax=3.474
+[r 127 ep  23.2] t=     4689s traffic=     7056MB loss=0.498 edges=181 r=0.500 [0.50,0.50] CD true=2.543 est=6.740 Dmax=3.464 acc=0.6945 f1=0.3764
+[r 128 ep  23.4] t=     4731s traffic=     7118MB loss=0.454 edges=186 r=0.500 [0.50,0.50] CD true=2.570 est=6.778 Dmax=3.466
+[r 129 ep  23.5] t=     4783s traffic=     7180MB loss=0.448 edges=186 r=0.500 [0.50,0.50] CD true=2.491 est=6.871 Dmax=3.463
+[r 130 ep  23.7] t=     4835s traffic=     7244MB loss=0.496 edges=189 r=0.500 [0.50,0.50] CD true=2.452 est=6.629 Dmax=3.456
+[r 131 ep  23.9] t=     4874s traffic=     7305MB loss=0.461 edges=183 r=0.500 [0.50,0.50] CD true=2.612 est=6.747 Dmax=3.464
+[r 132 ep  24.1] t=     4913s traffic=     7367MB loss=0.432 edges=186 r=0.500 [0.50,0.50] CD true=2.520 est=6.548 Dmax=3.458 acc=0.6932 f1=0.3780
+[r 133 ep  24.3] t=     4950s traffic=     7428MB loss=0.468 edges=182 r=0.500 [0.50,0.50] CD true=2.530 est=6.788 Dmax=3.456
+[r 134 ep  24.5] t=     4992s traffic=     7491MB loss=0.481 edges=188 r=0.500 [0.50,0.50] CD true=2.397 est=6.425 Dmax=3.433
+[r 135 ep  24.6] t=     5030s traffic=     7551MB loss=0.431 edges=181 r=0.500 [0.50,0.50] CD true=2.545 est=6.621 Dmax=3.420
+[r 136 ep  24.8] t=     5067s traffic=     7613MB loss=0.415 edges=185 r=0.500 [0.50,0.50] CD true=2.608 est=6.782 Dmax=3.433
+[r 137 ep  25.0] t=     5115s traffic=     7676MB loss=0.495 edges=188 r=0.500 [0.50,0.50] CD true=2.484 est=6.596 Dmax=3.434 acc=0.7013 f1=0.3761
+[r 138 ep  25.2] t=     5151s traffic=     7737MB loss=0.420 edges=184 r=0.500 [0.50,0.50] CD true=2.480 est=6.516 Dmax=3.430
+[r 139 ep  25.4] t=     5187s traffic=     7799MB loss=0.456 edges=184 r=0.500 [0.50,0.50] CD true=2.499 est=6.576 Dmax=3.419
+[r 140 ep  25.6] t=     5222s traffic=     7861MB loss=0.442 edges=185 r=0.500 [0.50,0.50] CD true=2.496 est=6.660 Dmax=3.413
+[r 141 ep  25.7] t=     5265s traffic=     7923MB loss=0.428 edges=187 r=0.500 [0.50,0.50] CD true=2.443 est=6.619 Dmax=3.405
+[r 142 ep  25.9] t=     5298s traffic=     7985MB loss=0.396 edges=185 r=0.500 [0.50,0.50] CD true=2.551 est=6.887 Dmax=3.416
+[r 143 ep  26.1] t=     5335s traffic=     8049MB loss=0.452 edges=190 r=0.500 [0.50,0.50] CD true=2.465 est=6.420 Dmax=3.408 acc=0.7048 f1=0.3854
+[r 144 ep  26.3] t=     5366s traffic=     8109MB loss=0.499 edges=179 r=0.500 [0.50,0.50] CD true=2.562 est=6.630 Dmax=3.402
+[r 145 ep  26.5] t=     5410s traffic=     8171MB loss=0.448 edges=187 r=0.500 [0.50,0.50] CD true=2.474 est=6.625 Dmax=3.389
+[r 146 ep  26.6] t=     5447s traffic=     8234MB loss=0.435 edges=187 r=0.500 [0.50,0.50] CD true=2.490 est=6.674 Dmax=3.383
+[r 147 ep  26.8] t=     5497s traffic=     8297MB loss=0.424 edges=189 r=0.500 [0.50,0.50] CD true=2.399 est=6.398 Dmax=3.368
+[r 148 ep  27.0] t=     5529s traffic=     8357MB loss=0.439 edges=181 r=0.500 [0.50,0.50] CD true=2.524 est=6.534 Dmax=3.358 acc=0.6962 f1=0.3772
+[r 149 ep  27.2] t=     5563s traffic=     8420MB loss=0.410 edges=186 r=0.500 [0.50,0.50] CD true=2.468 est=6.426 Dmax=3.339
+[r 150 ep  27.4] t=     5598s traffic=     8481MB loss=0.427 edges=185 r=0.500 [0.50,0.50] CD true=2.424 est=6.397 Dmax=3.317
+[r 151 ep  27.6] t=     5638s traffic=     8544MB loss=0.427 edges=186 r=0.500 [0.50,0.50] CD true=2.495 est=6.634 Dmax=3.324
+[r 152 ep  27.7] t=     5688s traffic=     8607MB loss=0.411 edges=190 r=0.500 [0.50,0.50] CD true=2.379 est=6.460 Dmax=3.312
+[r 153 ep  27.9] t=     5730s traffic=     8669MB loss=0.454 edges=186 r=0.500 [0.50,0.50] CD true=2.413 est=6.506 Dmax=3.313
+[r 154 ep  28.1] t=     5770s traffic=     8732MB loss=0.470 edges=188 r=0.500 [0.50,0.50] CD true=2.370 est=6.279 Dmax=3.304 acc=0.6998 f1=0.3802
+[r 155 ep  28.3] t=     5796s traffic=     8793MB loss=0.439 edges=181 r=0.500 [0.50,0.50] CD true=2.401 est=6.209 Dmax=3.285
+[r 156 ep  28.5] t=     5825s traffic=     8853MB loss=0.440 edges=179 r=0.500 [0.50,0.50] CD true=2.562 est=6.696 Dmax=3.291
+[r 157 ep  28.7] t=     5877s traffic=     8916MB loss=0.452 edges=190 r=0.500 [0.50,0.50] CD true=2.439 est=6.486 Dmax=3.282
+[r 158 ep  28.8] t=     5923s traffic=     8979MB loss=0.468 edges=188 r=0.500 [0.50,0.50] CD true=2.346 est=6.328 Dmax=3.272
+[r 159 ep  29.0] t=     5966s traffic=     9041MB loss=0.513 edges=185 r=0.500 [0.50,0.50] CD true=2.446 est=6.419 Dmax=3.268 acc=0.7004 f1=0.3846
+[r 160 ep  29.2] t=     6012s traffic=     9104MB loss=0.482 edges=188 r=0.500 [0.50,0.50] CD true=2.378 est=6.321 Dmax=3.252
+[r 161 ep  29.4] t=     6064s traffic=     9166MB loss=0.439 edges=186 r=0.500 [0.50,0.50] CD true=2.405 est=6.375 Dmax=3.239
+[r 162 ep  29.6] t=     6115s traffic=     9229MB loss=0.410 edges=188 r=0.500 [0.50,0.50] CD true=2.379 est=6.380 Dmax=3.222
+[r 163 ep  29.7] t=     6165s traffic=     9292MB loss=0.466 edges=189 r=0.500 [0.50,0.50] CD true=2.400 est=6.414 Dmax=3.215
+[r 164 ep  29.9] t=     6217s traffic=     9356MB loss=0.448 edges=190 r=0.500 [0.50,0.50] CD true=2.393 est=6.357 Dmax=3.211
+[r 165 ep  30.1] t=     6269s traffic=     9418MB loss=0.495 edges=188 r=0.500 [0.50,0.50] CD true=2.370 est=6.248 Dmax=3.204 acc=0.7008 f1=0.3800
+[r 166 ep  30.3] t=     6320s traffic=     9481MB loss=0.463 edges=186 r=0.500 [0.50,0.50] CD true=2.338 est=6.361 Dmax=3.199
+[r 167 ep  30.5] t=     6372s traffic=     9544MB loss=0.476 edges=189 r=0.500 [0.50,0.50] CD true=2.345 est=6.421 Dmax=3.205
+[r 168 ep  30.7] t=     6419s traffic=     9607MB loss=0.480 edges=190 r=0.500 [0.50,0.50] CD true=2.362 est=6.420 Dmax=3.205
+[r 169 ep  30.8] t=     6471s traffic=     9671MB loss=0.434 edges=190 r=0.500 [0.50,0.50] CD true=2.311 est=6.281 Dmax=3.197
+[r 170 ep  31.0] t=     6521s traffic=     9733MB loss=0.478 edges=187 r=0.500 [0.50,0.50] CD true=2.385 est=6.352 Dmax=3.207 acc=0.6980 f1=0.3794
+[r 171 ep  31.2] t=     6572s traffic=     9797MB loss=0.362 edges=189 r=0.500 [0.50,0.50] CD true=2.330 est=6.098 Dmax=3.202
+[r 172 ep  31.4] t=     6616s traffic=     9858MB loss=0.417 edges=183 r=0.500 [0.50,0.50] CD true=2.442 est=6.303 Dmax=3.196
+[r 173 ep  31.6] t=     6663s traffic=     9921MB loss=0.444 edges=189 r=0.500 [0.50,0.50] CD true=2.378 est=6.273 Dmax=3.176
+[r 174 ep  31.8] t=     6712s traffic=     9984MB loss=0.451 edges=189 r=0.500 [0.50,0.50] CD true=2.336 est=6.250 Dmax=3.165
+[r 175 ep  31.9] t=     6757s traffic=    10047MB loss=0.466 edges=189 r=0.500 [0.50,0.50] CD true=2.318 est=6.159 Dmax=3.159
+[r 176 ep  32.1] t=     6796s traffic=    10110MB loss=0.483 edges=187 r=0.500 [0.50,0.50] CD true=2.490 est=6.499 Dmax=3.178 acc=0.7065 f1=0.3768
+[r 177 ep  32.3] t=     6825s traffic=    10173MB loss=0.481 edges=190 r=0.500 [0.50,0.50] CD true=2.349 est=6.262 Dmax=3.176
+[r 178 ep  32.5] t=     6855s traffic=    10236MB loss=0.462 edges=188 r=0.500 [0.50,0.50] CD true=2.337 est=6.107 Dmax=3.166
+[r 179 ep  32.7] t=     6882s traffic=    10298MB loss=0.414 edges=184 r=0.500 [0.50,0.50] CD true=2.363 est=6.130 Dmax=3.156
+[r 180 ep  32.9] t=     6910s traffic=    10360MB loss=0.513 edges=186 r=0.500 [0.50,0.50] CD true=2.388 est=6.382 Dmax=3.154
+[r 181 ep  33.0] t=     6948s traffic=    10424MB loss=0.447 edges=190 r=0.500 [0.50,0.50] CD true=2.274 est=6.148 Dmax=3.142 acc=0.7018 f1=0.3829
+[r 182 ep  33.2] t=     6989s traffic=    10486MB loss=0.412 edges=186 r=0.500 [0.50,0.50] CD true=2.370 est=6.140 Dmax=3.136
+[r 183 ep  33.4] t=     7040s traffic=    10548MB loss=0.365 edges=186 r=0.500 [0.50,0.50] CD true=2.341 est=6.204 Dmax=3.127
+[r 184 ep  33.6] t=     7085s traffic=    10611MB loss=0.466 edges=189 r=0.500 [0.50,0.50] CD true=2.262 est=6.058 Dmax=3.114
+[r 185 ep  33.8] t=     7128s traffic=    10673MB loss=0.412 edges=185 r=0.500 [0.50,0.50] CD true=2.347 est=6.274 Dmax=3.111
+[r 186 ep  33.9] t=     7174s traffic=    10736MB loss=0.394 edges=190 r=0.500 [0.50,0.50] CD true=2.231 est=6.059 Dmax=3.100
+[r 187 ep  34.1] t=     7207s traffic=    10799MB loss=0.398 edges=187 r=0.500 [0.50,0.50] CD true=2.312 est=6.249 Dmax=3.103 acc=0.7008 f1=0.3798
+[r 188 ep  34.3] t=     7259s traffic=    10863MB loss=0.422 edges=190 r=0.500 [0.50,0.50] CD true=2.260 est=6.007 Dmax=3.085
+[r 189 ep  34.5] t=     7297s traffic=    10925MB loss=0.403 edges=187 r=0.500 [0.50,0.50] CD true=2.435 est=6.572 Dmax=3.099
+[r 190 ep  34.7] t=     7342s traffic=    10989MB loss=0.461 edges=190 r=0.500 [0.50,0.50] CD true=2.383 est=6.457 Dmax=3.111
+[r 191 ep  34.9] t=     7394s traffic=    11052MB loss=0.384 edges=190 r=0.500 [0.50,0.50] CD true=2.227 est=6.000 Dmax=3.093
+[r 192 ep  35.0] t=     7434s traffic=    11114MB loss=0.422 edges=185 r=0.500 [0.50,0.50] CD true=2.300 est=6.142 Dmax=3.085 acc=0.6991 f1=0.3807
+[r 193 ep  35.2] t=     7486s traffic=    11178MB loss=0.427 edges=190 r=0.500 [0.50,0.50] CD true=2.362 est=6.144 Dmax=3.092
+[r 194 ep  35.4] t=     7529s traffic=    11241MB loss=0.430 edges=189 r=0.500 [0.50,0.50] CD true=2.304 est=6.218 Dmax=3.086
+[r 195 ep  35.6] t=     7581s traffic=    11304MB loss=0.430 edges=190 r=0.500 [0.50,0.50] CD true=2.254 est=5.955 Dmax=3.062
+[r 196 ep  35.8] t=     7619s traffic=    11366MB loss=0.441 edges=185 r=0.500 [0.50,0.50] CD true=2.329 est=6.122 Dmax=3.060
+[r 197 ep  36.0] t=     7671s traffic=    11430MB loss=0.430 edges=190 r=0.500 [0.50,0.50] CD true=2.297 est=6.172 Dmax=3.054
+[r 198 ep  36.1] t=     7723s traffic=    11493MB loss=0.462 edges=190 r=0.500 [0.50,0.50] CD true=2.240 est=6.219 Dmax=3.053 acc=0.7034 f1=0.3883
+[r 199 ep  36.3] t=     7775s traffic=    11557MB loss=0.432 edges=190 r=0.500 [0.50,0.50] CD true=2.284 est=6.109 Dmax=3.063
+[r 200 ep  36.5] t=     7828s traffic=    11620MB loss=0.439 edges=190 r=0.500 [0.50,0.50] CD true=2.225 est=6.007 Dmax=3.064 acc=0.7041 f1=0.3845
+saved results/ratio_sweep_dir0.5/unsw-nb15-multiclass_mlp_fcr0.5_dir0.5_heter_dynamic_s0.json
+dataset=unsw-nb15 model=mlp d=83594 (B=2.68 Mb) workers=20 algo=fcr partition=dirichlet rounds=200 (5.48 rounds/epoch)
+local data: sizes 2048-22078, classes/worker 8-10 of 10
+[r   1 ep   0.2] t=        5s traffic=       25MB loss=0.676 edges= 38 r=1.000 [1.00,1.00] CD true=11.332 est=35.586 Dmax=21.086
+[r   2 ep   0.4] t=       15s traffic=       83MB loss=0.690 edges= 86 r=1.000 [1.00,1.00] CD true=8.626 est=32.887 Dmax=20.373
+[r   3 ep   0.5] t=       28s traffic=      147MB loss=0.648 edges= 96 r=1.000 [1.00,1.00] CD true=7.274 est=37.962 Dmax=19.732
+[r   4 ep   0.7] t=       48s traffic=      227MB loss=0.662 edges=120 r=1.000 [1.00,1.00] CD true=4.551 est=26.179 Dmax=18.806
+[r   5 ep   0.9] t=       60s traffic=      283MB loss=0.694 edges= 83 r=1.000 [1.00,1.00] CD true=5.351 est=28.326 Dmax=18.012
+[r   6 ep   1.1] t=       82s traffic=      354MB loss=0.597 edges=106 r=1.000 [1.00,1.00] CD true=4.509 est=25.951 Dmax=17.151 acc=0.6426 f1=0.3268
+[r   7 ep   1.3] t=      105s traffic=      425MB loss=0.521 edges=107 r=1.000 [1.00,1.00] CD true=4.732 est=23.142 Dmax=16.314
+[r   8 ep   1.5] t=      123s traffic=      484MB loss=0.570 edges= 87 r=1.000 [1.00,1.00] CD true=4.564 est=22.718 Dmax=15.501
+[r   9 ep   1.6] t=      137s traffic=      548MB loss=0.605 edges= 97 r=1.000 [1.00,1.00] CD true=4.335 est=24.159 Dmax=14.795
+[r  10 ep   1.8] t=      157s traffic=      619MB loss=0.631 edges=106 r=1.000 [1.00,1.00] CD true=3.923 est=20.311 Dmax=14.089
+[r  11 ep   2.0] t=      173s traffic=      681MB loss=0.559 edges= 92 r=1.000 [1.00,1.00] CD true=4.191 est=20.093 Dmax=13.432 acc=0.6453 f1=0.3154
+[r  12 ep   2.2] t=      190s traffic=      744MB loss=0.540 edges= 95 r=1.000 [1.00,1.00] CD true=3.813 est=18.800 Dmax=12.797
+[r  13 ep   2.4] t=      205s traffic=      806MB loss=0.544 edges= 92 r=1.000 [1.00,1.00] CD true=3.874 est=22.182 Dmax=12.263
+[r  14 ep   2.6] t=      231s traffic=      889MB loss=0.556 edges=124 r=1.000 [1.00,1.00] CD true=3.043 est=17.656 Dmax=11.706
+[r  15 ep   2.7] t=      249s traffic=      962MB loss=0.574 edges=109 r=1.000 [1.00,1.00] CD true=3.561 est=18.218 Dmax=11.207
+[r  16 ep   2.9] t=      274s traffic=     1045MB loss=0.528 edges=124 r=1.000 [1.00,1.00] CD true=3.396 est=18.031 Dmax=10.729
+[r  17 ep   3.1] t=      296s traffic=     1125MB loss=0.578 edges=120 r=1.000 [1.00,1.00] CD true=3.286 est=16.924 Dmax=10.287 acc=0.6642 f1=0.3296
+[r  18 ep   3.3] t=      321s traffic=     1201MB loss=0.513 edges=114 r=1.000 [1.00,1.00] CD true=3.064 est=17.245 Dmax=9.865
+[r  19 ep   3.5] t=      354s traffic=     1290MB loss=0.571 edges=133 r=1.000 [1.00,1.00] CD true=2.947 est=15.839 Dmax=9.502
+[r  20 ep   3.7] t=      390s traffic=     1376MB loss=0.545 edges=129 r=1.000 [1.00,1.00] CD true=3.110 est=15.593 Dmax=9.163
+[r  21 ep   3.8] t=      423s traffic=     1449MB loss=0.534 edges=109 r=1.000 [1.00,1.00] CD true=3.271 est=15.383 Dmax=8.822
+[r  22 ep   4.0] t=      455s traffic=     1528MB loss=0.532 edges=118 r=1.000 [1.00,1.00] CD true=2.990 est=15.976 Dmax=8.541 acc=0.6750 f1=0.3410
+[r  23 ep   4.2] t=      501s traffic=     1620MB loss=0.580 edges=138 r=1.000 [1.00,1.00] CD true=2.740 est=14.461 Dmax=8.269
+[r  24 ep   4.4] t=      538s traffic=     1694MB loss=0.553 edges=110 r=1.000 [1.00,1.00] CD true=3.673 est=14.040 Dmax=8.040
+[r  25 ep   4.6] t=      583s traffic=     1778MB loss=0.534 edges=126 r=1.000 [1.00,1.00] CD true=2.718 est=14.794 Dmax=7.785
+[r  26 ep   4.7] t=      626s traffic=     1860MB loss=0.498 edges=122 r=1.000 [1.00,1.00] CD true=2.792 est=14.451 Dmax=7.650
+[r  27 ep   4.9] t=      667s traffic=     1945MB loss=0.494 edges=128 r=1.000 [1.00,1.00] CD true=2.484 est=13.842 Dmax=7.467
+[r  28 ep   5.1] t=      723s traffic=     2036MB loss=0.446 edges=135 r=1.000 [1.00,1.00] CD true=2.205 est=13.810 Dmax=7.342 acc=0.6625 f1=0.3664
+[r  29 ep   5.3] t=      761s traffic=     2119MB loss=0.551 edges=124 r=1.000 [1.00,1.00] CD true=3.370 est=12.720 Dmax=7.256
+[r  30 ep   5.5] t=      803s traffic=     2192MB loss=0.471 edges=109 r=1.000 [1.00,1.00] CD true=3.607 est=12.664 Dmax=7.089
+[r  31 ep   5.7] t=      856s traffic=     2267MB loss=0.559 edges=113 r=1.000 [1.00,1.00] CD true=2.664 est=16.542 Dmax=6.901
+[r  32 ep   5.8] t=      928s traffic=     2364MB loss=0.534 edges=145 r=1.000 [1.00,1.00] CD true=1.750 est=13.419 Dmax=6.815
+[r  33 ep   6.0] t=      984s traffic=     2454MB loss=0.510 edges=135 r=1.000 [1.00,1.00] CD true=2.079 est=13.210 Dmax=6.692 acc=0.6682 f1=0.3590
+[r  34 ep   6.2] t=     1023s traffic=     2545MB loss=0.452 edges=136 r=1.000 [1.00,1.00] CD true=1.822 est=12.233 Dmax=6.557
+[r  35 ep   6.4] t=     1063s traffic=     2631MB loss=0.475 edges=128 r=1.000 [1.00,1.00] CD true=2.353 est=13.189 Dmax=6.497
+[r  36 ep   6.6] t=     1110s traffic=     2723MB loss=0.529 edges=138 r=1.000 [1.00,1.00] CD true=2.145 est=13.163 Dmax=6.384
+[r  37 ep   6.8] t=     1155s traffic=     2819MB loss=0.512 edges=143 r=1.000 [1.00,1.00] CD true=1.985 est=12.972 Dmax=6.312
+[r  38 ep   6.9] t=     1202s traffic=     2910MB loss=0.462 edges=136 r=1.000 [1.00,1.00] CD true=2.139 est=12.763 Dmax=6.242
+[r  39 ep   7.1] t=     1267s traffic=     3003MB loss=0.450 edges=139 r=1.000 [1.00,1.00] CD true=1.992 est=13.337 Dmax=6.165 acc=0.6704 f1=0.3684
+[r  40 ep   7.3] t=     1312s traffic=     3090MB loss=0.474 edges=130 r=1.000 [1.00,1.00] CD true=2.082 est=13.277 Dmax=6.113
+[r  41 ep   7.5] t=     1359s traffic=     3173MB loss=0.558 edges=124 r=1.000 [1.00,1.00] CD true=2.222 est=14.799 Dmax=6.070
+[r  42 ep   7.7] t=     1408s traffic=     3268MB loss=0.435 edges=143 r=1.000 [1.00,1.00] CD true=1.291 est=12.698 Dmax=5.994
+[r  43 ep   7.8] t=     1459s traffic=     3352MB loss=0.502 edges=126 r=1.000 [1.00,1.00] CD true=2.083 est=13.243 Dmax=5.992
+[r  44 ep   8.0] t=     1518s traffic=     3448MB loss=0.498 edges=143 r=1.000 [1.00,1.00] CD true=1.703 est=12.317 Dmax=5.982 acc=0.6800 f1=0.3804
+[r  45 ep   8.2] t=     1578s traffic=     3536MB loss=0.515 edges=132 r=1.000 [1.00,1.00] CD true=2.152 est=12.493 Dmax=5.938
+[r  46 ep   8.4] t=     1653s traffic=     3629MB loss=0.502 edges=139 r=1.000 [1.00,1.00] CD true=1.694 est=12.381 Dmax=5.895
+[r  47 ep   8.6] t=     1699s traffic=     3706MB loss=0.491 edges=115 r=1.000 [1.00,1.00] CD true=2.522 est=11.488 Dmax=5.856
+[r  48 ep   8.8] t=     1762s traffic=     3780MB loss=0.465 edges=110 r=1.000 [1.00,1.00] CD true=2.757 est=13.921 Dmax=5.815
+[r  49 ep   8.9] t=     1840s traffic=     3867MB loss=0.504 edges=130 r=1.000 [1.00,1.00] CD true=2.056 est=12.636 Dmax=5.759
+[r  50 ep   9.1] t=     1897s traffic=     3950MB loss=0.540 edges=125 r=1.000 [1.00,1.00] CD true=1.867 est=12.832 Dmax=5.743 acc=0.6774 f1=0.3488
+[r  51 ep   9.3] t=     1962s traffic=     4035MB loss=0.473 edges=126 r=1.000 [1.00,1.00] CD true=1.960 est=12.601 Dmax=5.729
+[r  52 ep   9.5] t=     2025s traffic=     4129MB loss=0.533 edges=141 r=1.000 [1.00,1.00] CD true=1.540 est=11.620 Dmax=5.711
+[r  53 ep   9.7] t=     2079s traffic=     4218MB loss=0.518 edges=133 r=1.000 [1.00,1.00] CD true=1.862 est=11.775 Dmax=5.685
+[r  54 ep   9.9] t=     2145s traffic=     4308MB loss=0.541 edges=135 r=1.000 [1.00,1.00] CD true=2.056 est=12.935 Dmax=5.688
+[r  55 ep  10.0] t=     2209s traffic=     4405MB loss=0.518 edges=145 r=1.000 [1.00,1.00] CD true=1.777 est=13.114 Dmax=5.697 acc=0.6783 f1=0.3812
+[r  56 ep  10.2] t=     2253s traffic=     4489MB loss=0.535 edges=125 r=1.000 [1.00,1.00] CD true=1.827 est=13.729 Dmax=5.669
+[r  57 ep  10.4] t=     2316s traffic=     4576MB loss=0.533 edges=130 r=1.000 [1.00,1.00] CD true=1.854 est=12.443 Dmax=5.651
+[r  58 ep  10.6] t=     2366s traffic=     4656MB loss=0.546 edges=120 r=1.000 [1.00,1.00] CD true=2.345 est=12.623 Dmax=5.614
+[r  59 ep  10.8] t=     2429s traffic=     4736MB loss=0.439 edges=120 r=1.000 [1.00,1.00] CD true=2.452 est=12.323 Dmax=5.586
+[r  60 ep  11.0] t=     2496s traffic=     4816MB loss=0.505 edges=120 r=1.000 [1.00,1.00] CD true=2.078 est=11.928 Dmax=5.535
+[r  61 ep  11.1] t=     2580s traffic=     4899MB loss=0.486 edges=124 r=1.000 [1.00,1.00] CD true=2.252 est=12.258 Dmax=5.519 acc=0.6815 f1=0.3703
+[r  62 ep  11.3] t=     2654s traffic=     4978MB loss=0.492 edges=117 r=1.000 [1.00,1.00] CD true=2.147 est=12.184 Dmax=5.472
+[r  63 ep  11.5] t=     2714s traffic=     5056MB loss=0.511 edges=118 r=1.000 [1.00,1.00] CD true=2.185 est=11.858 Dmax=5.423
+[r  64 ep  11.7] t=     2759s traffic=     5138MB loss=0.476 edges=122 r=1.000 [1.00,1.00] CD true=2.066 est=11.596 Dmax=5.351
+[r  65 ep  11.9] t=     2798s traffic=     5222MB loss=0.487 edges=125 r=1.000 [1.00,1.00] CD true=2.169 est=11.519 Dmax=5.319
+[r  66 ep  12.0] t=     2885s traffic=     5315MB loss=0.453 edges=139 r=1.000 [1.00,1.00] CD true=1.730 est=10.854 Dmax=5.289 acc=0.6807 f1=0.3882
+[r  67 ep  12.2] t=     2930s traffic=     5401MB loss=0.418 edges=129 r=1.000 [1.00,1.00] CD true=1.847 est=10.396 Dmax=5.275
+[r  68 ep  12.4] t=     2973s traffic=     5486MB loss=0.476 edges=127 r=1.000 [1.00,1.00] CD true=1.991 est=11.489 Dmax=5.262
+[r  69 ep  12.6] t=     3032s traffic=     5573MB loss=0.474 edges=131 r=1.000 [1.00,1.00] CD true=1.783 est=11.245 Dmax=5.206
+[r  70 ep  12.8] t=     3081s traffic=     5661MB loss=0.429 edges=131 r=1.000 [1.00,1.00] CD true=1.962 est=10.961 Dmax=5.199
+[r  71 ep  13.0] t=     3150s traffic=     5752MB loss=0.488 edges=136 r=1.000 [1.00,1.00] CD true=1.849 est=11.262 Dmax=5.167
+[r  72 ep  13.1] t=     3216s traffic=     5844MB loss=0.485 edges=138 r=1.000 [1.00,1.00] CD true=1.847 est=10.968 Dmax=5.151 acc=0.6853 f1=0.3747
+[r  73 ep  13.3] t=     3259s traffic=     5924MB loss=0.461 edges=119 r=1.000 [1.00,1.00] CD true=1.781 est=11.624 Dmax=5.140
+[r  74 ep  13.5] t=     3311s traffic=     6013MB loss=0.488 edges=134 r=1.000 [1.00,1.00] CD true=1.630 est=12.507 Dmax=5.178
+[r  75 ep  13.7] t=     3389s traffic=     6106MB loss=0.474 edges=139 r=1.000 [1.00,1.00] CD true=1.845 est=11.016 Dmax=5.191
+[r  76 ep  13.9] t=     3441s traffic=     6193MB loss=0.492 edges=130 r=1.000 [1.00,1.00] CD true=1.993 est=11.318 Dmax=5.163
+[r  77 ep  14.1] t=     3489s traffic=     6284MB loss=0.437 edges=135 r=1.000 [1.00,1.00] CD true=1.894 est=11.774 Dmax=5.124 acc=0.6955 f1=0.3788
+[r  78 ep  14.2] t=     3546s traffic=     6383MB loss=0.428 edges=149 r=1.000 [1.00,1.00] CD true=1.489 est=10.761 Dmax=5.084
+[r  79 ep  14.4] t=     3589s traffic=     6461MB loss=0.521 edges=117 r=1.000 [1.00,1.00] CD true=2.163 est=12.462 Dmax=5.081
+[r  80 ep  14.6] t=     3655s traffic=     6558MB loss=0.527 edges=145 r=1.000 [1.00,1.00] CD true=1.483 est=11.015 Dmax=5.029
+[r  81 ep  14.8] t=     3708s traffic=     6645MB loss=0.493 edges=130 r=1.000 [1.00,1.00] CD true=1.860 est=10.736 Dmax=5.014
+[r  82 ep  15.0] t=     3749s traffic=     6724MB loss=0.436 edges=118 r=1.000 [1.00,1.00] CD true=2.015 est=11.526 Dmax=4.968
+[r  83 ep  15.1] t=     3805s traffic=     6815MB loss=0.443 edges=135 r=1.000 [1.00,1.00] CD true=1.678 est=10.804 Dmax=4.908 acc=0.6860 f1=0.3806
+[r  84 ep  15.3] t=     3858s traffic=     6905MB loss=0.458 edges=135 r=1.000 [1.00,1.00] CD true=1.500 est=11.818 Dmax=4.902
+[r  85 ep  15.5] t=     3903s traffic=     6996MB loss=0.403 edges=137 r=1.000 [1.00,1.00] CD true=1.396 est=11.938 Dmax=4.936
+[r  86 ep  15.7] t=     3958s traffic=     7095MB loss=0.420 edges=147 r=1.000 [1.00,1.00] CD true=1.368 est=11.052 Dmax=4.957
+[r  87 ep  15.9] t=     3997s traffic=     7178MB loss=0.419 edges=125 r=1.000 [1.00,1.00] CD true=1.778 est=13.092 Dmax=4.987
+[r  88 ep  16.1] t=     4060s traffic=     7281MB loss=0.561 edges=153 r=1.000 [1.00,1.00] CD true=1.205 est=10.931 Dmax=5.002 acc=0.6780 f1=0.3973
+[r  89 ep  16.2] t=     4108s traffic=     7362MB loss=0.497 edges=122 r=1.000 [1.00,1.00] CD true=1.929 est=10.525 Dmax=5.009
+[r  90 ep  16.4] t=     4160s traffic=     7453MB loss=0.430 edges=136 r=1.000 [1.00,1.00] CD true=1.751 est=11.645 Dmax=5.005
+[r  91 ep  16.6] t=     4234s traffic=     7545MB loss=0.497 edges=137 r=1.000 [1.00,1.00] CD true=1.866 est=9.922 Dmax=4.998
+[r  92 ep  16.8] t=     4265s traffic=     7622MB loss=0.482 edges=115 r=1.000 [1.00,1.00] CD true=1.989 est=11.047 Dmax=4.957
+[r  93 ep  17.0] t=     4313s traffic=     7716MB loss=0.466 edges=141 r=1.000 [1.00,1.00] CD true=1.272 est=10.724 Dmax=4.918
+[r  94 ep  17.2] t=     4357s traffic=     7807MB loss=0.471 edges=136 r=1.000 [1.00,1.00] CD true=1.510 est=10.826 Dmax=4.914 acc=0.6897 f1=0.3983
+[r  95 ep  17.3] t=     4398s traffic=     7894MB loss=0.581 edges=130 r=1.000 [1.00,1.00] CD true=1.737 est=10.723 Dmax=4.879
+[r  96 ep  17.5] t=     4434s traffic=     7970MB loss=0.504 edges=113 r=1.000 [1.00,1.00] CD true=2.060 est=10.672 Dmax=4.842
+[r  97 ep  17.7] t=     4478s traffic=     8057MB loss=0.440 edges=131 r=1.000 [1.00,1.00] CD true=1.819 est=12.913 Dmax=4.882
+[r  98 ep  17.9] t=     4560s traffic=     8158MB loss=0.523 edges=151 r=1.000 [1.00,1.00] CD true=1.282 est=10.132 Dmax=4.841
+[r  99 ep  18.1] t=     4619s traffic=     8250MB loss=0.434 edges=137 r=1.000 [1.00,1.00] CD true=1.685 est=10.625 Dmax=4.827 acc=0.6905 f1=0.3886
+[r 100 ep  18.3] t=     4676s traffic=     8345MB loss=0.432 edges=143 r=1.000 [1.00,1.00] CD true=1.527 est=10.300 Dmax=4.822
+[r 101 ep  18.4] t=     4735s traffic=     8438MB loss=0.402 edges=138 r=1.000 [1.00,1.00] CD true=1.800 est=10.430 Dmax=4.806
+[r 102 ep  18.6] t=     4795s traffic=     8527MB loss=0.385 edges=134 r=1.000 [1.00,1.00] CD true=1.880 est=9.876 Dmax=4.774
+[r 103 ep  18.8] t=     4851s traffic=     8608MB loss=0.412 edges=120 r=1.000 [1.00,1.00] CD true=2.253 est=11.374 Dmax=4.753
+[r 104 ep  19.0] t=     4922s traffic=     8695MB loss=0.493 edges=131 r=1.000 [1.00,1.00] CD true=1.860 est=10.763 Dmax=4.705
+[r 105 ep  19.2] t=     4986s traffic=     8775MB loss=0.497 edges=120 r=1.000 [1.00,1.00] CD true=2.054 est=11.071 Dmax=4.683 acc=0.6913 f1=0.3753
+[r 106 ep  19.3] t=     5058s traffic=     8863MB loss=0.434 edges=131 r=1.000 [1.00,1.00] CD true=1.710 est=10.323 Dmax=4.641
+[r 107 ep  19.5] t=     5134s traffic=     8951MB loss=0.472 edges=131 r=1.000 [1.00,1.00] CD true=1.801 est=10.621 Dmax=4.626
+[r 108 ep  19.7] t=     5189s traffic=     9041MB loss=0.407 edges=135 r=1.000 [1.00,1.00] CD true=1.526 est=10.628 Dmax=4.613
+[r 109 ep  19.9] t=     5236s traffic=     9131MB loss=0.509 edges=135 r=1.000 [1.00,1.00] CD true=1.543 est=10.089 Dmax=4.615
+[r 110 ep  20.1] t=     5277s traffic=     9209MB loss=0.515 edges=117 r=1.000 [1.00,1.00] CD true=2.017 est=10.975 Dmax=4.612 acc=0.6959 f1=0.3757
+[r 111 ep  20.3] t=     5333s traffic=     9296MB loss=0.437 edges=130 r=1.000 [1.00,1.00] CD true=1.667 est=10.585 Dmax=4.562
+[r 112 ep  20.4] t=     5380s traffic=     9391MB loss=0.484 edges=141 r=1.000 [1.00,1.00] CD true=1.368 est=9.858 Dmax=4.537
+[r 113 ep  20.6] t=     5420s traffic=     9480MB loss=0.499 edges=134 r=1.000 [1.00,1.00] CD true=1.417 est=10.410 Dmax=4.534
+[r 114 ep  20.8] t=     5473s traffic=     9579MB loss=0.443 edges=147 r=1.000 [1.00,1.00] CD true=1.301 est=9.743 Dmax=4.530
+[r 115 ep  21.0] t=     5513s traffic=     9661MB loss=0.476 edges=124 r=1.000 [1.00,1.00] CD true=1.798 est=10.923 Dmax=4.530
+[r 116 ep  21.2] t=     5563s traffic=     9762MB loss=0.510 edges=150 r=1.000 [1.00,1.00] CD true=1.158 est=10.218 Dmax=4.527 acc=0.6909 f1=0.3866
+[r 117 ep  21.4] t=     5608s traffic=     9841MB loss=0.411 edges=119 r=1.000 [1.00,1.00] CD true=1.591 est=10.030 Dmax=4.521
+[r 118 ep  21.5] t=     5654s traffic=     9930MB loss=0.445 edges=132 r=1.000 [1.00,1.00] CD true=1.537 est=9.862 Dmax=4.532
+[r 119 ep  21.7] t=     5708s traffic=    10023MB loss=0.474 edges=139 r=1.000 [1.00,1.00] CD true=1.465 est=10.124 Dmax=4.519
+[r 120 ep  21.9] t=     5747s traffic=    10112MB loss=0.521 edges=133 r=1.000 [1.00,1.00] CD true=1.627 est=10.505 Dmax=4.514
+[r 121 ep  22.1] t=     5791s traffic=    10208MB loss=0.466 edges=144 r=1.000 [1.00,1.00] CD true=1.361 est=10.087 Dmax=4.496 acc=0.6942 f1=0.3764
+[r 122 ep  22.3] t=     5835s traffic=    10303MB loss=0.450 edges=143 r=1.000 [1.00,1.00] CD true=1.142 est=9.457 Dmax=4.473
+[r 123 ep  22.4] t=     5866s traffic=    10378MB loss=0.473 edges=112 r=1.000 [1.00,1.00] CD true=2.125 est=9.641 Dmax=4.498
+[r 124 ep  22.6] t=     5911s traffic=    10470MB loss=0.443 edges=137 r=1.000 [1.00,1.00] CD true=1.956 est=8.938 Dmax=4.458
+[r 125 ep  22.8] t=     5943s traffic=    10545MB loss=0.436 edges=112 r=1.000 [1.00,1.00] CD true=2.355 est=9.455 Dmax=4.420
+[r 126 ep  23.0] t=     5987s traffic=    10635MB loss=0.456 edges=135 r=1.000 [1.00,1.00] CD true=1.657 est=9.752 Dmax=4.367
+[r 127 ep  23.2] t=     6036s traffic=    10729MB loss=0.504 edges=140 r=1.000 [1.00,1.00] CD true=1.310 est=10.067 Dmax=4.370 acc=0.6883 f1=0.3812
+[r 128 ep  23.4] t=     6098s traffic=    10827MB loss=0.469 edges=147 r=1.000 [1.00,1.00] CD true=1.095 est=10.323 Dmax=4.412
+[r 129 ep  23.5] t=     6164s traffic=    10926MB loss=0.448 edges=148 r=1.000 [1.00,1.00] CD true=1.234 est=9.801 Dmax=4.451
+[r 130 ep  23.7] t=     6208s traffic=    11008MB loss=0.507 edges=123 r=1.000 [1.00,1.00] CD true=1.684 est=10.359 Dmax=4.444
+[r 131 ep  23.9] t=     6265s traffic=    11096MB loss=0.459 edges=131 r=1.000 [1.00,1.00] CD true=1.581 est=9.777 Dmax=4.430
+[r 132 ep  24.1] t=     6312s traffic=    11186MB loss=0.426 edges=135 r=1.000 [1.00,1.00] CD true=1.710 est=9.308 Dmax=4.426 acc=0.7018 f1=0.3808
+[r 133 ep  24.3] t=     6346s traffic=    11267MB loss=0.470 edges=121 r=1.000 [1.00,1.00] CD true=1.732 est=9.324 Dmax=4.400
+[r 134 ep  24.5] t=     6388s traffic=    11353MB loss=0.491 edges=129 r=1.000 [1.00,1.00] CD true=1.949 est=8.454 Dmax=4.362
+[r 135 ep  24.6] t=     6429s traffic=    11434MB loss=0.436 edges=121 r=1.000 [1.00,1.00] CD true=2.192 est=8.728 Dmax=4.318
+[r 136 ep  24.8] t=     6465s traffic=    11518MB loss=0.424 edges=125 r=1.000 [1.00,1.00] CD true=1.824 est=9.875 Dmax=4.311
+[r 137 ep  25.0] t=     6502s traffic=    11610MB loss=0.502 edges=137 r=1.000 [1.00,1.00] CD true=1.561 est=9.769 Dmax=4.317 acc=0.7037 f1=0.3797
+[r 138 ep  25.2] t=     6545s traffic=    11709MB loss=0.415 edges=148 r=1.000 [1.00,1.00] CD true=1.250 est=9.292 Dmax=4.309
+[r 139 ep  25.4] t=     6589s traffic=    11807MB loss=0.467 edges=147 r=1.000 [1.00,1.00] CD true=1.235 est=9.667 Dmax=4.343
+[r 140 ep  25.6] t=     6633s traffic=    11899MB loss=0.450 edges=138 r=1.000 [1.00,1.00] CD true=1.574 est=9.371 Dmax=4.374
+[r 141 ep  25.7] t=     6678s traffic=    11988MB loss=0.432 edges=133 r=1.000 [1.00,1.00] CD true=1.351 est=10.495 Dmax=4.351
+[r 142 ep  25.9] t=     6718s traffic=    12066MB loss=0.399 edges=117 r=1.000 [1.00,1.00] CD true=1.689 est=10.857 Dmax=4.388
+[r 143 ep  26.1] t=     6753s traffic=    12156MB loss=0.475 edges=134 r=1.000 [1.00,1.00] CD true=1.519 est=9.657 Dmax=4.376 acc=0.7076 f1=0.3887
+[r 144 ep  26.3] t=     6797s traffic=    12242MB loss=0.508 edges=128 r=1.000 [1.00,1.00] CD true=1.478 est=10.508 Dmax=4.378
+[r 145 ep  26.5] t=     6833s traffic=    12332MB loss=0.460 edges=136 r=1.000 [1.00,1.00] CD true=1.651 est=11.183 Dmax=4.394
+[r 146 ep  26.6] t=     6873s traffic=    12435MB loss=0.434 edges=154 r=1.000 [1.00,1.00] CD true=1.362 est=9.651 Dmax=4.386
+[r 147 ep  26.8] t=     6908s traffic=    12526MB loss=0.418 edges=136 r=1.000 [1.00,1.00] CD true=1.422 est=9.620 Dmax=4.392
+[r 148 ep  27.0] t=     6943s traffic=    12617MB loss=0.442 edges=135 r=1.000 [1.00,1.00] CD true=1.218 est=9.758 Dmax=4.354 acc=0.6959 f1=0.3990
+[r 149 ep  27.2] t=     6987s traffic=    12710MB loss=0.418 edges=139 r=1.000 [1.00,1.00] CD true=1.318 est=9.907 Dmax=4.344
+[r 150 ep  27.4] t=     7032s traffic=    12808MB loss=0.428 edges=147 r=1.000 [1.00,1.00] CD true=1.155 est=9.375 Dmax=4.328
+[r 151 ep  27.6] t=     7069s traffic=    12902MB loss=0.420 edges=141 r=1.000 [1.00,1.00] CD true=1.334 est=9.661 Dmax=4.331
+[r 152 ep  27.7] t=     7099s traffic=    12990MB loss=0.417 edges=131 r=1.000 [1.00,1.00] CD true=1.558 est=9.613 Dmax=4.333
+[r 153 ep  27.9] t=     7131s traffic=    13072MB loss=0.449 edges=123 r=1.000 [1.00,1.00] CD true=1.678 est=9.840 Dmax=4.305
+[r 154 ep  28.1] t=     7166s traffic=    13158MB loss=0.462 edges=129 r=1.000 [1.00,1.00] CD true=1.608 est=9.625 Dmax=4.276 acc=0.6991 f1=0.3978
+[r 155 ep  28.3] t=     7201s traffic=    13249MB loss=0.434 edges=136 r=1.000 [1.00,1.00] CD true=1.206 est=8.985 Dmax=4.224
+[r 156 ep  28.5] t=     7231s traffic=    13341MB loss=0.435 edges=137 r=1.000 [1.00,1.00] CD true=1.339 est=9.801 Dmax=4.242
+[r 157 ep  28.7] t=     7265s traffic=    13437MB loss=0.453 edges=144 r=1.000 [1.00,1.00] CD true=1.280 est=9.447 Dmax=4.249
+[r 158 ep  28.8] t=     7289s traffic=    13522MB loss=0.470 edges=127 r=1.000 [1.00,1.00] CD true=1.685 est=9.741 Dmax=4.238
+[r 159 ep  29.0] t=     7327s traffic=    13615MB loss=0.511 edges=139 r=1.000 [1.00,1.00] CD true=1.375 est=9.422 Dmax=4.214 acc=0.6971 f1=0.3918
+[r 160 ep  29.2] t=     7361s traffic=    13707MB loss=0.478 edges=137 r=1.000 [1.00,1.00] CD true=1.482 est=9.590 Dmax=4.206
+[r 161 ep  29.4] t=     7414s traffic=    13804MB loss=0.439 edges=146 r=1.000 [1.00,1.00] CD true=1.251 est=9.304 Dmax=4.185
+[r 162 ep  29.6] t=     7456s traffic=    13895MB loss=0.424 edges=135 r=1.000 [1.00,1.00] CD true=1.569 est=8.988 Dmax=4.164
+[r 163 ep  29.7] t=     7494s traffic=    13983MB loss=0.477 edges=132 r=1.000 [1.00,1.00] CD true=1.615 est=9.651 Dmax=4.138
+[r 164 ep  29.9] t=     7546s traffic=    14081MB loss=0.450 edges=146 r=1.000 [1.00,1.00] CD true=1.316 est=9.520 Dmax=4.126
+[r 165 ep  30.1] t=     7604s traffic=    14182MB loss=0.481 edges=151 r=1.000 [1.00,1.00] CD true=1.087 est=9.055 Dmax=4.120 acc=0.6934 f1=0.3862
+[r 166 ep  30.3] t=     7653s traffic=    14272MB loss=0.459 edges=135 r=1.000 [1.00,1.00] CD true=1.624 est=8.529 Dmax=4.116
+[r 167 ep  30.5] t=     7694s traffic=    14361MB loss=0.470 edges=134 r=1.000 [1.00,1.00] CD true=1.575 est=9.370 Dmax=4.088
+[r 168 ep  30.7] t=     7732s traffic=    14451MB loss=0.486 edges=134 r=1.000 [1.00,1.00] CD true=1.544 est=10.424 Dmax=4.075
+[r 169 ep  30.8] t=     7798s traffic=    14551MB loss=0.446 edges=150 r=1.000 [1.00,1.00] CD true=1.105 est=9.179 Dmax=4.058
+[r 170 ep  31.0] t=     7877s traffic=    14651MB loss=0.488 edges=149 r=1.000 [1.00,1.00] CD true=1.193 est=9.054 Dmax=4.075 acc=0.6925 f1=0.3945
+[r 171 ep  31.2] t=     7917s traffic=    14739MB loss=0.373 edges=131 r=1.000 [1.00,1.00] CD true=1.695 est=9.320 Dmax=4.071
+[r 172 ep  31.4] t=     7958s traffic=    14831MB loss=0.419 edges=138 r=1.000 [1.00,1.00] CD true=1.347 est=9.117 Dmax=4.044
+[r 173 ep  31.6] t=     8004s traffic=    14929MB loss=0.450 edges=147 r=1.000 [1.00,1.00] CD true=1.269 est=9.098 Dmax=4.045
+[r 174 ep  31.8] t=     8035s traffic=    15013MB loss=0.456 edges=126 r=1.000 [1.00,1.00] CD true=1.701 est=8.663 Dmax=4.034
+[r 175 ep  31.9] t=     8066s traffic=    15096MB loss=0.488 edges=123 r=1.000 [1.00,1.00] CD true=1.428 est=9.646 Dmax=4.014
+[r 176 ep  32.1] t=     8103s traffic=    15192MB loss=0.506 edges=144 r=1.000 [1.00,1.00] CD true=1.375 est=9.391 Dmax=4.049 acc=0.6984 f1=0.3768
+[r 177 ep  32.3] t=     8144s traffic=    15290MB loss=0.477 edges=146 r=1.000 [1.00,1.00] CD true=1.052 est=8.924 Dmax=4.038
+[r 178 ep  32.5] t=     8177s traffic=    15386MB loss=0.471 edges=144 r=1.000 [1.00,1.00] CD true=1.100 est=8.980 Dmax=4.058
+[r 179 ep  32.7] t=     8203s traffic=    15476MB loss=0.407 edges=134 r=1.000 [1.00,1.00] CD true=1.441 est=8.850 Dmax=4.056
+[r 180 ep  32.9] t=     8232s traffic=    15559MB loss=0.510 edges=125 r=1.000 [1.00,1.00] CD true=1.281 est=9.578 Dmax=4.053
+[r 181 ep  33.0] t=     8271s traffic=    15649MB loss=0.436 edges=134 r=1.000 [1.00,1.00] CD true=1.360 est=9.225 Dmax=4.054 acc=0.7039 f1=0.3968
+[r 182 ep  33.2] t=     8310s traffic=    15742MB loss=0.424 edges=139 r=1.000 [1.00,1.00] CD true=1.308 est=9.186 Dmax=4.040
+[r 183 ep  33.4] t=     8357s traffic=    15837MB loss=0.375 edges=143 r=1.000 [1.00,1.00] CD true=1.096 est=9.209 Dmax=4.055
+[r 184 ep  33.6] t=     8404s traffic=    15934MB loss=0.469 edges=144 r=1.000 [1.00,1.00] CD true=1.146 est=9.062 Dmax=4.071
+[r 185 ep  33.8] t=     8453s traffic=    16031MB loss=0.418 edges=146 r=1.000 [1.00,1.00] CD true=1.063 est=9.110 Dmax=4.079
+[r 186 ep  33.9] t=     8487s traffic=    16120MB loss=0.397 edges=132 r=1.000 [1.00,1.00] CD true=1.406 est=8.953 Dmax=4.086
+[r 187 ep  34.1] t=     8529s traffic=    16205MB loss=0.400 edges=127 r=1.000 [1.00,1.00] CD true=1.462 est=9.381 Dmax=4.080 acc=0.6962 f1=0.3722
+[r 188 ep  34.3] t=     8573s traffic=    16297MB loss=0.435 edges=138 r=1.000 [1.00,1.00] CD true=1.211 est=9.150 Dmax=4.076
+[r 189 ep  34.5] t=     8616s traffic=    16394MB loss=0.407 edges=146 r=1.000 [1.00,1.00] CD true=1.073 est=9.431 Dmax=4.086
+[r 190 ep  34.7] t=     8659s traffic=    16495MB loss=0.470 edges=150 r=1.000 [1.00,1.00] CD true=1.164 est=9.398 Dmax=4.131
+[r 191 ep  34.9] t=     8694s traffic=    16578MB loss=0.382 edges=124 r=1.000 [1.00,1.00] CD true=1.520 est=8.936 Dmax=4.117
+[r 192 ep  35.0] t=     8733s traffic=    16669MB loss=0.433 edges=137 r=1.000 [1.00,1.00] CD true=1.421 est=9.177 Dmax=4.103 acc=0.7069 f1=0.3894
+[r 193 ep  35.2] t=     8766s traffic=    16752MB loss=0.422 edges=123 r=1.000 [1.00,1.00] CD true=1.610 est=8.889 Dmax=4.090
+[r 194 ep  35.4] t=     8804s traffic=    16838MB loss=0.432 edges=129 r=1.000 [1.00,1.00] CD true=1.272 est=9.218 Dmax=4.058
+[r 195 ep  35.6] t=     8848s traffic=    16933MB loss=0.428 edges=143 r=1.000 [1.00,1.00] CD true=1.054 est=8.917 Dmax=4.059
+[r 196 ep  35.8] t=     8883s traffic=    17020MB loss=0.461 edges=129 r=1.000 [1.00,1.00] CD true=1.368 est=9.388 Dmax=4.074
+[r 197 ep  36.0] t=     8924s traffic=    17108MB loss=0.437 edges=132 r=1.000 [1.00,1.00] CD true=1.534 est=8.984 Dmax=4.059
+[r 198 ep  36.1] t=     8980s traffic=    17200MB loss=0.459 edges=138 r=1.000 [1.00,1.00] CD true=1.346 est=8.754 Dmax=4.038 acc=0.7045 f1=0.3909
+[r 199 ep  36.3] t=     9024s traffic=    17291MB loss=0.442 edges=135 r=1.000 [1.00,1.00] CD true=1.496 est=9.347 Dmax=4.029
+[r 200 ep  36.5] t=     9074s traffic=    17388MB loss=0.443 edges=146 r=1.000 [1.00,1.00] CD true=1.097 est=8.834 Dmax=4.007 acc=0.7147 f1=0.3942
+saved results/ratio_sweep_dir0.5/unsw-nb15-multiclass_mlp_fcr1.0_dir0.5_heter_dynamic_s0.json
+dataset=unsw-nb15 model=mlp d=83594 (B=2.68 Mb) workers=20 algo=coco partition=dirichlet rounds=200 (5.48 rounds/epoch)
+local data: sizes 2048-22078, classes/worker 8-10 of 10
+[r   1 ep   0.2] t=        2s traffic=        1MB loss=0.676 edges= 86 r=0.010 [0.01,0.01] CD true=16.811 est=19.712 Dmax=21.086
+[r   2 ep   0.4] t=        3s traffic=        1MB loss=0.693 edges=112 r=0.010 [0.01,0.01] CD true=20.887 est=26.378 Dmax=20.515
+[r   3 ep   0.5] t=        9s traffic=       31MB loss=0.621 edges=107 r=0.525 [0.30,1.00] CD true=14.588 est=36.724 Dmax=19.729
+[r   4 ep   0.7] t=       23s traffic=      101MB loss=0.644 edges=105 r=0.999 [0.99,1.00] CD true=6.840 est=28.136 Dmax=19.075
+[r   5 ep   0.9] t=       41s traffic=      143MB loss=0.663 edges=190 r=0.329 [0.17,0.35] CD true=8.884 est=18.130 Dmax=18.354
+[r   6 ep   1.1] t=       42s traffic=      144MB loss=0.597 edges=107 r=0.010 [0.01,0.01] CD true=10.129 est=20.244 Dmax=17.436 acc=0.5647 f1=0.2346
+[r   7 ep   1.3] t=       49s traffic=      163MB loss=0.529 edges=172 r=0.162 [0.09,0.18] CD true=10.334 est=18.585 Dmax=16.616
+[r   8 ep   1.5] t=       51s traffic=      176MB loss=0.616 edges= 67 r=0.351 [0.20,1.00] CD true=9.799 est=24.735 Dmax=15.740
+[r   9 ep   1.6] t=       63s traffic=      236MB loss=0.593 edges= 90 r=0.997 [0.97,1.00] CD true=5.335 est=22.610 Dmax=14.952
+[r  10 ep   1.8] t=       78s traffic=      286MB loss=0.643 edges=146 r=0.556 [0.30,1.00] CD true=6.263 est=18.342 Dmax=14.312
+[r  11 ep   2.0] t=       88s traffic=      318MB loss=0.562 edges=152 r=0.341 [0.23,0.96] CD true=6.328 est=13.641 Dmax=13.557 acc=0.6243 f1=0.2756
+[r  12 ep   2.2] t=       89s traffic=      319MB loss=0.554 edges=123 r=0.010 [0.01,0.01] CD true=8.256 est=12.406 Dmax=12.844
+[r  13 ep   2.4] t=       91s traffic=      319MB loss=0.538 edges= 71 r=0.010 [0.01,0.01] CD true=9.916 est=18.365 Dmax=12.262
+[r  14 ep   2.6] t=      101s traffic=      365MB loss=0.555 edges=134 r=0.583 [0.33,1.00] CD true=6.670 est=17.513 Dmax=11.678
+[r  15 ep   2.7] t=      112s traffic=      414MB loss=0.571 edges=143 r=0.537 [0.16,1.00] CD true=5.281 est=14.026 Dmax=11.154
+[r  16 ep   2.9] t=      119s traffic=      442MB loss=0.524 edges=153 r=0.294 [0.09,0.70] CD true=5.895 est=12.349 Dmax=10.621
+[r  17 ep   3.1] t=      125s traffic=      462MB loss=0.576 edges=168 r=0.204 [0.06,0.81] CD true=6.519 est=11.591 Dmax=10.112 acc=0.6359 f1=0.2908
+[r  18 ep   3.3] t=      130s traffic=      480MB loss=0.521 edges= 79 r=0.398 [0.26,0.73] CD true=6.537 est=14.661 Dmax=9.664
+[r  19 ep   3.5] t=      145s traffic=      532MB loss=0.576 edges=129 r=0.650 [0.40,1.00] CD true=5.100 est=14.263 Dmax=9.267
+[r  20 ep   3.7] t=      161s traffic=      589MB loss=0.554 edges=112 r=0.807 [0.45,1.00] CD true=4.381 est=13.637 Dmax=8.884
+[r  21 ep   3.8] t=      180s traffic=      640MB loss=0.543 edges=163 r=0.490 [0.19,1.00] CD true=4.563 est=12.841 Dmax=8.586
+[r  22 ep   4.0] t=      199s traffic=      682MB loss=0.554 edges=172 r=0.395 [0.24,1.00] CD true=4.534 est=10.607 Dmax=8.254 acc=0.6559 f1=0.3205
+[r  23 ep   4.2] t=      210s traffic=      711MB loss=0.582 edges=167 r=0.276 [0.16,0.60] CD true=5.124 est=9.698 Dmax=7.930
+[r  24 ep   4.4] t=      219s traffic=      735MB loss=0.575 edges=153 r=0.242 [0.16,0.39] CD true=5.430 est=9.884 Dmax=7.626
+[r  25 ep   4.6] t=      232s traffic=      765MB loss=0.551 edges=171 r=0.291 [0.12,1.00] CD true=5.212 est=9.856 Dmax=7.357
+[r  26 ep   4.7] t=      247s traffic=      797MB loss=0.495 edges=190 r=0.257 [0.14,0.34] CD true=4.955 est=9.141 Dmax=7.104
+[r  27 ep   4.9] t=      256s traffic=      826MB loss=0.494 edges=132 r=0.387 [0.09,0.76] CD true=4.989 est=11.061 Dmax=6.874
+[r  28 ep   5.1] t=      278s traffic=      879MB loss=0.439 edges=171 r=0.463 [0.21,0.58] CD true=4.196 est=10.161 Dmax=6.687 acc=0.6694 f1=0.3365
+[r  29 ep   5.3] t=      291s traffic=      929MB loss=0.563 edges=102 r=0.814 [0.16,1.00] CD true=3.747 est=11.371 Dmax=6.530
+[r  30 ep   5.5] t=      317s traffic=      984MB loss=0.483 edges=190 r=0.428 [0.23,0.48] CD true=3.816 est=9.114 Dmax=6.402
+[r  31 ep   5.7] t=      335s traffic=     1022MB loss=0.575 edges=190 r=0.299 [0.17,0.35] CD true=4.145 est=8.104 Dmax=6.206
+[r  32 ep   5.8] t=      349s traffic=     1052MB loss=0.533 edges=190 r=0.234 [0.12,0.32] CD true=4.833 est=8.646 Dmax=6.053
+[r  33 ep   6.0] t=      361s traffic=     1089MB loss=0.519 edges=121 r=0.471 [0.18,0.52] CD true=4.393 est=9.575 Dmax=5.914 acc=0.6616 f1=0.3172
+[r  34 ep   6.2] t=      382s traffic=     1140MB loss=0.469 edges=166 r=0.453 [0.24,0.48] CD true=3.734 est=9.297 Dmax=5.757
+[r  35 ep   6.4] t=      401s traffic=     1191MB loss=0.478 edges=171 r=0.451 [0.20,0.52] CD true=3.810 est=9.140 Dmax=5.660
+[r  36 ep   6.6] t=      422s traffic=     1243MB loss=0.518 edges=171 r=0.453 [0.21,0.55] CD true=3.604 est=9.131 Dmax=5.564
+[r  37 ep   6.8] t=      440s traffic=     1294MB loss=0.521 edges=149 r=0.519 [0.38,0.61] CD true=3.666 est=9.081 Dmax=5.468
+[r  38 ep   6.9] t=      463s traffic=     1345MB loss=0.449 edges=190 r=0.401 [0.22,0.44] CD true=3.675 est=8.389 Dmax=5.371
+[r  39 ep   7.1] t=      483s traffic=     1390MB loss=0.461 edges=169 r=0.404 [0.20,0.45] CD true=3.953 est=8.892 Dmax=5.281 acc=0.6749 f1=0.3381
+[r  40 ep   7.3] t=      507s traffic=     1443MB loss=0.482 edges=181 r=0.435 [0.22,0.55] CD true=3.445 est=8.358 Dmax=5.185
+[r  41 ep   7.5] t=      524s traffic=     1494MB loss=0.544 edges= 96 r=0.854 [0.40,1.00] CD true=3.440 est=9.989 Dmax=5.133
+[r  42 ep   7.7] t=      550s traffic=     1562MB loss=0.447 edges=142 r=0.743 [0.29,1.00] CD true=2.736 est=9.640 Dmax=5.096
+[r  43 ep   7.8] t=      575s traffic=     1625MB loss=0.510 edges=167 r=0.571 [0.24,0.78] CD true=3.157 est=8.994 Dmax=5.086
+[r  44 ep   8.0] t=      600s traffic=     1681MB loss=0.496 edges=190 r=0.438 [0.24,0.48] CD true=3.404 est=8.080 Dmax=5.051 acc=0.6834 f1=0.3541
+[r  45 ep   8.2] t=      622s traffic=     1729MB loss=0.500 edges=190 r=0.377 [0.21,0.43] CD true=3.696 est=8.181 Dmax=4.981
+[r  46 ep   8.4] t=      646s traffic=     1779MB loss=0.497 edges=189 r=0.395 [0.23,0.46] CD true=3.475 est=7.910 Dmax=4.901
+[r  47 ep   8.6] t=      669s traffic=     1827MB loss=0.482 edges=177 r=0.409 [0.22,0.55] CD true=3.550 est=8.008 Dmax=4.811
+[r  48 ep   8.8] t=      694s traffic=     1878MB loss=0.447 edges=190 r=0.404 [0.24,0.48] CD true=3.455 est=8.244 Dmax=4.756
+[r  49 ep   8.9] t=      721s traffic=     1933MB loss=0.492 edges=190 r=0.428 [0.25,0.52] CD true=3.263 est=7.511 Dmax=4.696
+[r  50 ep   9.1] t=      744s traffic=     1980MB loss=0.553 edges=188 r=0.378 [0.22,0.44] CD true=3.565 est=7.777 Dmax=4.642 acc=0.6837 f1=0.3401
+[r  51 ep   9.3] t=      769s traffic=     2032MB loss=0.474 edges=190 r=0.407 [0.23,0.49] CD true=3.463 est=7.781 Dmax=4.590
+[r  52 ep   9.5] t=      794s traffic=     2085MB loss=0.521 edges=190 r=0.414 [0.23,0.48] CD true=3.478 est=8.136 Dmax=4.570
+[r  53 ep   9.7] t=      816s traffic=     2141MB loss=0.507 edges=190 r=0.443 [0.21,0.56] CD true=3.190 est=7.779 Dmax=4.525
+[r  54 ep   9.9] t=      833s traffic=     2195MB loss=0.513 edges=112 r=0.734 [0.26,1.00] CD true=3.351 est=9.111 Dmax=4.523
+[r  55 ep  10.0] t=      862s traffic=     2260MB loss=0.516 edges=181 r=0.539 [0.27,0.79] CD true=2.979 est=8.313 Dmax=4.525 acc=0.6912 f1=0.3655
+[r  56 ep  10.2] t=      882s traffic=     2320MB loss=0.547 edges=137 r=0.686 [0.25,1.00] CD true=2.944 est=9.222 Dmax=4.518
+[r  57 ep  10.4] t=      914s traffic=     2387MB loss=0.541 edges=181 r=0.558 [0.33,0.83] CD true=2.817 est=8.202 Dmax=4.507
+[r  58 ep  10.6] t=      937s traffic=     2446MB loss=0.535 edges=125 r=0.746 [0.32,1.00] CD true=2.928 est=9.620 Dmax=4.499
+[r  59 ep  10.8] t=      968s traffic=     2516MB loss=0.453 edges=135 r=0.788 [0.39,1.00] CD true=2.559 est=10.041 Dmax=4.535
+[r  60 ep  11.0] t=      998s traffic=     2589MB loss=0.500 edges=161 r=0.694 [0.28,0.94] CD true=2.352 est=8.374 Dmax=4.534
+[r  61 ep  11.1] t=     1022s traffic=     2650MB loss=0.493 edges=190 r=0.474 [0.23,0.68] CD true=2.946 est=7.628 Dmax=4.514 acc=0.6879 f1=0.3582
+[r  62 ep  11.3] t=     1047s traffic=     2703MB loss=0.491 edges=162 r=0.496 [0.23,0.64] CD true=3.395 est=8.274 Dmax=4.488
+[r  63 ep  11.5] t=     1073s traffic=     2765MB loss=0.506 edges=171 r=0.543 [0.28,0.75] CD true=2.963 est=8.113 Dmax=4.436
+[r  64 ep  11.7] t=     1098s traffic=     2823MB loss=0.474 edges=171 r=0.511 [0.28,0.63] CD true=3.052 est=7.783 Dmax=4.406
+[r  65 ep  11.9] t=     1122s traffic=     2879MB loss=0.495 edges=190 r=0.440 [0.22,0.53] CD true=3.121 est=7.439 Dmax=4.371
+[r  66 ep  12.0] t=     1142s traffic=     2932MB loss=0.455 edges=135 r=0.617 [0.21,0.96] CD true=2.961 est=8.676 Dmax=4.330 acc=0.6936 f1=0.3601
+[r  67 ep  12.2] t=     1170s traffic=     2998MB loss=0.420 edges=190 r=0.515 [0.26,0.59] CD true=2.796 est=7.720 Dmax=4.320
+[r  68 ep  12.4] t=     1191s traffic=     3055MB loss=0.485 edges=136 r=0.639 [0.24,0.80] CD true=3.047 est=9.160 Dmax=4.299
+[r  69 ep  12.6] t=     1221s traffic=     3122MB loss=0.464 edges=190 r=0.528 [0.29,0.96] CD true=2.575 est=7.198 Dmax=4.251
+[r  70 ep  12.8] t=     1239s traffic=     3176MB loss=0.430 edges=116 r=0.707 [0.35,0.95] CD true=3.242 est=8.613 Dmax=4.243
+[r  71 ep  13.0] t=     1264s traffic=     3248MB loss=0.485 edges=117 r=0.916 [0.33,1.00] CD true=2.559 est=9.003 Dmax=4.221
+[r  72 ep  13.1] t=     1295s traffic=     3321MB loss=0.491 edges=153 r=0.753 [0.31,1.00] CD true=2.466 est=8.474 Dmax=4.238 acc=0.6945 f1=0.3756
+[r  73 ep  13.3] t=     1324s traffic=     3386MB loss=0.445 edges=190 r=0.509 [0.28,0.58] CD true=2.727 est=7.679 Dmax=4.247
+[r  74 ep  13.5] t=     1350s traffic=     3444MB loss=0.477 edges=171 r=0.532 [0.28,1.00] CD true=2.919 est=8.077 Dmax=4.224
+[r  75 ep  13.7] t=     1375s traffic=     3506MB loss=0.467 edges=186 r=0.500 [0.24,0.63] CD true=2.757 est=7.409 Dmax=4.186
+[r  76 ep  13.9] t=     1400s traffic=     3562MB loss=0.483 edges=190 r=0.438 [0.25,0.57] CD true=3.040 est=7.328 Dmax=4.149
+[r  77 ep  14.1] t=     1425s traffic=     3618MB loss=0.434 edges=190 r=0.437 [0.24,0.63] CD true=3.260 est=7.788 Dmax=4.160 acc=0.6938 f1=0.3605
+[r  78 ep  14.2] t=     1448s traffic=     3676MB loss=0.428 edges=153 r=0.613 [0.24,1.00] CD true=2.921 est=8.156 Dmax=4.116
+[r  79 ep  14.4] t=     1472s traffic=     3739MB loss=0.529 edges= 99 r=0.957 [0.39,1.00] CD true=2.608 est=9.662 Dmax=4.096
+[r  80 ep  14.6] t=     1507s traffic=     3814MB loss=0.527 edges=190 r=0.594 [0.38,0.68] CD true=2.365 est=7.875 Dmax=4.135
+[r  81 ep  14.8] t=     1535s traffic=     3875MB loss=0.496 edges=190 r=0.476 [0.26,0.60] CD true=2.712 est=6.972 Dmax=4.137
+[r  82 ep  15.0] t=     1557s traffic=     3926MB loss=0.431 edges=171 r=0.462 [0.21,0.69] CD true=3.152 est=7.271 Dmax=4.108
+[r  83 ep  15.1] t=     1582s traffic=     3982MB loss=0.436 edges=190 r=0.438 [0.24,0.49] CD true=2.989 est=7.169 Dmax=4.054 acc=0.6976 f1=0.3723
+[r  84 ep  15.3] t=     1607s traffic=     4038MB loss=0.457 edges=167 r=0.510 [0.25,0.68] CD true=2.989 est=7.433 Dmax=4.009
+[r  85 ep  15.5] t=     1630s traffic=     4097MB loss=0.413 edges=171 r=0.537 [0.23,0.99] CD true=2.856 est=7.699 Dmax=3.987
+[r  86 ep  15.7] t=     1650s traffic=     4159MB loss=0.408 edges=171 r=0.558 [0.20,0.90] CD true=2.791 est=7.418 Dmax=3.964
+[r  87 ep  15.9] t=     1671s traffic=     4219MB loss=0.418 edges=190 r=0.473 [0.20,0.97] CD true=2.881 est=7.403 Dmax=3.953
+[r  88 ep  16.1] t=     1690s traffic=     4278MB loss=0.562 edges=167 r=0.557 [0.20,1.00] CD true=2.872 est=8.254 Dmax=3.949 acc=0.6990 f1=0.3748
+[r  89 ep  16.2] t=     1716s traffic=     4345MB loss=0.489 edges=190 r=0.524 [0.24,0.64] CD true=2.580 est=7.449 Dmax=3.943
+[r  90 ep  16.4] t=     1737s traffic=     4406MB loss=0.421 edges=190 r=0.482 [0.20,0.59] CD true=2.672 est=7.227 Dmax=3.933
+[r  91 ep  16.6] t=     1754s traffic=     4467MB loss=0.501 edges=154 r=0.612 [0.17,1.00] CD true=2.838 est=7.597 Dmax=3.918
+[r  92 ep  16.8] t=     1775s traffic=     4535MB loss=0.488 edges=123 r=0.847 [0.30,1.00] CD true=2.390 est=8.581 Dmax=3.923
+[r  93 ep  17.0] t=     1798s traffic=     4608MB loss=0.474 edges=171 r=0.636 [0.24,0.80] CD true=2.371 est=7.640 Dmax=3.943
+[r  94 ep  17.2] t=     1823s traffic=     4670MB loss=0.456 edges=181 r=0.507 [0.28,0.59] CD true=2.692 est=7.110 Dmax=3.933 acc=0.6953 f1=0.3752
+[r  95 ep  17.3] t=     1847s traffic=     4726MB loss=0.568 edges=190 r=0.446 [0.25,0.74] CD true=2.898 est=6.894 Dmax=3.905
+[r  96 ep  17.5] t=     1868s traffic=     4781MB loss=0.520 edges=181 r=0.453 [0.25,0.56] CD true=2.947 est=7.293 Dmax=3.882
+[r  97 ep  17.7] t=     1894s traffic=     4840MB loss=0.432 edges=171 r=0.527 [0.25,0.72] CD true=2.933 est=8.778 Dmax=3.894
+[r  98 ep  17.9] t=     1924s traffic=     4916MB loss=0.531 edges=153 r=0.738 [0.36,1.00] CD true=2.202 est=7.979 Dmax=3.873
+[r  99 ep  18.1] t=     1953s traffic=     4986MB loss=0.425 edges=149 r=0.718 [0.31,0.90] CD true=2.355 est=7.749 Dmax=3.869 acc=0.7024 f1=0.3899
+[r 100 ep  18.3] t=     1977s traffic=     5052MB loss=0.425 edges=190 r=0.513 [0.26,0.74] CD true=2.552 est=7.065 Dmax=3.871
+[r 101 ep  18.4] t=     1997s traffic=     5109MB loss=0.407 edges=190 r=0.453 [0.19,0.58] CD true=2.825 est=7.042 Dmax=3.855
+[r 102 ep  18.6] t=     2020s traffic=     5167MB loss=0.407 edges=181 r=0.479 [0.23,0.59] CD true=2.823 est=7.042 Dmax=3.825
+[r 103 ep  18.8] t=     2043s traffic=     5226MB loss=0.413 edges=152 r=0.609 [0.24,1.00] CD true=2.768 est=8.131 Dmax=3.807
+[r 104 ep  19.0] t=     2067s traffic=     5298MB loss=0.480 edges=132 r=0.839 [0.29,1.00] CD true=2.217 est=8.384 Dmax=3.791
+[r 105 ep  19.2] t=     2091s traffic=     5371MB loss=0.502 edges=149 r=0.740 [0.24,1.00] CD true=2.228 est=8.337 Dmax=3.807 acc=0.6983 f1=0.3810
+[r 106 ep  19.3] t=     2117s traffic=     5443MB loss=0.435 edges=134 r=0.810 [0.28,1.00] CD true=2.238 est=8.596 Dmax=3.818
+[r 107 ep  19.5] t=     2143s traffic=     5517MB loss=0.463 edges=167 r=0.668 [0.28,1.00] CD true=2.272 est=7.661 Dmax=3.836
+[r 108 ep  19.7] t=     2165s traffic=     5582MB loss=0.414 edges=171 r=0.562 [0.20,0.72] CD true=2.542 est=7.214 Dmax=3.833
+[r 109 ep  19.9] t=     2184s traffic=     5642MB loss=0.511 edges=167 r=0.560 [0.20,1.00] CD true=2.753 est=7.633 Dmax=3.829
+[r 110 ep  20.1] t=     2205s traffic=     5707MB loss=0.493 edges=154 r=0.647 [0.29,0.82] CD true=2.457 est=7.874 Dmax=3.807 acc=0.6969 f1=0.3809
+[r 111 ep  20.3] t=     2229s traffic=     5774MB loss=0.433 edges=137 r=0.762 [0.27,1.00] CD true=2.248 est=8.256 Dmax=3.795
+[r 112 ep  20.4] t=     2251s traffic=     5846MB loss=0.474 edges=154 r=0.717 [0.29,1.00] CD true=2.239 est=8.043 Dmax=3.797
+[r 113 ep  20.6] t=     2272s traffic=     5913MB loss=0.498 edges=121 r=0.851 [0.61,1.00] CD true=2.348 est=8.962 Dmax=3.802
+[r 114 ep  20.8] t=     2297s traffic=     5991MB loss=0.439 edges=169 r=0.691 [0.28,0.96] CD true=2.002 est=7.283 Dmax=3.802
+[r 115 ep  21.0] t=     2316s traffic=     6054MB loss=0.489 edges=177 r=0.535 [0.25,0.67] CD true=2.518 est=7.177 Dmax=3.812
+[r 116 ep  21.2] t=     2339s traffic=     6115MB loss=0.512 edges=190 r=0.473 [0.22,0.61] CD true=2.696 est=7.015 Dmax=3.794 acc=0.7018 f1=0.3766
+[r 117 ep  21.4] t=     2365s traffic=     6173MB loss=0.413 edges=190 r=0.459 [0.31,0.50] CD true=2.712 est=6.692 Dmax=3.761
+[r 118 ep  21.5] t=     2384s traffic=     6230MB loss=0.426 edges=111 r=0.796 [0.28,1.00] CD true=2.541 est=8.684 Dmax=3.719
+[r 119 ep  21.7] t=     2417s traffic=     6304MB loss=0.484 edges=190 r=0.583 [0.36,0.63] CD true=2.059 est=6.748 Dmax=3.691
+[r 120 ep  21.9] t=     2439s traffic=     6363MB loss=0.510 edges=113 r=0.816 [0.42,1.00] CD true=2.510 est=8.605 Dmax=3.693
+[r 121 ep  22.1] t=     2466s traffic=     6438MB loss=0.456 edges=120 r=0.939 [0.59,1.00] CD true=1.793 est=9.040 Dmax=3.686 acc=0.6949 f1=0.3919
+[r 122 ep  22.3] t=     2497s traffic=     6517MB loss=0.433 edges=163 r=0.729 [0.42,0.78] CD true=1.847 est=7.206 Dmax=3.719
+[r 123 ep  22.4] t=     2520s traffic=     6581MB loss=0.467 edges=171 r=0.554 [0.26,0.61] CD true=2.488 est=7.052 Dmax=3.733
+[r 124 ep  22.6] t=     2546s traffic=     6641MB loss=0.445 edges=171 r=0.537 [0.30,0.68] CD true=2.583 est=6.980 Dmax=3.706
+[r 125 ep  22.8] t=     2565s traffic=     6704MB loss=0.428 edges= 99 r=0.943 [0.54,1.00] CD true=2.522 est=7.859 Dmax=3.665
+[r 126 ep  23.0] t=     2595s traffic=     6773MB loss=0.451 edges=171 r=0.614 [0.36,0.71] CD true=2.326 est=6.999 Dmax=3.648
+[r 127 ep  23.2] t=     2618s traffic=     6837MB loss=0.516 edges=115 r=0.840 [0.63,1.00] CD true=2.264 est=8.165 Dmax=3.639 acc=0.6893 f1=0.3857
+[r 128 ep  23.4] t=     2650s traffic=     6911MB loss=0.459 edges=177 r=0.631 [0.32,1.00] CD true=2.091 est=7.001 Dmax=3.644
+[r 129 ep  23.5] t=     2678s traffic=     6975MB loss=0.441 edges=145 r=0.659 [0.35,0.81] CD true=2.436 est=7.412 Dmax=3.649
+[r 130 ep  23.7] t=     2707s traffic=     7041MB loss=0.512 edges=181 r=0.548 [0.28,0.63] CD true=2.409 est=6.771 Dmax=3.627
+[r 131 ep  23.9] t=     2733s traffic=     7101MB loss=0.446 edges=171 r=0.535 [0.29,0.74] CD true=2.629 est=6.819 Dmax=3.614
+[r 132 ep  24.1] t=     2758s traffic=     7164MB loss=0.438 edges=142 r=0.672 [0.29,0.81] CD true=2.547 est=7.079 Dmax=3.599 acc=0.6906 f1=0.3839
+[r 133 ep  24.3] t=     2782s traffic=     7229MB loss=0.466 edges=153 r=0.637 [0.50,0.79] CD true=2.353 est=7.630 Dmax=3.584
+[r 134 ep  24.5] t=     2808s traffic=     7302MB loss=0.480 edges=124 r=0.889 [0.48,1.00] CD true=2.098 est=7.454 Dmax=3.566
+[r 135 ep  24.6] t=     2834s traffic=     7372MB loss=0.430 edges=171 r=0.612 [0.33,0.76] CD true=2.164 est=6.881 Dmax=3.555
+[r 136 ep  24.8] t=     2860s traffic=     7434MB loss=0.424 edges=171 r=0.547 [0.27,0.63] CD true=2.641 est=7.132 Dmax=3.584
+[r 137 ep  25.0] t=     2881s traffic=     7500MB loss=0.506 edges=109 r=0.914 [0.25,1.00] CD true=2.264 est=7.729 Dmax=3.572 acc=0.6995 f1=0.3825
+[r 138 ep  25.2] t=     2908s traffic=     7569MB loss=0.420 edges=171 r=0.610 [0.35,0.70] CD true=2.167 est=6.806 Dmax=3.579
+[r 139 ep  25.4] t=     2930s traffic=     7635MB loss=0.452 edges=101 r=0.982 [0.95,1.00] CD true=2.208 est=9.018 Dmax=3.576
+[r 140 ep  25.6] t=     2964s traffic=     7715MB loss=0.439 edges=190 r=0.623 [0.40,0.67] CD true=1.897 est=6.798 Dmax=3.593
+[r 141 ep  25.7] t=     2985s traffic=     7774MB loss=0.432 edges=106 r=0.861 [0.55,1.00] CD true=2.323 est=8.236 Dmax=3.609
+[r 142 ep  25.9] t=     3010s traffic=     7850MB loss=0.410 edges=137 r=0.845 [0.38,1.00] CD true=1.938 est=8.434 Dmax=3.618
+[r 143 ep  26.1] t=     3033s traffic=     7928MB loss=0.454 edges=121 r=0.962 [0.76,1.00] CD true=1.991 est=7.715 Dmax=3.626 acc=0.6956 f1=0.3831
+[r 144 ep  26.3] t=     3061s traffic=     7997MB loss=0.496 edges=162 r=0.645 [0.43,0.81] CD true=2.208 est=7.058 Dmax=3.621
+[r 145 ep  26.5] t=     3079s traffic=     8063MB loss=0.447 edges=117 r=0.864 [0.47,1.00] CD true=2.486 est=9.729 Dmax=3.644
+[r 146 ep  26.6] t=     3106s traffic=     8156MB loss=0.430 edges=145 r=0.963 [0.60,1.00] CD true=1.439 est=8.046 Dmax=3.634
+[r 147 ep  26.8] t=     3136s traffic=     8227MB loss=0.416 edges=190 r=0.557 [0.28,0.58] CD true=2.184 est=6.593 Dmax=3.669
+[r 148 ep  27.0] t=     3157s traffic=     8283MB loss=0.442 edges=171 r=0.491 [0.24,0.56] CD true=2.665 est=6.480 Dmax=3.632 acc=0.6993 f1=0.3770
+[r 149 ep  27.2] t=     3177s traffic=     8339MB loss=0.406 edges=171 r=0.485 [0.31,0.59] CD true=2.705 est=6.655 Dmax=3.580
+[r 150 ep  27.4] t=     3192s traffic=     8398MB loss=0.428 edges= 93 r=0.951 [0.36,1.00] CD true=2.114 est=8.221 Dmax=3.526
+[r 151 ep  27.6] t=     3223s traffic=     8471MB loss=0.433 edges=190 r=0.577 [0.30,0.62] CD true=2.160 est=6.734 Dmax=3.554
+[r 152 ep  27.7] t=     3239s traffic=     8530MB loss=0.415 edges= 91 r=0.958 [0.48,1.00] CD true=2.133 est=8.996 Dmax=3.541
+[r 153 ep  27.9] t=     3259s traffic=     8611MB loss=0.448 edges=155 r=0.797 [0.41,1.00] CD true=1.754 est=7.576 Dmax=3.537
+[r 154 ep  28.1] t=     3280s traffic=     8686MB loss=0.464 edges=131 r=0.874 [0.58,1.00] CD true=1.860 est=8.936 Dmax=3.544 acc=0.7005 f1=0.3912
+[r 155 ep  28.3] t=     3305s traffic=     8775MB loss=0.442 edges=145 r=0.922 [0.67,1.00] CD true=1.409 est=7.827 Dmax=3.538
+[r 156 ep  28.5] t=     3322s traffic=     8856MB loss=0.437 edges=129 r=0.936 [0.66,1.00] CD true=1.758 est=8.552 Dmax=3.589
+[r 157 ep  28.7] t=     3341s traffic=     8940MB loss=0.468 edges=134 r=0.930 [0.54,1.00] CD true=1.553 est=7.997 Dmax=3.605
+[r 158 ep  28.8] t=     3359s traffic=     9020MB loss=0.465 edges=140 r=0.842 [0.35,1.00] CD true=1.793 est=7.518 Dmax=3.631
+[r 159 ep  29.0] t=     3376s traffic=     9092MB loss=0.505 edges=121 r=0.895 [0.27,1.00] CD true=2.031 est=7.995 Dmax=3.635 acc=0.6988 f1=0.3913
+[r 160 ep  29.2] t=     3396s traffic=     9165MB loss=0.479 edges=136 r=0.793 [0.33,0.88] CD true=2.022 est=7.711 Dmax=3.608
+[r 161 ep  29.4] t=     3420s traffic=     9236MB loss=0.427 edges=171 r=0.620 [0.34,0.73] CD true=2.136 est=6.640 Dmax=3.585
+[r 162 ep  29.6] t=     3439s traffic=     9297MB loss=0.422 edges=101 r=0.905 [0.32,1.00] CD true=2.231 est=7.836 Dmax=3.547
+[r 163 ep  29.7] t=     3463s traffic=     9373MB loss=0.462 edges=121 r=0.922 [0.54,1.00] CD true=1.893 est=8.056 Dmax=3.523
+[r 164 ep  29.9] t=     3493s traffic=     9446MB loss=0.445 edges=190 r=0.576 [0.28,0.66] CD true=2.044 est=6.480 Dmax=3.532
+[r 165 ep  30.1] t=     3513s traffic=     9502MB loss=0.482 edges=153 r=0.555 [0.27,0.62] CD true=2.501 est=6.986 Dmax=3.506 acc=0.6995 f1=0.3780
+[r 166 ep  30.3] t=     3536s traffic=     9570MB loss=0.459 edges=136 r=0.728 [0.33,1.00] CD true=2.251 est=7.065 Dmax=3.466
+[r 167 ep  30.5] t=     3559s traffic=     9640MB loss=0.477 edges=137 r=0.782 [0.30,1.00] CD true=2.143 est=7.190 Dmax=3.449
+[r 168 ep  30.7] t=     3580s traffic=     9713MB loss=0.473 edges=137 r=0.792 [0.36,1.00] CD true=2.118 est=7.814 Dmax=3.449
+[r 169 ep  30.8] t=     3609s traffic=     9787MB loss=0.440 edges=190 r=0.579 [0.28,0.65] CD true=1.944 est=6.370 Dmax=3.439
+[r 170 ep  31.0] t=     3627s traffic=     9848MB loss=0.477 edges=100 r=0.925 [0.46,1.00] CD true=2.348 est=8.032 Dmax=3.440 acc=0.6926 f1=0.3815
+[r 171 ep  31.2] t=     3651s traffic=     9930MB loss=0.357 edges=129 r=0.937 [0.54,1.00] CD true=1.595 est=7.703 Dmax=3.423
+[r 172 ep  31.4] t=     3681s traffic=    10004MB loss=0.413 edges=181 r=0.615 [0.29,0.68] CD true=1.928 est=6.441 Dmax=3.445
+[r 173 ep  31.6] t=     3700s traffic=    10066MB loss=0.465 edges= 97 r=0.963 [0.31,1.00] CD true=2.130 est=8.552 Dmax=3.435
+[r 174 ep  31.8] t=     3731s traffic=    10142MB loss=0.458 edges=190 r=0.594 [0.30,0.90] CD true=1.920 est=6.292 Dmax=3.425
+[r 175 ep  31.9] t=     3748s traffic=    10201MB loss=0.480 edges= 96 r=0.927 [0.64,1.00] CD true=2.764 est=9.059 Dmax=3.469
+[r 176 ep  32.1] t=     3775s traffic=    10292MB loss=0.496 edges=150 r=0.917 [0.58,1.00] CD true=1.561 est=8.791 Dmax=3.474 acc=0.6933 f1=0.3849
+[r 177 ep  32.3] t=     3801s traffic=    10381MB loss=0.470 edges=136 r=0.974 [0.70,1.00] CD true=1.564 est=7.487 Dmax=3.512
+[r 178 ep  32.5] t=     3825s traffic=    10452MB loss=0.460 edges=171 r=0.624 [0.36,0.70] CD true=2.109 est=6.501 Dmax=3.512
+[r 179 ep  32.7] t=     3843s traffic=    10514MB loss=0.418 edges=153 r=0.607 [0.44,0.64] CD true=2.353 est=6.591 Dmax=3.471
+[r 180 ep  32.9] t=     3858s traffic=    10580MB loss=0.511 edges=113 r=0.863 [0.53,1.00] CD true=2.191 est=7.277 Dmax=3.442
+[r 181 ep  33.0] t=     3879s traffic=    10653MB loss=0.445 edges=121 r=0.912 [0.51,1.00] CD true=1.888 est=7.734 Dmax=3.406 acc=0.6998 f1=0.3942
+[r 182 ep  33.2] t=     3910s traffic=    10725MB loss=0.415 edges=190 r=0.563 [0.29,0.81] CD true=2.073 est=6.227 Dmax=3.404
+[r 183 ep  33.4] t=     3930s traffic=    10785MB loss=0.351 edges=136 r=0.681 [0.24,1.00] CD true=2.472 est=6.639 Dmax=3.394
+[r 184 ep  33.6] t=     3956s traffic=    10848MB loss=0.472 edges=177 r=0.530 [0.33,0.57] CD true=2.344 est=6.247 Dmax=3.356
+[r 185 ep  33.8] t=     3979s traffic=    10909MB loss=0.409 edges=129 r=0.719 [0.50,1.00] CD true=2.346 est=7.329 Dmax=3.329
+[r 186 ep  33.9] t=     4005s traffic=    10988MB loss=0.392 edges=128 r=0.923 [0.40,1.00] CD true=1.959 est=7.212 Dmax=3.298
+[r 187 ep  34.1] t=     4035s traffic=    11057MB loss=0.400 edges=190 r=0.544 [0.37,0.56] CD true=2.089 est=6.244 Dmax=3.302 acc=0.7052 f1=0.3869
+[r 188 ep  34.3] t=     4056s traffic=    11119MB loss=0.433 edges=124 r=0.774 [0.29,1.00] CD true=2.332 est=6.824 Dmax=3.290
+[r 189 ep  34.5] t=     4078s traffic=    11191MB loss=0.399 edges=113 r=0.948 [0.82,1.00] CD true=2.178 est=7.959 Dmax=3.282
+[r 190 ep  34.7] t=     4106s traffic=    11269MB loss=0.461 edges=171 r=0.683 [0.30,0.73] CD true=1.892 est=6.749 Dmax=3.298
+[r 191 ep  34.9] t=     4125s traffic=    11337MB loss=0.390 edges=107 r=0.940 [0.38,1.00] CD true=1.673 est=7.675 Dmax=3.290
+[r 192 ep  35.0] t=     4155s traffic=    11410MB loss=0.433 edges=171 r=0.646 [0.37,0.70] CD true=1.934 est=6.507 Dmax=3.320 acc=0.7043 f1=0.3951
+[r 193 ep  35.2] t=     4176s traffic=    11474MB loss=0.422 edges=153 r=0.628 [0.25,0.92] CD true=2.366 est=6.525 Dmax=3.323
+[r 194 ep  35.4] t=     4200s traffic=    11537MB loss=0.427 edges=154 r=0.638 [0.38,1.00] CD true=2.218 est=7.127 Dmax=3.291
+[r 195 ep  35.6] t=     4224s traffic=    11611MB loss=0.425 edges=128 r=0.881 [0.29,1.00] CD true=2.035 est=6.795 Dmax=3.273
+[r 196 ep  35.8] t=     4246s traffic=    11681MB loss=0.439 edges=128 r=0.830 [0.47,0.98] CD true=2.152 est=6.998 Dmax=3.280
+[r 197 ep  36.0] t=     4274s traffic=    11748MB loss=0.424 edges=153 r=0.677 [0.28,0.84] CD true=2.168 est=6.575 Dmax=3.272
+[r 198 ep  36.1] t=     4295s traffic=    11814MB loss=0.461 edges=121 r=0.840 [0.32,1.00] CD true=1.895 est=7.082 Dmax=3.263 acc=0.7100 f1=0.3942
+[r 199 ep  36.3] t=     4322s traffic=    11884MB loss=0.431 edges=133 r=0.799 [0.37,1.00] CD true=2.181 est=6.992 Dmax=3.291
+[r 200 ep  36.5] t=     4352s traffic=    11951MB loss=0.437 edges=190 r=0.530 [0.28,0.57] CD true=2.179 est=6.266 Dmax=3.283 acc=0.7102 f1=0.3900
+saved results/ratio_sweep_dir0.5/unsw-nb15-multiclass_mlp_coco_dir0.5_heter_dynamic_s0.json

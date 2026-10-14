@@ -1,4 +1,5 @@
-"""Models used in the paper: VGG9 (FedMA, ~3.49M params) and ResNet9 (FetchSGD, ~6.6M params)."""
+"""Models: VGG9 (FedMA, ~3.49M params) and ResNet9 (FetchSGD, ~6.6M params) from the paper,
+plus an MLP for the tabular UNSW-NB15 dataset."""
 import torch
 import torch.nn as nn
 
@@ -63,10 +64,28 @@ class SmallCNN(nn.Module):
         return self.net(x)
 
 
-MODELS = {"vgg9": VGG9, "resnet9": ResNet9, "smallcnn": SmallCNN}
+class MLP(nn.Module):
+    """Fully connected network for tabular data (UNSW-NB15)."""
+
+    def __init__(self, num_classes, input_dim, hidden=(256, 128), dropout=0.1):
+        super().__init__()
+        layers, d = [], input_dim
+        for h in hidden:
+            layers += [nn.Linear(d, h), nn.BatchNorm1d(h), nn.ReLU(inplace=True), nn.Dropout(dropout)]
+            d = h
+        layers.append(nn.Linear(d, num_classes))
+        self.net = nn.Sequential(*layers)
+
+    def forward(self, x):
+        return self.net(x)
 
 
-def build_model(name, num_classes):
+MODELS = {"vgg9": VGG9, "resnet9": ResNet9, "smallcnn": SmallCNN, "mlp": MLP}
+
+
+def build_model(name, num_classes, input_dim=None):
+    if name == "mlp":
+        return MLP(num_classes, input_dim)
     return MODELS[name](num_classes)
 
 

@@ -1,5 +1,7 @@
 torch>=2.0
 numpy
+pandas       # unsw-nb15
+pyarrow      # unsw-nb15 (parquet files)
 matplotlib   # plot.py
 scipy        # tests only (LP cross-check)
 pytest       # tests only

@@ -238,10 +238,10 @@ class SAPSPlanner:
         return A, np.full(m, self.ratio)
 
 
-def build_planner(name, m, ratio, r_min, tiebreak):
+def build_planner(name, m, ratio, r_min, tiebreak, r_max=1.0):
     """name in {coco, dcd, choco, saps, lct, fcr, fnt-ring, fnt-fc}."""
     if name == "coco":
-        return CoCoPlanner(r_min=r_min, tiebreak=tiebreak)
+        return CoCoPlanner(r_min=r_min, r_max=r_max, tiebreak=tiebreak)
     if name == "fcr":
         return CoCoPlanner(fixed_ratio=ratio, tiebreak=tiebreak)
     if name == "fnt-ring":
