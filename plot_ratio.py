@@ -1,7 +1,7 @@
 """Accuracy, macro-F1, consensus distance, time and traffic as a function of the
 compression ratio.
 
-  python plot_ratio.py results/ratio_sweep/*.json -o figures/ratio_sweep/ratio_sweep.png
+  python plot_ratio.py results/unsw-nb15/02_ratio_sweep_fcr/*_iid_*.json -o fig_ratio_sweep_iid.png
 
 Writes <output> and <output stem>_consensus.png (consensus distance over training,
 one curve per run, coloured by ratio).
@@ -23,8 +23,9 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt  # noqa: E402
 import numpy as np  # noqa: E402
 
-FIXED = ("dcd", "choco", "saps", "fcr")
-NAMES = {"dcd": "DCD (degree 5)", "choco": "Choco (ring)", "saps": "SAPS", "fcr": "FCR",
+FIXED = ("dcd", "choco", "choco-fc", "choco-star", "saps", "fcr")
+NAMES = {"dcd": "DCD (degree 5)", "choco": "Choco (ring)", "choco-fc": "Choco (fully connected)",
+         "choco-star": "Choco (star)", "saps": "SAPS", "fcr": "FCR",
          "coco": "CoCo (adaptive)"}
 
 
@@ -68,11 +69,12 @@ def main():
     p.add_argument("--cd", default="post", choices=["post", "pre"],
                    help="consensus distance after aggregation (post) or before it (pre)")
     p.add_argument("--smooth", type=int, default=5, help="moving average (rounds) in the consensus figure")
-    p.add_argument("-o", "--output", default="ratio_sweep.png")
+    p.add_argument("-o", "--output", default="fig_ratio_sweep.png",
+                   help="a bare file name is saved next to the first input .json")
     a = p.parse_args()
-    # a bare file name goes to figures/, never to the project root
+    # a bare file name goes next to the result files, so figures and .json stay together
     if not os.path.dirname(a.output):
-        a.output = os.path.join("figures", a.output)
+        a.output = os.path.join(os.path.dirname(a.files[0]) or ".", a.output)
     os.makedirs(os.path.dirname(a.output), exist_ok=True)
 
     missing = [f for f in a.files if not os.path.isfile(f)]

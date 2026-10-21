@@ -32,7 +32,7 @@ pip install -r requirements.txt
 python main.py --algo coco --dataset cifar10              # VGG9, 20 workers, 200 epochs
 python main.py --algo coco --dataset cifar100 --non-iid 20  # ResNet9, each worker lacks 20 classes
 python main.py --algo choco --ratio 0.5 --dataset cifar10   # baseline
-python plot.py results/cifar10_*.json --target 0.87 -o figures/cifar10/cifar10.png
+python plot.py results/cifar10/<experiment>/*.json --target 0.87 -o fig_cifar10.png   # saved next to the .json
 python tests/test_planner.py
 ```
 
@@ -79,7 +79,8 @@ Other options: `--network {heter_dynamic,heter_static,homo_static}` (Section 5.5
 `--swap-at EPOCH` (exchange bandwidth of workers 1 and 20, Fig. 13b), `--compressor topk`
 (Section 5.6), `--track-workers` (per-worker traffic, Fig. 13).
 
-Each run writes `results/<name>.json` with the config and per-round history
+Each run writes `<out-dir>/<name>.json` (default `results/<dataset>/unsorted/`; see
+[results/README.md](results/README.md) for how finished experiments are organised) with the config and per-round history
 (simulated time, traffic, topology size, ratios, true and estimated consensus distance,
 `D_max`, test accuracy and macro-F1 averaged over the workers' local models every
 epoch, as in the paper, or every `--eval-every` rounds). It also stores each worker's label histogram.

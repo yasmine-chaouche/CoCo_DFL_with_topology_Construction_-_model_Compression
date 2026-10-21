@@ -1,7 +1,7 @@
 """Plot accuracy (or macro-F1), training loss, consensus distance and compression ratios
 for result files.
 
-  python plot.py results/cifar10_*.json --target 0.87 -o figures/cifar10/cifar10.png
+  python plot.py results/cifar10/01_coco_smoke_test/*.json --target 0.87 -o fig_cifar10.png
 
 Writes <output> (3x3 grid) and, for runs that logged per-worker ratios,
 <output stem>_ratios.png (heatmap worker x round of the compression ratio).
@@ -57,11 +57,12 @@ def main():
     p.add_argument("--smooth", type=int, default=5,
                    help="moving-average window (rounds) for the loss and the compression ratio")
     p.add_argument("--log-loss", action="store_true", help="log scale for the loss axis")
-    p.add_argument("-o", "--output", default="results.png")
+    p.add_argument("-o", "--output", default="fig_grid.png",
+                   help="a bare file name is saved next to the first input .json")
     a = p.parse_args()
-    # a bare file name goes to figures/, never to the project root
+    # a bare file name goes next to the result files, so figures and .json stay together
     if not os.path.dirname(a.output):
-        a.output = os.path.join("figures", a.output)
+        a.output = os.path.join(os.path.dirname(a.files[0]) or ".", a.output)
     os.makedirs(os.path.dirname(a.output), exist_ok=True)
 
     fig, grid = plt.subplots(3, 3, figsize=(18, 12.6))

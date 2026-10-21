@@ -47,7 +47,11 @@ class Simulator:
         comp_range = tuple(args.comp_range) if args.comp_range else COMP_RANGE[args.model]
         self.net = NetworkSim(m, args.network, self.rng, comp_range=comp_range,
                               volatility=args.volatility)
-        self.planner = build_planner(args.algo, m, args.ratio, args.r_min, args.tiebreak, args.r_max)
+        ratio = args.ratio
+        if args.ratio_range:  # one fixed ratio per worker: evenly spaced in [LO, HI] (mean exactly (LO+HI)/2),
+            # randomly assigned to workers by its own generator, so every topology gets the same ratios
+            ratio = np.random.default_rng(args.seed + 424242).permutation(np.linspace(*args.ratio_range, m))
+        self.planner = build_planner(args.algo, m, ratio, args.r_min, args.tiebreak, args.r_max)
         self.estimator = ConsensusEstimator(m, args.beta1)
         self.dmax = DmaxTracker(args.beta2, args.dmax_scale)
         self.compress = COMPRESSORS[args.compressor]
@@ -59,6 +63,18 @@ class Simulator:
         self.swapped = False
 
     # ----------------------------------------------------------------- worker
+    def mask_seed(self, k, j, h):
+        """RandomK seed of worker j at round k, hop h; --fixed-mask: one mask for everyone,
+        --fixed-node-mask: one mask per worker, kept for every round and hop,
+        --round-mask: new mask every round, reused for all hops of that round."""
+        if self.args.fixed_mask:
+            return self.args.seed * 100003
+        if self.args.fixed_node_mask:
+            return self.args.seed * 100003 + j
+        if self.args.round_mask:
+            return self.args.seed * 100003 + k * 1009 + j
+        return self.args.seed * 100003 + k * 1009 + j + h * 7919
+
     def local_update(self, i, lr):
         """Algorithm 1 line 5 / Eq. (5): tau steps of local SGD. Returns ||g_i||."""
         model, opt = self.models[i], self.opts[i]
@@ -134,7 +150,7 @@ class Simulator:
             true_cd_pre = true_consensus_distance(X)
 
             # ---- compression (RandomK / TopK masks z_j)
-            Z = torch.stack([self.compress(X[j], r[j], seed=a.seed * 100003 + k * 1009 + j)
+            Z = torch.stack([self.compress(X[j], r[j], seed=self.mask_seed(k, j, 0))
                              for j in range(self.m)])
 
             # ---- exchange + consensus distance measurement (Eq. 23)
@@ -149,8 +165,8 @@ class Simulator:
             w = 1.0 / (A.sum(axis=1).max() + 1)
             for h in range(hops):
                 if h > 0:
-                    Z = torch.stack([self.compress(X[j], r[j], seed=a.seed * 100003 + k * 1009 + j
-                                                   + h * 7919) for j in range(self.m)])
+                    Z = torch.stack([self.compress(X[j], r[j], seed=self.mask_seed(k, j, h))
+                                     for j in range(self.m)])
                 X_next = X.clone()
                 for i in range(self.m):
                     for j in np.nonzero(A[i])[0]:

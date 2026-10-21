@@ -6,14 +6,14 @@
 #   bash sweep_ratio.sh unsw-nb15 0
 #   bash sweep_ratio.sh unsw-nb15 1 "choco dcd" "0.01 0.1 0.5 1.0" --partition dirichlet --alpha 0.5
 #   bash sweep_ratio.sh cifar10 2 "choco" "0.1 0.2 0.5 1.0" --epochs 50
-# Then: python plot_ratio.py results/ratio_sweep/*.json
+# Then: python plot_ratio.py results/$DS/ratio_sweep/*.json   (figure saved next to the .json)
 set -e
 DS=${1:-unsw-nb15}
 export CUDA_VISIBLE_DEVICES=${2:-0}
 ALGOS=${3:-"choco dcd fcr"}
 RATIOS=${4:-"0.01 0.05 0.1 0.2 0.5 1.0"}
 shift $(( $# < 4 ? $# : 4 ))
-OUT=${OUT_DIR:-results/ratio_sweep}
+OUT=${OUT_DIR:-results/$DS/ratio_sweep}
 
 for algo in $ALGOS; do
   for r in $RATIOS; do

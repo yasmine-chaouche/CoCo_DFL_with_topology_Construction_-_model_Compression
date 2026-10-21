@@ -8,6 +8,7 @@ Examples
   python main.py --algo coco  --dataset unsw-nb15 --partition dirichlet --alpha 0.5
 """
 import argparse
+import os
 
 from coco.simulator import Simulator
 
@@ -15,9 +16,12 @@ from coco.simulator import Simulator
 def parse_args():
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("--algo", default="coco",
-                   choices=["coco", "dcd", "choco", "saps", "lct", "fcr", "fnt-ring", "fnt-fc"])
+                   choices=["coco", "dcd", "choco", "choco-fc", "choco-star", "saps", "lct", "fcr", "fnt-ring", "fnt-fc", "fnt-star"])
     p.add_argument("--ratio", type=float, default=0.5,
-                   help="fixed compression ratio for dcd/choco/saps/fcr")
+                   help="fixed compression ratio for dcd/choco/choco-fc/choco-star/saps/fcr")
+    p.add_argument("--ratio-range", type=float, nargs=2, default=None, metavar=("LO", "HI"),
+                   help="dcd/choco/choco-fc/choco-star/saps: each worker gets its own fixed ratio, "
+                        "evenly spaced in [LO, HI] and randomly assigned (replaces --ratio)")
     p.add_argument("--dataset", default="cifar10", choices=["cifar10", "cifar100", "unsw-nb15"])
     p.add_argument("--model", default=None, choices=["vgg9", "resnet9", "smallcnn", "mlp"],
                    help="default: vgg9 (cifar10), resnet9 (cifar100), mlp (unsw-nb15)")
@@ -67,12 +71,24 @@ def parse_args():
     p.add_argument("--log-every", type=int, default=1)
     p.add_argument("--track-workers", action="store_true", help="log per-worker traffic")
     p.add_argument("--seed", type=int, default=0)
+    p.add_argument("--fixed-mask", action="store_true",
+                   help="same RandomK mask for every worker, round and hop")
+    p.add_argument("--fixed-node-mask", action="store_true",
+                   help="one RandomK mask per worker (different across workers), kept for every round and hop")
+    p.add_argument("--round-mask", action="store_true",
+                   help="new RandomK mask every round (different across workers), reused for all hops of the round")
     p.add_argument("--device", default="cuda")
-    p.add_argument("--out-dir", default="results")
+    p.add_argument("--out-dir", default=None,
+                   help="default: results/<dataset>/unsorted (see results/README.md for the layout)")
     p.add_argument("--name", default=None)
     a = p.parse_args()
+    if a.ratio_range and a.algo not in ("dcd", "choco", "choco-fc", "choco-star", "saps"):
+        p.error("--ratio-range only applies to dcd/choco/choco-fc/choco-star/saps")
+    if a.fixed_mask + a.fixed_node_mask + a.round_mask > 1:
+        p.error("--fixed-mask, --fixed-node-mask and --round-mask are exclusive")
 
     ds = a.dataset
+    a.out_dir = a.out_dir or os.path.join("results", ds, "unsorted")
     a.model = a.model or {"cifar10": "vgg9", "cifar100": "resnet9", "unsw-nb15": "mlp"}[ds]
     if a.partition == "auto":
         a.partition = {"cifar10": "dominant", "cifar100": "missing", "unsw-nb15": "iid"}[ds]
@@ -82,7 +98,8 @@ def parse_args():
     a.lr = a.lr or (0.05 if a.model != "resnet9" else 0.1)
     a.lr_decay = a.lr_decay or (0.98 if a.model != "resnet9" else 0.99)
     if a.name is None:
-        tag = a.algo if a.algo in ("coco", "lct", "fnt-ring", "fnt-fc") else f"{a.algo}{a.ratio}"
+        tag = a.algo if a.algo in ("coco", "lct", "fnt-ring", "fnt-fc", "fnt-star") else f"{a.algo}{a.ratio}" if not a.ratio_range \
+            else f"{a.algo}-r{a.ratio_range[0]:g}-{a.ratio_range[1]:g}"
         if a.algo == "coco" and a.r_max < 1:
             tag += f"-rmax{a.r_max:g}"
         if a.algo == "coco" and a.dmax_scale != 1:
@@ -91,6 +108,14 @@ def parse_args():
         task = f"-{a.unsw_task}" if ds == "unsw-nb15" else ""
         if a.hops > 1:
             tag += f"-{a.hops}hop"
+        if a.compressor != "randomk":
+            tag += f"-{a.compressor}"
+        if a.fixed_mask:
+            tag += "-fixedmask"
+        if a.fixed_node_mask:
+            tag += "-nodemask"
+        if a.round_mask:
+            tag += "-roundmask"
         a.name = f"{ds}{task}_{a.model}_{tag}_{split}_{a.network}_s{a.seed}"
     return a
 

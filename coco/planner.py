@@ -189,6 +189,14 @@ def complete(m):
     return np.ones((m, m), dtype=int) - np.eye(m, dtype=int)
 
 
+def star(m, center=0):
+    """Star graph: every worker is linked to the center only."""
+    A = np.zeros((m, m), dtype=int)
+    A[center, :] = A[:, center] = 1
+    A[center, center] = 0
+    return A
+
+
 class FixedPlanner:
     """Fixed topology and identical, fixed compression ratio.
 
@@ -239,7 +247,7 @@ class SAPSPlanner:
 
 
 def build_planner(name, m, ratio, r_min, tiebreak, r_max=1.0):
-    """name in {coco, dcd, choco, saps, lct, fcr, fnt-ring, fnt-fc}."""
+    """name in {coco, dcd, choco, choco-fc, choco-star, saps, lct, fcr, fnt-ring, fnt-fc, fnt-star}."""
     if name == "coco":
         return CoCoPlanner(r_min=r_min, r_max=r_max, tiebreak=tiebreak)
     if name == "fcr":
@@ -248,11 +256,17 @@ def build_planner(name, m, ratio, r_min, tiebreak, r_max=1.0):
         return CoCoPlanner(r_min=r_min, tiebreak=tiebreak, fixed_topology=circulant(m, 2))
     if name == "fnt-fc":
         return CoCoPlanner(r_min=r_min, tiebreak=tiebreak, fixed_topology=complete(m))
+    if name == "fnt-star":
+        return CoCoPlanner(r_min=r_min, tiebreak=tiebreak, fixed_topology=star(m))
     if name == "dcd":
         deg = min(5, m - 1)
         return FixedPlanner(circulant(m, deg - (deg % 2) * (m % 2)), ratio)
     if name == "choco":
         return FixedPlanner(circulant(m, 2), ratio)
+    if name == "choco-fc":
+        return FixedPlanner(complete(m), ratio)
+    if name == "choco-star":
+        return FixedPlanner(star(m), ratio)
     if name == "saps":
         return SAPSPlanner(ratio)
     if name == "lct":
