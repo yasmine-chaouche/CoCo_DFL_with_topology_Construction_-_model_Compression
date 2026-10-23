@@ -12,6 +12,9 @@ Each panel has one curve per topology, with the same colour and line style every
 giving one row: IID and non-IID side by side.
 --x picks the horizontal axis (epochs, simulated time or cumulative traffic); the final
 time and traffic of every run are also printed as a table.
+Several seeds of the same run (same H, split and topology) are drawn as mean (line)
+± std (shaded band; with --merge-hops, hatched for H=1); with --x time or traffic the seeds are
+first interpolated on a common grid.
 """
 import argparse
 import json
@@ -32,7 +35,7 @@ TOPOLOGIES = {  # algo -> (topology, family)
     "choco": ("ring", "choco"), "choco-fc": ("fully connected", "choco"), "choco-star": ("star", "choco"),
     "fnt-ring": ("ring", "fnt"), "fnt-fc": ("fully connected", "fnt"), "fnt-star": ("star", "fnt"),
 }
-FAMILIES = {"choco": "Choco topology (r fixed = {r})", "fnt": "CoCo, fixed topology (r adapted in [{r}])"}
+FAMILIES = {"choco": "Choco topology ({r})","fnt": "CoCo, fixed topology (r adapted in [{r}])"}
 METRICS = {
     "consensus_true": ("consensus distance", True),
     "consensus_true_pre": ("consensus distance (before aggregation)", True),
@@ -55,6 +58,21 @@ def smooth(values, window):
     idx = np.arange(1, len(v) + 1)
     n = np.minimum(idx, window)
     return (c[idx] - c[idx - n]) / n
+
+
+def aggregate(curves):
+    """Mean and std (None for a single run) of the seeds of one run, on a common x."""
+    if len(curves) == 1:
+        x, y = curves[0]
+        return x, y, None
+    n = min(len(x) for x, _ in curves)
+    x0 = curves[0][0][:n]
+    if all(np.allclose(x[:n], x0) for x, _ in curves):  # same x for every seed (epochs)
+        Y = np.stack([y[:n] for _, y in curves])
+    else:  # simulated time / traffic differ between seeds: interpolate on the shared range
+        x0 = np.linspace(max(x[0] for x, _ in curves), min(x[-1] for x, _ in curves), n)
+        Y = np.stack([np.interp(x0, x, y) for x, y in curves])
+    return x0, Y.mean(axis=0), Y.std(axis=0, ddof=1)
 
 
 def split_name(cfg):
@@ -86,9 +104,10 @@ def main():
         a.output = os.path.join(os.path.dirname(a.files[0]) or ".", a.output)
     os.makedirs(os.path.dirname(a.output), exist_ok=True)
 
-    runs = {}  # (hops, split) -> {topology: (x, values)}
+    runs = {}  # (hops, split) -> {topology: [(x, values), ...]}, one entry per seed
+    seeds, finals = {}, {}  # (hops, split, topology) -> seeds / (time, traffic) of every seed
     families, ratios = set(), set()
-    print(f"{'H':>2s} {'split':32s} {'topology':16s} {'epochs':>7s} {'time(s)':>10s} {'traffic(MB)':>12s}")
+    print(f"{'H':>2s} {'split':32s} {'topology':16s} {'seed':>4s} {'epochs':>7s} {'time(s)':>10s} {'traffic(MB)':>12s}")
     for path in a.files:
         with open(path) as f:
             run = json.load(f)
@@ -103,15 +122,37 @@ def main():
             y = smooth(y, a.smooth)
         topo, family = TOPOLOGIES[cfg["algo"]]
         families.add(family)
-        ratios.add(f"{cfg['ratio']:g}" if family == "choco" else f"{cfg['r_min']:g}, {cfg['r_max']:g}")
-        runs.setdefault((cfg.get("hops", 1), split_name(cfg)), {})[topo] = (ep, y)
+        if family == "fnt":
+            ratios.add(f"{cfg['r_min']:g}, {cfg['r_max']:g}")
+        elif cfg.get("ratio_range"):  # --ratio-range: cfg["ratio"] is the unused default
+            ratios.add("r fixed per worker, in [{:g}, {:g}]".format(*cfg["ratio_range"]))
+        else:
+            ratios.add(f"r fixed = {cfg['ratio']:g}")
+        key = (cfg.get("hops", 1), split_name(cfg), topo)
+        if cfg["seed"] in seeds.get(key, []):
+            raise SystemExit(f"{path}: seed {cfg['seed']} given twice for H={key[0]}, {key[1]}, {topo}")
+        seeds.setdefault(key, []).append(cfg["seed"])
+        runs.setdefault(key[:2], {}).setdefault(topo, []).append((ep, y))
         last = run["history"][-1]
-        print(f"{cfg.get('hops', 1):2d} {split_name(cfg):32s} {topo:16s} "
+        finals.setdefault(key, []).append((last["time"], last["traffic_MB"]))
+        print(f"{key[0]:2d} {key[1]:32s} {topo:16s} {cfg['seed']:4d} "
               f"{last['epoch']:7.1f} {last['time']:10.0f} {last['traffic_MB']:12.0f}")
 
     if len(families) > 1:
         raise SystemExit("mix of Choco and CoCo-FNT runs: plot one family at a time")
     title = FAMILIES[families.pop()].format(r=" / ".join(sorted(ratios)))
+    n_seeds = sorted({len(s) for s in seeds.values()})
+    if n_seeds != [1]:
+        if len(n_seeds) > 1:
+            print(f"warning: not the same number of seeds for every curve ({n_seeds})")
+        title += f"\nmean ± std over {'/'.join(map(str, n_seeds))} seeds"
+        print(f"\n{'H':>2s} {'split':32s} {'topology':16s} {'seeds':>5s} {'time(s) mean ± std':>20s} "
+              f"{'traffic(MB) mean ± std':>24s}")
+        for (h, s, topo), f in sorted(finals.items()):
+            t, tr = np.array(f).T
+            sd = (lambda v: v.std(ddof=1)) if len(f) > 1 else (lambda v: 0.0)
+            print(f"{h:2d} {s:32s} {topo:16s} {len(f):5d} {t.mean():12.0f} ± {sd(t):<6.0f} "
+                  f"{tr.mean():14.0f} ± {sd(tr):<6.0f}")
     hops = sorted({h for h, _ in runs}, reverse=True)
     splits = sorted({s for _, s in runs}, key=lambda s: (s != "IID", s))
     ylabel, log = METRICS[a.metric]
@@ -127,12 +168,19 @@ def main():
                 for label, (color, ls) in STYLES.items():
                     if label not in runs.get((h, s), {}):
                         continue
-                    ep, y = runs[(h, s)][label]
+                    ep, y, std = aggregate(runs[(h, s)][label])
                     if a.merge_hops:
                         ax.plot(ep, y, color=color, linestyle=hop_styles[h], linewidth=2 if h == hops[0] else 1.6,
                                 label=f"{label}, H={h}")
                     else:
                         ax.plot(ep, y, color=color, linestyle=ls, linewidth=2, label=label)
+                    if std is not None:  # on a log axis, keep the lower edge of the band above 0
+                        lo = np.maximum(y - std, y * 0.01) if log else y - std
+                        if a.merge_hops and h != hops[0]:  # hatched band for the dashed H: overlaps stay readable
+                            ax.fill_between(ep, lo, y + std, facecolor="none", edgecolor=color, alpha=0.45,
+                                            hatch="////", linewidth=0)
+                        else:
+                            ax.fill_between(ep, lo, y + std, color=color, alpha=0.15, linewidth=0)
             ax.set_title(s if a.merge_hops else f"H={row[0]}, {s}", fontsize=11)
             if log:
                 ax.set_yscale("log")
@@ -162,6 +210,11 @@ def main():
         from matplotlib.lines import Line2D
         topo = [Line2D([], [], color=c, linewidth=2.5) for c, _ in STYLES.values()]
         hop = [Line2D([], [], color="#52514e", linestyle=hop_styles[h], linewidth=2) for h in hops]
+        if n_seeds != [1]:  # std band of each H under its line: filled for the solid H, hatched for the others
+            from matplotlib.patches import Patch
+            bands = [Patch(facecolor="#52514e", alpha=0.15, linewidth=0)] + [
+                Patch(facecolor="none", edgecolor="#52514e", alpha=0.45, hatch="////", linewidth=0)] * (len(hops) - 1)
+            hop = list(zip(bands, hop))
         fig.legend(topo, list(STYLES), loc="upper center", ncol=len(topo),
                    frameon=False, fontsize=11, title=title, bbox_to_anchor=(0.33, 1.04))
         fig.legend(hop, [f"H={h}" for h in hops], loc="upper center", ncol=len(hop), frameon=False,

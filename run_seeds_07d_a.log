@@ -1,0 +1,963 @@
+nohup: ignoring input
+dataset=unsw-nb15 model=mlp d=83594 (B=2.68 Mb) workers=20 algo=choco partition=iid rounds=200 (5.48 rounds/epoch)
+local data: sizes 8767-8767, classes/worker 10-10 of 10
+[r   6 ep   1.1] t=       33s traffic=       40MB loss=0.684 edges= 20 r=0.500 [0.50,0.50] CD true=9.114 est=54.415 Dmax=13.569 acc=0.6742 f1=0.3210
+dataset=unsw-nb15 model=mlp d=83594 (B=2.68 Mb) workers=20 algo=choco-star partition=dirichlet rounds=200 (5.48 rounds/epoch)
+local data: sizes 315-26789, classes/worker 3-10 of 10
+[r   6 ep   1.1] t=       51s traffic=       76MB loss=0.294 edges= 19 r=0.500 [0.50,0.50] CD true=18.442 est=38.369 Dmax=20.003 acc=0.3464 f1=0.1178
+dataset=unsw-nb15 model=mlp d=83594 (B=2.68 Mb) workers=20 algo=choco-star partition=iid rounds=200 (5.48 rounds/epoch)
+local data: sizes 8767-8767, classes/worker 10-10 of 10
+[r   6 ep   1.1] t=       29s traffic=       38MB loss=0.680 edges= 19 r=0.500 [0.50,0.50] CD true=13.390 est=28.555 Dmax=13.779 acc=0.6715 f1=0.3183
+dataset=unsw-nb15 model=mlp d=83594 (B=2.68 Mb) workers=20 algo=choco partition=iid rounds=200 (5.48 rounds/epoch)
+local data: sizes 8767-8767, classes/worker 10-10 of 10
+[r   6 ep   1.1] t=       60s traffic=       80MB loss=0.679 edges= 20 r=0.500 [0.50,0.50] CD true=9.120 est=53.776 Dmax=13.618 acc=0.6762 f1=0.3255
+dataset=unsw-nb15 model=mlp d=83594 (B=2.68 Mb) workers=20 algo=choco-star partition=dirichlet rounds=200 (5.48 rounds/epoch)
+local data: sizes 315-26789, classes/worker 3-10 of 10
+[r   6 ep   1.1] t=       29s traffic=       38MB loss=0.280 edges= 19 r=0.500 [0.50,0.50] CD true=21.134 est=45.918 Dmax=20.243 acc=0.3550 f1=0.1223
+dataset=unsw-nb15 model=mlp d=83594 (B=2.68 Mb) workers=20 algo=choco partition=dirichlet rounds=200 (5.48 rounds/epoch)
+local data: sizes 315-26789, classes/worker 3-10 of 10
+[r   6 ep   1.1] t=       60s traffic=       80MB loss=0.298 edges= 20 r=0.500 [0.50,0.50] CD true=12.235 est=85.401 Dmax=20.590 acc=0.3490 f1=0.1206
+dataset=unsw-nb15 model=mlp d=83594 (B=2.68 Mb) workers=20 algo=choco partition=dirichlet rounds=200 (5.48 rounds/epoch)
+local data: sizes 315-26789, classes/worker 3-10 of 10
+[r   6 ep   1.1] t=       33s traffic=       40MB loss=0.294 edges= 20 r=0.500 [0.50,0.50] CD true=13.039 est=95.208 Dmax=20.987 acc=0.3545 f1=0.1241
+dataset=unsw-nb15 model=mlp d=83594 (B=2.68 Mb) workers=20 algo=choco-star partition=iid rounds=200 (5.48 rounds/epoch)
+local data: sizes 8767-8767, classes/worker 10-10 of 10
+[r   6 ep   1.1] t=       51s traffic=       76MB loss=0.687 edges= 19 r=0.500 [0.50,0.50] CD true=12.113 est=25.961 Dmax=13.726 acc=0.6734 f1=0.3188
+dataset=unsw-nb15 model=mlp d=83594 (B=2.68 Mb) workers=20 algo=choco-fc partition=iid rounds=200 (5.48 rounds/epoch)
+local data: sizes 8767-8767, classes/worker 10-10 of 10
+[r   6 ep   1.1] t=      518s traffic=      762MB loss=0.688 edges=190 r=0.500 [0.50,0.50] CD true=7.649 est=9.331 Dmax=13.559 acc=0.6739 f1=0.3225
+dataset=unsw-nb15 model=mlp d=83594 (B=2.68 Mb) workers=20 algo=choco-fc partition=iid rounds=200 (5.48 rounds/epoch)
+local data: sizes 8767-8767, classes/worker 10-10 of 10
+[r   6 ep   1.1] t=      262s traffic=      381MB loss=0.677 edges=190 r=0.500 [0.50,0.50] CD true=7.535 est=9.371 Dmax=13.525 acc=0.6748 f1=0.3230
+dataset=unsw-nb15 model=mlp d=83594 (B=2.68 Mb) workers=20 algo=choco-fc partition=dirichlet rounds=200 (5.48 rounds/epoch)
+local data: sizes 315-26789, classes/worker 3-10 of 10
+[r   6 ep   1.1] t=      518s traffic=      762MB loss=0.309 edges=190 r=0.500 [0.50,0.50] CD true=10.621 est=16.898 Dmax=21.242 acc=0.3404 f1=0.1182
+dataset=unsw-nb15 model=mlp d=83594 (B=2.68 Mb) workers=20 algo=choco-fc partition=dirichlet rounds=200 (5.48 rounds/epoch)
+local data: sizes 315-26789, classes/worker 3-10 of 10
+[r   6 ep   1.1] t=      262s traffic=      381MB loss=0.306 edges=190 r=0.500 [0.50,0.50] CD true=10.826 est=17.015 Dmax=21.417 acc=0.3441 f1=0.1190
+[r  11 ep   2.0] t=       64s traffic=       74MB loss=0.732 edges= 20 r=0.500 [0.50,0.50] CD true=9.676 est=53.009 Dmax=10.791 acc=0.6948 f1=0.3244
+[r  11 ep   2.0] t=       92s traffic=      140MB loss=0.277 edges= 19 r=0.500 [0.50,0.50] CD true=16.080 est=35.134 Dmax=14.881 acc=0.3553 f1=0.1237
+[r  11 ep   2.0] t=       52s traffic=       70MB loss=0.726 edges= 19 r=0.500 [0.50,0.50] CD true=13.134 est=27.895 Dmax=10.932 acc=0.6940 f1=0.3204
+[r  11 ep   2.0] t=      116s traffic=      147MB loss=0.717 edges= 20 r=0.500 [0.50,0.50] CD true=9.607 est=51.269 Dmax=10.684 acc=0.6905 f1=0.3209
+[r  11 ep   2.0] t=      116s traffic=      147MB loss=0.282 edges= 20 r=0.500 [0.50,0.50] CD true=12.157 est=78.443 Dmax=15.632 acc=0.3582 f1=0.1248
+[r  11 ep   2.0] t=       52s traffic=       70MB loss=0.267 edges= 19 r=0.500 [0.50,0.50] CD true=18.842 est=41.609 Dmax=15.222 acc=0.3514 f1=0.1238
+[r  11 ep   2.0] t=       92s traffic=      140MB loss=0.712 edges= 19 r=0.500 [0.50,0.50] CD true=11.731 est=24.227 Dmax=10.788 acc=0.6912 f1=0.3231
+[r  11 ep   2.0] t=       64s traffic=       74MB loss=0.280 edges= 20 r=0.500 [0.50,0.50] CD true=12.989 est=85.368 Dmax=16.130 acc=0.3645 f1=0.1281
+[r  11 ep   2.0] t=     1000s traffic=     1398MB loss=0.711 edges=190 r=0.500 [0.50,0.50] CD true=8.368 est=9.274 Dmax=10.753 acc=0.6864 f1=0.3238
+[r  11 ep   2.0] t=      506s traffic=      699MB loss=0.713 edges=190 r=0.500 [0.50,0.50] CD true=8.263 est=9.292 Dmax=10.729 acc=0.6866 f1=0.3238
+[r  11 ep   2.0] t=     1000s traffic=     1398MB loss=0.284 edges=190 r=0.500 [0.50,0.50] CD true=12.211 est=16.552 Dmax=16.726 acc=0.3581 f1=0.1280
+[r  11 ep   2.0] t=      506s traffic=      699MB loss=0.283 edges=190 r=0.500 [0.50,0.50] CD true=11.626 est=15.828 Dmax=16.760 acc=0.3532 f1=0.1236
+[r  17 ep   3.1] t=      102s traffic=      114MB loss=0.605 edges= 20 r=0.500 [0.50,0.50] CD true=10.385 est=52.693 Dmax=8.739 acc=0.6955 f1=0.3275
+[r  17 ep   3.1] t=       81s traffic=      108MB loss=0.608 edges= 19 r=0.500 [0.50,0.50] CD true=13.192 est=26.567 Dmax=8.671 acc=0.6971 f1=0.3266
+[r  17 ep   3.1] t=      146s traffic=      216MB loss=0.281 edges= 19 r=0.500 [0.50,0.50] CD true=15.671 est=34.206 Dmax=10.979 acc=0.3705 f1=0.1336
+[r  17 ep   3.1] t=      102s traffic=      114MB loss=0.267 edges= 20 r=0.500 [0.50,0.50] CD true=13.371 est=81.887 Dmax=12.500 acc=0.3717 f1=0.1335
+[r  17 ep   3.1] t=      185s traffic=      227MB loss=0.615 edges= 20 r=0.500 [0.50,0.50] CD true=10.360 est=53.055 Dmax=8.613 acc=0.6908 f1=0.3292
+[r  17 ep   3.1] t=      146s traffic=      216MB loss=0.609 edges= 19 r=0.500 [0.50,0.50] CD true=12.185 est=23.823 Dmax=8.574 acc=0.6922 f1=0.3240
+[r  17 ep   3.1] t=      185s traffic=      227MB loss=0.284 edges= 20 r=0.500 [0.50,0.50] CD true=12.845 est=78.887 Dmax=12.109 acc=0.3710 f1=0.1324
+[r  17 ep   3.1] t=       81s traffic=      108MB loss=0.271 edges= 19 r=0.500 [0.50,0.50] CD true=18.255 est=38.275 Dmax=11.345 acc=0.3670 f1=0.1325
+[r  22 ep   4.0] t=      134s traffic=      147MB loss=0.655 edges= 20 r=0.500 [0.50,0.50] CD true=10.716 est=51.954 Dmax=7.675 acc=0.6900 f1=0.3314
+[r  22 ep   4.0] t=      103s traffic=      140MB loss=0.644 edges= 19 r=0.500 [0.50,0.50] CD true=13.394 est=26.204 Dmax=7.389 acc=0.6842 f1=0.3308
+[r  22 ep   4.0] t=      184s traffic=      280MB loss=0.298 edges= 19 r=0.500 [0.50,0.50] CD true=15.553 est=33.127 Dmax=8.839 acc=0.3740 f1=0.1336
+[r  22 ep   4.0] t=      184s traffic=      280MB loss=0.651 edges= 19 r=0.500 [0.50,0.50] CD true=12.084 est=22.604 Dmax=7.273 acc=0.6863 f1=0.3288
+[r  22 ep   4.0] t=      134s traffic=      147MB loss=0.289 edges= 20 r=0.500 [0.50,0.50] CD true=13.779 est=82.640 Dmax=10.731 acc=0.3773 f1=0.1348
+[r  22 ep   4.0] t=      243s traffic=      294MB loss=0.292 edges= 20 r=0.500 [0.50,0.50] CD true=13.317 est=82.135 Dmax=10.315 acc=0.3779 f1=0.1351
+[r  22 ep   4.0] t=      243s traffic=      294MB loss=0.650 edges= 20 r=0.500 [0.50,0.50] CD true=10.570 est=51.912 Dmax=7.513 acc=0.6865 f1=0.3321
+[r  22 ep   4.0] t=      103s traffic=      140MB loss=0.287 edges= 19 r=0.500 [0.50,0.50] CD true=17.280 est=34.626 Dmax=9.061 acc=0.3784 f1=0.1343
+[r  28 ep   5.1] t=      170s traffic=      187MB loss=0.639 edges= 20 r=0.500 [0.50,0.50] CD true=11.153 est=52.741 Dmax=6.863 acc=0.6984 f1=0.3330
+[r  17 ep   3.1] t=      810s traffic=     1080MB loss=0.610 edges=190 r=0.500 [0.50,0.50] CD true=9.071 est=9.632 Dmax=8.726 acc=0.6904 f1=0.3280
+[r  28 ep   5.1] t=      131s traffic=      178MB loss=0.638 edges= 19 r=0.500 [0.50,0.50] CD true=13.601 est=25.897 Dmax=6.449 acc=0.6973 f1=0.3373
+[r  28 ep   5.1] t=      231s traffic=      356MB loss=0.273 edges= 19 r=0.500 [0.50,0.50] CD true=15.394 est=31.152 Dmax=7.292 acc=0.3824 f1=0.1395
+[r  28 ep   5.1] t=      170s traffic=      187MB loss=0.271 edges= 20 r=0.500 [0.50,0.50] CD true=13.957 est=81.386 Dmax=9.405 acc=0.3818 f1=0.1372
+[r  28 ep   5.1] t=      231s traffic=      356MB loss=0.642 edges= 19 r=0.500 [0.50,0.50] CD true=12.556 est=22.693 Dmax=6.320 acc=0.6972 f1=0.3355
+[r  17 ep   3.1] t=     1601s traffic=     2160MB loss=0.610 edges=190 r=0.500 [0.50,0.50] CD true=9.117 est=9.453 Dmax=8.754 acc=0.6911 f1=0.3276
+[r  28 ep   5.1] t=      131s traffic=      178MB loss=0.269 edges= 19 r=0.500 [0.50,0.50] CD true=16.986 est=32.508 Dmax=7.328 acc=0.3803 f1=0.1386
+[r  28 ep   5.1] t=      309s traffic=      375MB loss=0.276 edges= 20 r=0.500 [0.50,0.50] CD true=13.451 est=78.145 Dmax=8.955 acc=0.3780 f1=0.1360
+[r  28 ep   5.1] t=      309s traffic=      375MB loss=0.634 edges= 20 r=0.500 [0.50,0.50] CD true=11.041 est=53.213 Dmax=6.704 acc=0.7016 f1=0.3336
+[r  17 ep   3.1] t=     1601s traffic=     2160MB loss=0.272 edges=190 r=0.500 [0.50,0.50] CD true=12.343 est=16.585 Dmax=13.401 acc=0.3604 f1=0.1283
+[r  17 ep   3.1] t=      810s traffic=     1080MB loss=0.272 edges=190 r=0.500 [0.50,0.50] CD true=12.583 est=15.934 Dmax=13.361 acc=0.3591 f1=0.1269
+[r  33 ep   6.0] t=      266s traffic=      419MB loss=0.262 edges= 19 r=0.500 [0.50,0.50] CD true=15.507 est=30.884 Dmax=6.397 acc=0.3823 f1=0.1389
+[r  33 ep   6.0] t=      201s traffic=      221MB loss=0.254 edges= 20 r=0.500 [0.50,0.50] CD true=14.247 est=81.219 Dmax=8.766 acc=0.3789 f1=0.1371
+[r  33 ep   6.0] t=      201s traffic=      221MB loss=0.622 edges= 20 r=0.500 [0.50,0.50] CD true=11.328 est=52.056 Dmax=6.441 acc=0.7013 f1=0.3407
+[r  33 ep   6.0] t=      151s traffic=      210MB loss=0.618 edges= 19 r=0.500 [0.50,0.50] CD true=13.717 est=25.355 Dmax=5.894 acc=0.6968 f1=0.3371
+[r  33 ep   6.0] t=      266s traffic=      419MB loss=0.637 edges= 19 r=0.500 [0.50,0.50] CD true=12.719 est=21.726 Dmax=5.768 acc=0.6950 f1=0.3349
+[r  33 ep   6.0] t=      151s traffic=      210MB loss=0.257 edges= 19 r=0.500 [0.50,0.50] CD true=16.651 est=31.831 Dmax=6.342 acc=0.3815 f1=0.1413
+[r  33 ep   6.0] t=      366s traffic=      441MB loss=0.628 edges= 20 r=0.500 [0.50,0.50] CD true=11.158 est=53.175 Dmax=6.303 acc=0.6996 f1=0.3398
+[r  33 ep   6.0] t=      366s traffic=      441MB loss=0.254 edges= 20 r=0.500 [0.50,0.50] CD true=13.768 est=77.670 Dmax=8.204 acc=0.3830 f1=0.1380
+[r  22 ep   4.0] t=     1061s traffic=     1398MB loss=0.649 edges=190 r=0.500 [0.50,0.50] CD true=9.309 est=9.219 Dmax=7.735 acc=0.6871 f1=0.3323
+[r  39 ep   7.1] t=      310s traffic=      496MB loss=0.231 edges= 19 r=0.500 [0.50,0.50] CD true=15.668 est=30.242 Dmax=5.730 acc=0.3849 f1=0.1404
+[r  39 ep   7.1] t=      239s traffic=      261MB loss=0.224 edges= 20 r=0.500 [0.50,0.50] CD true=14.477 est=81.246 Dmax=8.230 acc=0.3820 f1=0.1402
+[r  39 ep   7.1] t=      176s traffic=      248MB loss=0.578 edges= 19 r=0.500 [0.50,0.50] CD true=13.824 est=24.770 Dmax=5.455 acc=0.7129 f1=0.3392
+[r  39 ep   7.1] t=      310s traffic=      496MB loss=0.576 edges= 19 r=0.500 [0.50,0.50] CD true=12.888 est=21.466 Dmax=5.341 acc=0.7108 f1=0.3388
+[r  39 ep   7.1] t=      239s traffic=      261MB loss=0.576 edges= 20 r=0.500 [0.50,0.50] CD true=11.663 est=52.866 Dmax=6.174 acc=0.7180 f1=0.3418
+[r  39 ep   7.1] t=      176s traffic=      248MB loss=0.236 edges= 19 r=0.500 [0.50,0.50] CD true=16.504 est=31.396 Dmax=5.694 acc=0.3853 f1=0.1403
+[r  22 ep   4.0] t=     2098s traffic=     2795MB loss=0.290 edges=190 r=0.500 [0.50,0.50] CD true=12.604 est=16.082 Dmax=11.702 acc=0.3691 f1=0.1305
+[r  39 ep   7.1] t=      436s traffic=      522MB loss=0.573 edges= 20 r=0.500 [0.50,0.50] CD true=11.433 est=52.693 Dmax=5.975 acc=0.7130 f1=0.3399
+[r  39 ep   7.1] t=      436s traffic=      522MB loss=0.226 edges= 20 r=0.500 [0.50,0.50] CD true=14.286 est=76.572 Dmax=7.705 acc=0.3812 f1=0.1385
+[r  22 ep   4.0] t=     2098s traffic=     2795MB loss=0.661 edges=190 r=0.500 [0.50,0.50] CD true=9.459 est=9.324 Dmax=7.744 acc=0.6870 f1=0.3296
+[r  22 ep   4.0] t=     1061s traffic=     1398MB loss=0.285 edges=190 r=0.500 [0.50,0.50] CD true=12.825 est=16.180 Dmax=11.532 acc=0.3701 f1=0.1308
+[r  44 ep   8.0] t=      272s traffic=      294MB loss=0.261 edges= 20 r=0.500 [0.50,0.50] CD true=14.641 est=79.448 Dmax=7.997 acc=0.3831 f1=0.1392
+[r  44 ep   8.0] t=      343s traffic=      559MB loss=0.258 edges= 19 r=0.500 [0.50,0.50] CD true=15.599 est=28.776 Dmax=5.361 acc=0.3838 f1=0.1427
+[r  44 ep   8.0] t=      196s traffic=      280MB loss=0.655 edges= 19 r=0.500 [0.50,0.50] CD true=13.926 est=24.516 Dmax=5.181 acc=0.6979 f1=0.3378
+[r  44 ep   8.0] t=      343s traffic=      559MB loss=0.652 edges= 19 r=0.500 [0.50,0.50] CD true=13.108 est=21.979 Dmax=5.082 acc=0.6992 f1=0.3358
+[r  44 ep   8.0] t=      272s traffic=      294MB loss=0.634 edges= 20 r=0.500 [0.50,0.50] CD true=11.780 est=52.109 Dmax=5.965 acc=0.6977 f1=0.3378
+[r  44 ep   8.0] t=      196s traffic=      280MB loss=0.261 edges= 19 r=0.500 [0.50,0.50] CD true=16.340 est=29.547 Dmax=5.307 acc=0.3880 f1=0.1450
+[r  44 ep   8.0] t=      495s traffic=      589MB loss=0.249 edges= 20 r=0.500 [0.50,0.50] CD true=14.332 est=76.201 Dmax=7.478 acc=0.3868 f1=0.1409
+[r  44 ep   8.0] t=      495s traffic=      589MB loss=0.639 edges= 20 r=0.500 [0.50,0.50] CD true=11.565 est=52.205 Dmax=5.778 acc=0.6980 f1=0.3372
+[r  50 ep   9.1] t=      310s traffic=      334MB loss=0.232 edges= 20 r=0.500 [0.50,0.50] CD true=14.838 est=77.678 Dmax=7.716 acc=0.3907 f1=0.1474
+[r  50 ep   9.1] t=      383s traffic=      635MB loss=0.237 edges= 19 r=0.500 [0.50,0.50] CD true=15.454 est=27.494 Dmax=4.888 acc=0.3894 f1=0.1475
+[r  28 ep   5.1] t=     1350s traffic=     1779MB loss=0.626 edges=190 r=0.500 [0.50,0.50] CD true=9.736 est=9.719 Dmax=6.998 acc=0.6956 f1=0.3313
+[r  50 ep   9.1] t=      220s traffic=      318MB loss=0.575 edges= 19 r=0.500 [0.50,0.50] CD true=14.015 est=23.866 Dmax=4.993 acc=0.7079 f1=0.3454
+[r  50 ep   9.1] t=      383s traffic=      635MB loss=0.579 edges= 19 r=0.500 [0.50,0.50] CD true=13.234 est=21.324 Dmax=4.887 acc=0.7041 f1=0.3454
+[r  50 ep   9.1] t=      220s traffic=      318MB loss=0.220 edges= 19 r=0.500 [0.50,0.50] CD true=16.186 est=28.642 Dmax=4.848 acc=0.3912 f1=0.1474
+[r  50 ep   9.1] t=      310s traffic=      334MB loss=0.563 edges= 20 r=0.500 [0.50,0.50] CD true=11.977 est=52.036 Dmax=5.848 acc=0.7093 f1=0.3470
+[r  50 ep   9.1] t=      566s traffic=      669MB loss=0.570 edges= 20 r=0.500 [0.50,0.50] CD true=11.702 est=52.523 Dmax=5.634 acc=0.7111 f1=0.3488
+[r  50 ep   9.1] t=      566s traffic=      669MB loss=0.233 edges= 20 r=0.500 [0.50,0.50] CD true=14.650 est=75.606 Dmax=7.190 acc=0.3930 f1=0.1449
+[r  28 ep   5.1] t=     2669s traffic=     3558MB loss=0.280 edges=190 r=0.500 [0.50,0.50] CD true=13.023 est=15.434 Dmax=10.391 acc=0.3695 f1=0.1309
+[r  55 ep  10.0] t=      343s traffic=      368MB loss=0.258 edges= 20 r=0.500 [0.50,0.50] CD true=15.056 est=78.433 Dmax=7.542 acc=0.3946 f1=0.1467
+[r  55 ep  10.0] t=      430s traffic=      699MB loss=0.583 edges= 19 r=0.500 [0.50,0.50] CD true=13.428 est=21.362 Dmax=4.695 acc=0.6959 f1=0.3434
+[r  55 ep  10.0] t=      430s traffic=      699MB loss=0.254 edges= 19 r=0.500 [0.50,0.50] CD true=15.750 est=26.789 Dmax=4.650 acc=0.3896 f1=0.1491
+[r  55 ep  10.0] t=      246s traffic=      349MB loss=0.577 edges= 19 r=0.500 [0.50,0.50] CD true=14.157 est=24.295 Dmax=4.800 acc=0.6956 f1=0.3436
+[r  55 ep  10.0] t=      246s traffic=      349MB loss=0.252 edges= 19 r=0.500 [0.50,0.50] CD true=16.433 est=30.981 Dmax=4.699 acc=0.3848 f1=0.1463
+[r  55 ep  10.0] t=      343s traffic=      368MB loss=0.574 edges= 20 r=0.500 [0.50,0.50] CD true=12.103 est=51.735 Dmax=5.689 acc=0.7040 f1=0.3465
+[r  28 ep   5.1] t=     2669s traffic=     3558MB loss=0.654 edges=190 r=0.500 [0.50,0.50] CD true=9.808 est=9.708 Dmax=6.995 acc=0.6962 f1=0.3318
+[r  55 ep  10.0] t=      625s traffic=      736MB loss=0.249 edges= 20 r=0.500 [0.50,0.50] CD true=14.733 est=73.953 Dmax=6.947 acc=0.3940 f1=0.1443
+[r  28 ep   5.1] t=     1350s traffic=     1779MB loss=0.270 edges=190 r=0.500 [0.50,0.50] CD true=13.195 est=15.333 Dmax=10.370 acc=0.3620 f1=0.1276
+[r  55 ep  10.0] t=      625s traffic=      736MB loss=0.586 edges= 20 r=0.500 [0.50,0.50] CD true=11.863 est=51.798 Dmax=5.484 acc=0.7000 f1=0.3472
+[r  61 ep  11.1] t=      382s traffic=      408MB loss=0.227 edges= 20 r=0.500 [0.50,0.50] CD true=15.198 est=80.262 Dmax=7.497 acc=0.3853 f1=0.1433
+[r  33 ep   6.0] t=     1604s traffic=     2097MB loss=0.634 edges=190 r=0.500 [0.50,0.50] CD true=9.984 est=9.392 Dmax=6.592 acc=0.6975 f1=0.3382
+[r  61 ep  11.1] t=      504s traffic=      775MB loss=0.560 edges= 19 r=0.500 [0.50,0.50] CD true=13.548 est=20.913 Dmax=4.536 acc=0.7057 f1=0.3465
+[r  61 ep  11.1] t=      504s traffic=      775MB loss=0.228 edges= 19 r=0.500 [0.50,0.50] CD true=15.861 est=25.868 Dmax=4.357 acc=0.3853 f1=0.1441
+[r  61 ep  11.1] t=      286s traffic=      388MB loss=0.226 edges= 19 r=0.500 [0.50,0.50] CD true=16.336 est=29.452 Dmax=4.482 acc=0.3866 f1=0.1433
+[r  61 ep  11.1] t=      382s traffic=      408MB loss=0.565 edges= 20 r=0.500 [0.50,0.50] CD true=12.221 est=51.177 Dmax=5.573 acc=0.7130 f1=0.3511
+[r  61 ep  11.1] t=      286s traffic=      388MB loss=0.579 edges= 19 r=0.500 [0.50,0.50] CD true=14.173 est=23.058 Dmax=4.591 acc=0.7094 f1=0.3455
+[r  61 ep  11.1] t=      696s traffic=      816MB loss=0.229 edges= 20 r=0.500 [0.50,0.50] CD true=14.918 est=73.135 Dmax=6.711 acc=0.3886 f1=0.1429
+[r  33 ep   6.0] t=     3172s traffic=     4193MB loss=0.253 edges=190 r=0.500 [0.50,0.50] CD true=13.428 est=15.744 Dmax=9.750 acc=0.3712 f1=0.1337
+[r  61 ep  11.1] t=      696s traffic=      816MB loss=0.553 edges= 20 r=0.500 [0.50,0.50] CD true=11.939 est=50.855 Dmax=5.339 acc=0.7148 f1=0.3496
+[r  66 ep  12.0] t=      411s traffic=      441MB loss=0.179 edges= 20 r=0.500 [0.50,0.50] CD true=15.532 est=79.337 Dmax=7.366 acc=0.3911 f1=0.1431
+[r  66 ep  12.0] t=      565s traffic=      839MB loss=0.579 edges= 19 r=0.500 [0.50,0.50] CD true=13.669 est=21.054 Dmax=4.391 acc=0.7019 f1=0.3499
+[r  66 ep  12.0] t=      411s traffic=      441MB loss=0.584 edges= 20 r=0.500 [0.50,0.50] CD true=12.357 est=50.775 Dmax=5.459 acc=0.7066 f1=0.3530
+[r  66 ep  12.0] t=      319s traffic=      419MB loss=0.576 edges= 19 r=0.500 [0.50,0.50] CD true=14.355 est=23.243 Dmax=4.457 acc=0.7033 f1=0.3497
+[r  66 ep  12.0] t=      319s traffic=      419MB loss=0.175 edges= 19 r=0.500 [0.50,0.50] CD true=16.571 est=28.170 Dmax=4.300 acc=0.3931 f1=0.1469
+[r  66 ep  12.0] t=      565s traffic=      839MB loss=0.181 edges= 19 r=0.500 [0.50,0.50] CD true=16.171 est=25.326 Dmax=4.200 acc=0.3971 f1=0.1478
+[r  66 ep  12.0] t=      750s traffic=      883MB loss=0.173 edges= 20 r=0.500 [0.50,0.50] CD true=15.229 est=74.729 Dmax=6.613 acc=0.3942 f1=0.1429
+[r  66 ep  12.0] t=      750s traffic=      883MB loss=0.580 edges= 20 r=0.500 [0.50,0.50] CD true=12.038 est=50.344 Dmax=5.206 acc=0.7055 f1=0.3521
+[r  33 ep   6.0] t=     1604s traffic=     2097MB loss=0.256 edges=190 r=0.500 [0.50,0.50] CD true=13.616 est=15.354 Dmax=9.700 acc=0.3764 f1=0.1339
+[r  72 ep  13.1] t=      448s traffic=      482MB loss=0.264 edges= 20 r=0.500 [0.50,0.50] CD true=15.220 est=75.513 Dmax=7.205 acc=0.3929 f1=0.1463
+[r  33 ep   6.0] t=     3172s traffic=     4193MB loss=0.617 edges=190 r=0.500 [0.50,0.50] CD true=10.090 est=9.579 Dmax=6.599 acc=0.6994 f1=0.3396
+[r  39 ep   7.1] t=     1913s traffic=     2478MB loss=0.571 edges=190 r=0.500 [0.50,0.50] CD true=10.286 est=9.597 Dmax=6.362 acc=0.7130 f1=0.3391
+[r  72 ep  13.1] t=      627s traffic=      915MB loss=0.565 edges= 19 r=0.500 [0.50,0.50] CD true=13.813 est=20.697 Dmax=4.197 acc=0.7094 f1=0.3545
+[r  72 ep  13.1] t=      448s traffic=      482MB loss=0.557 edges= 20 r=0.500 [0.50,0.50] CD true=12.514 est=49.684 Dmax=5.321 acc=0.7126 f1=0.3583
+[r  72 ep  13.1] t=      353s traffic=      457MB loss=0.562 edges= 19 r=0.500 [0.50,0.50] CD true=14.439 est=23.042 Dmax=4.257 acc=0.7071 f1=0.3531
+[r  72 ep  13.1] t=      353s traffic=      457MB loss=0.262 edges= 19 r=0.500 [0.50,0.50] CD true=16.213 est=27.160 Dmax=4.169 acc=0.3957 f1=0.1476
+[r  72 ep  13.1] t=      627s traffic=      915MB loss=0.264 edges= 19 r=0.500 [0.50,0.50] CD true=15.979 est=24.711 Dmax=4.092 acc=0.3977 f1=0.1504
+[r  72 ep  13.1] t=      818s traffic=      963MB loss=0.264 edges= 20 r=0.500 [0.50,0.50] CD true=15.067 est=71.079 Dmax=6.478 acc=0.3995 f1=0.1457
+[r  77 ep  14.1] t=      482s traffic=      515MB loss=0.229 edges= 20 r=0.500 [0.50,0.50] CD true=15.387 est=73.082 Dmax=6.953 acc=0.3922 f1=0.1440
+[r  39 ep   7.1] t=     3785s traffic=     4955MB loss=0.221 edges=190 r=0.500 [0.50,0.50] CD true=13.794 est=15.344 Dmax=9.239 acc=0.3749 f1=0.1362
+[r  72 ep  13.1] t=      818s traffic=      963MB loss=0.551 edges= 20 r=0.500 [0.50,0.50] CD true=12.174 est=49.169 Dmax=5.068 acc=0.7150 f1=0.3571
+[r  77 ep  14.1] t=      482s traffic=      515MB loss=0.541 edges= 20 r=0.500 [0.50,0.50] CD true=12.666 est=50.768 Dmax=5.352 acc=0.7180 f1=0.3579
+[r  77 ep  14.1] t=      676s traffic=      978MB loss=0.546 edges= 19 r=0.500 [0.50,0.50] CD true=14.071 est=20.590 Dmax=4.264 acc=0.7097 f1=0.3545
+[r  77 ep  14.1] t=      381s traffic=      489MB loss=0.238 edges= 19 r=0.500 [0.50,0.50] CD true=16.305 est=26.272 Dmax=3.971 acc=0.3955 f1=0.1494
+[r  77 ep  14.1] t=      381s traffic=      489MB loss=0.539 edges= 19 r=0.500 [0.50,0.50] CD true=14.638 est=23.080 Dmax=4.314 acc=0.7076 f1=0.3543
+[r  77 ep  14.1] t=      676s traffic=      978MB loss=0.244 edges= 19 r=0.500 [0.50,0.50] CD true=16.098 est=24.692 Dmax=3.938 acc=0.3993 f1=0.1507
+[r  77 ep  14.1] t=      878s traffic=     1030MB loss=0.229 edges= 20 r=0.500 [0.50,0.50] CD true=15.150 est=69.684 Dmax=6.301 acc=0.3977 f1=0.1469
+[r  77 ep  14.1] t=      878s traffic=     1030MB loss=0.532 edges= 20 r=0.500 [0.50,0.50] CD true=12.340 est=50.873 Dmax=5.116 acc=0.7152 f1=0.3543
+[r  83 ep  15.1] t=      521s traffic=      555MB loss=0.218 edges= 20 r=0.500 [0.50,0.50] CD true=15.368 est=71.062 Dmax=6.757 acc=0.3929 f1=0.1448
+[r  83 ep  15.1] t=      737s traffic=     1055MB loss=0.624 edges= 19 r=0.500 [0.50,0.50] CD true=14.004 est=20.147 Dmax=4.128 acc=0.7084 f1=0.3530
+[r  44 ep   8.0] t=     2173s traffic=     2795MB loss=0.650 edges=190 r=0.500 [0.50,0.50] CD true=10.441 est=9.557 Dmax=6.170 acc=0.6990 f1=0.3404
+[r  83 ep  15.1] t=      521s traffic=      555MB loss=0.626 edges= 20 r=0.500 [0.50,0.50] CD true=12.705 est=48.666 Dmax=5.223 acc=0.7147 f1=0.3566
+[r  83 ep  15.1] t=      416s traffic=      527MB loss=0.228 edges= 19 r=0.500 [0.50,0.50] CD true=16.171 est=25.224 Dmax=3.752 acc=0.4001 f1=0.1508
+[r  83 ep  15.1] t=      416s traffic=      527MB loss=0.623 edges= 19 r=0.500 [0.50,0.50] CD true=14.590 est=22.710 Dmax=4.197 acc=0.7124 f1=0.3532
+[r  83 ep  15.1] t=      737s traffic=     1055MB loss=0.234 edges= 19 r=0.500 [0.50,0.50] CD true=16.061 est=24.619 Dmax=3.782 acc=0.3985 f1=0.1477
+[r  39 ep   7.1] t=     1913s traffic=     2478MB loss=0.230 edges=190 r=0.500 [0.50,0.50] CD true=13.910 est=15.063 Dmax=9.202 acc=0.3723 f1=0.1301
+[r  44 ep   8.0] t=     4299s traffic=     5591MB loss=0.246 edges=190 r=0.500 [0.50,0.50] CD true=13.888 est=14.927 Dmax=8.949 acc=0.3824 f1=0.1400
+[r  88 ep  16.1] t=      554s traffic=      589MB loss=0.231 edges= 20 r=0.500 [0.50,0.50] CD true=15.473 est=70.407 Dmax=6.553 acc=0.3897 f1=0.1453
+[r  83 ep  15.1] t=      948s traffic=     1110MB loss=0.216 edges= 20 r=0.500 [0.50,0.50] CD true=15.208 est=68.720 Dmax=6.159 acc=0.3942 f1=0.1425
+[r  39 ep   7.1] t=     3785s traffic=     4955MB loss=0.563 edges=190 r=0.500 [0.50,0.50] CD true=10.439 est=9.643 Dmax=6.377 acc=0.7128 f1=0.3352
+[r  83 ep  15.1] t=      948s traffic=     1110MB loss=0.615 edges= 20 r=0.500 [0.50,0.50] CD true=12.364 est=49.237 Dmax=5.011 acc=0.7172 f1=0.3559
+[r  88 ep  16.1] t=      804s traffic=     1118MB loss=0.625 edges= 19 r=0.500 [0.50,0.50] CD true=14.155 est=19.833 Dmax=3.989 acc=0.7123 f1=0.3522
+[r  88 ep  16.1] t=      554s traffic=      589MB loss=0.614 edges= 20 r=0.500 [0.50,0.50] CD true=12.821 est=48.666 Dmax=5.125 acc=0.7146 f1=0.3531
+[r  88 ep  16.1] t=      452s traffic=      559MB loss=0.244 edges= 19 r=0.500 [0.50,0.50] CD true=16.281 est=24.691 Dmax=3.590 acc=0.4004 f1=0.1498
+[r  88 ep  16.1] t=      452s traffic=      559MB loss=0.631 edges= 19 r=0.500 [0.50,0.50] CD true=14.708 est=22.065 Dmax=4.045 acc=0.7121 f1=0.3507
+[r  88 ep  16.1] t=      804s traffic=     1118MB loss=0.244 edges= 19 r=0.500 [0.50,0.50] CD true=16.153 est=23.608 Dmax=3.601 acc=0.4007 f1=0.1506
+[r  88 ep  16.1] t=     1007s traffic=     1177MB loss=0.234 edges= 20 r=0.500 [0.50,0.50] CD true=15.362 est=68.146 Dmax=6.043 acc=0.3967 f1=0.1469
+[r  94 ep  17.2] t=      592s traffic=      629MB loss=0.259 edges= 20 r=0.500 [0.50,0.50] CD true=15.676 est=70.043 Dmax=6.409 acc=0.3953 f1=0.1452
+[r  88 ep  16.1] t=     1007s traffic=     1177MB loss=0.614 edges= 20 r=0.500 [0.50,0.50] CD true=12.492 est=49.060 Dmax=4.925 acc=0.7180 f1=0.3532
+[r  94 ep  17.2] t=      913s traffic=     1194MB loss=0.538 edges= 19 r=0.500 [0.50,0.50] CD true=14.207 est=20.025 Dmax=3.932 acc=0.7064 f1=0.3582
+[r  94 ep  17.2] t=      592s traffic=      629MB loss=0.529 edges= 20 r=0.500 [0.50,0.50] CD true=12.879 est=48.807 Dmax=5.060 acc=0.7176 f1=0.3610
+[r  94 ep  17.2] t=      510s traffic=      597MB loss=0.270 edges= 19 r=0.500 [0.50,0.50] CD true=16.272 est=24.282 Dmax=3.449 acc=0.4064 f1=0.1547
+[r  94 ep  17.2] t=      510s traffic=      597MB loss=0.531 edges= 19 r=0.500 [0.50,0.50] CD true=14.764 est=22.039 Dmax=3.988 acc=0.7089 f1=0.3601
+[r  94 ep  17.2] t=      913s traffic=     1194MB loss=0.260 edges= 19 r=0.500 [0.50,0.50] CD true=16.246 est=23.510 Dmax=3.489 acc=0.4064 f1=0.1554
+[r  50 ep   9.1] t=     2485s traffic=     3177MB loss=0.562 edges=190 r=0.500 [0.50,0.50] CD true=10.657 est=9.432 Dmax=6.033 acc=0.7112 f1=0.3486
+[r  99 ep  18.1] t=      623s traffic=      662MB loss=0.171 edges= 20 r=0.500 [0.50,0.50] CD true=15.774 est=70.172 Dmax=6.343 acc=0.3867 f1=0.1446
+[r  44 ep   8.0] t=     2173s traffic=     2795MB loss=0.245 edges=190 r=0.500 [0.50,0.50] CD true=14.681 est=14.753 Dmax=8.987 acc=0.3738 f1=0.1321
+[r  94 ep  17.2] t=     1078s traffic=     1257MB loss=0.251 edges= 20 r=0.500 [0.50,0.50] CD true=15.444 est=67.992 Dmax=5.909 acc=0.4021 f1=0.1519
+[r  50 ep   9.1] t=     4916s traffic=     6353MB loss=0.234 edges=190 r=0.500 [0.50,0.50] CD true=14.075 est=14.544 Dmax=8.648 acc=0.3861 f1=0.1403
+[r  99 ep  18.1] t=     1031s traffic=     1258MB loss=0.619 edges= 19 r=0.500 [0.50,0.50] CD true=14.320 est=19.676 Dmax=3.899 acc=0.7085 f1=0.3603
+[r  94 ep  17.2] t=     1078s traffic=     1257MB loss=0.525 edges= 20 r=0.500 [0.50,0.50] CD true=12.549 est=48.154 Dmax=4.844 acc=0.7152 f1=0.3656
+[r  44 ep   8.0] t=     4299s traffic=     5591MB loss=0.637 edges=190 r=0.500 [0.50,0.50] CD true=10.654 est=9.518 Dmax=6.195 acc=0.6997 f1=0.3385
+[r  99 ep  18.1] t=      623s traffic=      662MB loss=0.619 edges= 20 r=0.500 [0.50,0.50] CD true=12.984 est=48.586 Dmax=5.042 acc=0.7125 f1=0.3626
+[r  99 ep  18.1] t=      572s traffic=      629MB loss=0.179 edges= 19 r=0.500 [0.50,0.50] CD true=16.473 est=24.167 Dmax=3.378 acc=0.4000 f1=0.1533
+[r  99 ep  18.1] t=      572s traffic=      629MB loss=0.614 edges= 19 r=0.500 [0.50,0.50] CD true=14.883 est=21.277 Dmax=3.951 acc=0.7076 f1=0.3602
+[r  99 ep  18.1] t=     1031s traffic=     1258MB loss=0.180 edges= 19 r=0.500 [0.50,0.50] CD true=16.479 est=23.314 Dmax=3.437 acc=0.3973 f1=0.1531
+[r 105 ep  19.2] t=      663s traffic=      702MB loss=0.194 edges= 20 r=0.500 [0.50,0.50] CD true=15.696 est=67.742 Dmax=6.246 acc=0.3911 f1=0.1433
+[r  99 ep  18.1] t=     1134s traffic=     1324MB loss=0.174 edges= 20 r=0.500 [0.50,0.50] CD true=15.538 est=68.118 Dmax=5.872 acc=0.3948 f1=0.1498
+[r  99 ep  18.1] t=     1134s traffic=     1324MB loss=0.607 edges= 20 r=0.500 [0.50,0.50] CD true=12.713 est=48.412 Dmax=4.824 acc=0.7091 f1=0.3633
+[r 105 ep  19.2] t=     1106s traffic=     1334MB loss=0.604 edges= 19 r=0.500 [0.50,0.50] CD true=14.447 est=19.730 Dmax=3.876 acc=0.7088 f1=0.3606
+[r 105 ep  19.2] t=      663s traffic=      702MB loss=0.604 edges= 20 r=0.500 [0.50,0.50] CD true=13.100 est=47.699 Dmax=4.989 acc=0.7144 f1=0.3651
+[r 105 ep  19.2] t=      614s traffic=      667MB loss=0.195 edges= 19 r=0.500 [0.50,0.50] CD true=16.451 est=23.953 Dmax=3.335 acc=0.3998 f1=0.1524
+[r  55 ep  10.0] t=     2744s traffic=     3494MB loss=0.578 edges=190 r=0.500 [0.50,0.50] CD true=10.794 est=9.273 Dmax=5.885 acc=0.6995 f1=0.3456
+[r 105 ep  19.2] t=      614s traffic=      667MB loss=0.603 edges= 19 r=0.500 [0.50,0.50] CD true=14.959 est=21.756 Dmax=3.941 acc=0.7118 f1=0.3617
+[r 110 ep  20.1] t=      695s traffic=      736MB loss=0.164 edges= 20 r=0.500 [0.50,0.50] CD true=15.750 est=67.636 Dmax=6.141 acc=0.3948 f1=0.1477
+[r 105 ep  19.2] t=     1106s traffic=     1334MB loss=0.204 edges= 19 r=0.500 [0.50,0.50] CD true=16.268 est=23.252 Dmax=3.355 acc=0.3967 f1=0.1499
+[r 105 ep  19.2] t=     1204s traffic=     1404MB loss=0.198 edges= 20 r=0.500 [0.50,0.50] CD true=15.446 est=66.512 Dmax=5.769 acc=0.3992 f1=0.1509
+[r  55 ep  10.0] t=     5429s traffic=     6988MB loss=0.254 edges=190 r=0.500 [0.50,0.50] CD true=14.427 est=15.161 Dmax=8.478 acc=0.3887 f1=0.1406
+[r 110 ep  20.1] t=     1164s traffic=     1398MB loss=0.570 edges= 19 r=0.500 [0.50,0.50] CD true=14.465 est=19.656 Dmax=3.872 acc=0.7141 f1=0.3684
+[r 110 ep  20.1] t=      695s traffic=      736MB loss=0.564 edges= 20 r=0.500 [0.50,0.50] CD true=13.143 est=47.809 Dmax=4.993 acc=0.7163 f1=0.3689
+[r 105 ep  19.2] t=     1204s traffic=     1404MB loss=0.603 edges= 20 r=0.500 [0.50,0.50] CD true=12.780 est=47.508 Dmax=4.779 acc=0.7171 f1=0.3675
+[r 110 ep  20.1] t=      646s traffic=      699MB loss=0.173 edges= 19 r=0.500 [0.50,0.50] CD true=16.515 est=24.016 Dmax=3.222 acc=0.3988 f1=0.1518
+[r 110 ep  20.1] t=      646s traffic=      699MB loss=0.581 edges= 19 r=0.500 [0.50,0.50] CD true=14.965 est=21.515 Dmax=3.935 acc=0.7153 f1=0.3680
+[r  50 ep   9.1] t=     2485s traffic=     3177MB loss=0.227 edges=190 r=0.500 [0.50,0.50] CD true=14.229 est=14.431 Dmax=8.653 acc=0.3808 f1=0.1382
+[r 110 ep  20.1] t=     1164s traffic=     1398MB loss=0.177 edges= 19 r=0.500 [0.50,0.50] CD true=16.412 est=22.910 Dmax=3.225 acc=0.4020 f1=0.1551
+[r 116 ep  21.2] t=      732s traffic=      776MB loss=0.179 edges= 20 r=0.500 [0.50,0.50] CD true=15.767 est=67.973 Dmax=6.103 acc=0.3982 f1=0.1517
+[r 110 ep  20.1] t=     1263s traffic=     1471MB loss=0.168 edges= 20 r=0.500 [0.50,0.50] CD true=15.565 est=65.849 Dmax=5.655 acc=0.4005 f1=0.1485
+[r  50 ep   9.1] t=     4916s traffic=     6353MB loss=0.567 edges=190 r=0.500 [0.50,0.50] CD true=10.807 est=9.595 Dmax=6.086 acc=0.7120 f1=0.3479
+[r 116 ep  21.2] t=     1277s traffic=     1474MB loss=0.546 edges= 19 r=0.500 [0.50,0.50] CD true=14.520 est=19.113 Dmax=3.806 acc=0.7142 f1=0.3642
+[r 110 ep  20.1] t=     1263s traffic=     1471MB loss=0.554 edges= 20 r=0.500 [0.50,0.50] CD true=12.837 est=47.455 Dmax=4.765 acc=0.7192 f1=0.3679
+[r 116 ep  21.2] t=      732s traffic=      776MB loss=0.540 edges= 20 r=0.500 [0.50,0.50] CD true=13.166 est=45.610 Dmax=4.870 acc=0.7248 f1=0.3683
+[r 116 ep  21.2] t=      707s traffic=      737MB loss=0.183 edges= 19 r=0.500 [0.50,0.50] CD true=16.348 est=22.848 Dmax=3.125 acc=0.3997 f1=0.1542
+[r 116 ep  21.2] t=      707s traffic=      737MB loss=0.542 edges= 19 r=0.500 [0.50,0.50] CD true=15.018 est=20.948 Dmax=3.834 acc=0.7188 f1=0.3641
+[r 121 ep  22.1] t=      764s traffic=      809MB loss=0.221 edges= 20 r=0.500 [0.50,0.50] CD true=15.769 est=66.264 Dmax=6.007 acc=0.3976 f1=0.1479
+[r 116 ep  21.2] t=     1277s traffic=     1474MB loss=0.181 edges= 19 r=0.500 [0.50,0.50] CD true=16.379 est=22.217 Dmax=3.122 acc=0.4049 f1=0.1558
+[r  61 ep  11.1] t=     3056s traffic=     3875MB loss=0.553 edges=190 r=0.500 [0.50,0.50] CD true=10.928 est=9.352 Dmax=5.790 acc=0.7131 f1=0.3503
+[r 116 ep  21.2] t=     1330s traffic=     1552MB loss=0.190 edges= 20 r=0.500 [0.50,0.50] CD true=15.572 est=64.786 Dmax=5.550 acc=0.4051 f1=0.1537
+[r 121 ep  22.1] t=     1435s traffic=     1537MB loss=0.548 edges= 19 r=0.500 [0.50,0.50] CD true=14.602 est=19.156 Dmax=3.682 acc=0.7205 f1=0.3661
+[r 121 ep  22.1] t=      764s traffic=      809MB loss=0.551 edges= 20 r=0.500 [0.50,0.50] CD true=13.301 est=45.743 Dmax=4.792 acc=0.7234 f1=0.3684
+[r 116 ep  21.2] t=     1330s traffic=     1552MB loss=0.545 edges= 20 r=0.500 [0.50,0.50] CD true=12.839 est=45.231 Dmax=4.636 acc=0.7266 f1=0.3710
+[r 121 ep  22.1] t=      789s traffic=      769MB loss=0.240 edges= 19 r=0.500 [0.50,0.50] CD true=16.246 est=22.193 Dmax=2.982 acc=0.4097 f1=0.1575
+[r  61 ep  11.1] t=     6046s traffic=     7751MB loss=0.221 edges=190 r=0.500 [0.50,0.50] CD true=14.522 est=14.455 Dmax=8.296 acc=0.3855 f1=0.1399
+[r 121 ep  22.1] t=      789s traffic=      769MB loss=0.563 edges= 19 r=0.500 [0.50,0.50] CD true=15.136 est=21.126 Dmax=3.736 acc=0.7222 f1=0.3662
+[r 127 ep  23.2] t=      803s traffic=      849MB loss=0.250 edges= 20 r=0.500 [0.50,0.50] CD true=15.778 est=64.029 Dmax=5.853 acc=0.4027 f1=0.1504
+[r  55 ep  10.0] t=     2744s traffic=     3494MB loss=0.248 edges=190 r=0.500 [0.50,0.50] CD true=14.469 est=14.659 Dmax=8.446 acc=0.3882 f1=0.1400
+[r 121 ep  22.1] t=     1435s traffic=     1537MB loss=0.243 edges= 19 r=0.500 [0.50,0.50] CD true=16.373 est=21.774 Dmax=2.987 acc=0.4083 f1=0.1574
+[r 127 ep  23.2] t=     1765s traffic=     1614MB loss=0.536 edges= 19 r=0.500 [0.50,0.50] CD true=14.753 est=18.824 Dmax=3.617 acc=0.7215 f1=0.3767
+[r 121 ep  22.1] t=     1389s traffic=     1618MB loss=0.226 edges= 20 r=0.500 [0.50,0.50] CD true=15.568 est=63.510 Dmax=5.442 acc=0.4076 f1=0.1531
+[r 127 ep  23.2] t=      803s traffic=      849MB loss=0.527 edges= 20 r=0.500 [0.50,0.50] CD true=13.379 est=46.054 Dmax=4.733 acc=0.7256 f1=0.3724
+[r  55 ep  10.0] t=     5429s traffic=     6988MB loss=0.573 edges=190 r=0.500 [0.50,0.50] CD true=10.968 est=9.484 Dmax=5.956 acc=0.6995 f1=0.3464
+[r 121 ep  22.1] t=     1389s traffic=     1618MB loss=0.551 edges= 20 r=0.500 [0.50,0.50] CD true=12.968 est=45.924 Dmax=4.552 acc=0.7236 f1=0.3722
+[r 127 ep  23.2] t=      958s traffic=      807MB loss=0.248 edges= 19 r=0.500 [0.50,0.50] CD true=16.273 est=21.610 Dmax=2.869 acc=0.4054 f1=0.1552
+[r 127 ep  23.2] t=      958s traffic=      807MB loss=0.537 edges= 19 r=0.500 [0.50,0.50] CD true=15.282 est=21.217 Dmax=3.672 acc=0.7190 f1=0.3739
+[r 132 ep  24.1] t=      835s traffic=      883MB loss=0.191 edges= 20 r=0.500 [0.50,0.50] CD true=15.881 est=64.794 Dmax=5.788 acc=0.3982 f1=0.1498
+[r  66 ep  12.0] t=     3294s traffic=     4193MB loss=0.574 edges=190 r=0.500 [0.50,0.50] CD true=11.102 est=9.165 Dmax=5.706 acc=0.7077 f1=0.3498
+[r 132 ep  24.1] t=     2209s traffic=     1677MB loss=0.532 edges= 19 r=0.500 [0.50,0.50] CD true=14.811 est=18.785 Dmax=3.583 acc=0.7167 f1=0.3596
+[r 127 ep  23.2] t=     1765s traffic=     1614MB loss=0.250 edges= 19 r=0.500 [0.50,0.50] CD true=16.335 est=21.065 Dmax=2.859 acc=0.4050 f1=0.1552
+[r 132 ep  24.1] t=      835s traffic=      883MB loss=0.519 edges= 20 r=0.500 [0.50,0.50] CD true=13.495 est=45.894 Dmax=4.704 acc=0.7240 f1=0.3598
+[r 127 ep  23.2] t=     1460s traffic=     1699MB loss=0.257 edges= 20 r=0.500 [0.50,0.50] CD true=15.615 est=63.039 Dmax=5.345 acc=0.4028 f1=0.1501
+[r 132 ep  24.1] t=     1183s traffic=      839MB loss=0.194 edges= 19 r=0.500 [0.50,0.50] CD true=16.276 est=21.303 Dmax=2.787 acc=0.4036 f1=0.1554
+[r  66 ep  12.0] t=     6519s traffic=     8386MB loss=0.176 edges=190 r=0.500 [0.50,0.50] CD true=14.735 est=15.279 Dmax=8.185 acc=0.3869 f1=0.1405
+[r 137 ep  25.0] t=      867s traffic=      916MB loss=0.221 edges= 20 r=0.500 [0.50,0.50] CD true=15.818 est=63.739 Dmax=5.746 acc=0.3970 f1=0.1462
+[r 132 ep  24.1] t=     1183s traffic=      839MB loss=0.537 edges= 19 r=0.500 [0.50,0.50] CD true=15.346 est=20.874 Dmax=3.633 acc=0.7186 f1=0.3563
+[r 127 ep  23.2] t=     1460s traffic=     1699MB loss=0.529 edges= 20 r=0.500 [0.50,0.50] CD true=13.057 est=46.104 Dmax=4.500 acc=0.7265 f1=0.3746
+[r 137 ep  25.0] t=     2675s traffic=     1741MB loss=0.542 edges= 19 r=0.500 [0.50,0.50] CD true=14.759 est=18.601 Dmax=3.542 acc=0.7217 f1=0.3783
+[r 132 ep  24.1] t=     2209s traffic=     1677MB loss=0.191 edges= 19 r=0.500 [0.50,0.50] CD true=16.395 est=20.916 Dmax=2.814 acc=0.3997 f1=0.1546
+[r 137 ep  25.0] t=     1419s traffic=      870MB loss=0.230 edges= 19 r=0.500 [0.50,0.50] CD true=16.335 est=20.740 Dmax=2.792 acc=0.4065 f1=0.1520
+[r 137 ep  25.0] t=      867s traffic=      916MB loss=0.532 edges= 20 r=0.500 [0.50,0.50] CD true=13.471 est=44.630 Dmax=4.642 acc=0.7277 f1=0.3770
+[r 132 ep  24.1] t=     1518s traffic=     1766MB loss=0.184 edges= 20 r=0.500 [0.50,0.50] CD true=15.681 est=62.392 Dmax=5.283 acc=0.4003 f1=0.1515
+[r  61 ep  11.1] t=     3056s traffic=     3875MB loss=0.222 edges=190 r=0.500 [0.50,0.50] CD true=14.650 est=14.458 Dmax=8.198 acc=0.3824 f1=0.1357
+[r 137 ep  25.0] t=     1419s traffic=      870MB loss=0.535 edges= 19 r=0.500 [0.50,0.50] CD true=15.262 est=20.574 Dmax=3.556 acc=0.7221 f1=0.3772
+[r 143 ep  26.1] t=      905s traffic=      956MB loss=0.164 edges= 20 r=0.500 [0.50,0.50] CD true=15.892 est=63.404 Dmax=5.671 acc=0.3969 f1=0.1496
+[r 132 ep  24.1] t=     1518s traffic=     1766MB loss=0.511 edges= 20 r=0.500 [0.50,0.50] CD true=13.142 est=45.601 Dmax=4.466 acc=0.7208 f1=0.3608
+[r 137 ep  25.0] t=     2675s traffic=     1741MB loss=0.227 edges= 19 r=0.500 [0.50,0.50] CD true=16.425 est=20.454 Dmax=2.811 acc=0.4036 f1=0.1511
+[r 143 ep  26.1] t=     2965s traffic=     1817MB loss=0.524 edges= 19 r=0.500 [0.50,0.50] CD true=14.851 est=18.703 Dmax=3.540 acc=0.7139 f1=0.3707
+[r  61 ep  11.1] t=     6046s traffic=     7751MB loss=0.549 edges=190 r=0.500 [0.50,0.50] CD true=11.071 est=9.266 Dmax=5.838 acc=0.7094 f1=0.3510
+[r  72 ep  13.1] t=     3592s traffic=     4574MB loss=0.556 edges=190 r=0.500 [0.50,0.50] CD true=11.212 est=9.009 Dmax=5.591 acc=0.7161 f1=0.3603
+[r 137 ep  25.0] t=     1576s traffic=     1832MB loss=0.214 edges= 20 r=0.500 [0.50,0.50] CD true=15.651 est=61.123 Dmax=5.239 acc=0.4016 f1=0.1504
+[r 143 ep  26.1] t=     1566s traffic=      908MB loss=0.177 edges= 19 r=0.500 [0.50,0.50] CD true=16.464 est=20.931 Dmax=2.726 acc=0.4062 f1=0.1539
+[r 143 ep  26.1] t=      905s traffic=      956MB loss=0.526 edges= 20 r=0.500 [0.50,0.50] CD true=13.570 est=44.756 Dmax=4.624 acc=0.7174 f1=0.3706
+[r 148 ep  27.0] t=      934s traffic=      990MB loss=0.219 edges= 20 r=0.500 [0.50,0.50] CD true=15.960 est=62.791 Dmax=5.605 acc=0.3980 f1=0.1519
+[r 143 ep  26.1] t=     1566s traffic=      908MB loss=0.534 edges= 19 r=0.500 [0.50,0.50] CD true=15.396 est=20.885 Dmax=3.564 acc=0.7136 f1=0.3714
+[r 137 ep  25.0] t=     1576s traffic=     1832MB loss=0.528 edges= 20 r=0.500 [0.50,0.50] CD true=13.142 est=44.509 Dmax=4.411 acc=0.7273 f1=0.3770
+[r  72 ep  13.1] t=     7108s traffic=     9149MB loss=0.265 edges=190 r=0.500 [0.50,0.50] CD true=14.709 est=13.967 Dmax=8.005 acc=0.3859 f1=0.1404
+[r 148 ep  27.0] t=     3107s traffic=     1881MB loss=0.514 edges= 19 r=0.500 [0.50,0.50] CD true=14.926 est=18.510 Dmax=3.479 acc=0.7155 f1=0.3730
+[r 143 ep  26.1] t=     2965s traffic=     1817MB loss=0.173 edges= 19 r=0.500 [0.50,0.50] CD true=16.460 est=20.249 Dmax=2.725 acc=0.4060 f1=0.1572
+[r 148 ep  27.0] t=     1640s traffic=      940MB loss=0.219 edges= 19 r=0.500 [0.50,0.50] CD true=16.450 est=20.468 Dmax=2.678 acc=0.4058 f1=0.1565
+[r 148 ep  27.0] t=      934s traffic=      990MB loss=0.508 edges= 20 r=0.500 [0.50,0.50] CD true=13.635 est=44.299 Dmax=4.564 acc=0.7219 f1=0.3735
+[r 148 ep  27.0] t=     1640s traffic=      940MB loss=0.518 edges= 19 r=0.500 [0.50,0.50] CD true=15.486 est=20.314 Dmax=3.517 acc=0.7175 f1=0.3720
+[r 143 ep  26.1] t=     1646s traffic=     1913MB loss=0.171 edges= 20 r=0.500 [0.50,0.50] CD true=15.724 est=60.674 Dmax=5.156 acc=0.4002 f1=0.1490
+[r  66 ep  12.0] t=     3294s traffic=     4193MB loss=0.173 edges=190 r=0.500 [0.50,0.50] CD true=14.933 est=15.003 Dmax=8.092 acc=0.3881 f1=0.1410
+[r 154 ep  28.1] t=      971s traffic=     1030MB loss=0.273 edges= 20 r=0.500 [0.50,0.50] CD true=15.887 est=60.827 Dmax=5.487 acc=0.3983 f1=0.1518
+[r 143 ep  26.1] t=     1646s traffic=     1913MB loss=0.521 edges= 20 r=0.500 [0.50,0.50] CD true=13.236 est=44.835 Dmax=4.413 acc=0.7189 f1=0.3709
+[r 154 ep  28.1] t=     3420s traffic=     1957MB loss=0.519 edges= 19 r=0.500 [0.50,0.50] CD true=14.987 est=18.777 Dmax=3.398 acc=0.7217 f1=0.3652
+[r  77 ep  14.1] t=     3853s traffic=     4892MB loss=0.526 edges=190 r=0.500 [0.50,0.50] CD true=11.374 est=9.233 Dmax=5.601 acc=0.7186 f1=0.3562
+[r 148 ep  27.0] t=     3107s traffic=     1881MB loss=0.223 edges= 19 r=0.500 [0.50,0.50] CD true=16.518 est=19.946 Dmax=2.677 acc=0.4057 f1=0.1568
+[r 154 ep  28.1] t=     1802s traffic=      978MB loss=0.279 edges= 19 r=0.500 [0.50,0.50] CD true=16.330 est=19.765 Dmax=2.567 acc=0.4045 f1=0.1554
+[r 148 ep  27.0] t=     1700s traffic=     1980MB loss=0.216 edges= 20 r=0.500 [0.50,0.50] CD true=15.768 est=60.149 Dmax=5.085 acc=0.4004 f1=0.1521
+[r 154 ep  28.1] t=      971s traffic=     1030MB loss=0.531 edges= 20 r=0.500 [0.50,0.50] CD true=13.662 est=43.669 Dmax=4.458 acc=0.7250 f1=0.3680
+[r 159 ep  29.0] t=     1003s traffic=     1063MB loss=0.171 edges= 20 r=0.500 [0.50,0.50] CD true=15.998 est=62.401 Dmax=5.458 acc=0.3980 f1=0.1503
+[r  66 ep  12.0] t=     6519s traffic=     8386MB loss=0.578 edges=190 r=0.500 [0.50,0.50] CD true=11.242 est=9.316 Dmax=5.764 acc=0.7069 f1=0.3546
+[r 154 ep  28.1] t=     1802s traffic=      978MB loss=0.537 edges= 19 r=0.500 [0.50,0.50] CD true=15.482 est=20.731 Dmax=3.436 acc=0.7200 f1=0.3646
+[r  77 ep  14.1] t=     7623s traffic=     9784MB loss=0.238 edges=190 r=0.500 [0.50,0.50] CD true=14.841 est=13.872 Dmax=7.840 acc=0.3898 f1=0.1425
+[r 148 ep  27.0] t=     1700s traffic=     1980MB loss=0.510 edges= 20 r=0.500 [0.50,0.50] CD true=13.297 est=44.213 Dmax=4.362 acc=0.7211 f1=0.3753
+[r 159 ep  29.0] t=     3676s traffic=     2020MB loss=0.538 edges= 19 r=0.500 [0.50,0.50] CD true=15.012 est=18.327 Dmax=3.346 acc=0.7121 f1=0.3762
+[r 159 ep  29.0] t=     1003s traffic=     1063MB loss=0.531 edges= 20 r=0.500 [0.50,0.50] CD true=13.733 est=43.608 Dmax=4.416 acc=0.7176 f1=0.3762
+[r 159 ep  29.0] t=     1933s traffic=     1010MB loss=0.170 edges= 19 r=0.500 [0.50,0.50] CD true=16.413 est=20.034 Dmax=2.513 acc=0.4060 f1=0.1553
+[r 159 ep  29.0] t=     1933s traffic=     1010MB loss=0.534 edges= 19 r=0.500 [0.50,0.50] CD true=15.527 est=20.412 Dmax=3.392 acc=0.7117 f1=0.3750
+[r 154 ep  28.1] t=     3420s traffic=     1957MB loss=0.266 edges= 19 r=0.500 [0.50,0.50] CD true=16.475 est=19.841 Dmax=2.610 acc=0.4047 f1=0.1562
+[r 165 ep  30.1] t=     1039s traffic=     1103MB loss=0.218 edges= 20 r=0.500 [0.50,0.50] CD true=15.906 est=60.666 Dmax=5.368 acc=0.3991 f1=0.1516
+[r 154 ep  28.1] t=     1767s traffic=     2060MB loss=0.275 edges= 20 r=0.500 [0.50,0.50] CD true=15.748 est=58.772 Dmax=4.989 acc=0.4059 f1=0.1559
+[r 154 ep  28.1] t=     1767s traffic=     2060MB loss=0.537 edges= 20 r=0.500 [0.50,0.50] CD true=13.347 est=44.663 Dmax=4.293 acc=0.7261 f1=0.3712
+[r 165 ep  30.1] t=     3960s traffic=     2097MB loss=0.596 edges= 19 r=0.500 [0.50,0.50] CD true=15.082 est=18.006 Dmax=3.320 acc=0.7191 f1=0.3750
+[r  72 ep  13.1] t=     3592s traffic=     4574MB loss=0.267 edges=190 r=0.500 [0.50,0.50] CD true=14.895 est=13.813 Dmax=7.984 acc=0.3955 f1=0.1400
+[r 159 ep  29.0] t=     3676s traffic=     2020MB loss=0.173 edges= 19 r=0.500 [0.50,0.50] CD true=16.572 est=20.089 Dmax=2.561 acc=0.4032 f1=0.1545
+[r 165 ep  30.1] t=     1039s traffic=     1103MB loss=0.589 edges= 20 r=0.500 [0.50,0.50] CD true=13.804 est=43.378 Dmax=4.391 acc=0.7243 f1=0.3743
+[r 170 ep  31.0] t=     1070s traffic=     1137MB loss=0.216 edges= 20 r=0.500 [0.50,0.50] CD true=15.991 est=60.564 Dmax=5.329 acc=0.4013 f1=0.1507
+[r 165 ep  30.1] t=     2079s traffic=     1048MB loss=0.588 edges= 19 r=0.500 [0.50,0.50] CD true=15.587 est=19.789 Dmax=3.353 acc=0.7184 f1=0.3725
+[r 165 ep  30.1] t=     2079s traffic=     1048MB loss=0.214 edges= 19 r=0.500 [0.50,0.50] CD true=16.285 est=19.354 Dmax=2.409 acc=0.4069 f1=0.1552
+[r 159 ep  29.0] t=     1825s traffic=     2127MB loss=0.162 edges= 20 r=0.500 [0.50,0.50] CD true=15.926 est=58.518 Dmax=4.976 acc=0.4026 f1=0.1541
+[r  83 ep  15.1] t=     4157s traffic=     5273MB loss=0.619 edges=190 r=0.500 [0.50,0.50] CD true=11.435 est=8.754 Dmax=5.501 acc=0.7188 f1=0.3576
+[r 159 ep  29.0] t=     1825s traffic=     2127MB loss=0.528 edges= 20 r=0.500 [0.50,0.50] CD true=13.379 est=44.300 Dmax=4.243 acc=0.7177 f1=0.3796
+[r 170 ep  31.0] t=     4191s traffic=     2160MB loss=0.485 edges= 19 r=0.500 [0.50,0.50] CD true=15.539 est=18.637 Dmax=3.423 acc=0.7179 f1=0.3736
+[r  83 ep  15.1] t=     8222s traffic=    10546MB loss=0.211 edges=190 r=0.500 [0.50,0.50] CD true=14.946 est=13.527 Dmax=7.662 acc=0.3844 f1=0.1373
+[r  72 ep  13.1] t=     7108s traffic=     9149MB loss=0.556 edges=190 r=0.500 [0.50,0.50] CD true=11.334 est=8.846 Dmax=5.605 acc=0.7121 f1=0.3572
+[r 170 ep  31.0] t=     1070s traffic=     1137MB loss=0.489 edges= 20 r=0.500 [0.50,0.50] CD true=14.205 est=45.628 Dmax=4.474 acc=0.7212 f1=0.3758
+[r 170 ep  31.0] t=     2199s traffic=     1080MB loss=0.489 edges= 19 r=0.500 [0.50,0.50] CD true=16.146 est=20.627 Dmax=3.465 acc=0.7202 f1=0.3707
+[r 170 ep  31.0] t=     2199s traffic=     1080MB loss=0.219 edges= 19 r=0.500 [0.50,0.50] CD true=16.426 est=19.517 Dmax=2.392 acc=0.4071 f1=0.1531
+[r 176 ep  32.1] t=     1107s traffic=     1177MB loss=0.188 edges= 20 r=0.500 [0.50,0.50] CD true=15.976 est=59.755 Dmax=5.295 acc=0.4043 f1=0.1518
+[r 165 ep  30.1] t=     3960s traffic=     2097MB loss=0.221 edges= 19 r=0.500 [0.50,0.50] CD true=16.550 est=19.597 Dmax=2.496 acc=0.4048 f1=0.1555
+[r 165 ep  30.1] t=     1889s traffic=     2207MB loss=0.216 edges= 20 r=0.500 [0.50,0.50] CD true=15.820 est=56.898 Dmax=4.846 acc=0.4036 f1=0.1538
+[r 176 ep  32.1] t=     4439s traffic=     2236MB loss=0.579 edges= 19 r=0.500 [0.50,0.50] CD true=15.098 est=17.787 Dmax=3.352 acc=0.7202 f1=0.3728
+[r 165 ep  30.1] t=     1889s traffic=     2207MB loss=0.593 edges= 20 r=0.500 [0.50,0.50] CD true=13.441 est=43.474 Dmax=4.206 acc=0.7251 f1=0.3781
+[r 170 ep  31.0] t=     4191s traffic=     2160MB loss=0.209 edges= 19 r=0.500 [0.50,0.50] CD true=16.620 est=19.624 Dmax=2.458 acc=0.4046 f1=0.1531
+[r 176 ep  32.1] t=     1107s traffic=     1177MB loss=0.567 edges= 20 r=0.500 [0.50,0.50] CD true=13.858 est=42.356 Dmax=4.409 acc=0.7244 f1=0.3737
+[r  77 ep  14.1] t=     3853s traffic=     4892MB loss=0.240 edges=190 r=0.500 [0.50,0.50] CD true=14.895 est=13.660 Dmax=7.851 acc=0.3931 f1=0.1397
+[r 181 ep  33.0] t=     1138s traffic=     1210MB loss=0.173 edges= 20 r=0.500 [0.50,0.50] CD true=15.920 est=58.396 Dmax=5.215 acc=0.3995 f1=0.1524
+[r 176 ep  32.1] t=     2327s traffic=     1118MB loss=0.194 edges= 19 r=0.500 [0.50,0.50] CD true=16.349 est=19.165 Dmax=2.392 acc=0.4044 f1=0.1550
+[r 176 ep  32.1] t=     2327s traffic=     1118MB loss=0.574 edges= 19 r=0.500 [0.50,0.50] CD true=15.610 est=19.607 Dmax=3.395 acc=0.7186 f1=0.3733
+[r  88 ep  16.1] t=     4416s traffic=     5591MB loss=0.616 edges=190 r=0.500 [0.50,0.50] CD true=11.584 est=8.834 Dmax=5.409 acc=0.7187 f1=0.3567
+[r 170 ep  31.0] t=     1945s traffic=     2274MB loss=0.216 edges= 20 r=0.500 [0.50,0.50] CD true=15.911 est=56.768 Dmax=4.790 acc=0.4037 f1=0.1512
+[r 181 ep  33.0] t=     4697s traffic=     2300MB loss=0.552 edges= 19 r=0.500 [0.50,0.50] CD true=15.137 est=17.601 Dmax=3.203 acc=0.7254 f1=0.3677
+[r  88 ep  16.1] t=     8736s traffic=    11182MB loss=0.237 edges=190 r=0.500 [0.50,0.50] CD true=15.068 est=13.619 Dmax=7.508 acc=0.3917 f1=0.1430
+[r 170 ep  31.0] t=     1945s traffic=     2274MB loss=0.472 edges= 20 r=0.500 [0.50,0.50] CD true=13.815 est=45.874 Dmax=4.263 acc=0.7245 f1=0.3785
+[r 181 ep  33.0] t=     1138s traffic=     1210MB loss=0.557 edges= 20 r=0.500 [0.50,0.50] CD true=13.940 est=42.291 Dmax=4.320 acc=0.7311 f1=0.3733
+[r 181 ep  33.0] t=     2460s traffic=     1150MB loss=0.191 edges= 19 r=0.500 [0.50,0.50] CD true=16.256 est=18.619 Dmax=2.304 acc=0.4082 f1=0.1553
+[r 181 ep  33.0] t=     2460s traffic=     1150MB loss=0.559 edges= 19 r=0.500 [0.50,0.50] CD true=15.635 est=19.090 Dmax=3.231 acc=0.7257 f1=0.3684
+[r 187 ep  34.1] t=     1177s traffic=     1251MB loss=0.218 edges= 20 r=0.500 [0.50,0.50] CD true=15.934 est=57.282 Dmax=5.111 acc=0.4009 f1=0.1525
+[r 176 ep  32.1] t=     4439s traffic=     2236MB loss=0.200 edges= 19 r=0.500 [0.50,0.50] CD true=16.564 est=19.184 Dmax=2.443 acc=0.4045 f1=0.1583
+[r  77 ep  14.1] t=     7623s traffic=     9784MB loss=0.532 edges=190 r=0.500 [0.50,0.50] CD true=11.492 est=9.224 Dmax=5.605 acc=0.7153 f1=0.3556
+[r 176 ep  32.1] t=     2013s traffic=     2354MB loss=0.191 edges= 20 r=0.500 [0.50,0.50] CD true=15.910 est=56.597 Dmax=4.746 acc=0.4047 f1=0.1549
+[r 187 ep  34.1] t=     4970s traffic=     2376MB loss=0.559 edges= 19 r=0.500 [0.50,0.50] CD true=15.183 est=17.776 Dmax=3.293 acc=0.7234 f1=0.3724
+[r 176 ep  32.1] t=     2013s traffic=     2354MB loss=0.579 edges= 20 r=0.500 [0.50,0.50] CD true=13.505 est=42.752 Dmax=4.210 acc=0.7241 f1=0.3738
+[r 192 ep  35.0] t=     1209s traffic=     1284MB loss=0.213 edges= 20 r=0.500 [0.50,0.50] CD true=15.945 est=57.215 Dmax=5.063 acc=0.4007 f1=0.1542
+[r 187 ep  34.1] t=     1177s traffic=     1251MB loss=0.556 edges= 20 r=0.500 [0.50,0.50] CD true=13.940 est=42.164 Dmax=4.350 acc=0.7262 f1=0.3710
+[r 181 ep  33.0] t=     4697s traffic=     2300MB loss=0.183 edges= 19 r=0.500 [0.50,0.50] CD true=16.448 est=18.488 Dmax=2.348 acc=0.4043 f1=0.1555
+[r 187 ep  34.1] t=     2600s traffic=     1188MB loss=0.558 edges= 19 r=0.500 [0.50,0.50] CD true=15.692 est=19.047 Dmax=3.330 acc=0.7217 f1=0.3721
+[r 187 ep  34.1] t=     2600s traffic=     1188MB loss=0.225 edges= 19 r=0.500 [0.50,0.50] CD true=16.314 est=18.437 Dmax=2.252 acc=0.4061 f1=0.1599
+[r 192 ep  35.0] t=     5183s traffic=     2440MB loss=0.548 edges= 19 r=0.500 [0.50,0.50] CD true=15.213 est=17.785 Dmax=3.241 acc=0.7271 f1=0.3744
+[r 181 ep  33.0] t=     2072s traffic=     2421MB loss=0.178 edges= 20 r=0.500 [0.50,0.50] CD true=15.907 est=55.079 Dmax=4.677 acc=0.4027 f1=0.1545
+[r  94 ep  17.2] t=     4724s traffic=     5972MB loss=0.532 edges=190 r=0.500 [0.50,0.50] CD true=11.656 est=8.625 Dmax=5.329 acc=0.7183 f1=0.3604
+[r  83 ep  15.1] t=     4157s traffic=     5273MB loss=0.222 edges=190 r=0.500 [0.50,0.50] CD true=14.971 est=13.438 Dmax=7.671 acc=0.3889 f1=0.1373
+[r 181 ep  33.0] t=     2072s traffic=     2421MB loss=0.554 edges= 20 r=0.500 [0.50,0.50] CD true=13.564 est=42.209 Dmax=4.115 acc=0.7316 f1=0.3755
+[r 192 ep  35.0] t=     1209s traffic=     1284MB loss=0.540 edges= 20 r=0.500 [0.50,0.50] CD true=14.012 est=41.781 Dmax=4.294 acc=0.7320 f1=0.3724
+[r  94 ep  17.2] t=     9345s traffic=    11944MB loss=0.248 edges=190 r=0.500 [0.50,0.50] CD true=15.190 est=13.636 Dmax=7.369 acc=0.3962 f1=0.1449
+[r 192 ep  35.0] t=     2711s traffic=     1220MB loss=0.551 edges= 19 r=0.500 [0.50,0.50] CD true=15.751 est=19.298 Dmax=3.258 acc=0.7298 f1=0.3752
+[r 198 ep  36.1] t=     1247s traffic=     1324MB loss=0.172 edges= 20 r=0.500 [0.50,0.50] CD true=15.974 est=56.592 Dmax=5.007 acc=0.3971 f1=0.1510
+[r 192 ep  35.0] t=     2711s traffic=     1220MB loss=0.219 edges= 19 r=0.500 [0.50,0.50] CD true=16.293 est=18.248 Dmax=2.199 acc=0.4077 f1=0.1583
+[r 187 ep  34.1] t=     4970s traffic=     2376MB loss=0.220 edges= 19 r=0.500 [0.50,0.50] CD true=16.506 est=18.310 Dmax=2.273 acc=0.4063 f1=0.1589
+[r 198 ep  36.1] t=     5331s traffic=     2516MB loss=0.514 edges= 19 r=0.500 [0.50,0.50] CD true=15.311 est=17.612 Dmax=3.166 acc=0.7264 f1=0.3731
+[r 200 ep  36.5] t=     1260s traffic=     1338MB loss=0.244 edges= 20 r=0.500 [0.50,0.50] CD true=15.940 est=56.266 Dmax=4.980 acc=0.3993 f1=0.1510
+saved results/unsw-nb15/07_choco_r0.5_mask_study/d_mask_fixed_global/unsw-nb15-multiclass_mlp_choco0.5-fixedmask_dir0.1_heter_dynamic_s1.json
+[r 187 ep  34.1] t=     2141s traffic=     2501MB loss=0.218 edges= 20 r=0.500 [0.50,0.50] CD true=15.872 est=54.617 Dmax=4.588 acc=0.4035 f1=0.1535
+[r 200 ep  36.5] t=     5358s traffic=     2541MB loss=0.531 edges= 19 r=0.500 [0.50,0.50] CD true=15.237 est=17.507 Dmax=3.125 acc=0.7208 f1=0.3752
+saved results/unsw-nb15/07_choco_r0.5_mask_study/d_mask_fixed_global/unsw-nb15-multiclass_mlp_choco-star0.5-2hop-fixedmask_iid_heter_dynamic_s1.json
+[r  83 ep  15.1] t=     8222s traffic=    10546MB loss=0.612 edges=190 r=0.500 [0.50,0.50] CD true=11.561 est=8.850 Dmax=5.512 acc=0.7192 f1=0.3589
+[r 187 ep  34.1] t=     2141s traffic=     2501MB loss=0.550 edges= 20 r=0.500 [0.50,0.50] CD true=13.572 est=41.934 Dmax=4.128 acc=0.7263 f1=0.3733
+[r 198 ep  36.1] t=     1247s traffic=     1324MB loss=0.506 edges= 20 r=0.500 [0.50,0.50] CD true=14.079 est=42.138 Dmax=4.234 acc=0.7329 f1=0.3790
+[r 192 ep  35.0] t=     5183s traffic=     2440MB loss=0.216 edges= 19 r=0.500 [0.50,0.50] CD true=16.528 est=18.195 Dmax=2.245 acc=0.4052 f1=0.1579
+[r 198 ep  36.1] t=     2788s traffic=     1258MB loss=0.507 edges= 19 r=0.500 [0.50,0.50] CD true=15.853 est=19.183 Dmax=3.182 acc=0.7263 f1=0.3728
+[r  99 ep  18.1] t=     4968s traffic=     6290MB loss=0.602 edges=190 r=0.500 [0.50,0.50] CD true=11.768 est=8.556 Dmax=5.294 acc=0.7123 f1=0.3637
+[r 198 ep  36.1] t=     2788s traffic=     1258MB loss=0.180 edges= 19 r=0.500 [0.50,0.50] CD true=16.331 est=17.888 Dmax=2.173 acc=0.4049 f1=0.1550
+[r 192 ep  35.0] t=     2198s traffic=     2568MB loss=0.208 edges= 20 r=0.500 [0.50,0.50] CD true=15.869 est=54.630 Dmax=4.548 acc=0.4047 f1=0.1556
+[r  99 ep  18.1] t=     9828s traffic=    12579MB loss=0.168 edges=190 r=0.500 [0.50,0.50] CD true=15.291 est=13.382 Dmax=7.285 acc=0.3874 f1=0.1405
+[r 200 ep  36.5] t=     1260s traffic=     1338MB loss=0.533 edges= 20 r=0.500 [0.50,0.50] CD true=14.040 est=41.618 Dmax=4.211 acc=0.7261 f1=0.3739
+saved results/unsw-nb15/07_choco_r0.5_mask_study/d_mask_fixed_global/unsw-nb15-multiclass_mlp_choco0.5-fixedmask_iid_heter_dynamic_s1.json
+[r 200 ep  36.5] t=     2803s traffic=     1271MB loss=0.253 edges= 19 r=0.500 [0.50,0.50] CD true=16.267 est=17.661 Dmax=2.135 acc=0.4085 f1=0.1584
+saved results/unsw-nb15/07_choco_r0.5_mask_study/d_mask_fixed_global/unsw-nb15-multiclass_mlp_choco-star0.5-fixedmask_dir0.1_heter_dynamic_s1.json
+[r 200 ep  36.5] t=     2803s traffic=     1271MB loss=0.536 edges= 19 r=0.500 [0.50,0.50] CD true=15.752 est=19.253 Dmax=3.154 acc=0.7254 f1=0.3737
+saved results/unsw-nb15/07_choco_r0.5_mask_study/d_mask_fixed_global/unsw-nb15-multiclass_mlp_choco-star0.5-fixedmask_iid_heter_dynamic_s1.json
+[r 192 ep  35.0] t=     2198s traffic=     2568MB loss=0.547 edges= 20 r=0.500 [0.50,0.50] CD true=13.633 est=41.523 Dmax=4.074 acc=0.7330 f1=0.3736
+[r  88 ep  16.1] t=     4416s traffic=     5591MB loss=0.222 edges=190 r=0.500 [0.50,0.50] CD true=15.109 est=13.602 Dmax=7.512 acc=0.3905 f1=0.1394
+[r 198 ep  36.1] t=     5331s traffic=     2516MB loss=0.181 edges= 19 r=0.500 [0.50,0.50] CD true=16.546 est=17.910 Dmax=2.234 acc=0.4048 f1=0.1555
+[r  88 ep  16.1] t=     8736s traffic=    11182MB loss=0.618 edges=190 r=0.500 [0.50,0.50] CD true=11.680 est=8.765 Dmax=5.418 acc=0.7198 f1=0.3564
+[r 198 ep  36.1] t=     2268s traffic=     2648MB loss=0.175 edges= 20 r=0.500 [0.50,0.50] CD true=15.908 est=53.633 Dmax=4.495 acc=0.4023 f1=0.1548
+[r 200 ep  36.5] t=     5358s traffic=     2541MB loss=0.245 edges= 19 r=0.500 [0.50,0.50] CD true=16.471 est=17.487 Dmax=2.196 acc=0.4091 f1=0.1597
+saved results/unsw-nb15/07_choco_r0.5_mask_study/d_mask_fixed_global/unsw-nb15-multiclass_mlp_choco-star0.5-2hop-fixedmask_dir0.1_heter_dynamic_s1.json
+[r 105 ep  19.2] t=     5272s traffic=     6671MB loss=0.594 edges=190 r=0.500 [0.50,0.50] CD true=11.882 est=8.616 Dmax=5.250 acc=0.7181 f1=0.3664
+[r 200 ep  36.5] t=     2292s traffic=     2675MB loss=0.246 edges= 20 r=0.500 [0.50,0.50] CD true=15.872 est=53.313 Dmax=4.466 acc=0.4029 f1=0.1513
+saved results/unsw-nb15/07_choco_r0.5_mask_study/d_mask_fixed_global/unsw-nb15-multiclass_mlp_choco0.5-2hop-fixedmask_dir0.1_heter_dynamic_s1.json
+[r 198 ep  36.1] t=     2268s traffic=     2648MB loss=0.498 edges= 20 r=0.500 [0.50,0.50] CD true=13.704 est=41.984 Dmax=4.016 acc=0.7324 f1=0.3794
+[r 105 ep  19.2] t=    10427s traffic=    13342MB loss=0.188 edges=190 r=0.500 [0.50,0.50] CD true=15.194 est=13.253 Dmax=7.158 acc=0.3933 f1=0.1424
+[r 200 ep  36.5] t=     2292s traffic=     2675MB loss=0.526 edges= 20 r=0.500 [0.50,0.50] CD true=13.672 est=41.512 Dmax=3.993 acc=0.7268 f1=0.3783
+saved results/unsw-nb15/07_choco_r0.5_mask_study/d_mask_fixed_global/unsw-nb15-multiclass_mlp_choco0.5-2hop-fixedmask_iid_heter_dynamic_s1.json
+[r  94 ep  17.2] t=     4724s traffic=     5972MB loss=0.245 edges=190 r=0.500 [0.50,0.50] CD true=15.256 est=13.523 Dmax=7.438 acc=0.3951 f1=0.1445
+[r 110 ep  20.1] t=     5530s traffic=     6988MB loss=0.569 edges=190 r=0.500 [0.50,0.50] CD true=11.941 est=8.543 Dmax=5.256 acc=0.7189 f1=0.3655
+[r  94 ep  17.2] t=     9345s traffic=    11944MB loss=0.526 edges=190 r=0.500 [0.50,0.50] CD true=11.762 est=8.626 Dmax=5.345 acc=0.7174 f1=0.3646
+[r 110 ep  20.1] t=    10939s traffic=    13977MB loss=0.177 edges=190 r=0.500 [0.50,0.50] CD true=15.331 est=12.922 Dmax=7.054 acc=0.3900 f1=0.1432
+[r  99 ep  18.1] t=     4968s traffic=     6290MB loss=0.171 edges=190 r=0.500 [0.50,0.50] CD true=15.360 est=13.600 Dmax=7.331 acc=0.3838 f1=0.1388
+[r 116 ep  21.2] t=     5824s traffic=     7370MB loss=0.544 edges=190 r=0.500 [0.50,0.50] CD true=12.028 est=8.323 Dmax=5.152 acc=0.7235 f1=0.3716
+[r  99 ep  18.1] t=     9828s traffic=    12579MB loss=0.604 edges=190 r=0.500 [0.50,0.50] CD true=11.887 est=8.597 Dmax=5.306 acc=0.7134 f1=0.3659
+[r 116 ep  21.2] t=    11519s traffic=    14739MB loss=0.181 edges=190 r=0.500 [0.50,0.50] CD true=15.315 est=12.492 Dmax=6.914 acc=0.3952 f1=0.1460
+[r 105 ep  19.2] t=     5272s traffic=     6671MB loss=0.181 edges=190 r=0.500 [0.50,0.50] CD true=15.258 est=12.601 Dmax=7.150 acc=0.3890 f1=0.1399
+[r 121 ep  22.1] t=     6084s traffic=     7687MB loss=0.546 edges=190 r=0.500 [0.50,0.50] CD true=12.129 est=8.346 Dmax=5.084 acc=0.7261 f1=0.3698
+[r 105 ep  19.2] t=    10427s traffic=    13342MB loss=0.601 edges=190 r=0.500 [0.50,0.50] CD true=11.988 est=8.549 Dmax=5.261 acc=0.7174 f1=0.3674
+[r 121 ep  22.1] t=    12033s traffic=    15375MB loss=0.230 edges=190 r=0.500 [0.50,0.50] CD true=15.332 est=12.212 Dmax=6.788 acc=0.3969 f1=0.1464
+[r 110 ep  20.1] t=     5530s traffic=     6988MB loss=0.162 edges=190 r=0.500 [0.50,0.50] CD true=15.365 est=12.650 Dmax=7.002 acc=0.3944 f1=0.1454
+[r 110 ep  20.1] t=    10939s traffic=    13977MB loss=0.558 edges=190 r=0.500 [0.50,0.50] CD true=12.056 est=8.531 Dmax=5.260 acc=0.7162 f1=0.3670
+[r 127 ep  23.2] t=     6396s traffic=     8068MB loss=0.534 edges=190 r=0.500 [0.50,0.50] CD true=12.223 est=8.557 Dmax=5.036 acc=0.7291 f1=0.3770
+[r 127 ep  23.2] t=    12650s traffic=    16137MB loss=0.249 edges=190 r=0.500 [0.50,0.50] CD true=15.369 est=12.049 Dmax=6.628 acc=0.3956 f1=0.1443
+[r 116 ep  21.2] t=     5824s traffic=     7370MB loss=0.185 edges=190 r=0.500 [0.50,0.50] CD true=15.389 est=12.342 Dmax=6.863 acc=0.3992 f1=0.1455
+[r 116 ep  21.2] t=    11519s traffic=    14739MB loss=0.548 edges=190 r=0.500 [0.50,0.50] CD true=12.116 est=8.283 Dmax=5.135 acc=0.7226 f1=0.3728
+[r 132 ep  24.1] t=     6650s traffic=     8386MB loss=0.518 edges=190 r=0.500 [0.50,0.50] CD true=12.317 est=8.480 Dmax=4.992 acc=0.7252 f1=0.3656
+[r 121 ep  22.1] t=     6084s traffic=     7687MB loss=0.217 edges=190 r=0.500 [0.50,0.50] CD true=15.398 est=11.930 Dmax=6.766 acc=0.3940 f1=0.1425
+[r 132 ep  24.1] t=    13153s traffic=    16772MB loss=0.192 edges=190 r=0.500 [0.50,0.50] CD true=15.443 est=11.968 Dmax=6.535 acc=0.3934 f1=0.1462
+[r 121 ep  22.1] t=    12033s traffic=    15375MB loss=0.539 edges=190 r=0.500 [0.50,0.50] CD true=12.225 est=8.309 Dmax=5.084 acc=0.7263 f1=0.3706
+[r 137 ep  25.0] t=     6909s traffic=     8704MB loss=0.528 edges=190 r=0.500 [0.50,0.50] CD true=12.328 est=8.111 Dmax=4.928 acc=0.7305 f1=0.3767
+[r 127 ep  23.2] t=     6396s traffic=     8068MB loss=0.244 edges=190 r=0.500 [0.50,0.50] CD true=15.441 est=11.890 Dmax=6.596 acc=0.4006 f1=0.1446
+[r 137 ep  25.0] t=    13666s traffic=    17408MB loss=0.224 edges=190 r=0.500 [0.50,0.50] CD true=15.428 est=11.680 Dmax=6.464 acc=0.3956 f1=0.1454
+[r 127 ep  23.2] t=    12650s traffic=    16137MB loss=0.521 edges=190 r=0.500 [0.50,0.50] CD true=12.332 est=8.448 Dmax=5.018 acc=0.7290 f1=0.3754
+[r 132 ep  24.1] t=     6650s traffic=     8386MB loss=0.187 edges=190 r=0.500 [0.50,0.50] CD true=15.526 est=11.940 Dmax=6.509 acc=0.3971 f1=0.1471
+[r 143 ep  26.1] t=     7216s traffic=     9085MB loss=0.507 edges=190 r=0.500 [0.50,0.50] CD true=12.412 est=8.040 Dmax=4.892 acc=0.7240 f1=0.3738
+[r 132 ep  24.1] t=    13153s traffic=    16772MB loss=0.524 edges=190 r=0.500 [0.50,0.50] CD true=12.399 est=8.276 Dmax=4.957 acc=0.7244 f1=0.3649
+[r 143 ep  26.1] t=    14273s traffic=    18170MB loss=0.160 edges=190 r=0.500 [0.50,0.50] CD true=15.485 est=11.783 Dmax=6.369 acc=0.3967 f1=0.1454
+[r 137 ep  25.0] t=     6909s traffic=     8704MB loss=0.215 edges=190 r=0.500 [0.50,0.50] CD true=15.505 est=11.588 Dmax=6.426 acc=0.3972 f1=0.1448
+[r 137 ep  25.0] t=    13666s traffic=    17408MB loss=0.556 edges=190 r=0.500 [0.50,0.50] CD true=12.398 est=8.008 Dmax=4.890 acc=0.7310 f1=0.3782
+[r 148 ep  27.0] t=     7451s traffic=     9403MB loss=0.503 edges=190 r=0.500 [0.50,0.50] CD true=12.473 est=8.165 Dmax=4.838 acc=0.7302 f1=0.3799
+[r 148 ep  27.0] t=    14737s traffic=    18805MB loss=0.225 edges=190 r=0.500 [0.50,0.50] CD true=15.543 est=11.628 Dmax=6.292 acc=0.3962 f1=0.1462
+[r 143 ep  26.1] t=     7216s traffic=     9085MB loss=0.170 edges=190 r=0.500 [0.50,0.50] CD true=15.551 est=11.443 Dmax=6.284 acc=0.3956 f1=0.1423
+[r 143 ep  26.1] t=    14273s traffic=    18170MB loss=0.529 edges=190 r=0.500 [0.50,0.50] CD true=12.520 est=7.908 Dmax=4.868 acc=0.7227 f1=0.3734
+[r 154 ep  28.1] t=     7749s traffic=     9784MB loss=0.531 edges=190 r=0.500 [0.50,0.50] CD true=12.537 est=8.057 Dmax=4.768 acc=0.7292 f1=0.3753
+[r 148 ep  27.0] t=     7451s traffic=     9403MB loss=0.218 edges=190 r=0.500 [0.50,0.50] CD true=15.594 est=11.461 Dmax=6.209 acc=0.3958 f1=0.1444
+[r 148 ep  27.0] t=    14737s traffic=    18805MB loss=0.505 edges=190 r=0.500 [0.50,0.50] CD true=12.587 est=8.139 Dmax=4.808 acc=0.7276 f1=0.3800
+[r 154 ep  28.1] t=    15328s traffic=    19568MB loss=0.268 edges=190 r=0.500 [0.50,0.50] CD true=15.512 est=11.195 Dmax=6.158 acc=0.4000 f1=0.1461
+[r 159 ep  29.0] t=     8000s traffic=    10101MB loss=0.538 edges=190 r=0.500 [0.50,0.50] CD true=12.592 est=7.965 Dmax=4.728 acc=0.7194 f1=0.3822
+[r 154 ep  28.1] t=     7749s traffic=     9784MB loss=0.261 edges=190 r=0.500 [0.50,0.50] CD true=15.604 est=11.190 Dmax=6.114 acc=0.4009 f1=0.1493
+[r 154 ep  28.1] t=    15328s traffic=    19568MB loss=0.528 edges=190 r=0.500 [0.50,0.50] CD true=12.635 est=8.031 Dmax=4.750 acc=0.7273 f1=0.3730
+[r 159 ep  29.0] t=    15824s traffic=    20203MB loss=0.159 edges=190 r=0.500 [0.50,0.50] CD true=15.585 est=11.446 Dmax=6.102 acc=0.3977 f1=0.1450
+[r 159 ep  29.0] t=     8000s traffic=    10101MB loss=0.169 edges=190 r=0.500 [0.50,0.50] CD true=15.627 est=11.403 Dmax=6.065 acc=0.3966 f1=0.1441
+[r 165 ep  30.1] t=     8279s traffic=    10483MB loss=0.597 edges=190 r=0.500 [0.50,0.50] CD true=12.656 est=7.981 Dmax=4.680 acc=0.7289 f1=0.3763
+[r 159 ep  29.0] t=    15824s traffic=    20203MB loss=0.520 edges=190 r=0.500 [0.50,0.50] CD true=12.681 est=7.879 Dmax=4.691 acc=0.7196 f1=0.3786
+[r 165 ep  30.1] t=    16376s traffic=    20965MB loss=0.205 edges=190 r=0.500 [0.50,0.50] CD true=15.538 est=11.100 Dmax=6.005 acc=0.3977 f1=0.1451
+[r 165 ep  30.1] t=     8279s traffic=    10483MB loss=0.211 edges=190 r=0.500 [0.50,0.50] CD true=15.606 est=10.915 Dmax=5.955 acc=0.3987 f1=0.1470
+[r 170 ep  31.0] t=     8526s traffic=    10800MB loss=0.486 edges=190 r=0.500 [0.50,0.50] CD true=12.970 est=9.169 Dmax=4.736 acc=0.7251 f1=0.3765
+[r 165 ep  30.1] t=    16376s traffic=    20965MB loss=0.605 edges=190 r=0.500 [0.50,0.50] CD true=12.733 est=7.951 Dmax=4.652 acc=0.7262 f1=0.3782
+[r 170 ep  31.0] t=     8526s traffic=    10800MB loss=0.206 edges=190 r=0.500 [0.50,0.50] CD true=15.673 est=11.120 Dmax=5.908 acc=0.3960 f1=0.1443
+[r 170 ep  31.0] t=    16863s traffic=    21601MB loss=0.212 edges=190 r=0.500 [0.50,0.50] CD true=15.646 est=11.129 Dmax=6.001 acc=0.3944 f1=0.1442
+[r 170 ep  31.0] t=    16863s traffic=    21601MB loss=0.467 edges=190 r=0.500 [0.50,0.50] CD true=13.065 est=9.201 Dmax=4.724 acc=0.7250 f1=0.3799
+[r 176 ep  32.1] t=     8828s traffic=    11182MB loss=0.566 edges=190 r=0.500 [0.50,0.50] CD true=12.737 est=7.720 Dmax=4.680 acc=0.7290 f1=0.3763
+[r 176 ep  32.1] t=     8828s traffic=    11182MB loss=0.190 edges=190 r=0.500 [0.50,0.50] CD true=15.670 est=10.825 Dmax=5.862 acc=0.4001 f1=0.1485
+[r 176 ep  32.1] t=    17462s traffic=    22363MB loss=0.560 edges=190 r=0.500 [0.50,0.50] CD true=12.825 est=7.651 Dmax=4.674 acc=0.7253 f1=0.3755
+[r 176 ep  32.1] t=    17462s traffic=    22363MB loss=0.188 edges=190 r=0.500 [0.50,0.50] CD true=15.657 est=11.033 Dmax=5.932 acc=0.4001 f1=0.1464
+[r 181 ep  33.0] t=     9086s traffic=    11499MB loss=0.563 edges=190 r=0.500 [0.50,0.50] CD true=12.826 est=7.585 Dmax=4.587 acc=0.7358 f1=0.3747
+[r 181 ep  33.0] t=     9086s traffic=    11499MB loss=0.177 edges=190 r=0.500 [0.50,0.50] CD true=15.643 est=10.351 Dmax=5.759 acc=0.3986 f1=0.1453
+[r 181 ep  33.0] t=    17973s traffic=    22998MB loss=0.567 edges=190 r=0.500 [0.50,0.50] CD true=12.904 est=7.606 Dmax=4.586 acc=0.7337 f1=0.3757
+[r 181 ep  33.0] t=    17973s traffic=    22998MB loss=0.180 edges=190 r=0.500 [0.50,0.50] CD true=15.617 est=10.577 Dmax=5.839 acc=0.4018 f1=0.1467
+[r 187 ep  34.1] t=     9389s traffic=    11880MB loss=0.226 edges=190 r=0.500 [0.50,0.50] CD true=15.658 est=10.458 Dmax=5.667 acc=0.3965 f1=0.1451
+[r 187 ep  34.1] t=     9389s traffic=    11880MB loss=0.549 edges=190 r=0.500 [0.50,0.50] CD true=12.844 est=7.541 Dmax=4.594 acc=0.7309 f1=0.3775
+[r 187 ep  34.1] t=    18571s traffic=    23761MB loss=0.564 edges=190 r=0.500 [0.50,0.50] CD true=12.921 est=7.477 Dmax=4.584 acc=0.7297 f1=0.3754
+[r 192 ep  35.0] t=     9634s traffic=    12198MB loss=0.214 edges=190 r=0.500 [0.50,0.50] CD true=15.657 est=10.357 Dmax=5.623 acc=0.3967 f1=0.1457
+[r 187 ep  34.1] t=    18571s traffic=    23761MB loss=0.218 edges=190 r=0.500 [0.50,0.50] CD true=15.641 est=10.544 Dmax=5.724 acc=0.4000 f1=0.1484
+[r 192 ep  35.0] t=     9634s traffic=    12198MB loss=0.533 edges=190 r=0.500 [0.50,0.50] CD true=12.897 est=7.517 Dmax=4.523 acc=0.7351 f1=0.3740
+[r 192 ep  35.0] t=    19055s traffic=    24396MB loss=0.539 edges=190 r=0.500 [0.50,0.50] CD true=12.978 est=7.493 Dmax=4.518 acc=0.7335 f1=0.3771
+[r 198 ep  36.1] t=     9945s traffic=    12579MB loss=0.177 edges=190 r=0.500 [0.50,0.50] CD true=15.702 est=10.337 Dmax=5.554 acc=0.3963 f1=0.1443
+[r 192 ep  35.0] t=    19055s traffic=    24396MB loss=0.208 edges=190 r=0.500 [0.50,0.50] CD true=15.644 est=10.430 Dmax=5.674 acc=0.4009 f1=0.1476
+[r 198 ep  36.1] t=    19670s traffic=    25158MB loss=0.491 edges=190 r=0.500 [0.50,0.50] CD true=13.059 est=7.615 Dmax=4.466 acc=0.7330 f1=0.3802
+[r 200 ep  36.5] t=    10048s traffic=    12706MB loss=0.240 edges=190 r=0.500 [0.50,0.50] CD true=15.660 est=10.114 Dmax=5.517 acc=0.3954 f1=0.1408
+saved results/unsw-nb15/07_choco_r0.5_mask_study/d_mask_fixed_global/unsw-nb15-multiclass_mlp_choco-fc0.5-fixedmask_dir0.1_heter_dynamic_s1.json
+[r 198 ep  36.1] t=     9945s traffic=    12579MB loss=0.500 edges=190 r=0.500 [0.50,0.50] CD true=12.986 est=7.763 Dmax=4.483 acc=0.7313 f1=0.3785
+[r 200 ep  36.5] t=    19876s traffic=    25413MB loss=0.522 edges=190 r=0.500 [0.50,0.50] CD true=13.020 est=7.379 Dmax=4.443 acc=0.7290 f1=0.3782
+saved results/unsw-nb15/07_choco_r0.5_mask_study/d_mask_fixed_global/unsw-nb15-multiclass_mlp_choco-fc0.5-2hop-fixedmask_iid_heter_dynamic_s1.json
+[r 200 ep  36.5] t=    10048s traffic=    12706MB loss=0.519 edges=190 r=0.500 [0.50,0.50] CD true=12.956 est=7.462 Dmax=4.463 acc=0.7307 f1=0.3782
+saved results/unsw-nb15/07_choco_r0.5_mask_study/d_mask_fixed_global/unsw-nb15-multiclass_mlp_choco-fc0.5-fixedmask_iid_heter_dynamic_s1.json
+[r 198 ep  36.1] t=    19670s traffic=    25158MB loss=0.168 edges=190 r=0.500 [0.50,0.50] CD true=15.669 est=10.373 Dmax=5.611 acc=0.3979 f1=0.1456
+[r 200 ep  36.5] t=    19876s traffic=    25413MB loss=0.238 edges=190 r=0.500 [0.50,0.50] CD true=15.642 est=10.220 Dmax=5.567 acc=0.3971 f1=0.1458
+saved results/unsw-nb15/07_choco_r0.5_mask_study/d_mask_fixed_global/unsw-nb15-multiclass_mlp_choco-fc0.5-2hop-fixedmask_dir0.1_heter_dynamic_s1.json
+=== seed 1 done (17:50)
+dataset=unsw-nb15 model=mlp d=83594 (B=2.68 Mb) workers=20 algo=choco partition=dirichlet rounds=200 (5.48 rounds/epoch)
+local data: sizes 386-48917, classes/worker 3-10 of 10
+[r   6 ep   1.1] t=       64s traffic=       80MB loss=0.331 edges= 20 r=0.500 [0.50,0.50] CD true=14.873 est=107.702 Dmax=22.110 acc=0.3615 f1=0.1258
+dataset=unsw-nb15 model=mlp d=83594 (B=2.68 Mb) workers=20 algo=choco-star partition=iid rounds=200 (5.48 rounds/epoch)
+local data: sizes 8767-8767, classes/worker 10-10 of 10
+[r   6 ep   1.1] t=      570s traffic=       76MB loss=0.708 edges= 19 r=0.500 [0.50,0.50] CD true=12.241 est=26.847 Dmax=14.000 acc=0.6816 f1=0.3184
+dataset=unsw-nb15 model=mlp d=83594 (B=2.68 Mb) workers=20 algo=choco-star partition=iid rounds=200 (5.48 rounds/epoch)
+local data: sizes 8767-8767, classes/worker 10-10 of 10
+[r   6 ep   1.1] t=      287s traffic=       38MB loss=0.712 edges= 19 r=0.500 [0.50,0.50] CD true=13.644 est=30.297 Dmax=14.079 acc=0.6852 f1=0.3186
+dataset=unsw-nb15 model=mlp d=83594 (B=2.68 Mb) workers=20 algo=choco partition=iid rounds=200 (5.48 rounds/epoch)
+local data: sizes 8767-8767, classes/worker 10-10 of 10
+[r   6 ep   1.1] t=       34s traffic=       40MB loss=0.698 edges= 20 r=0.500 [0.50,0.50] CD true=8.966 est=56.880 Dmax=13.862 acc=0.6753 f1=0.3197
+dataset=unsw-nb15 model=mlp d=83594 (B=2.68 Mb) workers=20 algo=choco-star partition=dirichlet rounds=200 (5.48 rounds/epoch)
+local data: sizes 386-48917, classes/worker 3-10 of 10
+[r   6 ep   1.1] t=      287s traffic=       38MB loss=0.327 edges= 19 r=0.500 [0.50,0.50] CD true=21.147 est=47.892 Dmax=20.315 acc=0.3665 f1=0.1330
+dataset=unsw-nb15 model=mlp d=83594 (B=2.68 Mb) workers=20 algo=choco partition=iid rounds=200 (5.48 rounds/epoch)
+local data: sizes 8767-8767, classes/worker 10-10 of 10
+[r   6 ep   1.1] t=       64s traffic=       80MB loss=0.703 edges= 20 r=0.500 [0.50,0.50] CD true=8.441 est=56.849 Dmax=13.679 acc=0.6767 f1=0.3203
+dataset=unsw-nb15 model=mlp d=83594 (B=2.68 Mb) workers=20 algo=choco-star partition=dirichlet rounds=200 (5.48 rounds/epoch)
+local data: sizes 386-48917, classes/worker 3-10 of 10
+[r   6 ep   1.1] t=      570s traffic=       76MB loss=0.330 edges= 19 r=0.500 [0.50,0.50] CD true=19.310 est=48.069 Dmax=20.406 acc=0.3658 f1=0.1324
+dataset=unsw-nb15 model=mlp d=83594 (B=2.68 Mb) workers=20 algo=choco partition=dirichlet rounds=200 (5.48 rounds/epoch)
+local data: sizes 386-48917, classes/worker 3-10 of 10
+[r   6 ep   1.1] t=       34s traffic=       40MB loss=0.324 edges= 20 r=0.500 [0.50,0.50] CD true=12.870 est=102.211 Dmax=21.697 acc=0.3609 f1=0.1277
+dataset=unsw-nb15 model=mlp d=83594 (B=2.68 Mb) workers=20 algo=choco-fc partition=dirichlet rounds=200 (5.48 rounds/epoch)
+local data: sizes 386-48917, classes/worker 3-10 of 10
+[r   6 ep   1.1] t=      288s traffic=      381MB loss=0.324 edges=190 r=0.500 [0.50,0.50] CD true=10.634 est=16.432 Dmax=21.607 acc=0.3589 f1=0.1274
+dataset=unsw-nb15 model=mlp d=83594 (B=2.68 Mb) workers=20 algo=choco-fc partition=iid rounds=200 (5.48 rounds/epoch)
+local data: sizes 8767-8767, classes/worker 10-10 of 10
+[r   6 ep   1.1] t=      572s traffic=      762MB loss=0.705 edges=190 r=0.500 [0.50,0.50] CD true=7.473 est=10.083 Dmax=13.751 acc=0.6717 f1=0.3153
+dataset=unsw-nb15 model=mlp d=83594 (B=2.68 Mb) workers=20 algo=choco-fc partition=iid rounds=200 (5.48 rounds/epoch)
+local data: sizes 8767-8767, classes/worker 10-10 of 10
+[r   6 ep   1.1] t=      288s traffic=      381MB loss=0.709 edges=190 r=0.500 [0.50,0.50] CD true=7.500 est=9.891 Dmax=13.743 acc=0.6693 f1=0.3182
+dataset=unsw-nb15 model=mlp d=83594 (B=2.68 Mb) workers=20 algo=choco-fc partition=dirichlet rounds=200 (5.48 rounds/epoch)
+local data: sizes 386-48917, classes/worker 3-10 of 10
+[r   6 ep   1.1] t=      572s traffic=      762MB loss=0.331 edges=190 r=0.500 [0.50,0.50] CD true=10.549 est=17.862 Dmax=21.478 acc=0.3530 f1=0.1224
+[r  11 ep   2.0] t=      108s traffic=      147MB loss=0.273 edges= 20 r=0.500 [0.50,0.50] CD true=11.938 est=84.320 Dmax=16.767 acc=0.3646 f1=0.1285
+[r  11 ep   2.0] t=      415s traffic=       70MB loss=0.263 edges= 19 r=0.500 [0.50,0.50] CD true=17.014 est=40.987 Dmax=15.022 acc=0.3700 f1=0.1323
+[r  11 ep   2.0] t=       59s traffic=       74MB loss=0.266 edges= 20 r=0.500 [0.50,0.50] CD true=12.145 est=85.433 Dmax=16.712 acc=0.3652 f1=0.1305
+[r  11 ep   2.0] t=      822s traffic=      140MB loss=0.707 edges= 19 r=0.500 [0.50,0.50] CD true=11.803 est=26.067 Dmax=10.993 acc=0.6792 f1=0.3214
+[r  11 ep   2.0] t=       59s traffic=       74MB loss=0.710 edges= 20 r=0.500 [0.50,0.50] CD true=9.596 est=56.982 Dmax=11.011 acc=0.6780 f1=0.3238
+[r  11 ep   2.0] t=      415s traffic=       70MB loss=0.707 edges= 19 r=0.500 [0.50,0.50] CD true=13.261 est=29.784 Dmax=11.100 acc=0.6762 f1=0.3245
+[r  11 ep   2.0] t=      108s traffic=      147MB loss=0.706 edges= 20 r=0.500 [0.50,0.50] CD true=9.047 est=56.466 Dmax=10.815 acc=0.6770 f1=0.3300
+[r  11 ep   2.0] t=      822s traffic=      140MB loss=0.271 edges= 19 r=0.500 [0.50,0.50] CD true=15.810 est=38.403 Dmax=15.071 acc=0.3663 f1=0.1323
+[r  11 ep   2.0] t=      469s traffic=      699MB loss=0.274 edges=190 r=0.500 [0.50,0.50] CD true=10.763 est=14.760 Dmax=16.625 acc=0.3626 f1=0.1271
+[r  17 ep   3.1] t=      651s traffic=      108MB loss=0.251 edges= 19 r=0.500 [0.50,0.50] CD true=16.219 est=37.787 Dmax=11.045 acc=0.3794 f1=0.1414
+[r  17 ep   3.1] t=       98s traffic=      114MB loss=0.256 edges= 20 r=0.500 [0.50,0.50] CD true=12.838 est=84.992 Dmax=13.075 acc=0.3718 f1=0.1359
+[r  17 ep   3.1] t=       98s traffic=      114MB loss=0.676 edges= 20 r=0.500 [0.50,0.50] CD true=10.239 est=55.636 Dmax=8.838 acc=0.6927 f1=0.3374
+[r  11 ep   2.0] t=      469s traffic=      699MB loss=0.705 edges=190 r=0.500 [0.50,0.50] CD true=8.287 est=9.960 Dmax=10.891 acc=0.6722 f1=0.3228
+[r  17 ep   3.1] t=      651s traffic=      108MB loss=0.689 edges= 19 r=0.500 [0.50,0.50] CD true=13.458 est=29.002 Dmax=8.726 acc=0.6915 f1=0.3321
+[r  17 ep   3.1] t=     1285s traffic=      216MB loss=0.685 edges= 19 r=0.500 [0.50,0.50] CD true=11.842 est=24.263 Dmax=8.544 acc=0.6939 f1=0.3347
+[r  17 ep   3.1] t=      177s traffic=      227MB loss=0.250 edges= 20 r=0.500 [0.50,0.50] CD true=12.133 est=80.063 Dmax=12.672 acc=0.3712 f1=0.1340
+[r  17 ep   3.1] t=     1285s traffic=      216MB loss=0.256 edges= 19 r=0.500 [0.50,0.50] CD true=15.588 est=39.003 Dmax=11.090 acc=0.3740 f1=0.1393
+[r  11 ep   2.0] t=      927s traffic=     1398MB loss=0.709 edges=190 r=0.500 [0.50,0.50] CD true=8.289 est=10.157 Dmax=10.943 acc=0.6754 f1=0.3214
+[r  17 ep   3.1] t=      177s traffic=      227MB loss=0.677 edges= 20 r=0.500 [0.50,0.50] CD true=9.616 est=55.697 Dmax=8.631 acc=0.6912 f1=0.3371
+[r  11 ep   2.0] t=      927s traffic=     1398MB loss=0.273 edges=190 r=0.500 [0.50,0.50] CD true=10.500 est=15.227 Dmax=16.479 acc=0.3600 f1=0.1264
+[r  22 ep   4.0] t=      129s traffic=      147MB loss=0.240 edges= 20 r=0.500 [0.50,0.50] CD true=12.718 est=80.281 Dmax=11.038 acc=0.3784 f1=0.1401
+[r  22 ep   4.0] t=      833s traffic=      140MB loss=0.242 edges= 19 r=0.500 [0.50,0.50] CD true=15.371 est=36.267 Dmax=8.920 acc=0.3858 f1=0.1455
+[r  22 ep   4.0] t=      129s traffic=      147MB loss=0.683 edges= 20 r=0.500 [0.50,0.50] CD true=10.492 est=53.826 Dmax=7.700 acc=0.6997 f1=0.3341
+[r  22 ep   4.0] t=     1644s traffic=      280MB loss=0.700 edges= 19 r=0.500 [0.50,0.50] CD true=12.003 est=23.958 Dmax=7.240 acc=0.6945 f1=0.3355
+[r  22 ep   4.0] t=      233s traffic=      294MB loss=0.241 edges= 20 r=0.500 [0.50,0.50] CD true=12.550 est=79.386 Dmax=10.555 acc=0.3829 f1=0.1413
+[r  22 ep   4.0] t=      833s traffic=      140MB loss=0.686 edges= 19 r=0.500 [0.50,0.50] CD true=13.522 est=27.959 Dmax=7.457 acc=0.6903 f1=0.3354
+[r  22 ep   4.0] t=      233s traffic=      294MB loss=0.684 edges= 20 r=0.500 [0.50,0.50] CD true=9.958 est=55.734 Dmax=7.546 acc=0.7001 f1=0.3360
+[r  22 ep   4.0] t=     1644s traffic=      280MB loss=0.240 edges= 19 r=0.500 [0.50,0.50] CD true=14.753 est=35.868 Dmax=8.976 acc=0.3842 f1=0.1444
+[r  28 ep   5.1] t=      161s traffic=      187MB loss=0.228 edges= 20 r=0.500 [0.50,0.50] CD true=13.093 est=77.655 Dmax=9.460 acc=0.3817 f1=0.1444
+[r  28 ep   5.1] t=     1006s traffic=      178MB loss=0.228 edges= 19 r=0.500 [0.50,0.50] CD true=15.116 est=36.946 Dmax=7.269 acc=0.3814 f1=0.1432
+[r  28 ep   5.1] t=     1983s traffic=      356MB loss=0.613 edges= 19 r=0.500 [0.50,0.50] CD true=12.341 est=23.845 Dmax=6.268 acc=0.6878 f1=0.3332
+[r  28 ep   5.1] t=      161s traffic=      187MB loss=0.611 edges= 20 r=0.500 [0.50,0.50] CD true=10.958 est=54.991 Dmax=6.888 acc=0.6905 f1=0.3348
+[r  28 ep   5.1] t=      291s traffic=      375MB loss=0.227 edges= 20 r=0.500 [0.50,0.50] CD true=12.936 est=81.348 Dmax=9.152 acc=0.3782 f1=0.1375
+[r  28 ep   5.1] t=      291s traffic=      375MB loss=0.610 edges= 20 r=0.500 [0.50,0.50] CD true=10.442 est=55.766 Dmax=6.774 acc=0.6863 f1=0.3347
+[r  28 ep   5.1] t=     1006s traffic=      178MB loss=0.616 edges= 19 r=0.500 [0.50,0.50] CD true=13.842 est=27.649 Dmax=6.443 acc=0.6885 f1=0.3326
+[r  28 ep   5.1] t=     1983s traffic=      356MB loss=0.229 edges= 19 r=0.500 [0.50,0.50] CD true=18.562 est=43.244 Dmax=7.809 acc=0.3855 f1=0.1486
+[r  17 ep   3.1] t=      770s traffic=     1080MB loss=0.665 edges=190 r=0.500 [0.50,0.50] CD true=8.903 est=10.234 Dmax=8.860 acc=0.6926 f1=0.3347
+[r  17 ep   3.1] t=      770s traffic=     1080MB loss=0.249 edges=190 r=0.500 [0.50,0.50] CD true=11.624 est=14.624 Dmax=12.878 acc=0.3715 f1=0.1361
+[r  33 ep   6.0] t=      193s traffic=      221MB loss=0.281 edges= 20 r=0.500 [0.50,0.50] CD true=13.504 est=79.109 Dmax=8.669 acc=0.3870 f1=0.1444
+[r  17 ep   3.1] t=     1523s traffic=     2160MB loss=0.258 edges=190 r=0.500 [0.50,0.50] CD true=11.371 est=15.184 Dmax=12.940 acc=0.3673 f1=0.1349
+[r  17 ep   3.1] t=     1523s traffic=     2160MB loss=0.680 edges=190 r=0.500 [0.50,0.50] CD true=8.925 est=10.332 Dmax=8.875 acc=0.6898 f1=0.3377
+[r  33 ep   6.0] t=     2376s traffic=      419MB loss=0.574 edges= 19 r=0.500 [0.50,0.50] CD true=12.507 est=23.542 Dmax=5.715 acc=0.6932 f1=0.3434
+[r  33 ep   6.0] t=     1205s traffic=      210MB loss=0.281 edges= 19 r=0.500 [0.50,0.50] CD true=15.416 est=34.186 Dmax=6.416 acc=0.3922 f1=0.1538
+[r  33 ep   6.0] t=      193s traffic=      221MB loss=0.574 edges= 20 r=0.500 [0.50,0.50] CD true=11.095 est=54.496 Dmax=6.476 acc=0.6933 f1=0.3468
+[r  33 ep   6.0] t=      349s traffic=      441MB loss=0.271 edges= 20 r=0.500 [0.50,0.50] CD true=13.107 est=79.003 Dmax=8.323 acc=0.3836 f1=0.1416
+[r  33 ep   6.0] t=     1205s traffic=      210MB loss=0.570 edges= 19 r=0.500 [0.50,0.50] CD true=13.855 est=27.005 Dmax=5.910 acc=0.6936 f1=0.3398
+[r  33 ep   6.0] t=      349s traffic=      441MB loss=0.567 edges= 20 r=0.500 [0.50,0.50] CD true=10.645 est=55.896 Dmax=6.377 acc=0.6924 f1=0.3450
+[r  33 ep   6.0] t=     2376s traffic=      419MB loss=0.283 edges= 19 r=0.500 [0.50,0.50] CD true=15.859 est=37.834 Dmax=6.661 acc=0.3932 f1=0.1535
+[r  39 ep   7.1] t=      231s traffic=      261MB loss=0.232 edges= 20 r=0.500 [0.50,0.50] CD true=13.734 est=77.268 Dmax=8.059 acc=0.3866 f1=0.1455
+[r  39 ep   7.1] t=     1367s traffic=      248MB loss=0.243 edges= 19 r=0.500 [0.50,0.50] CD true=15.184 est=34.562 Dmax=5.676 acc=0.3863 f1=0.1464
+[r  39 ep   7.1] t=     2693s traffic=      496MB loss=0.746 edges= 19 r=0.500 [0.50,0.50] CD true=12.770 est=23.035 Dmax=5.308 acc=0.6998 f1=0.3418
+[r  22 ep   4.0] t=     1020s traffic=     1398MB loss=0.688 edges=190 r=0.500 [0.50,0.50] CD true=9.219 est=10.137 Dmax=7.840 acc=0.6939 f1=0.3378
+[r  39 ep   7.1] t=      231s traffic=      261MB loss=0.720 edges= 20 r=0.500 [0.50,0.50] CD true=11.380 est=54.370 Dmax=6.187 acc=0.6989 f1=0.3468
+[r  39 ep   7.1] t=      418s traffic=      522MB loss=0.248 edges= 20 r=0.500 [0.50,0.50] CD true=13.493 est=76.632 Dmax=7.639 acc=0.3890 f1=0.1474
+[r  39 ep   7.1] t=     1367s traffic=      248MB loss=0.719 edges= 19 r=0.500 [0.50,0.50] CD true=13.974 est=25.948 Dmax=5.483 acc=0.6993 f1=0.3410
+[r  39 ep   7.1] t=      418s traffic=      522MB loss=0.720 edges= 20 r=0.500 [0.50,0.50] CD true=10.907 est=55.384 Dmax=6.090 acc=0.6986 f1=0.3452
+[r  39 ep   7.1] t=     2693s traffic=      496MB loss=0.250 edges= 19 r=0.500 [0.50,0.50] CD true=15.521 est=33.810 Dmax=5.688 acc=0.3902 f1=0.1513
+[r  44 ep   8.0] t=      264s traffic=      294MB loss=0.247 edges= 20 r=0.500 [0.50,0.50] CD true=13.868 est=75.609 Dmax=7.663 acc=0.3886 f1=0.1468
+[r  22 ep   4.0] t=     2017s traffic=     2795MB loss=0.236 edges=190 r=0.500 [0.50,0.50] CD true=11.696 est=14.642 Dmax=11.200 acc=0.3783 f1=0.1395
+[r  22 ep   4.0] t=     1020s traffic=     1398MB loss=0.232 edges=190 r=0.500 [0.50,0.50] CD true=11.989 est=14.716 Dmax=11.093 acc=0.3724 f1=0.1356
+[r  44 ep   8.0] t=     2942s traffic=      559MB loss=0.658 edges= 19 r=0.500 [0.50,0.50] CD true=13.066 est=23.053 Dmax=5.025 acc=0.7024 f1=0.3392
+[r  44 ep   8.0] t=     1495s traffic=      280MB loss=0.249 edges= 19 r=0.500 [0.50,0.50] CD true=15.080 est=33.134 Dmax=5.199 acc=0.3911 f1=0.1506
+[r  44 ep   8.0] t=      264s traffic=      294MB loss=0.664 edges= 20 r=0.500 [0.50,0.50] CD true=11.682 est=53.955 Dmax=5.984 acc=0.7069 f1=0.3437
+[r  22 ep   4.0] t=     2017s traffic=     2795MB loss=0.690 edges=190 r=0.500 [0.50,0.50] CD true=9.199 est=10.141 Dmax=7.874 acc=0.6934 f1=0.3328
+[r  44 ep   8.0] t=     1495s traffic=      280MB loss=0.661 edges= 19 r=0.500 [0.50,0.50] CD true=14.098 est=25.619 Dmax=5.144 acc=0.7018 f1=0.3419
+[r  44 ep   8.0] t=      477s traffic=      589MB loss=0.248 edges= 20 r=0.500 [0.50,0.50] CD true=13.685 est=75.867 Dmax=7.275 acc=0.3954 f1=0.1524
+[r  44 ep   8.0] t=      477s traffic=      589MB loss=0.660 edges= 20 r=0.500 [0.50,0.50] CD true=11.150 est=55.034 Dmax=5.863 acc=0.7064 f1=0.3434
+[r  44 ep   8.0] t=     2942s traffic=      559MB loss=0.263 edges= 19 r=0.500 [0.50,0.50] CD true=15.164 est=32.488 Dmax=5.165 acc=0.3968 f1=0.1548
+[r  50 ep   9.1] t=      303s traffic=      334MB loss=0.216 edges= 20 r=0.500 [0.50,0.50] CD true=14.385 est=78.924 Dmax=7.676 acc=0.3882 f1=0.1466
+[r  50 ep   9.1] t=     1624s traffic=      318MB loss=0.215 edges= 19 r=0.500 [0.50,0.50] CD true=15.347 est=32.560 Dmax=4.821 acc=0.3900 f1=0.1494
+[r  50 ep   9.1] t=     3191s traffic=      635MB loss=0.590 edges= 19 r=0.500 [0.50,0.50] CD true=13.155 est=23.149 Dmax=4.775 acc=0.6945 f1=0.3465
+[r  50 ep   9.1] t=      303s traffic=      334MB loss=0.585 edges= 20 r=0.500 [0.50,0.50] CD true=11.806 est=52.804 Dmax=5.808 acc=0.7000 f1=0.3513
+[r  28 ep   5.1] t=     1271s traffic=     1779MB loss=0.607 edges=190 r=0.500 [0.50,0.50] CD true=9.610 est=9.969 Dmax=7.098 acc=0.6869 f1=0.3348
+[r  50 ep   9.1] t=      548s traffic=      669MB loss=0.205 edges= 20 r=0.500 [0.50,0.50] CD true=14.030 est=76.562 Dmax=6.981 acc=0.3941 f1=0.1509
+[r  50 ep   9.1] t=     1624s traffic=      318MB loss=0.606 edges= 19 r=0.500 [0.50,0.50] CD true=14.113 est=24.690 Dmax=4.858 acc=0.6929 f1=0.3457
+[r  55 ep  10.0] t=      333s traffic=      368MB loss=0.223 edges= 20 r=0.500 [0.50,0.50] CD true=14.440 est=76.129 Dmax=7.435 acc=0.3904 f1=0.1476
+[r  50 ep   9.1] t=      548s traffic=      669MB loss=0.586 edges= 20 r=0.500 [0.50,0.50] CD true=11.294 est=53.502 Dmax=5.652 acc=0.6987 f1=0.3525
+[r  50 ep   9.1] t=     3191s traffic=      635MB loss=0.215 edges= 19 r=0.500 [0.50,0.50] CD true=15.594 est=34.072 Dmax=4.804 acc=0.3986 f1=0.1555
+[r  55 ep  10.0] t=     3309s traffic=      699MB loss=0.619 edges= 19 r=0.500 [0.50,0.50] CD true=13.278 est=22.694 Dmax=4.653 acc=0.7014 f1=0.3465
+[r  55 ep  10.0] t=     1687s traffic=      349MB loss=0.228 edges= 19 r=0.500 [0.50,0.50] CD true=15.371 est=31.161 Dmax=4.594 acc=0.3981 f1=0.1565
+[r  28 ep   5.1] t=     2513s traffic=     3558MB loss=0.226 edges=190 r=0.500 [0.50,0.50] CD true=12.445 est=14.974 Dmax=9.985 acc=0.3749 f1=0.1362
+[r  55 ep  10.0] t=      333s traffic=      368MB loss=0.611 edges= 20 r=0.500 [0.50,0.50] CD true=11.910 est=52.284 Dmax=5.682 acc=0.7016 f1=0.3494
+[r  55 ep  10.0] t=      604s traffic=      736MB loss=0.234 edges= 20 r=0.500 [0.50,0.50] CD true=14.305 est=74.174 Dmax=6.905 acc=0.3960 f1=0.1537
+[r  28 ep   5.1] t=     1271s traffic=     1779MB loss=0.234 edges=190 r=0.500 [0.50,0.50] CD true=12.580 est=14.394 Dmax=9.854 acc=0.3752 f1=0.1351
+[r  55 ep  10.0] t=     1687s traffic=      349MB loss=0.607 edges= 19 r=0.500 [0.50,0.50] CD true=14.153 est=24.444 Dmax=4.705 acc=0.7012 f1=0.3462
+[r  61 ep  11.1] t=      373s traffic=      408MB loss=0.230 edges= 20 r=0.500 [0.50,0.50] CD true=14.582 est=74.637 Dmax=7.183 acc=0.3917 f1=0.1523
+[r  55 ep  10.0] t=      604s traffic=      736MB loss=0.602 edges= 20 r=0.500 [0.50,0.50] CD true=11.429 est=53.650 Dmax=5.548 acc=0.6996 f1=0.3501
+[r  55 ep  10.0] t=     3309s traffic=      699MB loss=0.223 edges= 19 r=0.500 [0.50,0.50] CD true=15.666 est=32.552 Dmax=4.611 acc=0.3977 f1=0.1535
+[r  28 ep   5.1] t=     2513s traffic=     3558MB loss=0.601 edges=190 r=0.500 [0.50,0.50] CD true=9.603 est=9.961 Dmax=7.110 acc=0.6880 f1=0.3351
+[r  61 ep  11.1] t=     3456s traffic=      775MB loss=0.617 edges= 19 r=0.500 [0.50,0.50] CD true=13.482 est=21.901 Dmax=4.543 acc=0.7098 f1=0.3461
+[r  61 ep  11.1] t=     1765s traffic=      388MB loss=0.233 edges= 19 r=0.500 [0.50,0.50] CD true=15.394 est=31.100 Dmax=4.241 acc=0.3979 f1=0.1567
+[r  61 ep  11.1] t=      373s traffic=      408MB loss=0.613 edges= 20 r=0.500 [0.50,0.50] CD true=12.103 est=51.294 Dmax=5.595 acc=0.7126 f1=0.3507
+[r  33 ep   6.0] t=     1528s traffic=     2097MB loss=0.566 edges=190 r=0.500 [0.50,0.50] CD true=9.859 est=10.183 Dmax=6.745 acc=0.6952 f1=0.3446
+[r  66 ep  12.0] t=      403s traffic=      441MB loss=0.236 edges= 20 r=0.500 [0.50,0.50] CD true=14.788 est=74.946 Dmax=7.057 acc=0.3936 f1=0.1513
+[r  61 ep  11.1] t=     1765s traffic=      388MB loss=0.615 edges= 19 r=0.500 [0.50,0.50] CD true=14.279 est=23.826 Dmax=4.565 acc=0.7088 f1=0.3458
+[r  61 ep  11.1] t=      676s traffic=      816MB loss=0.602 edges= 20 r=0.500 [0.50,0.50] CD true=11.658 est=53.355 Dmax=5.448 acc=0.7111 f1=0.3495
+[r  61 ep  11.1] t=      676s traffic=      816MB loss=0.235 edges= 20 r=0.500 [0.50,0.50] CD true=14.430 est=73.849 Dmax=6.659 acc=0.3920 f1=0.1491
+[r  61 ep  11.1] t=     3456s traffic=      775MB loss=0.230 edges= 19 r=0.500 [0.50,0.50] CD true=15.619 est=33.701 Dmax=4.357 acc=0.3987 f1=0.1579
+[r  66 ep  12.0] t=     3590s traffic=      839MB loss=0.602 edges= 19 r=0.500 [0.50,0.50] CD true=13.598 est=21.769 Dmax=4.333 acc=0.7085 f1=0.3515
+[r  66 ep  12.0] t=     1836s traffic=      419MB loss=0.247 edges= 19 r=0.500 [0.50,0.50] CD true=15.704 est=29.861 Dmax=4.099 acc=0.4040 f1=0.1601
+[r  66 ep  12.0] t=      403s traffic=      441MB loss=0.595 edges= 20 r=0.500 [0.50,0.50] CD true=12.178 est=50.622 Dmax=5.429 acc=0.7121 f1=0.3561
+[r  33 ep   6.0] t=     3021s traffic=     4193MB loss=0.281 edges=190 r=0.500 [0.50,0.50] CD true=12.778 est=15.089 Dmax=9.385 acc=0.3774 f1=0.1418
+[r  72 ep  13.1] t=      440s traffic=      482MB loss=0.204 edges= 20 r=0.500 [0.50,0.50] CD true=14.886 est=72.353 Dmax=6.827 acc=0.3942 f1=0.1550
+[r  66 ep  12.0] t=     1836s traffic=      419MB loss=0.603 edges= 19 r=0.500 [0.50,0.50] CD true=14.439 est=24.171 Dmax=4.371 acc=0.7079 f1=0.3512
+[r  66 ep  12.0] t=      732s traffic=      883MB loss=0.586 edges= 20 r=0.500 [0.50,0.50] CD true=11.793 est=51.700 Dmax=5.261 acc=0.7088 f1=0.3540
+[r  66 ep  12.0] t=      732s traffic=      883MB loss=0.234 edges= 20 r=0.500 [0.50,0.50] CD true=14.669 est=74.029 Dmax=6.538 acc=0.3952 f1=0.1543
+[r  33 ep   6.0] t=     1528s traffic=     2097MB loss=0.277 edges=190 r=0.500 [0.50,0.50] CD true=12.943 est=14.717 Dmax=9.227 acc=0.3771 f1=0.1391
+[r  66 ep  12.0] t=     3590s traffic=      839MB loss=0.239 edges= 19 r=0.500 [0.50,0.50] CD true=15.908 est=32.776 Dmax=4.211 acc=0.4050 f1=0.1599
+[r  72 ep  13.1] t=     3725s traffic=      915MB loss=0.554 edges= 19 r=0.500 [0.50,0.50] CD true=13.843 est=22.492 Dmax=4.428 acc=0.7014 f1=0.3545
+[r  72 ep  13.1] t=      440s traffic=      482MB loss=0.551 edges= 20 r=0.500 [0.50,0.50] CD true=12.376 est=52.356 Dmax=5.500 acc=0.7039 f1=0.3557
+[r  72 ep  13.1] t=     1907s traffic=      457MB loss=0.208 edges= 19 r=0.500 [0.50,0.50] CD true=16.346 est=31.604 Dmax=4.013 acc=0.4036 f1=0.1629
+[r  77 ep  14.1] t=      471s traffic=      515MB loss=0.212 edges= 20 r=0.500 [0.50,0.50] CD true=15.039 est=72.350 Dmax=6.674 acc=0.3932 f1=0.1551
+[r  33 ep   6.0] t=     3021s traffic=     4193MB loss=0.568 edges=190 r=0.500 [0.50,0.50] CD true=9.869 est=10.302 Dmax=6.790 acc=0.6943 f1=0.3440
+[r  39 ep   7.1] t=     1828s traffic=     2478MB loss=0.709 edges=190 r=0.500 [0.50,0.50] CD true=10.147 est=9.891 Dmax=6.490 acc=0.6982 f1=0.3424
+[r  72 ep  13.1] t=      799s traffic=      963MB loss=0.548 edges= 20 r=0.500 [0.50,0.50] CD true=11.936 est=52.654 Dmax=5.317 acc=0.7044 f1=0.3538
+[r  72 ep  13.1] t=     1907s traffic=      457MB loss=0.555 edges= 19 r=0.500 [0.50,0.50] CD true=14.653 est=24.737 Dmax=4.463 acc=0.7013 f1=0.3554
+[r  72 ep  13.1] t=      799s traffic=      963MB loss=0.204 edges= 20 r=0.500 [0.50,0.50] CD true=14.748 est=72.478 Dmax=6.432 acc=0.3940 f1=0.1538
+[r  77 ep  14.1] t=     3962s traffic=      978MB loss=0.570 edges= 19 r=0.500 [0.50,0.50] CD true=13.863 est=21.857 Dmax=4.329 acc=0.7038 f1=0.3555
+[r  72 ep  13.1] t=     3725s traffic=      915MB loss=0.208 edges= 19 r=0.500 [0.50,0.50] CD true=15.792 est=32.363 Dmax=4.019 acc=0.4046 f1=0.1624
+[r  77 ep  14.1] t=      471s traffic=      515MB loss=0.581 edges= 20 r=0.500 [0.50,0.50] CD true=12.448 est=51.880 Dmax=5.444 acc=0.7054 f1=0.3572
+[r  77 ep  14.1] t=     2029s traffic=      489MB loss=0.225 edges= 19 r=0.500 [0.50,0.50] CD true=16.321 est=30.714 Dmax=3.798 acc=0.3971 f1=0.1568
+[r  83 ep  15.1] t=      511s traffic=      555MB loss=0.249 edges= 20 r=0.500 [0.50,0.50] CD true=15.171 est=70.887 Dmax=6.545 acc=0.3919 f1=0.1520
+[r  77 ep  14.1] t=      856s traffic=     1030MB loss=0.578 edges= 20 r=0.500 [0.50,0.50] CD true=12.022 est=51.495 Dmax=5.221 acc=0.7056 f1=0.3556
+[r  39 ep   7.1] t=     3614s traffic=     4955MB loss=0.238 edges=190 r=0.500 [0.50,0.50] CD true=13.164 est=14.707 Dmax=8.838 acc=0.3795 f1=0.1408
+[r  77 ep  14.1] t=     2029s traffic=      489MB loss=0.576 edges= 19 r=0.500 [0.50,0.50] CD true=14.635 est=23.913 Dmax=4.368 acc=0.7020 f1=0.3532
+[r  77 ep  14.1] t=      856s traffic=     1030MB loss=0.210 edges= 20 r=0.500 [0.50,0.50] CD true=14.880 est=71.184 Dmax=6.245 acc=0.3919 f1=0.1498
+[r  77 ep  14.1] t=     3962s traffic=      978MB loss=0.220 edges= 19 r=0.500 [0.50,0.50] CD true=15.960 est=33.112 Dmax=3.857 acc=0.4012 f1=0.1596
+[r  83 ep  15.1] t=     4169s traffic=     1055MB loss=0.549 edges= 19 r=0.500 [0.50,0.50] CD true=14.010 est=21.636 Dmax=4.164 acc=0.7067 f1=0.3618
+[r  88 ep  16.1] t=      541s traffic=      589MB loss=0.196 edges= 20 r=0.500 [0.50,0.50] CD true=15.268 est=71.062 Dmax=6.487 acc=0.3921 f1=0.1501
+[r  83 ep  15.1] t=      511s traffic=      555MB loss=0.546 edges= 20 r=0.500 [0.50,0.50] CD true=12.590 est=50.905 Dmax=5.307 acc=0.7074 f1=0.3587
+[r  83 ep  15.1] t=     2136s traffic=      527MB loss=0.247 edges= 19 r=0.500 [0.50,0.50] CD true=16.297 est=28.977 Dmax=3.666 acc=0.4002 f1=0.1604
+[r  39 ep   7.1] t=     1828s traffic=     2478MB loss=0.250 edges=190 r=0.500 [0.50,0.50] CD true=13.279 est=14.233 Dmax=8.691 acc=0.3788 f1=0.1398
+[r  44 ep   8.0] t=     2088s traffic=     2795MB loss=0.657 edges=190 r=0.500 [0.50,0.50] CD true=10.375 est=9.843 Dmax=6.289 acc=0.7051 f1=0.3430
+[r  83 ep  15.1] t=      928s traffic=     1110MB loss=0.532 edges= 20 r=0.500 [0.50,0.50] CD true=12.174 est=51.218 Dmax=5.073 acc=0.7076 f1=0.3612
+[r  83 ep  15.1] t=     2136s traffic=      527MB loss=0.542 edges= 19 r=0.500 [0.50,0.50] CD true=14.723 est=23.303 Dmax=4.168 acc=0.7054 f1=0.3608
+[r  83 ep  15.1] t=      928s traffic=     1110MB loss=0.244 edges= 20 r=0.500 [0.50,0.50] CD true=14.986 est=69.567 Dmax=6.094 acc=0.3891 f1=0.1509
+[r  88 ep  16.1] t=     4318s traffic=     1118MB loss=0.597 edges= 19 r=0.500 [0.50,0.50] CD true=14.198 est=21.718 Dmax=4.164 acc=0.7061 f1=0.3643
+[r  83 ep  15.1] t=     4169s traffic=     1055MB loss=0.257 edges= 19 r=0.500 [0.50,0.50] CD true=16.107 est=31.570 Dmax=3.743 acc=0.4017 f1=0.1613
+[r  88 ep  16.1] t=      541s traffic=      589MB loss=0.592 edges= 20 r=0.500 [0.50,0.50] CD true=12.694 est=50.719 Dmax=5.288 acc=0.7099 f1=0.3684
+[r  39 ep   7.1] t=     3614s traffic=     4955MB loss=0.720 edges=190 r=0.500 [0.50,0.50] CD true=10.095 est=9.783 Dmax=6.510 acc=0.6935 f1=0.3421
+[r  88 ep  16.1] t=     2214s traffic=      559MB loss=0.205 edges= 19 r=0.500 [0.50,0.50] CD true=16.066 est=28.137 Dmax=3.519 acc=0.3967 f1=0.1558
+[r  94 ep  17.2] t=      573s traffic=      629MB loss=0.208 edges= 20 r=0.500 [0.50,0.50] CD true=15.362 est=71.125 Dmax=6.404 acc=0.3970 f1=0.1579
+[r  44 ep   8.0] t=     4129s traffic=     5591MB loss=0.250 edges=190 r=0.500 [0.50,0.50] CD true=13.435 est=14.933 Dmax=8.622 acc=0.3839 f1=0.1448
+[r  88 ep  16.1] t=      986s traffic=     1177MB loss=0.590 edges= 20 r=0.500 [0.50,0.50] CD true=12.274 est=50.457 Dmax=5.029 acc=0.7114 f1=0.3659
+[r  88 ep  16.1] t=     2214s traffic=      559MB loss=0.591 edges= 19 r=0.500 [0.50,0.50] CD true=14.871 est=23.236 Dmax=4.146 acc=0.7088 f1=0.3622
+[r  88 ep  16.1] t=      986s traffic=     1177MB loss=0.198 edges= 20 r=0.500 [0.50,0.50] CD true=15.174 est=71.742 Dmax=6.126 acc=0.3902 f1=0.1492
+[r  94 ep  17.2] t=     4485s traffic=     1194MB loss=0.528 edges= 19 r=0.500 [0.50,0.50] CD true=14.262 est=21.381 Dmax=4.092 acc=0.7123 f1=0.3625
+[r  88 ep  16.1] t=     4318s traffic=     1118MB loss=0.203 edges= 19 r=0.500 [0.50,0.50] CD true=16.085 est=31.199 Dmax=3.646 acc=0.4005 f1=0.1596
+[r  99 ep  18.1] t=      604s traffic=      662MB loss=0.171 edges= 20 r=0.500 [0.50,0.50] CD true=15.418 est=69.618 Dmax=6.338 acc=0.3997 f1=0.1611
+[r  94 ep  17.2] t=      573s traffic=      629MB loss=0.523 edges= 20 r=0.500 [0.50,0.50] CD true=12.818 est=50.264 Dmax=5.216 acc=0.7166 f1=0.3632
+[r  94 ep  17.2] t=     2302s traffic=      597MB loss=0.207 edges= 19 r=0.500 [0.50,0.50] CD true=15.991 est=27.538 Dmax=3.370 acc=0.4082 f1=0.1648
+[r  44 ep   8.0] t=     2088s traffic=     2795MB loss=0.235 edges=190 r=0.500 [0.50,0.50] CD true=13.573 est=14.161 Dmax=8.396 acc=0.3867 f1=0.1435
+[r  50 ep   9.1] t=     2400s traffic=     3177MB loss=0.583 edges=190 r=0.500 [0.50,0.50] CD true=10.517 est=9.785 Dmax=6.109 acc=0.6955 f1=0.3483
+[r  94 ep  17.2] t=     1042s traffic=     1257MB loss=0.519 edges= 20 r=0.500 [0.50,0.50] CD true=12.434 est=50.132 Dmax=4.956 acc=0.7155 f1=0.3634
+[r  94 ep  17.2] t=     2302s traffic=      597MB loss=0.524 edges= 19 r=0.500 [0.50,0.50] CD true=15.011 est=23.144 Dmax=4.060 acc=0.7111 f1=0.3621
+[r  99 ep  18.1] t=     4641s traffic=     1258MB loss=0.556 edges= 19 r=0.500 [0.50,0.50] CD true=14.293 est=21.121 Dmax=4.030 acc=0.7100 f1=0.3605
+[r  94 ep  17.2] t=     1042s traffic=     1257MB loss=0.204 edges= 20 r=0.500 [0.50,0.50] CD true=15.187 est=69.764 Dmax=5.973 acc=0.3984 f1=0.1573
+[r  99 ep  18.1] t=     2384s traffic=      629MB loss=0.173 edges= 19 r=0.500 [0.50,0.50] CD true=16.050 est=26.870 Dmax=3.311 acc=0.4004 f1=0.1604
+[r  99 ep  18.1] t=      604s traffic=      662MB loss=0.533 edges= 20 r=0.500 [0.50,0.50] CD true=12.869 est=49.430 Dmax=5.179 acc=0.7141 f1=0.3632
+[r 105 ep  19.2] t=      641s traffic=      702MB loss=0.200 edges= 20 r=0.500 [0.50,0.50] CD true=15.517 est=68.766 Dmax=6.218 acc=0.3960 f1=0.1582
+[r  94 ep  17.2] t=     4485s traffic=     1194MB loss=0.216 edges= 19 r=0.500 [0.50,0.50] CD true=16.144 est=30.457 Dmax=3.515 acc=0.4105 f1=0.1684
+[r  50 ep   9.1] t=     4745s traffic=     6353MB loss=0.204 edges=190 r=0.500 [0.50,0.50] CD true=13.749 est=14.740 Dmax=8.385 acc=0.3842 f1=0.1434
+[r  99 ep  18.1] t=     1098s traffic=     1324MB loss=0.540 edges= 20 r=0.500 [0.50,0.50] CD true=12.468 est=49.291 Dmax=4.913 acc=0.7124 f1=0.3623
+[r  44 ep   8.0] t=     4129s traffic=     5591MB loss=0.649 edges=190 r=0.500 [0.50,0.50] CD true=10.383 est=9.902 Dmax=6.309 acc=0.7037 f1=0.3403
+[r  99 ep  18.1] t=     2384s traffic=      629MB loss=0.543 edges= 19 r=0.500 [0.50,0.50] CD true=14.970 est=22.826 Dmax=4.002 acc=0.7099 f1=0.3586
+[r 110 ep  20.1] t=      673s traffic=      736MB loss=0.216 edges= 20 r=0.500 [0.50,0.50] CD true=15.573 est=68.194 Dmax=6.130 acc=0.3991 f1=0.1560
+[r 105 ep  19.2] t=     4784s traffic=     1334MB loss=0.596 edges= 19 r=0.500 [0.50,0.50] CD true=14.303 est=20.416 Dmax=3.844 acc=0.7125 f1=0.3595
+[r  99 ep  18.1] t=     1098s traffic=     1324MB loss=0.181 edges= 20 r=0.500 [0.50,0.50] CD true=15.245 est=67.864 Dmax=5.853 acc=0.3987 f1=0.1563
+[r 105 ep  19.2] t=     2459s traffic=      667MB loss=0.196 edges= 19 r=0.500 [0.50,0.50] CD true=16.115 est=26.546 Dmax=3.145 acc=0.4107 f1=0.1691
+[r 105 ep  19.2] t=      641s traffic=      702MB loss=0.599 edges= 20 r=0.500 [0.50,0.50] CD true=12.894 est=47.808 Dmax=5.020 acc=0.7160 f1=0.3649
+[r  99 ep  18.1] t=     4641s traffic=     1258MB loss=0.189 edges= 19 r=0.500 [0.50,0.50] CD true=16.134 est=29.611 Dmax=3.415 acc=0.4091 f1=0.1658
+[r  55 ep  10.0] t=     2648s traffic=     3494MB loss=0.599 edges=190 r=0.500 [0.50,0.50] CD true=10.715 est=9.520 Dmax=5.994 acc=0.7017 f1=0.3534
+[r 105 ep  19.2] t=     1166s traffic=     1404MB loss=0.602 edges= 20 r=0.500 [0.50,0.50] CD true=12.511 est=48.307 Dmax=4.785 acc=0.7143 f1=0.3637
+[r 105 ep  19.2] t=     2459s traffic=      667MB loss=0.600 edges= 19 r=0.500 [0.50,0.50] CD true=14.944 est=22.119 Dmax=3.807 acc=0.7143 f1=0.3572
+[r 110 ep  20.1] t=     4966s traffic=     1398MB loss=0.524 edges= 19 r=0.500 [0.50,0.50] CD true=14.397 est=20.136 Dmax=3.750 acc=0.7122 f1=0.3589
+[r 116 ep  21.2] t=      709s traffic=      776MB loss=0.209 edges= 20 r=0.500 [0.50,0.50] CD true=15.619 est=66.887 Dmax=6.044 acc=0.4003 f1=0.1589
+[r 110 ep  20.1] t=     2554s traffic=      699MB loss=0.227 edges= 19 r=0.500 [0.50,0.50] CD true=16.224 est=26.712 Dmax=3.077 acc=0.4059 f1=0.1633
+[r  50 ep   9.1] t=     2400s traffic=     3177MB loss=0.214 edges=190 r=0.500 [0.50,0.50] CD true=13.931 est=14.448 Dmax=8.168 acc=0.3837 f1=0.1423
+[r 110 ep  20.1] t=      673s traffic=      736MB loss=0.496 edges= 20 r=0.500 [0.50,0.50] CD true=12.979 est=47.381 Dmax=4.904 acc=0.7163 f1=0.3632
+[r 105 ep  19.2] t=     1166s traffic=     1404MB loss=0.192 edges= 20 r=0.500 [0.50,0.50] CD true=15.382 est=67.074 Dmax=5.718 acc=0.3974 f1=0.1574
+[r 105 ep  19.2] t=     4784s traffic=     1334MB loss=0.206 edges= 19 r=0.500 [0.50,0.50] CD true=16.317 est=30.117 Dmax=3.283 acc=0.4074 f1=0.1682
+[r  55 ep  10.0] t=     5237s traffic=     6988MB loss=0.242 edges=190 r=0.500 [0.50,0.50] CD true=13.899 est=14.502 Dmax=8.244 acc=0.3852 f1=0.1459
+[r 110 ep  20.1] t=     2554s traffic=      699MB loss=0.517 edges= 19 r=0.500 [0.50,0.50] CD true=15.050 est=21.962 Dmax=3.713 acc=0.7112 f1=0.3586
+[r 110 ep  20.1] t=     1224s traffic=     1471MB loss=0.510 edges= 20 r=0.500 [0.50,0.50] CD true=12.601 est=47.917 Dmax=4.682 acc=0.7163 f1=0.3637
+[r 121 ep  22.1] t=      740s traffic=      809MB loss=0.213 edges= 20 r=0.500 [0.50,0.50] CD true=15.682 est=65.940 Dmax=5.963 acc=0.3959 f1=0.1557
+[r 116 ep  21.2] t=     5252s traffic=     1474MB loss=0.562 edges= 19 r=0.500 [0.50,0.50] CD true=14.416 est=19.953 Dmax=3.744 acc=0.7122 f1=0.3647
+[r 116 ep  21.2] t=     2701s traffic=      737MB loss=0.226 edges= 19 r=0.500 [0.50,0.50] CD true=16.175 est=24.847 Dmax=2.982 acc=0.4052 f1=0.1627
+[r 110 ep  20.1] t=     1224s traffic=     1471MB loss=0.229 edges= 20 r=0.500 [0.50,0.50] CD true=15.472 est=67.498 Dmax=5.657 acc=0.4011 f1=0.1577
+[r 116 ep  21.2] t=      709s traffic=      776MB loss=0.547 edges= 20 r=0.500 [0.50,0.50] CD true=13.018 est=46.445 Dmax=4.871 acc=0.7182 f1=0.3663
+[r  50 ep   9.1] t=     4745s traffic=     6353MB loss=0.601 edges=190 r=0.500 [0.50,0.50] CD true=10.553 est=9.720 Dmax=6.108 acc=0.6951 f1=0.3520
+[r 110 ep  20.1] t=     4966s traffic=     1398MB loss=0.216 edges= 19 r=0.500 [0.50,0.50] CD true=16.372 est=29.979 Dmax=3.196 acc=0.4091 f1=0.1665
+[r 116 ep  21.2] t=     1290s traffic=     1552MB loss=0.548 edges= 20 r=0.500 [0.50,0.50] CD true=12.699 est=46.704 Dmax=4.655 acc=0.7183 f1=0.3662
+[r 116 ep  21.2] t=     2701s traffic=      737MB loss=0.567 edges= 19 r=0.500 [0.50,0.50] CD true=15.072 est=21.833 Dmax=3.700 acc=0.7144 f1=0.3639
+[r 127 ep  23.2] t=      778s traffic=      849MB loss=0.199 edges= 20 r=0.500 [0.50,0.50] CD true=15.719 est=65.041 Dmax=5.850 acc=0.4003 f1=0.1596
+[r  61 ep  11.1] t=     2961s traffic=     3875MB loss=0.586 edges=190 r=0.500 [0.50,0.50] CD true=10.878 est=9.650 Dmax=5.941 acc=0.7106 f1=0.3494
+[r 121 ep  22.1] t=     5485s traffic=     1537MB loss=0.532 edges= 19 r=0.500 [0.50,0.50] CD true=14.540 est=19.958 Dmax=3.733 acc=0.7223 f1=0.3712
+[r 121 ep  22.1] t=     2821s traffic=      769MB loss=0.212 edges= 19 r=0.500 [0.50,0.50] CD true=16.322 est=24.862 Dmax=2.979 acc=0.4032 f1=0.1617
+[r 121 ep  22.1] t=      740s traffic=      809MB loss=0.526 edges= 20 r=0.500 [0.50,0.50] CD true=13.127 est=46.485 Dmax=4.846 acc=0.7253 f1=0.3725
+[r 116 ep  21.2] t=     1290s traffic=     1552MB loss=0.215 edges= 20 r=0.500 [0.50,0.50] CD true=15.528 est=66.287 Dmax=5.596 acc=0.4050 f1=0.1628
+[r  55 ep  10.0] t=     2648s traffic=     3494MB loss=0.219 edges=190 r=0.500 [0.50,0.50] CD true=14.116 est=14.745 Dmax=8.086 acc=0.3832 f1=0.1401
+[r 116 ep  21.2] t=     5252s traffic=     1474MB loss=0.214 edges= 19 r=0.500 [0.50,0.50] CD true=16.417 est=28.524 Dmax=3.091 acc=0.4102 f1=0.1655
+[r 121 ep  22.1] t=     1346s traffic=     1618MB loss=0.532 edges= 20 r=0.500 [0.50,0.50] CD true=12.814 est=46.843 Dmax=4.630 acc=0.7242 f1=0.3755
+[r 132 ep  24.1] t=      810s traffic=      883MB loss=0.194 edges= 20 r=0.500 [0.50,0.50] CD true=15.794 est=65.246 Dmax=5.813 acc=0.4041 f1=0.1608
+[r  61 ep  11.1] t=     5854s traffic=     7751MB loss=0.219 edges=190 r=0.500 [0.50,0.50] CD true=14.217 est=14.397 Dmax=8.100 acc=0.3861 f1=0.1480
+[r 121 ep  22.1] t=     2821s traffic=      769MB loss=0.532 edges= 19 r=0.500 [0.50,0.50] CD true=15.219 est=21.524 Dmax=3.689 acc=0.7230 f1=0.3728
+[r 127 ep  23.2] t=     5682s traffic=     1614MB loss=0.538 edges= 19 r=0.500 [0.50,0.50] CD true=14.616 est=19.947 Dmax=3.661 acc=0.7171 f1=0.3658
+[r 127 ep  23.2] t=     2924s traffic=      807MB loss=0.210 edges= 19 r=0.500 [0.50,0.50] CD true=16.283 est=24.611 Dmax=2.877 acc=0.4061 f1=0.1646
+[r 127 ep  23.2] t=      778s traffic=      849MB loss=0.525 edges= 20 r=0.500 [0.50,0.50] CD true=13.210 est=46.729 Dmax=4.789 acc=0.7182 f1=0.3703
+[r 121 ep  22.1] t=     1346s traffic=     1618MB loss=0.206 edges= 20 r=0.500 [0.50,0.50] CD true=15.592 est=66.187 Dmax=5.559 acc=0.3966 f1=0.1578
+[r 121 ep  22.1] t=     5485s traffic=     1537MB loss=0.222 edges= 19 r=0.500 [0.50,0.50] CD true=16.483 est=28.484 Dmax=3.077 acc=0.4027 f1=0.1615
+[r 137 ep  25.0] t=      841s traffic=      916MB loss=0.231 edges= 20 r=0.500 [0.50,0.50] CD true=15.785 est=63.461 Dmax=5.721 acc=0.4059 f1=0.1638
+[r  66 ep  12.0] t=     3205s traffic=     4193MB loss=0.595 edges=190 r=0.500 [0.50,0.50] CD true=11.021 est=9.432 Dmax=5.797 acc=0.7124 f1=0.3551
+[r  55 ep  10.0] t=     5237s traffic=     6988MB loss=0.596 edges=190 r=0.500 [0.50,0.50] CD true=10.687 est=9.494 Dmax=5.991 acc=0.7003 f1=0.3513
+[r 127 ep  23.2] t=     1415s traffic=     1699MB loss=0.531 edges= 20 r=0.500 [0.50,0.50] CD true=12.874 est=46.693 Dmax=4.567 acc=0.7201 f1=0.3703
+[r 132 ep  24.1] t=     5754s traffic=     1677MB loss=0.504 edges= 19 r=0.500 [0.50,0.50] CD true=14.687 est=19.576 Dmax=3.615 acc=0.7225 f1=0.3716
+[r 127 ep  23.2] t=     2924s traffic=      807MB loss=0.536 edges= 19 r=0.500 [0.50,0.50] CD true=15.273 est=21.520 Dmax=3.636 acc=0.7163 f1=0.3655
+[r 132 ep  24.1] t=     2964s traffic=      839MB loss=0.205 edges= 19 r=0.500 [0.50,0.50] CD true=16.428 est=25.231 Dmax=2.840 acc=0.4173 f1=0.1690
+[r 132 ep  24.1] t=      810s traffic=      883MB loss=0.509 edges= 20 r=0.500 [0.50,0.50] CD true=13.273 est=46.129 Dmax=4.729 acc=0.7262 f1=0.3728
+[r 127 ep  23.2] t=     1415s traffic=     1699MB loss=0.200 edges= 20 r=0.500 [0.50,0.50] CD true=15.615 est=63.962 Dmax=5.434 acc=0.4053 f1=0.1639
+[r 127 ep  23.2] t=     5682s traffic=     1614MB loss=0.212 edges= 19 r=0.500 [0.50,0.50] CD true=16.508 est=27.373 Dmax=2.983 acc=0.4127 f1=0.1699
+[r 143 ep  26.1] t=      878s traffic=      956MB loss=0.199 edges= 20 r=0.500 [0.50,0.50] CD true=15.881 est=62.913 Dmax=5.617 acc=0.4052 f1=0.1621
+[r  66 ep  12.0] t=     6339s traffic=     8386MB loss=0.230 edges=190 r=0.500 [0.50,0.50] CD true=14.406 est=14.425 Dmax=7.987 acc=0.3850 f1=0.1464
+[r 132 ep  24.1] t=     1474s traffic=     1766MB loss=0.508 edges= 20 r=0.500 [0.50,0.50] CD true=12.938 est=45.489 Dmax=4.516 acc=0.7248 f1=0.3765
+[r 137 ep  25.0] t=     5794s traffic=     1741MB loss=0.595 edges= 19 r=0.500 [0.50,0.50] CD true=14.722 est=19.346 Dmax=3.586 acc=0.7143 f1=0.3682
+[r 132 ep  24.1] t=     2964s traffic=      839MB loss=0.503 edges= 19 r=0.500 [0.50,0.50] CD true=15.339 est=21.138 Dmax=3.584 acc=0.7189 f1=0.3690
+[r 137 ep  25.0] t=     2987s traffic=      870MB loss=0.216 edges= 19 r=0.500 [0.50,0.50] CD true=16.419 est=24.456 Dmax=2.755 acc=0.4171 f1=0.1698
+[r 137 ep  25.0] t=      841s traffic=      916MB loss=0.579 edges= 20 r=0.500 [0.50,0.50] CD true=13.304 est=45.639 Dmax=4.681 acc=0.7162 f1=0.3676
+[r  61 ep  11.1] t=     2961s traffic=     3875MB loss=0.220 edges=190 r=0.500 [0.50,0.50] CD true=14.367 est=14.177 Dmax=7.958 acc=0.3897 f1=0.1472
+[r 148 ep  27.0] t=      911s traffic=      990MB loss=0.188 edges= 20 r=0.500 [0.50,0.50] CD true=15.936 est=62.525 Dmax=5.550 acc=0.3990 f1=0.1589
+[r 132 ep  24.1] t=     5754s traffic=     1677MB loss=0.209 edges= 19 r=0.500 [0.50,0.50] CD true=16.539 est=27.589 Dmax=2.910 acc=0.4189 f1=0.1715
+[r 132 ep  24.1] t=     1474s traffic=     1766MB loss=0.206 edges= 20 r=0.500 [0.50,0.50] CD true=15.657 est=63.791 Dmax=5.367 acc=0.4051 f1=0.1601
+[r 137 ep  25.0] t=     1530s traffic=     1832MB loss=0.585 edges= 20 r=0.500 [0.50,0.50] CD true=12.981 est=45.787 Dmax=4.481 acc=0.7198 f1=0.3705
+[r 137 ep  25.0] t=     2987s traffic=      870MB loss=0.598 edges= 19 r=0.500 [0.50,0.50] CD true=15.362 est=21.255 Dmax=3.557 acc=0.7137 f1=0.3654
+[r  72 ep  13.1] t=     3507s traffic=     4574MB loss=0.535 edges=190 r=0.500 [0.50,0.50] CD true=11.192 est=9.558 Dmax=5.849 acc=0.7080 f1=0.3569
+[r 143 ep  26.1] t=     5860s traffic=     1817MB loss=0.550 edges= 19 r=0.500 [0.50,0.50] CD true=14.847 est=19.543 Dmax=3.506 acc=0.7169 f1=0.3686
+[r 143 ep  26.1] t=     3025s traffic=      908MB loss=0.186 edges= 19 r=0.500 [0.50,0.50] CD true=16.445 est=24.138 Dmax=2.663 acc=0.4174 f1=0.1686
+[r 143 ep  26.1] t=      878s traffic=      956MB loss=0.547 edges= 20 r=0.500 [0.50,0.50] CD true=13.410 est=45.987 Dmax=4.612 acc=0.7188 f1=0.3689
+[r 154 ep  28.1] t=      950s traffic=     1030MB loss=0.189 edges= 20 r=0.500 [0.50,0.50] CD true=15.927 est=61.271 Dmax=5.468 acc=0.4053 f1=0.1635
+[r  61 ep  11.1] t=     5854s traffic=     7751MB loss=0.588 edges=190 r=0.500 [0.50,0.50] CD true=10.902 est=9.523 Dmax=5.918 acc=0.7095 f1=0.3496
+[r 137 ep  25.0] t=     1530s traffic=     1832MB loss=0.227 edges= 20 r=0.500 [0.50,0.50] CD true=15.742 est=63.221 Dmax=5.295 acc=0.4053 f1=0.1642
+[r 137 ep  25.0] t=     5794s traffic=     1741MB loss=0.225 edges= 19 r=0.500 [0.50,0.50] CD true=16.605 est=27.953 Dmax=2.865 acc=0.4156 f1=0.1699
+[r 143 ep  26.1] t=     1597s traffic=     1913MB loss=0.546 edges= 20 r=0.500 [0.50,0.50] CD true=13.097 est=46.144 Dmax=4.417 acc=0.7190 f1=0.3731
+[r 148 ep  27.0] t=      911s traffic=      990MB loss=0.583 edges= 20 r=0.500 [0.50,0.50] CD true=13.369 est=44.039 Dmax=4.531 acc=0.7179 f1=0.3704
+[r  72 ep  13.1] t=     6937s traffic=     9149MB loss=0.199 edges=190 r=0.500 [0.50,0.50] CD true=14.490 est=14.100 Dmax=7.865 acc=0.3781 f1=0.1434
+[r 148 ep  27.0] t=     3076s traffic=      940MB loss=0.195 edges= 19 r=0.500 [0.50,0.50] CD true=16.450 est=24.007 Dmax=2.609 acc=0.4107 f1=0.1673
+[r 143 ep  26.1] t=     3025s traffic=      908MB loss=0.550 edges= 19 r=0.500 [0.50,0.50] CD true=15.466 est=21.113 Dmax=3.499 acc=0.7165 f1=0.3658
+[r 148 ep  27.0] t=     5954s traffic=     1881MB loss=0.587 edges= 19 r=0.500 [0.50,0.50] CD true=14.711 est=18.659 Dmax=3.409 acc=0.7137 f1=0.3691
+[r  66 ep  12.0] t=     3205s traffic=     4193MB loss=0.240 edges=190 r=0.500 [0.50,0.50] CD true=14.555 est=14.331 Dmax=7.880 acc=0.3867 f1=0.1440
+[r 159 ep  29.0] t=      983s traffic=     1063MB loss=0.176 edges= 20 r=0.500 [0.50,0.50] CD true=15.935 est=61.060 Dmax=5.420 acc=0.4029 f1=0.1635
+[r  77 ep  14.1] t=     3760s traffic=     4892MB loss=0.569 edges=190 r=0.500 [0.50,0.50] CD true=11.289 est=9.329 Dmax=5.777 acc=0.7089 f1=0.3619
+[r 143 ep  26.1] t=     1597s traffic=     1913MB loss=0.215 edges= 20 r=0.500 [0.50,0.50] CD true=15.805 est=63.222 Dmax=5.228 acc=0.4019 f1=0.1591
+[r 143 ep  26.1] t=     5860s traffic=     1817MB loss=0.189 edges= 19 r=0.500 [0.50,0.50] CD true=16.650 est=27.155 Dmax=2.804 acc=0.4190 f1=0.1705
+[r 148 ep  27.0] t=     1657s traffic=     1980MB loss=0.577 edges= 20 r=0.500 [0.50,0.50] CD true=13.041 est=43.449 Dmax=4.314 acc=0.7175 f1=0.3710
+[r 148 ep  27.0] t=     3076s traffic=      940MB loss=0.590 edges= 19 r=0.500 [0.50,0.50] CD true=15.336 est=20.280 Dmax=3.419 acc=0.7131 f1=0.3672
+[r 154 ep  28.1] t=      950s traffic=     1030MB loss=0.616 edges= 20 r=0.500 [0.50,0.50] CD true=13.479 est=44.225 Dmax=4.502 acc=0.7240 f1=0.3743
+[r 154 ep  28.1] t=     6198s traffic=     1957MB loss=0.638 edges= 19 r=0.500 [0.50,0.50] CD true=14.807 est=18.625 Dmax=3.392 acc=0.7236 f1=0.3751
+[r 154 ep  28.1] t=     3202s traffic=      978MB loss=0.190 edges= 19 r=0.500 [0.50,0.50] CD true=16.450 est=23.332 Dmax=2.542 acc=0.4154 f1=0.1707
+[r 165 ep  30.1] t=     1021s traffic=     1103MB loss=0.170 edges= 20 r=0.500 [0.50,0.50] CD true=16.063 est=60.505 Dmax=5.356 acc=0.4009 f1=0.1618
+[r 148 ep  27.0] t=     1657s traffic=     1980MB loss=0.185 edges= 20 r=0.500 [0.50,0.50] CD true=15.845 est=62.492 Dmax=5.162 acc=0.4058 f1=0.1620
+[r 148 ep  27.0] t=     5954s traffic=     1881MB loss=0.187 edges= 19 r=0.500 [0.50,0.50] CD true=16.696 est=27.461 Dmax=2.748 acc=0.4108 f1=0.1658
+[r  66 ep  12.0] t=     6339s traffic=     8386MB loss=0.598 edges=190 r=0.500 [0.50,0.50] CD true=11.004 est=9.397 Dmax=5.774 acc=0.7110 f1=0.3565
+[r  77 ep  14.1] t=     7440s traffic=     9784MB loss=0.211 edges=190 r=0.500 [0.50,0.50] CD true=14.643 est=14.197 Dmax=7.735 acc=0.3843 f1=0.1464
+[r 154 ep  28.1] t=     1728s traffic=     2060MB loss=0.616 edges= 20 r=0.500 [0.50,0.50] CD true=13.133 est=44.163 Dmax=4.284 acc=0.7221 f1=0.3782
+[r 159 ep  29.0] t=      983s traffic=     1063MB loss=0.524 edges= 20 r=0.500 [0.50,0.50] CD true=13.525 est=44.943 Dmax=4.523 acc=0.7207 f1=0.3751
+[r 159 ep  29.0] t=     6416s traffic=     2020MB loss=0.526 edges= 19 r=0.500 [0.50,0.50] CD true=14.882 est=19.023 Dmax=3.426 acc=0.7173 f1=0.3776
+[r 159 ep  29.0] t=     3314s traffic=     1010MB loss=0.183 edges= 19 r=0.500 [0.50,0.50] CD true=16.365 est=22.869 Dmax=2.530 acc=0.4158 f1=0.1715
+[r 154 ep  28.1] t=     3202s traffic=      978MB loss=0.627 edges= 19 r=0.500 [0.50,0.50] CD true=15.440 est=20.318 Dmax=3.406 acc=0.7211 f1=0.3733
+[r 170 ep  31.0] t=     1053s traffic=     1137MB loss=0.172 edges= 20 r=0.500 [0.50,0.50] CD true=16.008 est=60.130 Dmax=5.330 acc=0.4019 f1=0.1622
+[r 154 ep  28.1] t=     1728s traffic=     2060MB loss=0.181 edges= 20 r=0.500 [0.50,0.50] CD true=15.833 est=61.616 Dmax=5.080 acc=0.4057 f1=0.1642
+[r  83 ep  15.1] t=     4073s traffic=     5273MB loss=0.535 edges=190 r=0.500 [0.50,0.50] CD true=11.414 est=9.268 Dmax=5.628 acc=0.7134 f1=0.3625
+[r 159 ep  29.0] t=     1788s traffic=     2127MB loss=0.525 edges= 20 r=0.500 [0.50,0.50] CD true=13.192 est=44.728 Dmax=4.304 acc=0.7225 f1=0.3752
+[r  72 ep  13.1] t=     3507s traffic=     4574MB loss=0.194 edges=190 r=0.500 [0.50,0.50] CD true=14.589 est=14.568 Dmax=7.779 acc=0.3795 f1=0.1411
+[r 154 ep  28.1] t=     6198s traffic=     1957MB loss=0.186 edges= 19 r=0.500 [0.50,0.50] CD true=16.700 est=26.257 Dmax=2.710 acc=0.4178 f1=0.1734
+[r 159 ep  29.0] t=     3314s traffic=     1010MB loss=0.538 edges= 19 r=0.500 [0.50,0.50] CD true=15.528 est=20.573 Dmax=3.435 acc=0.7154 f1=0.3751
+[r 165 ep  30.1] t=     1021s traffic=     1103MB loss=0.512 edges= 20 r=0.500 [0.50,0.50] CD true=13.543 est=43.036 Dmax=4.405 acc=0.7173 f1=0.3743
+[r 165 ep  30.1] t=     6630s traffic=     2097MB loss=0.519 edges= 19 r=0.500 [0.50,0.50] CD true=14.896 est=18.295 Dmax=3.312 acc=0.7148 f1=0.3751
+[r 165 ep  30.1] t=     3426s traffic=     1048MB loss=0.170 edges= 19 r=0.500 [0.50,0.50] CD true=16.614 est=22.792 Dmax=2.498 acc=0.4199 f1=0.1731
+[r 176 ep  32.1] t=     1091s traffic=     1177MB loss=0.171 edges= 20 r=0.500 [0.50,0.50] CD true=16.041 est=58.859 Dmax=5.235 acc=0.4057 f1=0.1645
+[r 159 ep  29.0] t=     1788s traffic=     2127MB loss=0.176 edges= 20 r=0.500 [0.50,0.50] CD true=15.817 est=60.717 Dmax=5.035 acc=0.4034 f1=0.1627
+[r 159 ep  29.0] t=     6416s traffic=     2020MB loss=0.183 edges= 19 r=0.500 [0.50,0.50] CD true=16.739 est=25.868 Dmax=2.719 acc=0.4171 f1=0.1717
+[r 165 ep  30.1] t=     1858s traffic=     2207MB loss=0.514 edges= 20 r=0.500 [0.50,0.50] CD true=13.208 est=42.918 Dmax=4.186 acc=0.7185 f1=0.3752
+[r 170 ep  31.0] t=     1053s traffic=     1137MB loss=0.531 edges= 20 r=0.500 [0.50,0.50] CD true=13.675 est=43.537 Dmax=4.368 acc=0.7179 f1=0.3796
+[r 170 ep  31.0] t=     6830s traffic=     2160MB loss=0.534 edges= 19 r=0.500 [0.50,0.50] CD true=15.031 est=18.292 Dmax=3.282 acc=0.7149 f1=0.3791
+[r 165 ep  30.1] t=     3426s traffic=     1048MB loss=0.507 edges= 19 r=0.500 [0.50,0.50] CD true=15.542 est=19.856 Dmax=3.315 acc=0.7138 f1=0.3734
+[r 181 ep  33.0] t=     1124s traffic=     1210MB loss=0.186 edges= 20 r=0.500 [0.50,0.50] CD true=16.115 est=60.682 Dmax=5.237 acc=0.4038 f1=0.1640
+[r 170 ep  31.0] t=     3530s traffic=     1080MB loss=0.174 edges= 19 r=0.500 [0.50,0.50] CD true=16.485 est=22.313 Dmax=2.476 acc=0.4212 f1=0.1724
+[r  83 ep  15.1] t=     8058s traffic=    10546MB loss=0.250 edges=190 r=0.500 [0.50,0.50] CD true=14.759 est=13.929 Dmax=7.623 acc=0.3905 f1=0.1499
+[r  88 ep  16.1] t=     4330s traffic=     5591MB loss=0.596 edges=190 r=0.500 [0.50,0.50] CD true=11.503 est=9.244 Dmax=5.575 acc=0.7114 f1=0.3729
+[r  72 ep  13.1] t=     6937s traffic=     9149MB loss=0.545 edges=190 r=0.500 [0.50,0.50] CD true=11.196 est=9.444 Dmax=5.809 acc=0.7065 f1=0.3577
+[r 165 ep  30.1] t=     1858s traffic=     2207MB loss=0.168 edges= 20 r=0.500 [0.50,0.50] CD true=15.971 est=60.458 Dmax=4.982 acc=0.4001 f1=0.1616
+[r 170 ep  31.0] t=     1915s traffic=     2274MB loss=0.548 edges= 20 r=0.500 [0.50,0.50] CD true=13.322 est=43.662 Dmax=4.153 acc=0.7185 f1=0.3824
+[r 165 ep  30.1] t=     6630s traffic=     2097MB loss=0.174 edges= 19 r=0.500 [0.50,0.50] CD true=16.897 est=25.628 Dmax=2.654 acc=0.4201 f1=0.1722
+[r  77 ep  14.1] t=     3760s traffic=     4892MB loss=0.214 edges=190 r=0.500 [0.50,0.50] CD true=14.771 est=13.779 Dmax=7.641 acc=0.3877 f1=0.1444
+[r 170 ep  31.0] t=     3530s traffic=     1080MB loss=0.541 edges= 19 r=0.500 [0.50,0.50] CD true=15.697 est=19.717 Dmax=3.290 acc=0.7131 f1=0.3747
+[r 176 ep  32.1] t=     1091s traffic=     1177MB loss=0.537 edges= 20 r=0.500 [0.50,0.50] CD true=13.604 est=42.002 Dmax=4.301 acc=0.7150 f1=0.3778
+[r 176 ep  32.1] t=     6950s traffic=     2236MB loss=0.533 edges= 19 r=0.500 [0.50,0.50] CD true=14.919 est=17.822 Dmax=3.223 acc=0.7116 f1=0.3770
+[r 187 ep  34.1] t=     1163s traffic=     1251MB loss=0.187 edges= 20 r=0.500 [0.50,0.50] CD true=16.070 est=58.969 Dmax=5.187 acc=0.4039 f1=0.1634
+[r 176 ep  32.1] t=     3594s traffic=     1118MB loss=0.179 edges= 19 r=0.500 [0.50,0.50] CD true=16.458 est=21.875 Dmax=2.357 acc=0.4172 f1=0.1732
+[r 170 ep  31.0] t=     1915s traffic=     2274MB loss=0.165 edges= 20 r=0.500 [0.50,0.50] CD true=15.931 est=59.827 Dmax=4.948 acc=0.4061 f1=0.1627
+[r 181 ep  33.0] t=     7049s traffic=     2300MB loss=0.553 edges= 19 r=0.500 [0.50,0.50] CD true=15.071 est=18.227 Dmax=3.218 acc=0.7141 f1=0.3719
+[r 181 ep  33.0] t=     1124s traffic=     1210MB loss=0.559 edges= 20 r=0.500 [0.50,0.50] CD true=13.709 est=42.896 Dmax=4.287 acc=0.7145 f1=0.3727
+[r 170 ep  31.0] t=     6830s traffic=     2160MB loss=0.180 edges= 19 r=0.500 [0.50,0.50] CD true=16.743 est=25.295 Dmax=2.634 acc=0.4210 f1=0.1731
+[r 192 ep  35.0] t=     1195s traffic=     1284MB loss=0.218 edges= 20 r=0.500 [0.50,0.50] CD true=16.107 est=58.210 Dmax=5.144 acc=0.4005 f1=0.1621
+[r 176 ep  32.1] t=     1985s traffic=     2354MB loss=0.524 edges= 20 r=0.500 [0.50,0.50] CD true=13.277 est=42.484 Dmax=4.112 acc=0.7164 f1=0.3796
+[r 176 ep  32.1] t=     3594s traffic=     1118MB loss=0.522 edges= 19 r=0.500 [0.50,0.50] CD true=15.589 est=19.527 Dmax=3.248 acc=0.7111 f1=0.3744
+[r 181 ep  33.0] t=     3646s traffic=     1150MB loss=0.187 edges= 19 r=0.500 [0.50,0.50] CD true=16.593 est=22.056 Dmax=2.315 acc=0.4175 f1=0.1724
+[r  88 ep  16.1] t=     8567s traffic=    11182MB loss=0.194 edges=190 r=0.500 [0.50,0.50] CD true=14.944 est=13.875 Dmax=7.564 acc=0.3864 f1=0.1480
+[r  94 ep  17.2] t=     4568s traffic=     5972MB loss=0.530 edges=190 r=0.500 [0.50,0.50] CD true=11.661 est=9.252 Dmax=5.495 acc=0.7196 f1=0.3671
+[r  77 ep  14.1] t=     7440s traffic=     9784MB loss=0.586 edges=190 r=0.500 [0.50,0.50] CD true=11.286 est=9.197 Dmax=5.734 acc=0.7100 f1=0.3599
+[r 181 ep  33.0] t=     2044s traffic=     2421MB loss=0.547 edges= 20 r=0.500 [0.50,0.50] CD true=13.368 est=43.026 Dmax=4.098 acc=0.7178 f1=0.3770
+[r 176 ep  32.1] t=     1985s traffic=     2354MB loss=0.178 edges= 20 r=0.500 [0.50,0.50] CD true=15.939 est=58.941 Dmax=4.858 acc=0.4078 f1=0.1657
+[r 198 ep  36.1] t=     1234s traffic=     1324MB loss=0.207 edges= 20 r=0.500 [0.50,0.50] CD true=16.114 est=57.991 Dmax=5.093 acc=0.3975 f1=0.1593
+[r 187 ep  34.1] t=     7179s traffic=     2376MB loss=0.526 edges= 19 r=0.500 [0.50,0.50] CD true=15.006 est=17.721 Dmax=3.218 acc=0.7238 f1=0.3725
+[r 181 ep  33.0] t=     3646s traffic=     1150MB loss=0.554 edges= 19 r=0.500 [0.50,0.50] CD true=15.755 est=19.574 Dmax=3.237 acc=0.7131 f1=0.3728
+[r 187 ep  34.1] t=     1163s traffic=     1251MB loss=0.527 edges= 20 r=0.500 [0.50,0.50] CD true=13.692 est=41.346 Dmax=4.248 acc=0.7251 f1=0.3746
+[r 176 ep  32.1] t=     6950s traffic=     2236MB loss=0.180 edges= 19 r=0.500 [0.50,0.50] CD true=16.749 est=24.612 Dmax=2.514 acc=0.4165 f1=0.1734
+[r 200 ep  36.5] t=     1247s traffic=     1338MB loss=0.170 edges= 20 r=0.500 [0.50,0.50] CD true=16.161 est=58.053 Dmax=5.078 acc=0.4001 f1=0.1617
+[r 187 ep  34.1] t=     3714s traffic=     1188MB loss=0.186 edges= 19 r=0.500 [0.50,0.50] CD true=16.515 est=21.868 Dmax=2.281 acc=0.4168 f1=0.1737
+saved results/unsw-nb15/07_choco_r0.5_mask_study/d_mask_fixed_global/unsw-nb15-multiclass_mlp_choco0.5-fixedmask_dir0.1_heter_dynamic_s3.json
+[r  83 ep  15.1] t=     4073s traffic=     5273MB loss=0.241 edges=190 r=0.500 [0.50,0.50] CD true=14.913 est=13.785 Dmax=7.519 acc=0.3801 f1=0.1423
+[r 192 ep  35.0] t=     1195s traffic=     1284MB loss=0.547 edges= 20 r=0.500 [0.50,0.50] CD true=13.761 est=41.429 Dmax=4.237 acc=0.7183 f1=0.3748
+[r 181 ep  33.0] t=     2044s traffic=     2421MB loss=0.188 edges= 20 r=0.500 [0.50,0.50] CD true=16.000 est=59.350 Dmax=4.814 acc=0.4042 f1=0.1630
+[r 192 ep  35.0] t=     7271s traffic=     2440MB loss=0.542 edges= 19 r=0.500 [0.50,0.50] CD true=15.070 est=17.429 Dmax=3.238 acc=0.7166 f1=0.3718
+[r 187 ep  34.1] t=     2115s traffic=     2501MB loss=0.525 edges= 20 r=0.500 [0.50,0.50] CD true=13.382 est=42.330 Dmax=4.086 acc=0.7267 f1=0.3771
+[r 187 ep  34.1] t=     3714s traffic=     1188MB loss=0.534 edges= 19 r=0.500 [0.50,0.50] CD true=15.633 est=18.737 Dmax=3.234 acc=0.7216 f1=0.3728
+[r 181 ep  33.0] t=     7049s traffic=     2300MB loss=0.196 edges= 19 r=0.500 [0.50,0.50] CD true=16.859 est=25.251 Dmax=2.491 acc=0.4196 f1=0.1733
+[r 192 ep  35.0] t=     3763s traffic=     1220MB loss=0.207 edges= 19 r=0.500 [0.50,0.50] CD true=16.567 est=21.388 Dmax=2.265 acc=0.4170 f1=0.1745
+[r  94 ep  17.2] t=     9037s traffic=    11944MB loss=0.195 edges=190 r=0.500 [0.50,0.50] CD true=14.994 est=13.663 Dmax=7.452 acc=0.3876 f1=0.1489
+[r  99 ep  18.1] t=     4822s traffic=     6290MB loss=0.548 edges=190 r=0.500 [0.50,0.50] CD true=11.725 est=9.128 Dmax=5.466 acc=0.7154 f1=0.3652
+[r 192 ep  35.0] t=     2174s traffic=     2568MB loss=0.543 edges= 20 r=0.500 [0.50,0.50] CD true=13.434 est=41.774 Dmax=4.078 acc=0.7185 f1=0.3741
+[r 198 ep  36.1] t=     7346s traffic=     2516MB loss=0.510 edges= 19 r=0.500 [0.50,0.50] CD true=15.068 est=17.438 Dmax=3.156 acc=0.7175 f1=0.3809
+[r 192 ep  35.0] t=     3763s traffic=     1220MB loss=0.560 edges= 19 r=0.500 [0.50,0.50] CD true=15.722 est=18.898 Dmax=3.254 acc=0.7136 f1=0.3716
+[r 198 ep  36.1] t=     1234s traffic=     1324MB loss=0.506 edges= 20 r=0.500 [0.50,0.50] CD true=13.782 est=41.517 Dmax=4.192 acc=0.7192 f1=0.3783
+[r 187 ep  34.1] t=     2115s traffic=     2501MB loss=0.178 edges= 20 r=0.500 [0.50,0.50] CD true=15.979 est=58.017 Dmax=4.752 acc=0.4086 f1=0.1666
+[r 187 ep  34.1] t=     7179s traffic=     2376MB loss=0.190 edges= 19 r=0.500 [0.50,0.50] CD true=16.801 est=25.639 Dmax=2.471 acc=0.4184 f1=0.1745
+[r 200 ep  36.5] t=     7378s traffic=     2541MB loss=0.550 edges= 19 r=0.500 [0.50,0.50] CD true=15.052 est=17.248 Dmax=3.087 acc=0.7158 f1=0.3797
+saved results/unsw-nb15/07_choco_r0.5_mask_study/d_mask_fixed_global/unsw-nb15-multiclass_mlp_choco-star0.5-2hop-fixedmask_iid_heter_dynamic_s3.json
+[r 198 ep  36.1] t=     3804s traffic=     1258MB loss=0.223 edges= 19 r=0.500 [0.50,0.50] CD true=16.544 est=21.529 Dmax=2.226 acc=0.4125 f1=0.1710
+[r  83 ep  15.1] t=     8058s traffic=    10546MB loss=0.536 edges=190 r=0.500 [0.50,0.50] CD true=11.419 est=9.310 Dmax=5.621 acc=0.7110 f1=0.3624
+[r 200 ep  36.5] t=     1247s traffic=     1338MB loss=0.541 edges= 20 r=0.500 [0.50,0.50] CD true=13.772 est=40.876 Dmax=4.144 acc=0.7168 f1=0.3808
+saved results/unsw-nb15/07_choco_r0.5_mask_study/d_mask_fixed_global/unsw-nb15-multiclass_mlp_choco0.5-fixedmask_iid_heter_dynamic_s3.json
+[r 200 ep  36.5] t=     3821s traffic=     1271MB loss=0.183 edges= 19 r=0.500 [0.50,0.50] CD true=16.624 est=21.925 Dmax=2.214 acc=0.4158 f1=0.1717
+saved results/unsw-nb15/07_choco_r0.5_mask_study/d_mask_fixed_global/unsw-nb15-multiclass_mlp_choco-star0.5-fixedmask_dir0.1_heter_dynamic_s3.json
+[r  88 ep  16.1] t=     4330s traffic=     5591MB loss=0.195 edges=190 r=0.500 [0.50,0.50] CD true=14.989 est=13.291 Dmax=7.421 acc=0.3825 f1=0.1448
+[r  99 ep  18.1] t=     9540s traffic=    12579MB loss=0.176 edges=190 r=0.500 [0.50,0.50] CD true=15.059 est=13.407 Dmax=7.375 acc=0.3895 f1=0.1485
+[r 192 ep  35.0] t=     2174s traffic=     2568MB loss=0.208 edges= 20 r=0.500 [0.50,0.50] CD true=16.025 est=58.035 Dmax=4.729 acc=0.4060 f1=0.1639
+[r 198 ep  36.1] t=     2245s traffic=     2648MB loss=0.508 edges= 20 r=0.500 [0.50,0.50] CD true=13.474 est=41.689 Dmax=4.011 acc=0.7199 f1=0.3832
+[r 198 ep  36.1] t=     3804s traffic=     1258MB loss=0.524 edges= 19 r=0.500 [0.50,0.50] CD true=15.726 est=18.572 Dmax=3.153 acc=0.7170 f1=0.3789
+[r 105 ep  19.2] t=     5123s traffic=     6671MB loss=0.597 edges=190 r=0.500 [0.50,0.50] CD true=11.790 est=8.806 Dmax=5.358 acc=0.7185 f1=0.3664
+[r 192 ep  35.0] t=     7271s traffic=     2440MB loss=0.203 edges= 19 r=0.500 [0.50,0.50] CD true=16.874 est=25.030 Dmax=2.454 acc=0.4124 f1=0.1714
+[r 200 ep  36.5] t=     2268s traffic=     2675MB loss=0.541 edges= 20 r=0.500 [0.50,0.50] CD true=13.462 est=40.754 Dmax=3.954 acc=0.7177 f1=0.3803
+saved results/unsw-nb15/07_choco_r0.5_mask_study/d_mask_fixed_global/unsw-nb15-multiclass_mlp_choco0.5-2hop-fixedmask_iid_heter_dynamic_s3.json
+[r 200 ep  36.5] t=     3821s traffic=     1271MB loss=0.548 edges= 19 r=0.500 [0.50,0.50] CD true=15.695 est=18.190 Dmax=3.073 acc=0.7139 f1=0.3781
+saved results/unsw-nb15/07_choco_r0.5_mask_study/d_mask_fixed_global/unsw-nb15-multiclass_mlp_choco-star0.5-fixedmask_iid_heter_dynamic_s3.json
+[r 198 ep  36.1] t=     2245s traffic=     2648MB loss=0.212 edges= 20 r=0.500 [0.50,0.50] CD true=16.025 est=57.211 Dmax=4.689 acc=0.4062 f1=0.1656
+[r  88 ep  16.1] t=     8567s traffic=    11182MB loss=0.589 edges=190 r=0.500 [0.50,0.50] CD true=11.537 est=9.168 Dmax=5.554 acc=0.7124 f1=0.3735
+[r 105 ep  19.2] t=    10137s traffic=    13342MB loss=0.190 edges=190 r=0.500 [0.50,0.50] CD true=15.204 est=13.306 Dmax=7.247 acc=0.3878 f1=0.1504
+[r 110 ep  20.1] t=     5380s traffic=     6988MB loss=0.509 edges=190 r=0.500 [0.50,0.50] CD true=11.862 est=8.859 Dmax=5.267 acc=0.7193 f1=0.3683
+[r 198 ep  36.1] t=     7346s traffic=     2516MB loss=0.211 edges= 19 r=0.500 [0.50,0.50] CD true=16.793 est=24.488 Dmax=2.384 acc=0.4127 f1=0.1699
+[r 200 ep  36.5] t=     2268s traffic=     2675MB loss=0.171 edges= 20 r=0.500 [0.50,0.50] CD true=16.067 est=57.283 Dmax=4.674 acc=0.4079 f1=0.1661
+saved results/unsw-nb15/07_choco_r0.5_mask_study/d_mask_fixed_global/unsw-nb15-multiclass_mlp_choco0.5-2hop-fixedmask_dir0.1_heter_dynamic_s3.json
+[r  94 ep  17.2] t=     4568s traffic=     5972MB loss=0.204 edges=190 r=0.500 [0.50,0.50] CD true=15.060 est=13.209 Dmax=7.302 acc=0.3896 f1=0.1467
+[r 200 ep  36.5] t=     7378s traffic=     2541MB loss=0.184 edges= 19 r=0.500 [0.50,0.50] CD true=16.886 est=25.324 Dmax=2.377 acc=0.4158 f1=0.1708
+saved results/unsw-nb15/07_choco_r0.5_mask_study/d_mask_fixed_global/unsw-nb15-multiclass_mlp_choco-star0.5-2hop-fixedmask_dir0.1_heter_dynamic_s3.json
+[r 110 ep  20.1] t=    10644s traffic=    13977MB loss=0.218 edges=190 r=0.500 [0.50,0.50] CD true=15.284 est=13.129 Dmax=7.167 acc=0.3888 f1=0.1497
+[r  94 ep  17.2] t=     9037s traffic=    11944MB loss=0.522 edges=190 r=0.500 [0.50,0.50] CD true=11.672 est=9.179 Dmax=5.474 acc=0.7172 f1=0.3668
+[r 116 ep  21.2] t=     5672s traffic=     7370MB loss=0.553 edges=190 r=0.500 [0.50,0.50] CD true=11.932 est=8.671 Dmax=5.234 acc=0.7202 f1=0.3690
+[r  99 ep  18.1] t=     4822s traffic=     6290MB loss=0.167 edges=190 r=0.500 [0.50,0.50] CD true=15.168 est=12.987 Dmax=7.196 acc=0.3913 f1=0.1505
+[r  99 ep  18.1] t=     9540s traffic=    12579MB loss=0.542 edges=190 r=0.500 [0.50,0.50] CD true=11.716 est=8.941 Dmax=5.430 acc=0.7150 f1=0.3629
+[r 121 ep  22.1] t=     5915s traffic=     7687MB loss=0.517 edges=190 r=0.500 [0.50,0.50] CD true=12.054 est=8.850 Dmax=5.205 acc=0.7308 f1=0.3754
+[r 116 ep  21.2] t=    11225s traffic=    14739MB loss=0.215 edges=190 r=0.500 [0.50,0.50] CD true=15.354 est=12.967 Dmax=7.057 acc=0.3951 f1=0.1527
+[r 105 ep  19.2] t=     5123s traffic=     6671MB loss=0.198 edges=190 r=0.500 [0.50,0.50] CD true=15.249 est=12.851 Dmax=7.072 acc=0.3885 f1=0.1500
+[r 105 ep  19.2] t=    10137s traffic=    13342MB loss=0.597 edges=190 r=0.500 [0.50,0.50] CD true=11.759 est=8.554 Dmax=5.281 acc=0.7182 f1=0.3651
+[r 121 ep  22.1] t=    11703s traffic=    15375MB loss=0.202 edges=190 r=0.500 [0.50,0.50] CD true=15.426 est=12.973 Dmax=6.995 acc=0.3892 f1=0.1492
+[r 110 ep  20.1] t=     5380s traffic=     6988MB loss=0.220 edges=190 r=0.500 [0.50,0.50] CD true=15.299 est=12.810 Dmax=6.973 acc=0.3913 f1=0.1514
+[r 127 ep  23.2] t=     6217s traffic=     8068MB loss=0.540 edges=190 r=0.500 [0.50,0.50] CD true=12.118 est=8.613 Dmax=5.157 acc=0.7242 f1=0.3752
+[r 110 ep  20.1] t=    10644s traffic=    13977MB loss=0.509 edges=190 r=0.500 [0.50,0.50] CD true=11.852 est=8.678 Dmax=5.188 acc=0.7196 f1=0.3663
+[r 116 ep  21.2] t=     5672s traffic=     7370MB loss=0.201 edges=190 r=0.500 [0.50,0.50] CD true=15.398 est=12.539 Dmax=6.873 acc=0.3951 f1=0.1537
+[r 132 ep  24.1] t=     6476s traffic=     8386MB loss=0.509 edges=190 r=0.500 [0.50,0.50] CD true=12.208 est=8.571 Dmax=5.106 acc=0.7273 f1=0.3780
+[r 127 ep  23.2] t=    12302s traffic=    16137MB loss=0.184 edges=190 r=0.500 [0.50,0.50] CD true=15.464 est=12.671 Dmax=6.888 acc=0.3877 f1=0.1522
+[r 116 ep  21.2] t=    11225s traffic=    14739MB loss=0.550 edges=190 r=0.500 [0.50,0.50] CD true=11.937 est=8.506 Dmax=5.159 acc=0.7189 f1=0.3687
+[r 121 ep  22.1] t=     5915s traffic=     7687MB loss=0.219 edges=190 r=0.500 [0.50,0.50] CD true=15.479 est=12.511 Dmax=6.810 acc=0.3869 f1=0.1475
+[r 137 ep  25.0] t=     6723s traffic=     8704MB loss=0.573 edges=190 r=0.500 [0.50,0.50] CD true=12.255 est=8.489 Dmax=5.041 acc=0.7224 f1=0.3738
+[r 132 ep  24.1] t=    12815s traffic=    16772MB loss=0.202 edges=190 r=0.500 [0.50,0.50] CD true=15.509 est=12.482 Dmax=6.809 acc=0.3916 f1=0.1534
+[r 121 ep  22.1] t=    11703s traffic=    15375MB loss=0.527 edges=190 r=0.500 [0.50,0.50] CD true=12.039 est=8.673 Dmax=5.139 acc=0.7306 f1=0.3720
+[r 127 ep  23.2] t=     6217s traffic=     8068MB loss=0.191 edges=190 r=0.500 [0.50,0.50] CD true=15.472 est=12.233 Dmax=6.666 acc=0.3908 f1=0.1514
+[r 137 ep  25.0] t=    13303s traffic=    17408MB loss=0.225 edges=190 r=0.500 [0.50,0.50] CD true=15.595 est=12.408 Dmax=6.741 acc=0.3953 f1=0.1541
+[r 143 ep  26.1] t=     7021s traffic=     9085MB loss=0.545 edges=190 r=0.500 [0.50,0.50] CD true=12.341 est=8.640 Dmax=4.968 acc=0.7229 f1=0.3744
+[r 127 ep  23.2] t=    12302s traffic=    16137MB loss=0.526 edges=190 r=0.500 [0.50,0.50] CD true=12.102 est=8.442 Dmax=5.093 acc=0.7244 f1=0.3729
+[r 132 ep  24.1] t=     6476s traffic=     8386MB loss=0.199 edges=190 r=0.500 [0.50,0.50] CD true=15.515 est=12.001 Dmax=6.583 acc=0.3947 f1=0.1516
+[r 132 ep  24.1] t=    12815s traffic=    16772MB loss=0.513 edges=190 r=0.500 [0.50,0.50] CD true=12.177 est=8.499 Dmax=5.054 acc=0.7300 f1=0.3777
+[r 148 ep  27.0] t=     7281s traffic=     9403MB loss=0.563 edges=190 r=0.500 [0.50,0.50] CD true=12.332 est=8.143 Dmax=4.896 acc=0.7220 f1=0.3740
+[r 137 ep  25.0] t=     6723s traffic=     8704MB loss=0.226 edges=190 r=0.500 [0.50,0.50] CD true=15.603 est=12.013 Dmax=6.528 acc=0.3999 f1=0.1519
+[r 143 ep  26.1] t=    13893s traffic=    18170MB loss=0.181 edges=190 r=0.500 [0.50,0.50] CD true=15.659 est=12.381 Dmax=6.657 acc=0.3928 f1=0.1526
+[r 137 ep  25.0] t=    13303s traffic=    17408MB loss=0.574 edges=190 r=0.500 [0.50,0.50] CD true=12.256 est=8.489 Dmax=5.025 acc=0.7205 f1=0.3718
+[r 143 ep  26.1] t=     7021s traffic=     9085MB loss=0.191 edges=190 r=0.500 [0.50,0.50] CD true=15.653 est=12.001 Dmax=6.445 acc=0.3976 f1=0.1536
+[r 148 ep  27.0] t=    14407s traffic=    18805MB loss=0.179 edges=190 r=0.500 [0.50,0.50] CD true=15.702 est=12.309 Dmax=6.570 acc=0.3871 f1=0.1461
+[r 154 ep  28.1] t=     7593s traffic=     9784MB loss=0.617 edges=190 r=0.500 [0.50,0.50] CD true=12.441 est=8.220 Dmax=4.861 acc=0.7266 f1=0.3798
+[r 143 ep  26.1] t=    13893s traffic=    18170MB loss=0.538 edges=190 r=0.500 [0.50,0.50] CD true=12.340 est=8.620 Dmax=4.951 acc=0.7241 f1=0.3732
+[r 148 ep  27.0] t=     7281s traffic=     9403MB loss=0.183 edges=190 r=0.500 [0.50,0.50] CD true=15.699 est=11.842 Dmax=6.363 acc=0.3931 f1=0.1496
+[r 159 ep  29.0] t=     7853s traffic=    10101MB loss=0.529 edges=190 r=0.500 [0.50,0.50] CD true=12.488 est=8.357 Dmax=4.868 acc=0.7230 f1=0.3769
+[r 154 ep  28.1] t=    15024s traffic=    19568MB loss=0.181 edges=190 r=0.500 [0.50,0.50] CD true=15.713 est=12.033 Dmax=6.479 acc=0.3919 f1=0.1536
+[r 148 ep  27.0] t=    14407s traffic=    18805MB loss=0.559 edges=190 r=0.500 [0.50,0.50] CD true=12.320 est=8.081 Dmax=4.876 acc=0.7243 f1=0.3727
+[r 154 ep  28.1] t=     7593s traffic=     9784MB loss=0.186 edges=190 r=0.500 [0.50,0.50] CD true=15.719 est=11.660 Dmax=6.266 acc=0.3982 f1=0.1538
+[r 159 ep  29.0] t=    15538s traffic=    20203MB loss=0.172 edges=190 r=0.500 [0.50,0.50] CD true=15.707 est=11.665 Dmax=6.414 acc=0.3890 f1=0.1516
+[r 154 ep  28.1] t=    15024s traffic=    19568MB loss=0.607 edges=190 r=0.500 [0.50,0.50] CD true=12.404 est=8.199 Dmax=4.838 acc=0.7256 f1=0.3775
+[r 165 ep  30.1] t=     8162s traffic=    10483MB loss=0.501 edges=190 r=0.500 [0.50,0.50] CD true=12.527 est=8.051 Dmax=4.755 acc=0.7199 f1=0.3830
+[r 159 ep  29.0] t=     7853s traffic=    10101MB loss=0.177 edges=190 r=0.500 [0.50,0.50] CD true=15.704 est=11.438 Dmax=6.216 acc=0.3988 f1=0.1538
+[r 159 ep  29.0] t=    15538s traffic=    20203MB loss=0.531 edges=190 r=0.500 [0.50,0.50] CD true=12.462 est=8.364 Dmax=4.850 acc=0.7231 f1=0.3756
+[r 165 ep  30.1] t=     8162s traffic=    10483MB loss=0.166 edges=190 r=0.500 [0.50,0.50] CD true=15.815 est=11.599 Dmax=6.161 acc=0.3876 f1=0.1485
+[r 170 ep  31.0] t=     8416s traffic=    10800MB loss=0.521 edges=190 r=0.500 [0.50,0.50] CD true=12.647 est=8.295 Dmax=4.716 acc=0.7199 f1=0.3820
+[r 165 ep  30.1] t=    16150s traffic=    20965MB loss=0.164 edges=190 r=0.500 [0.50,0.50] CD true=15.826 est=11.887 Dmax=6.344 acc=0.3901 f1=0.1519
+[r 165 ep  30.1] t=    16150s traffic=    20965MB loss=0.509 edges=190 r=0.500 [0.50,0.50] CD true=12.513 est=8.151 Dmax=4.749 acc=0.7202 f1=0.3808
+[r 170 ep  31.0] t=     8416s traffic=    10800MB loss=0.170 edges=190 r=0.500 [0.50,0.50] CD true=15.786 est=11.319 Dmax=6.114 acc=0.3972 f1=0.1504
+[r 170 ep  31.0] t=    16651s traffic=    21601MB loss=0.171 edges=190 r=0.500 [0.50,0.50] CD true=15.800 est=11.828 Dmax=6.321 acc=0.3947 f1=0.1527
+[r 176 ep  32.1] t=     8719s traffic=    11182MB loss=0.526 edges=190 r=0.500 [0.50,0.50] CD true=12.614 est=7.855 Dmax=4.661 acc=0.7179 f1=0.3810
+[r 170 ep  31.0] t=    16651s traffic=    21601MB loss=0.543 edges=190 r=0.500 [0.50,0.50] CD true=12.601 est=8.363 Dmax=4.718 acc=0.7202 f1=0.3782
+[r 176 ep  32.1] t=     8719s traffic=    11182MB loss=0.175 edges=190 r=0.500 [0.50,0.50] CD true=15.779 est=11.084 Dmax=6.005 acc=0.3943 f1=0.1528
+[r 181 ep  33.0] t=     8979s traffic=    11499MB loss=0.547 edges=190 r=0.500 [0.50,0.50] CD true=12.695 est=8.021 Dmax=4.641 acc=0.7182 f1=0.3796
+[r 176 ep  32.1] t=    17251s traffic=    22363MB loss=0.167 edges=190 r=0.500 [0.50,0.50] CD true=15.844 est=11.494 Dmax=6.234 acc=0.3914 f1=0.1527
+[r 181 ep  33.0] t=     8979s traffic=    11499MB loss=0.194 edges=190 r=0.500 [0.50,0.50] CD true=15.852 est=11.215 Dmax=5.943 acc=0.3946 f1=0.1518
+[r 176 ep  32.1] t=    17251s traffic=    22363MB loss=0.527 edges=190 r=0.500 [0.50,0.50] CD true=12.580 est=7.778 Dmax=4.658 acc=0.7171 f1=0.3785
+[r 181 ep  33.0] t=    17765s traffic=    22998MB loss=0.185 edges=190 r=0.500 [0.50,0.50] CD true=15.868 est=11.684 Dmax=6.183 acc=0.3881 f1=0.1499
+[r 187 ep  34.1] t=     9288s traffic=    11880MB loss=0.177 edges=190 r=0.500 [0.50,0.50] CD true=15.822 est=10.876 Dmax=5.850 acc=0.3927 f1=0.1504
+[r 181 ep  33.0] t=    17765s traffic=    22998MB loss=0.544 edges=190 r=0.500 [0.50,0.50] CD true=12.683 est=8.072 Dmax=4.637 acc=0.7199 f1=0.3755
+[r 187 ep  34.1] t=     9288s traffic=    11880MB loss=0.525 edges=190 r=0.500 [0.50,0.50] CD true=12.723 est=7.630 Dmax=4.595 acc=0.7276 f1=0.3804
+[r 192 ep  35.0] t=     9547s traffic=    12198MB loss=0.203 edges=190 r=0.500 [0.50,0.50] CD true=15.878 est=10.814 Dmax=5.810 acc=0.3959 f1=0.1526
+[r 187 ep  34.1] t=    18375s traffic=    23761MB loss=0.530 edges=190 r=0.500 [0.50,0.50] CD true=12.693 est=7.684 Dmax=4.608 acc=0.7282 f1=0.3799
+[r 192 ep  35.0] t=     9547s traffic=    12198MB loss=0.534 edges=190 r=0.500 [0.50,0.50] CD true=12.778 est=7.738 Dmax=4.574 acc=0.7193 f1=0.3789
+[r 187 ep  34.1] t=    18375s traffic=    23761MB loss=0.173 edges=190 r=0.500 [0.50,0.50] CD true=15.877 est=11.361 Dmax=6.079 acc=0.3933 f1=0.1522
+[r 198 ep  36.1] t=     9858s traffic=    12579MB loss=0.210 edges=190 r=0.500 [0.50,0.50] CD true=15.888 est=10.650 Dmax=5.739 acc=0.3951 f1=0.1520
+[r 192 ep  35.0] t=    18889s traffic=    24396MB loss=0.544 edges=190 r=0.500 [0.50,0.50] CD true=12.747 est=7.706 Dmax=4.585 acc=0.7203 f1=0.3770
+[r 200 ep  36.5] t=     9961s traffic=    12706MB loss=0.164 edges=190 r=0.500 [0.50,0.50] CD true=15.909 est=10.883 Dmax=5.723 acc=0.3947 f1=0.1516
+saved results/unsw-nb15/07_choco_r0.5_mask_study/d_mask_fixed_global/unsw-nb15-multiclass_mlp_choco-fc0.5-fixedmask_dir0.1_heter_dynamic_s3.json
+[r 192 ep  35.0] t=    18889s traffic=    24396MB loss=0.206 edges=190 r=0.500 [0.50,0.50] CD true=15.901 est=11.388 Dmax=6.041 acc=0.3978 f1=0.1563
+[r 198 ep  36.1] t=     9858s traffic=    12579MB loss=0.512 edges=190 r=0.500 [0.50,0.50] CD true=12.806 est=7.599 Dmax=4.501 acc=0.7171 f1=0.3816
+[r 200 ep  36.5] t=     9961s traffic=    12706MB loss=0.543 edges=190 r=0.500 [0.50,0.50] CD true=12.810 est=7.475 Dmax=4.453 acc=0.7189 f1=0.3843
+saved results/unsw-nb15/07_choco_r0.5_mask_study/d_mask_fixed_global/unsw-nb15-multiclass_mlp_choco-fc0.5-fixedmask_iid_heter_dynamic_s3.json
+[r 198 ep  36.1] t=    19505s traffic=    25158MB loss=0.514 edges=190 r=0.500 [0.50,0.50] CD true=12.771 est=7.588 Dmax=4.502 acc=0.7207 f1=0.3772
+[r 200 ep  36.5] t=    19709s traffic=    25413MB loss=0.529 edges=190 r=0.500 [0.50,0.50] CD true=12.768 est=7.394 Dmax=4.456 acc=0.7195 f1=0.3826
+saved results/unsw-nb15/07_choco_r0.5_mask_study/d_mask_fixed_global/unsw-nb15-multiclass_mlp_choco-fc0.5-2hop-fixedmask_iid_heter_dynamic_s3.json
+[r 198 ep  36.1] t=    19505s traffic=    25158MB loss=0.218 edges=190 r=0.500 [0.50,0.50] CD true=15.929 est=11.224 Dmax=5.996 acc=0.3944 f1=0.1529
+[r 200 ep  36.5] t=    19709s traffic=    25413MB loss=0.163 edges=190 r=0.500 [0.50,0.50] CD true=15.957 est=11.359 Dmax=5.978 acc=0.3959 f1=0.1548
+saved results/unsw-nb15/07_choco_r0.5_mask_study/d_mask_fixed_global/unsw-nb15-multiclass_mlp_choco-fc0.5-2hop-fixedmask_dir0.1_heter_dynamic_s3.json
+=== seed 3 done (17:58)
